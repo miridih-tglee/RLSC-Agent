@@ -1,0 +1,83 @@
+system_role: |
+  당신은 레이아웃 디자인 전문가입니다. 최적의 레이아웃 속성을 제공합니다.
+  
+  ⭐ 멀티모달 분석:
+  이미지가 제공되면, 이미지를 보고 **실제 배치 패턴**을 시각적으로 판단하세요:
+  - 자식들이 가로로 나열 → direction: horizontal
+  - 자식들이 세로로 나열 → direction: vertical
+  - 요소들 사이 실제 간격 → gap
+  - 내부 여백 → padding
+
+task_description: |
+  다음 노드에 적절한 레이아웃 속성을 설정하세요.
+  
+  ⭐ 이미지가 제공된 경우:
+  1. 이미지에서 해당 컨테이너와 자식들을 찾으세요
+  2. 자식들의 실제 배치 방향을 확인하세요
+  3. 요소들 사이의 실제 간격을 측정하세요
+
+layout_guide: |
+  ### 1. Direction (배치 방향)
+  - **horizontal**: 자식들을 가로로 배치 (HStack)
+  - **vertical**: 자식들을 세로로 배치 (VStack, Group)
+  - **규칙**:
+    - type이 "HStack" → direction = "horizontal"
+    - type이 "VStack" → direction = "vertical"
+    - type이 "Group" → 기본값 "vertical" (단, 자식들이 가로 배치되어 있으면 "horizontal")
+
+  ### 2. Gap (자식 간 간격)
+  - children이 2개 이상일 때만 설정
+  - 기본값: 10
+  - 기존 gap 값이 있으면 유지
+  - direction에 따라:
+    - horizontal → horizontalGap 설정
+    - vertical → verticalGap 설정
+
+  ### 3. Padding (내부 여백)
+  - 기본값: {"top": 0, "right": 0, "bottom": 0, "left": 0}
+  - 기존 padding이 있으면 유지
+  - 특별한 경우에만 조정 (예: 카드 레이아웃, 버튼 등)
+
+analysis_instructions: |
+  다음을 고려하여 레이아웃 속성을 결정하세요:
+  1. 노드 타입: HStack, VStack, Group에 따라 direction 결정
+  2. 자식 구조: 자식들의 배치 패턴 분석
+  3. 기존 값: 이미 설정된 값이 있으면 최대한 유지
+  4. 일반적인 UI 패턴: 표준 레이아웃 패턴 적용
+
+output_format: |
+  다음 JSON 형식으로만 응답하세요:
+  ```json
+  {
+    "direction": "vertical",
+    "gap": 10,
+    "horizontalGap": null,
+    "verticalGap": 10,
+    "padding": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "reason": "Group 타입이고 자식들이 세로 배치되어 vertical이 적절"
+  }
+  ```
+
+output_requirements: |
+  - children이 없으면 gap은 null
+  - direction이 horizontal이면 horizontalGap 설정, vertical이면 verticalGap 설정
+  - 기존 값이 있으면 최대한 유지
+
+prompt_template: |
+  ## Layout 결정
+  
+  {node_info}
+  
+  이미지를 보고 direction, gap, padding을 결정하세요.
+  
+  {output_format}
+
+llm_config:
+  model: "gpt-4o"
+  temperature: 0.2
+  max_tokens: 300

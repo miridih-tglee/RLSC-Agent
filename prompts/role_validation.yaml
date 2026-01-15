@@ -1,0 +1,436 @@
+system_role: |
+  당신은 Structured Content의 Role 시스템 전문가입니다. 
+  JSON 레이아웃 구조에서 각 노드의 Role이 올바르게 할당되었는지 검증하고, 
+  문제가 있으면 수정을 제안합니다.
+  
+  ⭐ 멀티모달 분석:
+  이미지가 함께 제공되면, 이미지를 보고 각 요소의 **시각적 의미와 역할**을 파악하세요:
+  - 가장 크고 뒤에 있는 것 = 배경 (Background)
+  - 원형/사각형 안에 아이콘이 있는 것 = 마커 그룹 (함께 묶어야 함)
+  - 카드 사이에 있는 "+" 같은 기호 = 구분자/장식 (다른 그룹에 포함하면 안 됨)
+  - 텍스트들 = Title, Description 등
+  
+  이미지의 시각적 구조를 기반으로 JSON 데이터의 요소들을 올바르게 그룹화하세요.
+
+task_description: |
+  다음 노드와 그 컨텍스트를 분석하여 Role이 올바르게 할당되었는지 검증하세요.
+  
+  ⭐ 이미지가 제공된 경우:
+  1. 먼저 이미지를 보고 **시각적 구조**를 파악하세요
+  2. JSON 데이터와 매칭하여 각 요소의 **실제 역할**을 판단하세요
+  3. position 값만이 아니라 **시각적 관계**를 기반으로 그룹화하세요
+
+role_definitions:
+  page_roles:
+    - name: "Role.Page.Opening"
+      description: "표지 페이지 - 제목, 발표자, 날짜 등 기본 정보 포함"
+    - name: "Role.Page.Agenda"
+      description: "목차 페이지 - 전체 구성과 섹션별 내용 개괄"
+    - name: "Role.Page.SectionDivider"
+      description: "섹션 구분 페이지 - 새로운 섹션의 시작을 알리는 간지"
+    - name: "Role.Page.Ending"
+      description: "마무리 페이지 - 감사 인사, 연락처, Q&A 안내"
+    - name: "Role.Page.Content"
+      description: "본문 페이지 - 실제 내용 전달 (텍스트, 이미지, 프로세스, 데이터 등)"
+
+  layout_container_roles:
+    - name: "Role.LayoutContainer.Description"
+      description: "설명 컨테이너 - 2개 이상의 설명 요소, 부모 컨테이너 내 특정 섹션에 대한 설명"
+    - name: "Role.LayoutContainer.Title"
+      description: "제목 컨테이너 - Background + Title 요소 조합으로 title 역할"
+    - name: "Role.LayoutContainer.Subtitle"
+      description: "부제목 컨테이너 - Background + Subtitle 요소 조합으로 subtitle 역할"
+    - name: "Role.LayoutContainer.Highlight"
+      description: "강조 컨테이너 - Background + Highlight 요소, 폰트 크기/색/볼드 등으로 강조"
+    - name: "Role.LayoutContainer.Separator"
+      description: "분리기 컨테이너 - Background + Separator 요소, 이미지/텍스트를 수평/수직 분할"
+    - name: "Role.LayoutContainer.Marker"
+      description: "마커 컨테이너 - Marker 요소(필수) + Background, 리스트 항목의 인덱스/번호 표시"
+    - name: "Role.LayoutContainer.Decoration"
+      description: "장식 컨테이너 - Background + Decoration 요소, 시각적 꾸밈 목적"
+    - name: "Role.LayoutContainer.Background"
+      description: "배경 컨테이너 - 배경 요소들의 조합, Parent position을 거의 가득 채움"
+    - name: "Role.LayoutContainer.PageHeader"
+      description: "상단 정보 컨테이너 - 반복적 상단 정보 (섹션명, 문서명 등)"
+    - name: "Role.LayoutContainer.PageFooter"
+      description: "하단 정보 컨테이너 - 반복적 하단 정보 (페이지 번호, 참고 등)"
+
+  element_roles:
+    - name: "Role.Element.Title"
+      description: "제목 요소"
+      constraints: "부모 LayoutContainer 내 1개만 허용"
+    - name: "Role.Element.Subtitle"
+      description: "부제목 요소"
+      constraints: "반드시 Title과 함께 사용, 최대 2개 허용"
+    - name: "Role.Element.Highlight"
+      description: "강조 텍스트"
+      constraints: "폰트 크기/색/볼드 차별화 필수"
+    - name: "Role.Element.Description"
+      description: "설명 텍스트"
+      constraints: "Title/Subtitle 없이 단독 사용 가능"
+    - name: "Role.Element.Separator"
+      description: "분리선 요소"
+      constraints: "LayoutContainer.Separator 내 1개 이상 필수"
+    - name: "Role.Element.Marker"
+      description: "마커 요소"
+      constraints: "반복 패턴 내에서만 사용, 각 항목당 1개"
+    - name: "Role.Element.Decoration"
+      description: "장식 요소"
+      constraints: "겹침 불가 - 다른 요소와 겹치면 반드시 Group으로 묶어야 함, 내용 대치 시 변경 불필요, 크기 고정 선호"
+    - name: "Role.Element.Background"
+      description: "배경 요소"
+      constraints: "부모(Group/HStack/VStack) 내 **1개만** 허용, Parent position 거의 가득 채움, 크기 늘림 선호"
+
+layout_type_definitions:
+  - name: "VStack"
+    description: "수직 정렬 - 요소들을 세로로 나열"
+    condition: "명확한 수직 정렬 패턴"
+  - name: "HStack"
+    description: "수평 정렬 - 요소들을 가로로 나열"
+    condition: "명확한 수평 정렬 패턴"
+  - name: "Grid"
+    description: "격자 배열 - 규칙적인 행/열 패턴"
+    condition: "동일 계층의 독립적 요소들"
+  - name: "Graph"
+    description: "관계형 배치 - 연결/위치 기반 배치"
+    condition: "연결선 존재 또는 위치가 의미 전달"
+  - name: "Group"
+    description: "비정형 그룹 - 불규칙한 요소 묶음"
+    condition: "다른 타입으로 표현 불가능한 경우"
+
+validation_rules: |
+  ## 검증 규칙
+
+  ### 1. 계층 구조 검증
+  - Page 역할은 최상위 레벨에만 허용
+  - LayoutContainer는 Page 또는 다른 LayoutContainer의 자식
+  - Element는 LayoutContainer의 자식
+
+  ### 2. Role 제약 조건 검증
+  - Element.Title: 부모 내 1개만 존재해야 함
+  - Element.Subtitle: Title과 함께 사용, 최대 2개
+  - Element.Marker: LayoutContainer.Marker 내에서만 사용
+  - Element.Separator: LayoutContainer.Separator 내에서만 사용
+  - Element.Background: 부모 크기를 거의 채워야 함
+
+  ### 3. LayoutContainer 구성 검증
+  - LayoutContainer.Title: Background + Title 요소 조합 필요
+  - LayoutContainer.Subtitle: Background + Subtitle 요소 조합 필요
+  - LayoutContainer.Marker: Marker 요소 필수
+  - LayoutContainer.Separator: Separator 요소 1개 이상 필수
+  - LayoutContainer.Description: 2개 이상의 설명 요소 필요
+
+  ### 4. Layout Type 검증
+  - VStack: 자식들이 수직으로 정렬되어야 함
+  - HStack: 자식들이 수평으로 정렬되어야 함
+  - Grid: 규칙적인 행/열 패턴이 있어야 함
+
+  ### 5. 의미론적 일관성 검증
+  - Role과 실제 콘텐츠가 일치해야 함
+  - 부모-자식 간 Role이 논리적으로 연결되어야 함
+
+  ### 6. ⭐ Background/Decoration 겹침 규칙 (매우 중요!)
+  
+  **핵심 원칙:**
+  - 하나의 Group/HStack/VStack 내에 **Element.Background는 1개만** 허용
+  - **Element.Decoration도 겹침 불가** - 겹치면 반드시 Group으로 묶어야 함
+  - 요소들이 겹치면(overlap) **반드시 Group으로 묶어서 계층 구조**로 만들어야 함
+  
+  #### 위반 사례 (❌ 잘못된 구조):
+  ```
+  VStack
+  ├── Element.Background (배경1)
+  ├── Element.Background (배경2)  ← 위반! Background 2개
+  └── Element.Title
+  ```
+  
+  ```
+  VStack
+  ├── Element.Background (배경)
+  ├── Element.Decoration (장식1)
+  ├── Element.Decoration (장식2)  ← 위반! 겹치는데 Group으로 안 묶음
+  └── Element.Title
+  ```
+  
+  #### 올바른 처리 방법:
+  **겹치는 요소가 있으면 무조건 Group으로 묶는다!**
+  
+  1. 겹치는 요소들을 Group으로 묶기
+  2. 그 Group 안에서 가장 뒤 = Background, 앞 = Decoration (또는 또 Group)
+  3. 겹침이 여러 단계면 중첩 Group 사용
+  
+  #### 예시: 카드 UI (그림자 + 흰색 배경 + 아이콘)
+  
+  **잘못된 구조 (❌):**
+  ```
+  VStack (카드)
+  ├── Element.Background (그림자)
+  ├── Element.Decoration (흰색 카드)   ← 위반! 겹치는데 Group 없음
+  ├── Element.Decoration (아이콘)      ← 위반!
+  └── Element.Title
+  ```
+  
+  **올바른 구조 (✅):**
+  ```
+  VStack (카드)
+  ├── Group (전체 배경 레이어)
+  │   ├── Element.Background (그림자 - 가장 뒤)
+  │   └── Group (카드 본체 - 그림자 위에 겹침)
+  │       ├── Element.Background (흰색 카드 배경)
+  │       └── Element.Decoration (아이콘)
+  └── Element.Title
+  ```
+  
+  #### 예시: 3개 레이어가 겹치는 경우
+  
+  **구조: A(뒤) → B(중간) → C(앞)**
+  
+  **올바른 구조 (✅):**
+  ```
+  Group (A + 나머지)
+  ├── Element.Background (A - 가장 뒤)
+  └── Group (B + C)
+      ├── Element.Background (B)
+      └── Element.Decoration (C - 가장 앞)
+  ```
+  
+  #### 판단 기준:
+  - **겹침 여부 확인**: 두 요소가 시각적으로 겹치는가?
+  - **겹치면 Group**: 겹치는 요소들은 반드시 Group으로 묶기
+  - **Background**: 해당 Group 내에서 가장 뒤에 있는 요소 (1개만!)
+  - **Decoration**: 해당 Group 내에서 Background 바로 앞에 있는 요소 (겹침 없이 1개)
+  - **더 겹치면**: 또 Group으로 묶어서 계층화
+
+analysis_instructions: |
+  다음 절차로 검증을 수행하세요:
+  
+  1. **현재 Role 확인**: 노드에 할당된 role 확인
+  2. **계층 검증**: 부모-자식 관계가 규칙에 맞는지 확인
+  3. **제약 조건 검증**: 해당 Role의 제약 조건 충족 여부 확인
+  4. **형제 노드 분석**: 같은 레벨의 형제 노드들과의 관계 분석
+  5. **콘텐츠 매칭**: Role이 실제 콘텐츠와 의미적으로 일치하는지 확인
+  6. **Layout Type 검증**: type이 자식 배치와 일치하는지 확인
+  
+  ## ⭐⭐⭐ 7. 구조 재편성 규칙 (이미지 분석 필수!) ⭐⭐⭐
+  
+  ### 7-0. 이미지가 있으면 시각적으로 의미 파악
+  
+  **핵심 원칙:**
+  - 이미지를 보고 각 요소의 **실제 역할**을 파악
+  - position만으로 판단하지 말고, **시각적 의미**를 기반으로 그룹화
+  
+  **구분자(+, -, =, > 등) 분리 규칙:**
+  - 카드 사이에 있는 "+" 같은 구분 기호는 **별도 요소**로 분리
+  - 아이콘+원형배경 마커 그룹에 **포함시키면 안 됨**
+  - 구분자는 별도의 `Role.Element.Separator` 또는 `Role.Element.Decoration`으로 처리
+  
+  **아이콘 마커 그룹 규칙:**
+  - 원형/사각형 배경 + 아이콘 = 하나의 마커 그룹
+  - 이 그룹은 `Role.LayoutContainer.Marker`로 설정
+  - 구분자(+)는 이 그룹에 포함하지 않음!
+  
+  **전체 배경 승격 규칙:**
+  - Group 안의 Background가 부모 전체를 덮으면
+  - 해당 Background를 부모 레벨로 승격 필요
+  - 예: 흰색 카드 배경이 아이콘 그룹 안에 있으면 → 카드 그룹 레벨로 이동
+  
+  ## ⭐⭐⭐ 8. 겹침(Overlap) 검증 ⭐⭐⭐
+  
+  ### 8-1. children_info에서 Background 개수 확인
+  ```
+  background_count = children_info에서 role에 "Background" 포함된 자식 수
+  if background_count >= 2:
+      → "background_duplicate" 이슈 생성
+      → suggestions에 wrap_with_group 추가 (target_ids에 해당 ID들 포함!)
+  ```
+  
+  ### 8-2. position으로 겹침 판단
+  children_info의 각 자식 position을 확인하여:
+  ```
+  두 요소 A, B가 겹치는지 확인:
+  overlap = NOT (
+    A.x + A.width <= B.x OR    // A가 B 왼쪽에 완전히 있음
+    B.x + B.width <= A.x OR    // B가 A 왼쪽에 완전히 있음
+    A.y + A.height <= B.y OR   // A가 B 위에 완전히 있음
+    B.y + B.height <= A.y      // B가 A 위에 완전히 있음
+  )
+  ```
+  
+  ### 8-3. 겹침 발견 시 필수 행동
+  - **Background가 2개 이상** → `wrap_with_group` 제안
+  - **Decoration이 다른 요소와 겹침** → `restructure_overlapping` 또는 `wrap_with_group` 제안
+  - **target_ids에 반드시 실제 ID 포함!** (children_info에서 확인)
+  
+  ### 8-4. 예시
+  children_info가 다음과 같다면:
+  ```json
+  {
+    "children": [
+      {"id": "bg1", "role": "Role.Element.Background", "position": {"x": 0, "y": 0, "width": 400, "height": 400}},
+      {"id": "bg2", "role": "Role.Element.Background", "position": {"x": 100, "y": 100, "width": 200, "height": 200}},
+      {"id": "icon", "role": "Role.Element.Decoration", "position": {"x": 150, "y": 150, "width": 50, "height": 50}}
+    ]
+  }
+  ```
+  
+  분석 결과:
+  - Background 2개 발견 (bg1, bg2) → background_duplicate
+  - bg1과 bg2 겹침 (100 < 0+400 AND 100+200 > 0 ...) → 겹침 확인
+  - icon도 bg2와 겹침 → decoration_overlap
+  
+  제안:
+  ```json
+  {
+    "action": "wrap_with_group",
+    "target_ids": ["bg1", "bg2", "icon"],
+    "new_group_role": "Role.LayoutContainer.Decoration",
+    "reason": "3개 요소가 서로 겹쳐있음. Group으로 묶어 계층화 필요."
+  }
+  ```
+
+output_format: |
+  다음 JSON 형식으로만 응답하세요:
+  ```json
+  {
+    "is_valid": true,
+    "current_role": "Role.LayoutContainer.Title",
+    "issues": [],
+    "suggestions": [],
+    "confidence": 0.95,
+    "reason": "Role이 올바르게 할당되어 있으며 모든 제약 조건을 충족합니다."
+  }
+  ```
+  
+  ## 문제가 있을 경우 반드시 suggestions에 수정 방법 제안!
+  
+  ### 1. Role 변경이 필요한 경우 (Element.Title 중복 등):
+  ```json
+  {
+    "is_valid": false,
+    "current_role": "Role.Element.Title",
+    "issues": [
+      {
+        "type": "constraint_violation",
+        "description": "부모 LayoutContainer 내에 Element.Title이 2개 존재합니다.",
+        "severity": "error"
+      }
+    ],
+    "suggestions": [
+      {
+        "action": "change_role",
+        "target_id": "node_123",
+        "suggested_role": "Role.Element.Subtitle",
+        "reason": "두 번째 제목 요소는 Subtitle로 변경하는 것이 적절합니다."
+      }
+    ],
+    "confidence": 0.85,
+    "reason": "Element.Title 제약 조건 위반 - 부모 내 1개만 허용됨"
+  }
+  ```
+  
+  ### 2. ⭐ Background 중복 (2개 이상) - wrap_with_group + issue_type 필수:
+  **Background가 2개 이상일 때만 전체 구조 재편성!**
+  ```json
+  {
+    "is_valid": false,
+    "current_role": "Role.LayoutContainer.Decoration",
+    "issues": [
+      {
+        "type": "background_duplicate",
+        "description": "자식 노드 중 Element.Background가 2개 존재합니다 (id: bg1, bg2).",
+        "severity": "error"
+      }
+    ],
+    "suggestions": [
+      {
+        "action": "wrap_with_group",
+        "issue_type": "background_duplicate",
+        "target_ids": ["bg1", "bg2"],
+        "new_group_role": "Role.LayoutContainer.Decoration",
+        "reason": "Background가 2개 이상이므로 전체 구조 재편성 필요"
+      }
+    ],
+    "confidence": 0.90,
+    "reason": "Background 중복 - 전체 구조 재편성 필요"
+  }
+  ```
+  
+  ### 3. ⭐ Decoration 겹침 - restructure_overlapping (Background는 건드리지 않음!):
+  **Decoration끼리 겹칠 때만! Background는 1개면 그대로 둠!**
+  ```json
+  {
+    "is_valid": false,
+    "current_role": "Role.LayoutContainer.Decoration",
+    "issues": [
+      {
+        "type": "decoration_overlap",
+        "description": "Element.Decoration들이 서로 겹쳐있습니다 (id: deco1, deco2).",
+        "severity": "error"
+      }
+    ],
+    "suggestions": [
+      {
+        "action": "restructure_overlapping",
+        "reason": "겹치는 Decoration들만 Group으로 묶습니다. Background는 건드리지 않습니다."
+      }
+    ],
+    "confidence": 0.88,
+    "reason": "Decoration 겹침 - Decoration만 그룹화 필요"
+  }
+  ```
+  
+  ### 4. ⚠️ 주의: Background 1개 + Decoration 겹침 = Decoration만 처리!
+  **Background가 1개뿐이면 Background는 건드리지 않고 Decoration만 묶기!**
+  ```json
+  {
+    "is_valid": false,
+    "current_role": "Role.LayoutContainer.Decoration",
+    "issues": [
+      {
+        "type": "decoration_overlap",
+        "description": "Decoration들(deco1, deco2)이 서로 겹쳐있습니다. Background(bg1)는 1개뿐이므로 문제없음.",
+        "severity": "error"
+      }
+    ],
+    "suggestions": [
+      {
+        "action": "restructure_overlapping",
+        "reason": "Background는 그대로 두고, 겹치는 Decoration들만 Group으로 묶습니다."
+      }
+    ],
+    "confidence": 0.90,
+    "reason": "Decoration만 겹침 - Background 유지, Decoration만 그룹화"
+  }
+  ```
+  
+  ## ⚠️ 중요: 문제 발견 시 반드시 해결책 제안!
+  - `is_valid: false`인 경우 **반드시** `suggestions` 배열에 최소 1개의 해결책을 포함하세요
+  - `target_ids`에는 실제 노드 ID를 정확히 기입하세요 (children_info에서 확인)
+  - 겹치는 요소들은 항상 `wrap_with_group` 또는 `restructure_overlapping`으로 해결
+
+output_requirements: |
+  - is_valid: boolean (검증 통과 여부)
+  - current_role: string (현재 할당된 Role)
+  - issues: array (발견된 문제 목록)
+    - type: "hierarchy_error" | "constraint_violation" | "semantic_mismatch" | "layout_type_error" | "background_duplicate" | "decoration_overlap"
+    - severity: "error" | "warning" | "info"
+  - suggestions: array (수정 제안 목록) - ⚠️ 문제 있으면 반드시 포함!
+    - action: "change_role" | "wrap_with_group" | "restructure_overlapping" | "add_element" | "remove_element" | "change_type"
+    - target_id: string (change_role 시 변경할 노드 ID)
+    - target_ids: array (wrap_with_group 시 묶을 노드 ID 리스트)
+    - suggested_role: string (change_role 시 변경할 Role)
+    - new_group_role: string (wrap_with_group 시 새 Group의 Role)
+    - reason: string (제안 이유)
+  - confidence: number (0.0 ~ 1.0, 검증 결과 신뢰도)
+  - reason: string (검증 결과 요약)
+  
+  ## ⭐ 핵심 규칙:
+  1. is_valid가 false이면 suggestions는 반드시 1개 이상!
+  2. background_duplicate 발견 시 → wrap_with_group 제안 필수
+  3. decoration_overlap 발견 시 → restructure_overlapping 또는 wrap_with_group 제안 필수
+  4. target_ids에는 children_info에서 가져온 실제 ID 사용
+
+llm_config:
+  model: "gpt-4o"
+  temperature: 0.1
+  max_tokens: 500

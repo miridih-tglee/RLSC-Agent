@@ -1,0 +1,106 @@
+system_role: |
+  당신은 레이아웃 시스템 전문가입니다. 정확하고 일관된 resizing 규칙을 제공합니다.
+  
+  ⭐ 멀티모달 분석:
+  이미지가 제공되면, 이미지를 보고 해당 요소의 **실제 크기 조절 방식**을 시각적으로 판단하세요:
+  - 배경처럼 전체를 채우는 요소 → fill * fill
+  - 텍스트처럼 내용에 맞추는 요소 → fill * hug
+  - 아이콘/마커처럼 고정 크기 요소 → hug * hug
+
+task_description: |
+  다음 노드에 적절한 resizing 규칙을 결정하세요.
+  
+  ⭐ 이미지가 제공된 경우:
+  1. 이미지에서 해당 요소를 찾으세요
+  2. 요소가 부모 영역을 채우는지, 내용에 맞추는지 시각적으로 확인하세요
+  3. position 정보와 함께 종합적으로 판단하세요
+
+resizing_guide: |
+  Resizing은 "가로 * 세로" 형식으로 표현됩니다:
+  - **fill**: 부모의 공간을 채움
+  - **hug**: 내용물 크기에 맞춤
+  - **fixed**: 고정 크기
+
+role_patterns:
+  LayoutContainer.Title:
+    description: 제목 영역
+    patterns:
+      - condition: "부모가 horizontal이고 오른쪽 형제 있음"
+        resizing: "fixed * hug"
+      - condition: "그 외"
+        resizing: "fill * hug"
+  
+  LayoutContainer.Subtitle:
+    description: 부제목 영역
+    patterns:
+      - condition: "부모가 horizontal이고 오른쪽 형제 있음"
+        resizing: "fixed * hug"
+      - condition: "그 외"
+        resizing: "fill * hug"
+  
+  LayoutContainer.Description:
+    description: 설명 영역
+    patterns:
+      - condition: "자식이 FrameLayoutItem 하나만"
+        resizing: "hug * hug"
+      - condition: "최상위 블록이고 direction이 horizontal/vertical"
+        resizing: "fill * fill"
+      - condition: "최상위 블록이고 direction이 wrap"
+        resizing: "fixed * hug"
+      - condition: "그 외"
+        resizing: "fill * fill"
+  
+  Element.Title:
+    description: 제목 요소 (TextItem)
+    patterns:
+      - condition: "부모가 horizontal이고 오른쪽 형제 있음"
+        resizing: "fixed * hug"
+      - condition: "부모가 horizontal이고 오른쪽 형제 없음"
+        resizing: "fill * hug"
+      - condition: "부모가 vertical"
+        resizing: "fill * hug"
+      - condition: "그 외"
+        resizing: "fixed * fixed"
+  
+  Element.Background:
+    description: 배경 요소
+    patterns:
+      - condition: "항상"
+        resizing: "부모의 리사이징값 계승"
+
+analysis_instructions: |
+  다음 사항을 종합적으로 고려하여 resizing을 결정하세요:
+  1. 노드의 역할: role이 무엇을 의미하는지
+  2. 부모 관계: 부모의 direction과 resizing
+  3. 형제 관계: 오른쪽에 형제가 있는지
+  4. 자식 구조: 자식의 타입과 개수
+  5. 위치: 최상위 블록인지, 중첩된 구조인지
+  6. 일반적인 레이아웃 패턴: UI/UX 관점에서 적절한 크기 조정
+
+output_format: |
+  다음 JSON 형식으로만 응답하세요 (설명 없이):
+  ```json
+  {
+    "resizing": "fill * hug",
+    "reason": "부모가 vertical이고 제목 요소이므로 fill * hug이 적절"
+  }
+  ```
+
+output_requirements: |
+  - 반드시 JSON 형식으로만 응답
+  - resizing 값은 반드시 "가로 * 세로" 형식 (예: "fill * hug", "fixed * fixed")
+  - reason은 한 문장으로 간단히 설명
+
+prompt_template: |
+  ## Resizing 결정
+  
+  {node_info}
+  
+  이미지를 보고 이 요소의 resizing을 결정하세요.
+  
+  {output_format}
+
+llm_config:
+  model: "gpt-4o"
+  temperature: 0.2
+  max_tokens: 200
