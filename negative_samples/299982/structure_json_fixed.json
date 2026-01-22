@@ -10,13 +10,13 @@
       "children": [
         {
           "id": "7592e601-26cf-4bfc-b929-bad8a19fa3ec",
-          "role": "Role.LayoutContainer.Description",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "f1f48531-f45b-4d40-a87c-130bf03665f7",
               "url": "55b9b8dc-1391-4093-9a4f-1b640a50e07c",
-              "role": "Role.Element.Description",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -212,13 +212,13 @@
       "children": [
         {
           "id": "8754449e-e1e3-400c-83f0-51f12e96576f",
-          "role": "Role.LayoutContainer.Description",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "01db10ec-a164-4098-953e-3ca73bf583d6",
               "url": "4bdf9aa3-5719-47a1-bf37-6842bb6afb7b",
-              "role": "Role.Element.Description",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -414,13 +414,13 @@
       "children": [
         {
           "id": "1dc58a88-49bb-4973-9520-d1eb7d280328",
-          "role": "Role.LayoutContainer.Description",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "6c4a8510-043d-4f1c-bb34-09b850fec3b6",
               "url": "ad49ecd8-dda2-47e9-b8c4-b715774cb1f0",
-              "role": "Role.Element.Description",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,

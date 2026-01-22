@@ -10,13 +10,13 @@
       "children": [
         {
           "id": "ccb7cbca-0ecb-4845-aa54-4f4f5b54a88d",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "e8d925ae-2a4f-48c3-889e-6d886967eee8",
               "url": "23202fc7-6e68-4f18-996d-560d97efb352",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -150,13 +150,13 @@
       "children": [
         {
           "id": "537a1b9b-899d-4a0e-8fae-25e54cfb5410",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "aa9beb44-ff0f-4a0b-858e-7079894245fc",
               "url": "6d0b5069-d6d3-48a1-b88a-609c2eb0bd1f",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -290,13 +290,13 @@
       "children": [
         {
           "id": "9a0b842a-c301-42ae-b313-d4fcdaa70821",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "3e0881d5-c3ff-408b-adc2-962ac8442762",
               "url": "7efb62dd-0d6a-4550-b352-919354a964b3",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -430,13 +430,13 @@
       "children": [
         {
           "id": "d30f94da-bc4a-4d31-8909-b101666eba9d",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "61242d98-ee9f-4263-99f1-6938355225ce",
               "url": "399f5728-2f53-4ab7-87b9-1127fcd625dd",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,

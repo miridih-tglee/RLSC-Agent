@@ -16,7 +16,7 @@
             {
               "id": "7f2673bc-d349-4a44-8af3-b49fe92d8aae",
               "url": "get_a10742639_st_in_60",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -45,6 +45,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -155,7 +156,7 @@
             {
               "id": "5c0466a1-f028-4b8c-b694-461184c1b27c",
               "url": "get_185989479_st_in_9",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -184,6 +185,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -294,7 +296,7 @@
             {
               "id": "621a6830-ae8a-49dc-98b3-a2fb2ae29453",
               "url": "get_1188796069_200113_st_hk_01",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -323,6 +325,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -433,7 +436,7 @@
             {
               "id": "34b404b4-fa3e-4c6c-bdd7-55115f9d427a",
               "url": "get_1190794780_200118_st_hk_01",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -462,6 +465,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

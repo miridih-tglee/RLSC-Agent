@@ -21,7 +21,8 @@
                 "width": 817.436335973768,
                 "height": 392.99865894072104
               },
-              "patternLabel": "A"
+              "patternLabel": "A",
+              "role": "Role.Element.Marker"
             }
           ],
           "position": {
@@ -42,6 +43,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -212,7 +214,8 @@
                 "width": 817.4363359737679,
                 "height": 392.99865894072093
               },
-              "patternLabel": "A"
+              "patternLabel": "A",
+              "role": "Role.Element.Marker"
             }
           ],
           "position": {
@@ -233,6 +236,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

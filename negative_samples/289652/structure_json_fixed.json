@@ -22,7 +22,8 @@
                 "width": 546.7777777777789,
                 "height": 422.6664151324592
               },
-              "patternLabel": "A"
+              "patternLabel": "A",
+              "role": "Role.Element.Marker"
             }
           ],
           "position": {
@@ -43,6 +44,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -212,7 +214,8 @@
                 "width": 546.7777777777786,
                 "height": 422.6664151324592
               },
-              "patternLabel": "A"
+              "patternLabel": "A",
+              "role": "Role.Element.Marker"
             }
           ],
           "position": {
@@ -233,6 +236,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -402,7 +406,8 @@
                 "width": 546.7777777777787,
                 "height": 422.6664151324592
               },
-              "patternLabel": "A"
+              "patternLabel": "A",
+              "role": "Role.Element.Marker"
             }
           ],
           "position": {
@@ -423,6 +428,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

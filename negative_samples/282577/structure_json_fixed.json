@@ -41,13 +41,13 @@
             },
             {
               "id": "af6eb173-0348-4678-8b45-b0779eea1348",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "a3cca8a9-1dc4-4fa4-8976-f203ec2f0c46",
                   "url": "2yTGtqPOrKByfMYGrcBIk",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -425,13 +425,13 @@
             },
             {
               "id": "711c5acb-d0dc-46a0-bc4f-7b8a9f6294d6",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "fb83c47d-265f-4166-97b9-6e5b8a204ca7",
                   "url": "2z1N3VQRJ0ZZ0caQmT6wY",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -809,13 +809,13 @@
             },
             {
               "id": "a21905f8-590a-49f6-80fc-4412aa01db3b",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "331aa12e-d457-4031-b18d-4fab963d83e8",
                   "url": "446e7713-ec75-483d-9ad5-c73267876f64",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,

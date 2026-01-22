@@ -10,13 +10,13 @@
       "children": [
         {
           "id": "245b9b92-c24c-4694-8cc7-91dc98537362",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
               "id": "90b7010c-0603-4312-a542-b7dd84556db0",
               "url": "8b21f51a-feb5-4cbd-bba8-ea40548e6fc7",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0,
@@ -155,13 +155,13 @@
           "children": [
             {
               "id": "ba3cc051-eb24-4fc7-baf9-df2d0551c912",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "0fdf6f8f-f04e-4c52-9ed8-964f01850e2f",
                   "url": "2zAV6TuIBB5Wf83utELEH",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,

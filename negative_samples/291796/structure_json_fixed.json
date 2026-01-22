@@ -178,7 +178,7 @@
                 {
                   "id": "e61b375d-6524-495e-a118-aabf2f51fdcf",
                   "url": "ef551b6c-d2ef-4e01-aaaa-27845238ff3a",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -207,6 +207,7 @@
                   ]
                 }
               ],
+              "role": "Role.Element.Marker",
               "padding": {
                 "top": 0,
                 "bottom": 0,
@@ -392,7 +393,7 @@
                 {
                   "id": "cd8bde6a-5022-4d3f-9434-62b999b6975b",
                   "url": "b1b44e4f-0552-4e34-b78d-a7c6fda2e245",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -421,6 +422,7 @@
                   ]
                 }
               ],
+              "role": "Role.Element.Marker",
               "padding": {
                 "top": 0,
                 "bottom": 0,
@@ -606,7 +608,7 @@
                 {
                   "id": "aee199c9-00f4-4a17-bfc1-f30e3a53a4a3",
                   "url": "aa6c94b7-f97c-4af2-9a82-0ea381368b83",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -635,6 +637,7 @@
                   ]
                 }
               ],
+              "role": "Role.Element.Marker",
               "padding": {
                 "top": 0,
                 "bottom": 0,

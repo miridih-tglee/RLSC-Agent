@@ -15,7 +15,7 @@
             {
               "id": "4a800ce5-d9d8-4b52-9195-adbf1e7f0a27",
               "url": "burst_structured-art-with-cubes-like-steps",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -44,6 +44,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -154,7 +155,7 @@
             {
               "id": "cca624ce-2aca-40a3-affe-6fcaacb5f612",
               "url": "burst_city-buildings-downtown",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -183,6 +184,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -293,7 +295,7 @@
             {
               "id": "14b3e97f-012d-468f-a5c2-d08e0f939724",
               "url": "uni_210513_st_db_02",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Marker",
               "type": "Image",
               "position": {
                 "x": 0.0,
@@ -322,6 +324,7 @@
               ]
             }
           ],
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

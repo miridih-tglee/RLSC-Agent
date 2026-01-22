@@ -28,13 +28,13 @@
             },
             {
               "id": "8338dd16-8614-4585-89ad-ae950ce3217e",
-              "role": "Role.LayoutContainer.Description",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "74cb24f4-d0d4-47b4-a16f-27ed310b6c4b",
                   "url": "f7c491ba-7eae-4447-93b6-678ada0e1116",
-                  "role": "Role.Element.Description",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -274,13 +274,13 @@
             },
             {
               "id": "fca06a50-b9b6-43eb-bf03-14c8921f6909",
-              "role": "Role.LayoutContainer.Description",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "2010a3ab-e15a-4ba0-8855-7ba20662c9fa",
                   "url": "dba8273e-c0a5-41a5-9c23-1acb92d3e19c",
-                  "role": "Role.Element.Description",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -520,13 +520,13 @@
             },
             {
               "id": "dbd507c4-1c81-4416-83ff-0dfcd89ca3fb",
-              "role": "Role.LayoutContainer.Description",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "9c97d692-f586-46fb-adaf-282b571db338",
                   "url": "49eb70ab-68a3-40a5-b81a-9ec1df4d2ffc",
-                  "role": "Role.Element.Description",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -766,13 +766,13 @@
             },
             {
               "id": "7a43c8e0-8191-4aca-a88c-b660d81b217d",
-              "role": "Role.LayoutContainer.Description",
+              "role": "Role.Element.Marker",
               "type": "Frame",
               "children": [
                 {
                   "id": "407bc3bf-4b8d-47a3-b460-9b2c1dac5987",
                   "url": "2369fe10-442c-4259-84b2-6c457db7cce2",
-                  "role": "Role.Element.Description",
+                  "role": "Role.Element.Marker",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
