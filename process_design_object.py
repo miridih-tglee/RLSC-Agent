@@ -299,22 +299,33 @@ def group_overlapping(children: List[Dict], pairs: List[Tuple[int, int]]) -> Lis
 def wrap_in_group(nodes: List[Dict]) -> Dict:
     """
     겹치는 노드들을 Group으로 묶기
-    - Text, Frame, Image 타입은 Background가 될 수 없음
-    - SVG 중 가장 큰 요소가 Background가 됨
+    - Text 타입은 Background가 될 수 없음
+    - 가장 큰 요소가 Background가 됨 (SVG 우선, 없으면 Frame/Image도 가능)
     """
     if not nodes:
         return {}
     
-    # Text, Frame, Image가 아닌 노드 중 가장 큰 것을 Background로 선정
+    # 가장 큰 것을 Background로 선정 (SVG 우선)
     max_area, bg_idx = -1, -1
+    max_svg_area, svg_idx = -1, -1
+    
     for i, node in enumerate(nodes):
         node_type = get_type(node)
-        # Text, Frame, Image 타입은 Background 후보에서 제외
-        if node_type in ['Text', 'Frame', 'Image']:
+        # Text 타입만 Background 후보에서 제외
+        if node_type == 'Text':
             continue
         area = get_area(node)
+        
+        # SVG는 별도로 추적 (우선순위)
+        if node_type == 'SVG' and area > max_svg_area:
+            max_svg_area, svg_idx = area, i
+        
         if area > max_area:
             max_area, bg_idx = area, i
+    
+    # SVG가 있으면 SVG 우선, 없으면 가장 큰 것
+    if svg_idx >= 0:
+        bg_idx = svg_idx
     
     all_bboxes = [get_bbox(n) for n in nodes if get_bbox(n)]
     if all_bboxes:
@@ -369,14 +380,16 @@ def fix_multiple_backgrounds(children: List[Dict]) -> List[Dict]:
 def find_background_candidate(children: List[Dict]) -> int:
     """
     Background 후보 찾기 (가장 큰 Decoration 또는 Marker)
-    - Text, Frame, Image 타입은 Background가 될 수 없음
-    - SVG 타입만 Background 후보
+    - Text 타입만 Background가 될 수 없음
+    - SVG 우선, 없으면 Frame/Image도 가능
     """
     max_area, max_idx = -1, -1
+    max_svg_area, svg_idx = -1, -1
+    
     for i, child in enumerate(children):
         node_type = get_type(child)
-        # Text, Frame, Image 타입은 Background 후보에서 제외
-        if node_type in ['Text', 'Frame', 'Image']:
+        # Text 타입만 Background 후보에서 제외
+        if node_type == 'Text':
             continue
         # 이미 Background면 제외
         if is_background(child):
@@ -385,8 +398,17 @@ def find_background_candidate(children: List[Dict]) -> int:
         role = get_role(child)
         if role in ['Decoration', 'Marker']:
             area = get_area(child)
+            
+            # SVG는 별도로 추적 (우선순위)
+            if node_type == 'SVG' and area > max_svg_area:
+                max_svg_area, svg_idx = area, i
+            
             if area > max_area:
                 max_area, max_idx = area, i
+    
+    # SVG가 있으면 SVG 우선, 없으면 가장 큰 것
+    if svg_idx >= 0:
+        return svg_idx
     return max_idx
 
 
