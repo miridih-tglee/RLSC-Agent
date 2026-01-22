@@ -46,7 +46,7 @@
               "children": [
                 {
                   "id": "53fdec8d-77d5-4877-b2b4-126f573d15bb",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -121,7 +121,7 @@
               "children": [
                 {
                   "id": "e982d46c-240f-4272-a2cd-7f06c09aaf50",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -330,7 +330,7 @@
               "children": [
                 {
                   "id": "d27599eb-c5cb-4bfa-96a0-8e7656a54359",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -405,7 +405,7 @@
               "children": [
                 {
                   "id": "35e7633c-bd0d-4280-a74f-e2c55e68dc7e",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -649,7 +649,7 @@
               "children": [
                 {
                   "id": "824e137e-07d1-40cd-9a3d-08fbf3370264",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -724,7 +724,7 @@
               "children": [
                 {
                   "id": "f6bbfa70-a9c6-4d1d-bcdd-afaea99b52d5",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {

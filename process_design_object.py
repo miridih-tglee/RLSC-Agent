@@ -211,10 +211,15 @@ def is_overlapping(bbox1: Tuple, bbox2: Tuple, threshold: float = 0.1) -> bool:
 # 겹침 검사
 # ============================================================
 def should_check_pair(node1: Dict, node2: Dict) -> bool:
-    """겹침 검사 대상인지 확인 (컨테이너 타입 제외)"""
+    """
+    겹침 검사 대상인지 확인
+    - Decoration/Marker끼리 겹치면 검사 (type이 Text여도 role이 Decoration/Marker면 검사)
+    - Background, 컨테이너, Title/Description/Subtitle, Frame/Image는 제외
+    """
     role1, role2 = get_role(node1), get_role(node2)
     type1, type2 = get_type(node1), get_type(node2)
     
+    # Background는 겹침 허용
     if role1 == 'Background' or role2 == 'Background':
         return False
     
@@ -223,14 +228,18 @@ def should_check_pair(node1: Dict, node2: Dict) -> bool:
     if type1 in container_types or type2 in container_types:
         return False
     
-    if role1 in ['Title', 'Description', 'Subtitle'] or type1 == 'Text':
+    # Title, Description, Subtitle role은 제외 (텍스트 콘텐츠)
+    # ※ type이 Text여도 role이 Decoration/Marker면 검사 대상!
+    if role1 in ['Title', 'Description', 'Subtitle']:
         return False
-    if role2 in ['Title', 'Description', 'Subtitle'] or type2 == 'Text':
+    if role2 in ['Title', 'Description', 'Subtitle']:
         return False
     
+    # Frame, Image 타입은 제외
     if is_frame(node1) or is_frame(node2) or is_image(node1) or is_image(node2):
         return False
     
+    # Decoration/Marker끼리 겹치면 검사
     if role1 == 'Decoration' and role2 == 'Decoration':
         return True
     if (role1 == 'Decoration' and role2 == 'Marker') or (role1 == 'Marker' and role2 == 'Decoration'):
