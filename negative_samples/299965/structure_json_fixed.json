@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "group_card1_top",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "Group",
           "children": [
             {
@@ -256,7 +256,7 @@
       "children": [
         {
           "id": "group_card2_top",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "Group",
           "children": [
             {
@@ -502,7 +502,7 @@
       "children": [
         {
           "id": "group_card3_top",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "Group",
           "children": [
             {

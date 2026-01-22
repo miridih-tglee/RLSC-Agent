@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "3bd1b549-9d9d-49bf-acc0-a946e789849c",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Decoration",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -40,7 +40,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "c298432e-e50b-4dc8-ad22-417795b48796",
+              "id": "b70c39a9-0cbd-40c6-a194-1e872422d7eb",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -285,7 +285,7 @@
       "children": [
         {
           "id": "d5345432-0584-4f97-9c31-5fc834f5e334",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Decoration",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -315,7 +315,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "871c50ec-07d8-496e-8a61-da99bae971e5",
+              "id": "e42f8e4b-5181-4609-9256-adbd08d10ee3",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -560,7 +560,7 @@
       "children": [
         {
           "id": "566e21d8-2e4f-47f7-9db1-10ac4ce94431",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Decoration",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -590,7 +590,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "9532afe5-3888-45c5-b7ba-e720e01d30e1",
+              "id": "a32e668c-ceb8-46f8-8e57-2b04e93f6156",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -621,7 +621,7 @@
                   "patternLabel": "C"
                 },
                 {
-                  "id": "17cdb89b-755e-4af0-b13b-35a82ba95007",
+                  "id": "28a455bf-21b4-43b5-9f8b-19ebefccd0b5",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [

@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "7eaae5f6-7ba3-4bd8-b73e-d7bf2474bb51",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
@@ -234,7 +234,7 @@
       "children": [
         {
           "id": "67e9a7e6-5869-42e8-b1e1-c0e4538366c7",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {
@@ -458,7 +458,7 @@
       "children": [
         {
           "id": "8d2600b4-9d29-4460-8d98-eb385ad49006",
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "type": "Frame",
           "children": [
             {

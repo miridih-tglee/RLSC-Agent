@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "zstack_icon_left",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "ZStack",
           "children": [
             {
@@ -211,7 +211,7 @@
       "children": [
         {
           "id": "zstack_icon_center",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "ZStack",
           "children": [
             {
@@ -412,7 +412,7 @@
       "children": [
         {
           "id": "zstack_icon_right",
-          "role": "Role.Element.Background",
+          "role": "Role.LayoutContainer.Decoration",
           "type": "ZStack",
           "children": [
             {

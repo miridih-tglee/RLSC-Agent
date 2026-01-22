@@ -214,13 +214,18 @@ def should_check_pair(node1: Dict, node2: Dict) -> bool:
     """
     겹침 검사 대상인지 확인
     - Decoration, Marker, Frame, Image가 다른 요소와 겹치면 검사 대상
-    - Background만 제외
+    - Background, 컨테이너 타입(Group, HStack, VStack 등)은 제외
     """
     role1, role2 = get_role(node1), get_role(node2)
     type1, type2 = get_type(node1), get_type(node2)
     
     # Background는 겹침 허용
     if role1 == 'Background' or role2 == 'Background':
+        return False
+    
+    # 컨테이너 타입은 겹침 검사 제외 (무한 재귀 방지)
+    container_types = ['Group', 'HStack', 'VStack', 'ZStack', 'Grid']
+    if type1 in container_types or type2 in container_types:
         return False
     
     # Decoration 또는 Marker가 포함되어 있으면 검사
@@ -287,17 +292,18 @@ def group_overlapping(children: List[Dict], pairs: List[Tuple[int, int]]) -> Lis
 def wrap_in_group(nodes: List[Dict]) -> Dict:
     """
     겹치는 노드들을 Group으로 묶기
-    - Text 타입은 Background가 될 수 없음
-    - Text가 아닌 것 중 가장 큰 요소가 Background가 됨
+    - Text, Frame, Image 타입은 Background가 될 수 없음
+    - SVG 중 가장 큰 요소가 Background가 됨
     """
     if not nodes:
         return {}
     
-    # Text가 아닌 노드 중 가장 큰 것을 Background로 선정
+    # Text, Frame, Image가 아닌 노드 중 가장 큰 것을 Background로 선정
     max_area, bg_idx = -1, -1
     for i, node in enumerate(nodes):
-        # Text 타입은 Background 후보에서 제외
-        if get_type(node) == 'Text':
+        node_type = get_type(node)
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
             continue
         area = get_area(node)
         if area > max_area:
@@ -356,18 +362,19 @@ def fix_multiple_backgrounds(children: List[Dict]) -> List[Dict]:
 def find_background_candidate(children: List[Dict]) -> int:
     """
     Background 후보 찾기 (가장 큰 Decoration 또는 Marker)
-    - Text 타입은 Background가 될 수 없음
-    - Decoration, Marker 중 type이 SVG/Image인 것만 후보
+    - Text, Frame, Image 타입은 Background가 될 수 없음
+    - SVG 타입만 Background 후보
     """
     max_area, max_idx = -1, -1
     for i, child in enumerate(children):
-        # Text 타입은 Background 후보에서 제외
-        if get_type(child) == 'Text':
+        node_type = get_type(child)
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
             continue
         # 이미 Background면 제외
         if is_background(child):
             continue
-        # Decoration 또는 Marker만 후보 (SVG, Image 타입)
+        # Decoration 또는 Marker만 후보
         role = get_role(child)
         if role in ['Decoration', 'Marker']:
             area = get_area(child)
@@ -408,8 +415,16 @@ def convert_frame_image_to_marker(node: Dict, verbose: bool = True) -> Dict:
 # ============================================================
 # 메인 수정 함수
 # ============================================================
+MAX_RECURSION_DEPTH = 50  # 최대 재귀 깊이 제한
+
 def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
-    indent = "    " * depth
+    # 재귀 깊이 제한 체크
+    if depth > MAX_RECURSION_DEPTH:
+        if verbose:
+            print(f"⚠️ 최대 재귀 깊이 초과 (depth={depth}), 더 이상 처리하지 않음")
+        return deepcopy(node)
+    
+    indent = "    " * min(depth, 10)  # 들여쓰기 제한
     result = deepcopy(node)
     
     # 0. Frame/Image role을 Marker로 변경

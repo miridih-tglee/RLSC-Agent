@@ -211,10 +211,16 @@ def is_overlapping(bbox1: Tuple, bbox2: Tuple, threshold: float = 0.1) -> bool:
 # 겹침 검사
 # ============================================================
 def should_check_pair(node1: Dict, node2: Dict) -> bool:
+    """겹침 검사 대상인지 확인 (컨테이너 타입 제외)"""
     role1, role2 = get_role(node1), get_role(node2)
     type1, type2 = get_type(node1), get_type(node2)
     
     if role1 == 'Background' or role2 == 'Background':
+        return False
+    
+    # 컨테이너 타입은 겹침 검사 제외 (무한 재귀 방지)
+    container_types = ['Group', 'HStack', 'VStack', 'ZStack', 'Grid']
+    if type1 in container_types or type2 in container_types:
         return False
     
     if role1 in ['Title', 'Description', 'Subtitle'] or type1 == 'Text':
@@ -284,11 +290,21 @@ def group_overlapping(children: List[Dict], pairs: List[Tuple[int, int]]) -> Lis
 # 그룹 묶기
 # ============================================================
 def wrap_in_group(nodes: List[Dict]) -> Dict:
+    """
+    겹치는 노드들을 Group으로 묶기
+    - Text, Frame, Image 타입은 Background가 될 수 없음
+    - SVG 중 가장 큰 요소가 Background가 됨
+    """
     if not nodes:
         return {}
     
-    max_area, bg_idx = -1, 0
+    # Text, Frame, Image가 아닌 노드 중 가장 큰 것을 Background로 선정
+    max_area, bg_idx = -1, -1
     for i, node in enumerate(nodes):
+        node_type = get_type(node)
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
+            continue
         area = get_area(node)
         if area > max_area:
             max_area, bg_idx = area, i
@@ -306,7 +322,7 @@ def wrap_in_group(nodes: List[Dict]) -> Dict:
     wrapped_children = []
     for i, node in enumerate(nodes):
         node_copy = deepcopy(node)
-        if i == bg_idx:
+        if i == bg_idx and bg_idx >= 0:  # bg_idx가 유효한 경우에만
             node_copy['role'] = 'Role.Element.Background'
         wrapped_children.append(node_copy)
     
@@ -344,9 +360,23 @@ def fix_multiple_backgrounds(children: List[Dict]) -> List[Dict]:
 
 
 def find_background_candidate(children: List[Dict]) -> int:
+    """
+    Background 후보 찾기 (가장 큰 Decoration 또는 Marker)
+    - Text, Frame, Image 타입은 Background가 될 수 없음
+    - SVG 타입만 Background 후보
+    """
     max_area, max_idx = -1, -1
     for i, child in enumerate(children):
-        if is_decoration(child) and not is_background(child):
+        node_type = get_type(child)
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
+            continue
+        # 이미 Background면 제외
+        if is_background(child):
+            continue
+        # Decoration 또는 Marker만 후보
+        role = get_role(child)
+        if role in ['Decoration', 'Marker']:
             area = get_area(child)
             if area > max_area:
                 max_area, max_idx = area, i
@@ -356,8 +386,16 @@ def find_background_candidate(children: List[Dict]) -> int:
 # ============================================================
 # 메인 수정 함수
 # ============================================================
+MAX_RECURSION_DEPTH = 50  # 최대 재귀 깊이 제한
+
 def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
-    indent = "    " * depth
+    # 재귀 깊이 제한 체크
+    if depth > MAX_RECURSION_DEPTH:
+        if verbose:
+            print(f"⚠️ 최대 재귀 깊이 초과 (depth={depth}), 더 이상 처리하지 않음")
+        return deepcopy(node)
+    
+    indent = "    " * min(depth, 10)  # 들여쓰기 제한
     result = deepcopy(node)
     children = result.get('children', [])
     

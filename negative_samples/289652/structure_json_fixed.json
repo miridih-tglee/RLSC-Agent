@@ -44,7 +44,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -236,7 +236,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -428,7 +428,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

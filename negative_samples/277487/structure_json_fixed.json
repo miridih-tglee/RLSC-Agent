@@ -230,7 +230,7 @@
           "children": [
             {
               "id": "zstack_card1_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -441,7 +441,7 @@
           "children": [
             {
               "id": "zstack_card2_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -652,7 +652,7 @@
           "children": [
             {
               "id": "zstack_card3_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -863,7 +863,7 @@
           "children": [
             {
               "id": "zstack_card4_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -1074,7 +1074,7 @@
           "children": [
             {
               "id": "zstack_card5_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -1285,7 +1285,7 @@
           "children": [
             {
               "id": "zstack_card6_icon",
-              "role": "Role.Element.Background",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {

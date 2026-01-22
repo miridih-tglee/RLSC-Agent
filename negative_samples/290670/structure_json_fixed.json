@@ -44,7 +44,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -159,7 +159,7 @@
             },
             {
               "id": "zstack_card1_badge",
-              "role": "Role.Element.Decoration",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -339,7 +339,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -454,7 +454,7 @@
             },
             {
               "id": "zstack_card2_badge",
-              "role": "Role.Element.Decoration",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
@@ -634,7 +634,7 @@
               ]
             }
           ],
-          "role": "Role.Element.Background",
+          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -749,7 +749,7 @@
             },
             {
               "id": "zstack_card3_badge",
-              "role": "Role.Element.Decoration",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "ZStack",
               "children": [
                 {
