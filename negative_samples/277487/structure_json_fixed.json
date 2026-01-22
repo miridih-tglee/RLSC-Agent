@@ -247,30 +247,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "92f54652-8afa-4985-b7a4-0fb87530e01e",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "6c42f700-c962-4f2c-a351-9bae55e59512",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "92f54652-8afa-4985-b7a4-0fb87530e01e",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052816,
+                        "height": 110.94204701052837
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "9b75134e-5f46-4fae-bd4c-6ba8529d96f4",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "k6l2fnjmgctlq1q3",
+                      "position": {
+                        "x": 16.47,
+                        "y": 16.47,
+                        "width": 77.99884913749958,
+                        "height": 77.99884913749975
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
                     "x": 36.26,
-                    "y": 80.96,
-                    "width": 110.94204701052816,
-                    "height": 110.94204701052837
+                    "y": 80.97,
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "9b75134e-5f46-4fae-bd4c-6ba8529d96f4",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "k6l2fnjmgctlq1q3",
-                  "position": {
-                    "x": 52.73,
-                    "y": 97.43,
-                    "width": 77.99884913749958,
-                    "height": 77.99884913749975
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {
@@ -458,30 +477,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "c8e6bd0d-7059-4a1c-a453-4c52adb80dfe",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "6ed7a1ab-d5d3-4f7d-b8ca-0ad9739b3061",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "c8e6bd0d-7059-4a1c-a453-4c52adb80dfe",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052809,
+                        "height": 110.94204701052837
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "b82eef80-c89b-4431-9c81-5d100bffd0b7",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "kjrqwsxe13zfpqar",
+                      "position": {
+                        "x": 21.37,
+                        "y": 22.13,
+                        "width": 66.66663614908884,
+                        "height": 66.66663614908884
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
-                    "x": 36.26,
-                    "y": 80.96,
-                    "width": 110.94204701052809,
-                    "height": 110.94204701052837
+                    "x": 36.25,
+                    "y": 80.97,
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "b82eef80-c89b-4431-9c81-5d100bffd0b7",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kjrqwsxe13zfpqar",
-                  "position": {
-                    "x": 57.62,
-                    "y": 103.1,
-                    "width": 66.66663614908884,
-                    "height": 66.66663614908884
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {
@@ -669,30 +707,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "5666f3b7-7a9c-48b3-a1c9-db169f63f0df",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "c90826dd-0747-4385-afd8-512aa34bae89",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "5666f3b7-7a9c-48b3-a1c9-db169f63f0df",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052809,
+                        "height": 110.94204701052831
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "9754ba94-fe72-471a-8541-df717347caae",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "krl8w6mtszh8dolt",
+                      "position": {
+                        "x": 17.54,
+                        "y": 17.53,
+                        "width": 75.86885707895681,
+                        "height": 75.86885707895794
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
                     "x": 36.26,
-                    "y": 80.96,
-                    "width": 110.94204701052809,
-                    "height": 110.94204701052831
+                    "y": 80.97,
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "9754ba94-fe72-471a-8541-df717347caae",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "krl8w6mtszh8dolt",
-                  "position": {
-                    "x": 53.79,
-                    "y": 98.5,
-                    "width": 75.86885707895681,
-                    "height": 75.86885707895794
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {
@@ -880,30 +937,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "c191640f-9781-498b-a5fc-c4dbf8296c9c",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "2d2ddc29-b9d4-4519-a072-5471af115983",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "c191640f-9781-498b-a5fc-c4dbf8296c9c",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052814,
+                        "height": 110.94204701052831
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "1a0577ad-e9b6-4b8a-9efa-90c3f969f698",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "kfb5kwtpesoqlm63",
+                      "position": {
+                        "x": 18.99,
+                        "y": 15.99,
+                        "width": 72.96148260534034,
+                        "height": 72.9614826053405
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
                     "x": 35.48,
                     "y": 81.34,
-                    "width": 110.94204701052814,
-                    "height": 110.94204701052831
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "1a0577ad-e9b6-4b8a-9efa-90c3f969f698",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kfb5kwtpesoqlm63",
-                  "position": {
-                    "x": 54.47,
-                    "y": 97.33,
-                    "width": 72.96148260534034,
-                    "height": 72.9614826053405
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {
@@ -1091,30 +1167,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "994f1e84-3f22-458f-a173-db0b452839cc",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "6cb28e72-4d47-43d4-924f-38e479721920",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "994f1e84-3f22-458f-a173-db0b452839cc",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052809,
+                        "height": 110.94204701052831
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "e4620388-11f0-444b-bffa-a1897c5940ec",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "k6fzjbbmx932rzw5",
+                      "position": {
+                        "x": 18.8,
+                        "y": 18.8,
+                        "width": 73.33330281575536,
+                        "height": 73.33330281575513
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
                     "x": 35.48,
                     "y": 81.34,
-                    "width": 110.94204701052809,
-                    "height": 110.94204701052831
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "e4620388-11f0-444b-bffa-a1897c5940ec",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "k6fzjbbmx932rzw5",
-                  "position": {
-                    "x": 54.29,
-                    "y": 100.14,
-                    "width": 73.33330281575536,
-                    "height": 73.33330281575513
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {
@@ -1302,30 +1397,49 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "d6246251-6bfc-44b9-8856-f6322a7ead27",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kw13c3i3iiwabm8r",
+                  "id": "8d826a14-f477-4aa0-8c17-cfe7cd4d64e3",
+                  "role": "Role.LayoutContainer.Decoration",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "d6246251-6bfc-44b9-8856-f6322a7ead27",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kw13c3i3iiwabm8r",
+                      "position": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "width": 110.94204701052809,
+                        "height": 110.94204701052843
+                      },
+                      "patternLabel": "B"
+                    },
+                    {
+                      "id": "d0553137-59f2-4e99-bdc0-32479cb983e1",
+                      "role": "Role.Element.Decoration",
+                      "type": "SVG",
+                      "svgData": "kzxxort5gp36ek2u",
+                      "position": {
+                        "x": 19.22,
+                        "y": 19.22,
+                        "width": 72.49333061482866,
+                        "height": 72.49333061483003
+                      },
+                      "patternLabel": "C"
+                    }
+                  ],
                   "position": {
-                    "x": 35.48,
+                    "x": 35.49,
                     "y": 81.34,
-                    "width": 110.94204701052809,
-                    "height": 110.94204701052843
+                    "width": 110.94,
+                    "height": 110.94
                   },
-                  "patternLabel": "B"
-                },
-                {
-                  "id": "d0553137-59f2-4e99-bdc0-32479cb983e1",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kzxxort5gp36ek2u",
-                  "position": {
-                    "x": 54.71,
-                    "y": 100.56,
-                    "width": 72.49333061482866,
-                    "height": 72.49333061483003
-                  },
-                  "patternLabel": "C"
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
                 }
               ],
               "position": {

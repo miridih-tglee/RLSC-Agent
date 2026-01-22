@@ -22,32 +22,6 @@
           "patternLabel": "A"
         },
         {
-          "id": "74ef5ec1-9f07-41ce-9f3a-96a0c8f9d860",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "kvbhgboinsbc889w",
-          "position": {
-            "x": 0.0,
-            "y": 0.0,
-            "width": 81.70229823847791,
-            "height": 79.5605072423798
-          },
-          "patternLabel": "B"
-        },
-        {
-          "id": "a6b474d2-dd84-4c7b-8360-a3102e7a8008",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "k59yohlpciv3vaum",
-          "position": {
-            "x": 27.02,
-            "y": 17.5,
-            "width": 27.666011860793475,
-            "height": 44.568039451452194
-          },
-          "patternLabel": "C"
-        },
-        {
           "id": "vstack_card1_content",
           "role": "Role.LayoutContainer.Description",
           "type": "VStack",
@@ -186,6 +160,51 @@
             "right": 0.0
           },
           "gap": 31.6
+        },
+        {
+          "id": "eabcf5fb-6afc-4228-a4b6-d1c3b2577f48",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "74ef5ec1-9f07-41ce-9f3a-96a0c8f9d860",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": -0.0,
+                "width": 81.70229823847791,
+                "height": 79.5605072423798
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "a6b474d2-dd84-4c7b-8360-a3102e7a8008",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k59yohlpciv3vaum",
+              "position": {
+                "x": 27.02,
+                "y": 17.49,
+                "width": 27.666011860793475,
+                "height": 44.568039451452194
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": -0.0,
+            "y": 0.0,
+            "width": 81.7,
+            "height": 79.56
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
         }
       ],
       "position": {
@@ -251,32 +270,6 @@
             "height": 799.2026593772127
           },
           "patternLabel": "A"
-        },
-        {
-          "id": "af283371-c160-460b-9d7b-f9fab20628ed",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "kvbhgboinsbc889w",
-          "position": {
-            "x": 0.0,
-            "y": 0.0,
-            "width": 81.70229823847785,
-            "height": 79.5605072423798
-          },
-          "patternLabel": "B"
-        },
-        {
-          "id": "d9010c5d-efce-47d6-bdd1-ffd45313ac21",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "k59yohlpciv3vaum",
-          "position": {
-            "x": 27.02,
-            "y": 17.5,
-            "width": 27.666011860793446,
-            "height": 44.568039451452194
-          },
-          "patternLabel": "C"
         },
         {
           "id": "vstack_card2_content",
@@ -417,6 +410,51 @@
             "right": 0
           },
           "gap": 31.6
+        },
+        {
+          "id": "c7112661-b03a-4ed9-84c1-b429f605a8fa",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "af283371-c160-460b-9d7b-f9fab20628ed",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": -0.0,
+                "y": -0.0,
+                "width": 81.70229823847785,
+                "height": 79.5605072423798
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "d9010c5d-efce-47d6-bdd1-ffd45313ac21",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k59yohlpciv3vaum",
+              "position": {
+                "x": 27.02,
+                "y": 17.49,
+                "width": 27.666011860793446,
+                "height": 44.568039451452194
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 81.7,
+            "height": 79.56
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
         }
       ],
       "position": {
@@ -482,32 +520,6 @@
             "height": 799.2026593772127
           },
           "patternLabel": "A"
-        },
-        {
-          "id": "cb2feafd-421b-4ac1-836b-eda34c6880aa",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "kvbhgboinsbc889w",
-          "position": {
-            "x": 0.0,
-            "y": 0.0,
-            "width": 81.70229823847785,
-            "height": 79.5605072423798
-          },
-          "patternLabel": "B"
-        },
-        {
-          "id": "a3134ec5-727c-4a8f-bb50-3d6bc58cbbb8",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "k59yohlpciv3vaum",
-          "position": {
-            "x": 27.02,
-            "y": 17.5,
-            "width": 27.66601186079356,
-            "height": 44.568039451452194
-          },
-          "patternLabel": "C"
         },
         {
           "id": "vstack_card3_content",
@@ -648,6 +660,51 @@
             "right": 0
           },
           "gap": 31.6
+        },
+        {
+          "id": "a30f3bc5-fe54-4e68-b88d-de2770fbde7e",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "cb2feafd-421b-4ac1-836b-eda34c6880aa",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": -0.0,
+                "y": -0.0,
+                "width": 81.70229823847785,
+                "height": 79.5605072423798
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "a3134ec5-727c-4a8f-bb50-3d6bc58cbbb8",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k59yohlpciv3vaum",
+              "position": {
+                "x": 27.02,
+                "y": 17.49,
+                "width": 27.66601186079356,
+                "height": 44.568039451452194
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 81.7,
+            "height": 79.56
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
         }
       ],
       "position": {
@@ -713,32 +770,6 @@
             "height": 799.2026593772127
           },
           "patternLabel": "A"
-        },
-        {
-          "id": "28237f18-3d2f-4299-b8b0-46638f2e5b90",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "kvbhgboinsbc889w",
-          "position": {
-            "x": 0.0,
-            "y": 0.0,
-            "width": 81.70229823847785,
-            "height": 79.5605072423798
-          },
-          "patternLabel": "B"
-        },
-        {
-          "id": "1f9d3141-0306-4afe-9cb9-2c37bbdd3617",
-          "role": "Role.Element.Decoration",
-          "type": "SVG",
-          "svgData": "k59yohlpciv3vaum",
-          "position": {
-            "x": 27.02,
-            "y": 17.5,
-            "width": 27.66601186079356,
-            "height": 44.568039451452194
-          },
-          "patternLabel": "C"
         },
         {
           "id": "vstack_card4_content",
@@ -879,6 +910,51 @@
             "right": 0
           },
           "gap": 31.6
+        },
+        {
+          "id": "61ef3b5f-ed68-451b-8eb5-b82f9a8dfcd2",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "28237f18-3d2f-4299-b8b0-46638f2e5b90",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": -0.0,
+                "y": -0.0,
+                "width": 81.70229823847785,
+                "height": 79.5605072423798
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "1f9d3141-0306-4afe-9cb9-2c37bbdd3617",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k59yohlpciv3vaum",
+              "position": {
+                "x": 27.02,
+                "y": 17.49,
+                "width": 27.66601186079356,
+                "height": 44.568039451452194
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 81.7,
+            "height": 79.56
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
         }
       ],
       "position": {
