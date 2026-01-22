@@ -53,28 +53,30 @@ def should_check_pair(node1: Dict, node2: Dict) -> bool:
     process_design_object.py의 로직과 동일:
     - Background 제외
     - 컨테이너 타입 제외
-    - Title, Description, Subtitle, Text 제외
-    - Frame, Image 제외
+    - Title, Description, Subtitle role 제외 (type이 Text여도 role이 Deco/Marker면 검사!)
     - Decoration + Decoration, Decoration + Marker, Marker + Marker만 검사
     """
     role1, role2 = get_role(node1), get_role(node2)
     type1, type2 = get_type(node1), get_type(node2)
     
+    # Background는 겹침 허용
     if role1 == 'Background' or role2 == 'Background':
         return False
     
+    # 컨테이너 타입 제외
     container_types = ['Group', 'HStack', 'VStack', 'ZStack', 'Grid']
     if type1 in container_types or type2 in container_types:
         return False
     
-    if role1 in ['Title', 'Description', 'Subtitle'] or type1 == 'Text':
+    # Title, Description, Subtitle role만 제외 (type 무관!)
+    if role1 in ['Title', 'Description', 'Subtitle']:
         return False
-    if role2 in ['Title', 'Description', 'Subtitle'] or type2 == 'Text':
-        return False
-    
-    if type1 == 'Frame' or type2 == 'Frame' or type1 == 'Image' or type2 == 'Image':
+    if role2 in ['Title', 'Description', 'Subtitle']:
         return False
     
+    # ※ Frame/Image도 role이 Marker면 검사 대상! (제외 로직 삭제)
+    
+    # Decoration/Marker끼리 겹치면 검사
     if role1 == 'Decoration' and role2 == 'Decoration':
         return True
     if (role1 == 'Decoration' and role2 == 'Marker') or (role1 == 'Marker' and role2 == 'Decoration'):

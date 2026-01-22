@@ -397,6 +397,7 @@ def convert_frame_image_to_marker(node: Dict) -> Dict:
     """
     Frame 타입이면 role을 Marker로 변경하고,
     Frame 안의 Image도 role을 Marker로 변경
+    단독 Image도 Marker로 변경
     """
     result = deepcopy(node)
     node_type = get_type(result)
@@ -410,6 +411,10 @@ def convert_frame_image_to_marker(node: Dict) -> Dict:
         for child in children:
             if get_type(child) == 'Image':
                 child['role'] = 'Role.Element.Marker'
+    
+    # 단독 Image도 Marker로 변경
+    if node_type == 'Image':
+        result['role'] = 'Role.Element.Marker'
     
     # 자식들 재귀 처리
     children = result.get('children', [])
