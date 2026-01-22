@@ -1,0 +1,559 @@
+{
+  "id": "hstack_bottom_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_competitive_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ae9cfd25-e909-45c9-93a0-fc9a32d6adf3",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 1.7053025658242404e-13,
+            "y": 0,
+            "width": 648,
+            "height": 322.05882352941126
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "0e0a7947-a603-4a73-bbf6-cbabd0761d08",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "40513bfa-3675-4825-832c-560b7af06ed7",
+          "position": {
+            "x": 63.160784438582255,
+            "y": 130.4117647058821,
+            "width": 124.0384933774829,
+            "height": 124.03849337748318
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "vstack_competitive_texts",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1efbb419-8ba2-4b08-9931-7f9aca4a2255",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Competitive Landscape",
+              "areaSize": 36288,
+              "fontSize": 40,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 648,
+                "height": 56
+              },
+              "fontFamily": "fumip0vtoasewz06",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            },
+            {
+              "id": "760f3aea-403e-4692-a790-605c6677b60d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Maintained competitive edge despite intensified competition",
+              "areaSize": 21857.0625,
+              "fontSize": 21.33,
+              "position": {
+                "x": 223.75525343861364,
+                "y": 111.80495342666177,
+                "width": 366,
+                "height": 59.71875
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 34,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "f11a97a2-165c-4ca5-95df-a8e88f1d1554",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Implemented pricing strategies to mitigate competitive pressures",
+              "areaSize": 23797.921875,
+              "fontSize": 21.33,
+              "position": {
+                "x": 224.36227839024787,
+                "y": 189.8242001154033,
+                "width": 398.5,
+                "height": 59.71875
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 38,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 18.747436279220324,
+            "width": 648,
+            "height": 249.5429501154033
+          },
+          "alignment": "leading",
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1efbb419-8ba2-4b08-9931-7f9aca4a2255"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "760f3aea-403e-4692-a790-605c6677b60d",
+                  "f11a97a2-165c-4ca5-95df-a8e88f1d1554"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 648.0000000000002,
+        "height": 322.05882352941126
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ae9cfd25-e909-45c9-93a0-fc9a32d6adf3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0e0a7947-a603-4a73-bbf6-cbabd0761d08"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_competitive_texts"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_customer_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "77997738-5028-4487-b461-414f752c7fbe",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 648,
+            "height": 322.05882352941126
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_customer_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "828611f0-0144-43c2-9de8-5403a092f237",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Customer Satisfaction",
+              "areaSize": 36288,
+              "fontSize": 40,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 648,
+                "height": 56
+              },
+              "fontFamily": "fumip0vtoasewz06",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            },
+            {
+              "id": "a04d131d-ac40-49bb-9387-b55284551d5d",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "90%",
+              "areaSize": 14839.171875,
+              "fontSize": 66.67,
+              "position": {
+                "x": 43.09777588388579,
+                "y": 105.42913268310713,
+                "width": 159,
+                "height": 93.328125
+              },
+              "fontFamily": "fumip0vtoasewz06",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            },
+            {
+              "id": "hstack_customer_faces",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "2b17c3af-b1f0-42f8-9563-e8e5ca2a4990",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "l5ho5p9r0SG9Y_9faleopluts00",
+                  "position": {
+                    "x": 0,
+                    "y": 0.7600194182502946,
+                    "width": 43.47996116349964,
+                    "height": 43.479961163499524
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "8a0a4d9a-f716-4e99-8e4b-9f43236275f6",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "l5ho5p9r0SG9Y_hze3j98snkw00",
+                  "position": {
+                    "x": 106.17353479763528,
+                    "y": 0,
+                    "width": 43,
+                    "height": 43
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "de21d688-7090-44e6-bf2e-03c6bfaad7d1",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "l5ho5p9r0SG9Y_93127d34kis00",
+                  "position": {
+                    "x": 201.6444486384055,
+                    "y": 1,
+                    "width": 43,
+                    "height": 43
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "03d9588e-a86b-4faf-a5f1-1d373bc88d76",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "l5ho5p9r0SG9Y_ky5lpnqr7wg00",
+                  "position": {
+                    "x": 299.0115849840647,
+                    "y": 1,
+                    "width": 43,
+                    "height": 43
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 231.29220708209982,
+                "y": 91.12314867940665,
+                "width": 342.0115849840647,
+                "height": 44.23998058174982
+              },
+              "alignment": "center",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "2b17c3af-b1f0-42f8-9563-e8e5ca2a4990",
+                      "8a0a4d9a-f716-4e99-8e4b-9f43236275f6",
+                      "de21d688-7090-44e6-bf2e-03c6bfaad7d1"
+                    ],
+                    [
+                      "03d9588e-a86b-4faf-a5f1-1d373bc88d76"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hstack_customer_ratings",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "bb4ea976-ad75-4bde-bf87-ca35818643e0",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 97.36713634565899,
+                    "height": 24.161630794701864
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "691bc992-b949-4904-973d-223ca55766ee",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 97.36713634565899,
+                    "y": 0,
+                    "width": 97.36713634565899,
+                    "height": 24.161630794701864
+                  },
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "377cfbbc-7abf-424e-a0e6-d4690ea150bd",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 192.83805018642943,
+                    "y": 0,
+                    "width": 97.36713634565899,
+                    "height": 24.161630794701864
+                  },
+                  "patternLabel": "C"
+                },
+                {
+                  "id": "05a19fd8-16b7-438f-b2de-a44a311d3f1b",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 290.2051865320884,
+                    "y": 0,
+                    "width": 97.36713634565899,
+                    "height": 24.161630794701864
+                  },
+                  "patternLabel": "D"
+                }
+              ],
+              "position": {
+                "x": 212.9150373612465,
+                "y": 155.01237978575625,
+                "width": 387.5723228777474,
+                "height": 24.161630794701864
+              },
+              "alignment": "center",
+              "patternLabel": "D",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "bb4ea976-ad75-4bde-bf87-ca35818643e0"
+                    ],
+                    [
+                      "691bc992-b949-4904-973d-223ca55766ee"
+                    ],
+                    [
+                      "377cfbbc-7abf-424e-a0e6-d4690ea150bd"
+                    ],
+                    [
+                      "05a19fd8-16b7-438f-b2de-a44a311d3f1b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "a26bdab0-0e52-4a60-8825-3d9474e0bc99",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Customer satisfaction rating in Q2 2024",
+              "areaSize": 19348.875,
+              "fontSize": 21.33,
+              "position": {
+                "x": 0,
+                "y": 235.4375093041449,
+                "width": 648,
+                "height": 29.859375
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "E",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 31,
+                "maxCharsPerLine": 31
+              }
+            },
+            {
+              "id": "5152a2b4-4a15-48d2-8f0e-c4a3d504b5e7",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "9255b6c6-709f-4219-97e7-732183c2498e",
+              "position": {
+                "x": 509.05740855439717,
+                "y": 145.98428611826773,
+                "width": 38.21781812967856,
+                "height": 38.2178181296789
+              },
+              "patternLabel": "F"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 18.747436279220324,
+            "width": 648,
+            "height": 265.2968843041449
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "828611f0-0144-43c2-9de8-5403a092f237"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a04d131d-ac40-49bb-9387-b55284551d5d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_customer_faces"
+                ],
+                [
+                  "hstack_customer_ratings"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a26bdab0-0e52-4a60-8825-3d9474e0bc99"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "5152a2b4-4a15-48d2-8f0e-c4a3d504b5e7"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 738.5647735775619,
+        "y": 0,
+        "width": 648,
+        "height": 322.05882352941126
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "77997738-5028-4487-b461-414f752c7fbe"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_customer_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 464.53191700872463,
+    "y": 547.7347682119189,
+    "width": 1386.564773577562,
+    "height": 322.05882352941126
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_competitive_card"
+        ],
+        [
+          "group_customer_card"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,780 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_column_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_card_top_1",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "8c424d1c-512a-464b-a6bd-c23c5940257b",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777775,
+                "height": 258.9293369483348
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card_top_1_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "b36ade5c-b378-4f78-8263-bf5c26bdd062",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Point 01",
+                  "areaSize": 23611.5825,
+                  "fontSize": 36,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 468.6,
+                    "height": 50.387499999999996
+                  },
+                  "fontFamily": "f9o2eo5ae8e6rv75",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 21
+                  }
+                },
+                {
+                  "id": "60de2907-8314-4ac2-9f57-1592a9fcefaa",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu. Lorem ipsum dolor sit amet, consectetur.",
+                  "areaSize": 62968.125,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 56.99900954385339,
+                    "width": 468.6,
+                    "height": 134.375
+                  },
+                  "fontFamily": "fi4nevia4wmrekqz",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 87,
+                    "maxCharsPerLine": 29
+                  }
+                }
+              ],
+              "position": {
+                "x": 37.11111111111103,
+                "y": 27.52221068210656,
+                "width": 468.59999999999997,
+                "height": 191.3740095438534
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b36ade5c-b378-4f78-8263-bf5c26bdd062"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "60de2907-8314-4ac2-9f57-1592a9fcefaa"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 542.7777777777775,
+            "height": 258.9293369483348
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "8c424d1c-512a-464b-a6bd-c23c5940257b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card_top_1_content"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1587bf37-fec5-4f05-b5f7-894c3bde4d60",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "0bcb3335-6eae-4dd1-8b33-356eae1dd1ac",
+          "position": {
+            "x": 231.23638767059322,
+            "y": 235.24491269415,
+            "width": 80.30500243659083,
+            "height": 80.30500243659083
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_card_bottom_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "222e0859-febc-4c34-9879-3cb67963e2ee",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777775,
+                "height": 206.56240743271405
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "334be065-3024-45fe-94c5-8b0b9d0a8ec1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu.",
+              "areaSize": 47226.09375,
+              "fontSize": 24,
+              "position": {
+                "x": 37.111111111110986,
+                "y": 62.17785543156765,
+                "width": 468.6,
+                "height": 100.78125
+              },
+              "fontFamily": "fi4nevia4wmrekqz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 58,
+                "maxCharsPerLine": 29
+              }
+            }
+          ],
+          "position": {
+            "x": 4.263256414560601e-14,
+            "y": 275.39741391244536,
+            "width": 542.7777777777775,
+            "height": 206.56240743271405
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "222e0859-febc-4c34-9879-3cb67963e2ee"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "334be065-3024-45fe-94c5-8b0b9d0a8ec1"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 542.7777777777775,
+        "height": 481.9598213451594
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_top_1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1587bf37-fec5-4f05-b5f7-894c3bde4d60"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_bottom_1"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_column_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_card_top_2",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "144eac20-b68e-420d-b5c5-ba67570f8dd8",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777775,
+                "height": 258.9293369483348
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card_top_2_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "0475d655-d033-4cf6-bd9a-4f9d9a551b42",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Point 02",
+                  "areaSize": 23611.5825,
+                  "fontSize": 36,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 0,
+                    "width": 468.6,
+                    "height": 50.387499999999996
+                  },
+                  "fontFamily": "f9o2eo5ae8e6rv75",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 21
+                  }
+                },
+                {
+                  "id": "e666ccbb-001e-4d99-b1b9-68d9c11c8024",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu. Lorem ipsum dolor sit amet, consectetur.",
+                  "areaSize": 62968.125,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 56.999009543853276,
+                    "width": 468.6,
+                    "height": 134.375
+                  },
+                  "fontFamily": "fi4nevia4wmrekqz",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 87,
+                    "maxCharsPerLine": 29
+                  }
+                }
+              ],
+              "position": {
+                "x": 37.11111111111097,
+                "y": 27.52221068210656,
+                "width": 468.60000000000036,
+                "height": 191.37400954385328
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "0475d655-d033-4cf6-bd9a-4f9d9a551b42"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e666ccbb-001e-4d99-b1b9-68d9c11c8024"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 542.7777777777775,
+            "height": 258.9293369483348
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "144eac20-b68e-420d-b5c5-ba67570f8dd8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card_top_2_content"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "31737b7d-d0d7-4152-a0a2-69531f83c80c",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "0bcb3335-6eae-4dd1-8b33-356eae1dd1ac",
+          "position": {
+            "x": 231.23638767059344,
+            "y": 235.2449126941499,
+            "width": 80.30500243659083,
+            "height": 80.30500243659083
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_card_bottom_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "1c060560-6102-4036-82f8-03aef878fd10",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777775,
+                "height": 206.56240743271405
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "aeee6742-d9d2-439c-91bf-b1eb2c252afa",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu. ",
+              "areaSize": 47226.09375,
+              "fontSize": 24,
+              "position": {
+                "x": 37.11111111111097,
+                "y": 62.17785543156765,
+                "width": 468.6,
+                "height": 100.78125
+              },
+              "fontFamily": "fi4nevia4wmrekqz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 58,
+                "maxCharsPerLine": 29
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 275.39741391244536,
+            "width": 542.7777777777775,
+            "height": 206.56240743271405
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1c060560-6102-4036-82f8-03aef878fd10"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "aeee6742-d9d2-439c-91bf-b1eb2c252afa"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 571.802124455858,
+        "y": 0,
+        "width": 542.7777777777775,
+        "height": 481.9598213451594
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_top_2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "31737b7d-d0d7-4152-a0a2-69531f83c80c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_bottom_2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_column_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_card_top_3",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "7f451dd6-0ab1-41b6-9753-df75500dba27",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777776,
+                "height": 258.9293369483348
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card_top_3_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "6f212fdb-7054-48ec-99b6-4fa083aeecbd",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Point 03",
+                  "areaSize": 23611.5825,
+                  "fontSize": 36,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 468.6,
+                    "height": 50.387499999999996
+                  },
+                  "fontFamily": "f9o2eo5ae8e6rv75",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 21
+                  }
+                },
+                {
+                  "id": "cbb25ed1-f475-4ab2-b59a-cef9e57c061c",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu. Lorem ipsum dolor sit amet, consectetur.",
+                  "areaSize": 62968.125,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 56.999009543853276,
+                    "width": 468.6,
+                    "height": 134.375
+                  },
+                  "fontFamily": "fi4nevia4wmrekqz",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 87,
+                    "maxCharsPerLine": 29
+                  }
+                }
+              ],
+              "position": {
+                "x": 37.11111111111086,
+                "y": 27.52221068210656,
+                "width": 468.60000000000014,
+                "height": 191.37400954385328
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "6f212fdb-7054-48ec-99b6-4fa083aeecbd"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "cbb25ed1-f475-4ab2-b59a-cef9e57c061c"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 542.7777777777776,
+            "height": 258.9293369483348
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "7f451dd6-0ab1-41b6-9753-df75500dba27"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card_top_3_content"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "63463fe1-1a6a-4e93-a63b-7500c069fccb",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "0bcb3335-6eae-4dd1-8b33-356eae1dd1ac",
+          "position": {
+            "x": 231.23638767059333,
+            "y": 235.24491269414978,
+            "width": 80.30500243659094,
+            "height": 80.30500243659094
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_card_bottom_3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "9d36b3d2-a0b6-4d28-be35-4ee9f1769a02",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 542.7777777777776,
+                "height": 206.56240743271405
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "b7d7979f-5672-4029-84a5-993db4f56702",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Please write a description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque erat tellu.",
+              "areaSize": 47226.09375,
+              "fontSize": 24,
+              "position": {
+                "x": 37.11111111111086,
+                "y": 62.17785543156765,
+                "width": 468.6,
+                "height": 100.78125
+              },
+              "fontFamily": "fi4nevia4wmrekqz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 58,
+                "maxCharsPerLine": 29
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 275.39741391244536,
+            "width": 542.7777777777776,
+            "height": 206.56240743271405
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9d36b3d2-a0b6-4d28-be35-4ee9f1769a02"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b7d7979f-5672-4029-84a5-993db4f56702"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1143.604248911716,
+        "y": 0,
+        "width": 542.7777777777776,
+        "height": 481.9598213451594
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_top_3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "63463fe1-1a6a-4e93-a63b-7500c069fccb"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_bottom_3"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 285.34895463774285,
+    "width": 1686.3820266894936,
+    "height": 481.9598213451594
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_column_1",
+          "group_card_column_2",
+          "group_card_column_3"
+        ]
+      ]
+    }
+  ]
+}

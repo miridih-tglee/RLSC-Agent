@@ -79,6 +79,7 @@ python structure_redesigner.py --image data/objects.png --skip-enrich
 
 **이미지 + flat 요소 목록**을 LLM에게 전달하여 새 구조 설계
 
+- `prompts/structure_design.yaml` 프롬프트 사용
 - `prompts/role_validation.yaml`의 Role 정의 참조
 - 시각적 의미에 따라 그룹화
 - Separator(+, - 등)는 별도 분리
@@ -140,18 +141,15 @@ Depth 3: [...]            → 병렬 처리 (동시에)
 ```
 tg/
 ├── structure_redesigner.py   # 메인 파이프라인 (Flatten→Design→Rebuild→Enrich)
-├── llm_only_system.py        # 레거시 시스템 (raw_data 패칭 방식)
 ├── prompt_loader.py          # YAML 프롬프트 로더
 ├── json_utils.py             # JSON 유틸리티
 │
 ├── prompts/                  # 프롬프트 정의 (YAML)
-│   ├── role_validation.yaml  # Role 정의 + 구조 설계 규칙 (Step 2)
-│   ├── resizing.yaml         # Resizing Agent 프롬프트 (Step 4)
-│   ├── layout.yaml           # Layout Agent 프롬프트 (Step 4)
-│   └── alignment.yaml        # Alignment Agent 프롬프트 (Step 4)
-│
-├── docs/                     # 문서
-│   └── ROLE_VALIDATION_AGENT.md  # Role Validator 상세 문서
+│   ├── structure_design.yaml # Step 2: 구조 설계 프롬프트
+│   ├── role_validation.yaml  # Role 정의
+│   ├── resizing.yaml         # Step 4: Resizing Agent
+│   ├── layout.yaml           # Step 4: Layout Agent
+│   └── alignment.yaml        # Step 4: Alignment Agent
 │
 ├── data/                     # 데이터
 │   ├── raw_data.json         # 입력 데이터
@@ -165,30 +163,20 @@ tg/
 
 ## 프롬프트 관리
 
-각 Agent의 프롬프트는 **YAML 파일**로 관리됩니다.
+모든 프롬프트는 **YAML 파일**로 관리됩니다.
 
 ### YAML 구조
 
 ```yaml
-# prompts/resizing.yaml 예시
+# 예시: prompts/resizing.yaml
 system_role: |
   당신은 레이아웃 시스템 전문가입니다.
-  
-  ⭐ 멀티모달 분석:
-  이미지가 제공되면, 이미지를 보고 해당 요소의 실제 크기 조절 방식을 판단하세요.
-
-task_description: |
-  다음 노드에 적절한 resizing 규칙을 결정하세요.
+  ⭐ 멀티모달 분석: 이미지를 보고 판단하세요.
 
 prompt_template: |
   ## Resizing 결정
   {node_info}
   {output_format}
-
-output_format: |
-  ```json
-  {"resizing": "fill * hug", "reason": "이유"}
-  ```
 
 llm_config:
   model: "gpt-4o"
@@ -196,14 +184,25 @@ llm_config:
   max_tokens: 200
 ```
 
+### 프롬프트 파일별 용도
+
+| 파일 | Step | 용도 |
+|------|------|------|
+| `structure_design.yaml` | Step 2 | 구조 설계 (system_role, design_rules, output_format) |
+| `role_validation.yaml` | Step 2 | Role 정의 (LayoutContainer, Element Roles) |
+| `resizing.yaml` | Step 4 | Resizing 결정 |
+| `layout.yaml` | Step 4 | Layout 결정 (direction, gap, padding) |
+| `alignment.yaml` | Step 4 | Alignment 결정 |
+
 ### 프롬프트 수정
 
 코드 수정 없이 YAML 파일만 편집:
 
 ```bash
-vi prompts/resizing.yaml   # Resizing 프롬프트 수정
-vi prompts/layout.yaml     # Layout 프롬프트 수정
-vi prompts/alignment.yaml  # Alignment 프롬프트 수정
+vi prompts/structure_design.yaml  # 구조 설계 프롬프트
+vi prompts/resizing.yaml          # Resizing 프롬프트
+vi prompts/layout.yaml            # Layout 프롬프트
+vi prompts/alignment.yaml         # Alignment 프롬프트
 ```
 
 ---
@@ -238,9 +237,3 @@ vi prompts/alignment.yaml  # Alignment 프롬프트 수정
 | `VStack` | 세로 배열 |
 | `Group` | 비정형 그룹 (겹치는 요소들) |
 | `Grid` | 격자 배열 |
-
----
-
-## 참고 문서
-
-- [Role Validation Agent 상세](docs/ROLE_VALIDATION_AGENT.md)

@@ -1,0 +1,113 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "ZStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 9,
+                  "maxCharsPerLine": 9
+                }
+              }
+            ]
+          },
+          {
+            "role": null,
+            "type": "Frame",
+            "children": [
+              {
+                "role": null,
+                "type": "Image"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "ZStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 9,
+                  "maxCharsPerLine": 9
+                }
+              }
+            ]
+          },
+          {
+            "role": null,
+            "type": "Frame",
+            "children": [
+              {
+                "role": null,
+                "type": "Image"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "ZStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 9,
+                  "maxCharsPerLine": 9
+                }
+              }
+            ]
+          },
+          {
+            "role": null,
+            "type": "Frame",
+            "children": [
+              {
+                "role": null,
+                "type": "Image"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

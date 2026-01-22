@@ -1,0 +1,167 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 17,
+                  "maxCharsPerLine": 17
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 18,
+                  "maxCharsPerLine": 18
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 128,
+                  "maxCharsPerLine": 32
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 17,
+                  "maxCharsPerLine": 17
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 18,
+                  "maxCharsPerLine": 18
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 128,
+                  "maxCharsPerLine": 32
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 17,
+                  "maxCharsPerLine": 17
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 18,
+                  "maxCharsPerLine": 18
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 128,
+                  "maxCharsPerLine": 32
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

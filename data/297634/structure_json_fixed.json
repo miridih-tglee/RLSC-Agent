@@ -1,0 +1,264 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "zstack_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "70f002c0-3b18-4c1c-bf83-b6b7de26e4ce",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 463.6243536949702,
+            "height": 133.49281132405395
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "4118ecdb-4568-4ee3-a84f-96f21bec9a34",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Early-phase tasks completed successfully, establishing a strong foundation",
+          "areaSize": 39956.7515625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 22.02,
+            "y": 19.25,
+            "width": 419.7,
+            "height": 95.203125
+          },
+          "fontFamily": "f93460203tsb1mag",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 93,
+            "maxCharsPerLine": 31
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 463.6243536949702,
+        "height": 133.49281132405395
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "70f002c0-3b18-4c1c-bf83-b6b7de26e4ce"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "4118ecdb-4568-4ee3-a84f-96f21bec9a34"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "934458e5-d170-49db-aff4-271b873971ab",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 463.6243536949703,
+            "height": 133.49281132405395
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "c84a3f48-f2f2-45c7-8b9c-ddeab24ab57c",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Current activities progressing as planned, with quality and efficiency \nas priorities",
+          "areaSize": 39956.7515625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 24.3,
+            "y": 19.25,
+            "width": 419.7,
+            "height": 95.203125
+          },
+          "fontFamily": "f93460203tsb1mag",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 93,
+            "maxCharsPerLine": 31
+          }
+        }
+      ],
+      "position": {
+        "x": 492.39,
+        "y": 0.0,
+        "width": 463.6243536949703,
+        "height": 133.49281132405395
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "934458e5-d170-49db-aff4-271b873971ab"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c84a3f48-f2f2-45c7-8b9c-ddeab24ab57c"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "2fb50b69-373b-49e3-88ee-6d236a32a016",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 463.62435369497007,
+            "height": 133.49281132405395
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "11e9419b-3cfa-4f23-a800-03359da1398f",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Upcoming tasks scheduled for timely execution, keeping the project on track",
+          "areaSize": 33711.426562500004,
+          "fontSize": 22.667,
+          "position": {
+            "x": 54.82,
+            "y": 19.25,
+            "width": 354.1,
+            "height": 95.203125
+          },
+          "fontFamily": "f93460203tsb1mag",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 78,
+            "maxCharsPerLine": 26
+          }
+        }
+      ],
+      "position": {
+        "x": 984.77,
+        "y": 0.0,
+        "width": 463.62435369497007,
+        "height": 133.49281132405395
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2fb50b69-373b-49e3-88ee-6d236a32a016"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "11e9419b-3cfa-4f23-a800-03359da1398f"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "position": {
+    "x": 156.12,
+    "y": 770.51,
+    "width": 1448.395371475278,
+    "height": 133.49281132405395
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card_1"
+        ],
+        [
+          "zstack_card_2"
+        ],
+        [
+          "zstack_card_3"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 28.76
+}

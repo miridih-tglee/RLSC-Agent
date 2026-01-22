@@ -1,0 +1,516 @@
+{
+  "id": "grid_keyword_cards",
+  "gap": 16,
+  "type": "HStack",
+  "children": [
+    {
+      "id": "zstack_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "7988b3a2-745b-4142-b863-55ae1bd8c376",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k41dgvxirid5y3vn",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 383.709858749717,
+            "height": 419.10767017092985
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "a8be2cce-3ffd-4d23-a9fe-e235a88005e4",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "k9lwoja2j7g0s365",
+          "position": {
+            "x": 135.7972659783012,
+            "y": 16.307765132060467,
+            "width": 112.11532679311466,
+            "height": 112.11532679311722
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "b2e25ff5-bd4d-48ca-9d10-505fe75377be",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "KeywordA",
+          "areaSize": 4505.926815,
+          "fontSize": 21.333,
+          "position": {
+            "x": 116.40492937485845,
+            "y": 136.66405600898128,
+            "width": 150.9,
+            "height": 29.860349999999997
+          },
+          "fontFamily": "f7k2jcadfekyi0sq",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 8,
+            "maxCharsPerLine": 8
+          }
+        },
+        {
+          "id": "1505663f-6190-431b-a233-bc212530818e",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "This is where you enter the\nkeywords here.\nThe font used is KoPubWorld\nSerif_Pro Medium",
+          "areaSize": 45057.15182,
+          "fontSize": 23.999,
+          "position": {
+            "x": 32.754929374858506,
+            "y": 234.84363529632162,
+            "width": 318.2,
+            "height": 141.6001
+          },
+          "fontFamily": "fymbim4h1slen2n3",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 45,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 383.709858749717,
+        "height": 419.10767017092985
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "7988b3a2-745b-4142-b863-55ae1bd8c376"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a8be2cce-3ffd-4d23-a9fe-e235a88005e4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "b2e25ff5-bd4d-48ca-9d10-505fe75377be"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "1505663f-6190-431b-a233-bc212530818e"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zstack_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "368761ed-7ff1-488b-a68b-27019c35078a",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k41dgvxirid5y3vn",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 383.709858749717,
+            "height": 419.10767017092985
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "8da5cce1-c2b8-476a-b61d-0a198238bd93",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "k3nyl4p0i3nrmlt3",
+          "position": {
+            "x": 134.6222700837401,
+            "y": 14.850238374304809,
+            "width": 114.46531858223693,
+            "height": 114.4653185822412
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "85df150c-297c-47ed-96dd-feb4061228d6",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "KeywordB",
+          "areaSize": 5115.077955,
+          "fontSize": 21.333,
+          "position": {
+            "x": 106.20492937485858,
+            "y": 136.6640560089814,
+            "width": 171.3,
+            "height": 29.860349999999997
+          },
+          "fontFamily": "f7k2jcadfekyi0sq",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 9,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "55aad2e3-bcd0-4fba-8145-cd2d1448ccbc",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "This is where you enter the\nkeywords here.\nThe font used is KoPubWorld\nSerif_Pro Medium",
+          "areaSize": 45057.15182,
+          "fontSize": 23.999,
+          "position": {
+            "x": 32.754929374858534,
+            "y": 234.84363529632162,
+            "width": 318.2,
+            "height": 141.6001
+          },
+          "fontFamily": "fymbim4h1slen2n3",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 45,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 412.8850574712643,
+        "y": 0,
+        "width": 383.709858749717,
+        "height": 419.10767017092985
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "368761ed-7ff1-488b-a68b-27019c35078a"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "8da5cce1-c2b8-476a-b61d-0a198238bd93"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "85df150c-297c-47ed-96dd-feb4061228d6"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "55aad2e3-bcd0-4fba-8145-cd2d1448ccbc"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zstack_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "6572efa1-0391-4536-8b7b-ce2120c8cb76",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k41dgvxirid5y3vn",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 383.7098587497168,
+            "height": 419.10767017092985
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "2c01ccbe-9e81-4976-acb2-c3ab20c4a0df",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kqov3k7azhdsttvt",
+          "position": {
+            "x": 129.67446910011756,
+            "y": 14.859554217920106,
+            "width": 124.36092054948199,
+            "height": 124.36092054948637
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "f5b7ece4-cc0b-4a61-b2b7-a015d659ef73",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "KeywordC",
+          "areaSize": 4992.650519999999,
+          "fontSize": 21.333,
+          "position": {
+            "x": 108.25492937485853,
+            "y": 136.12305877551108,
+            "width": 167.2,
+            "height": 29.860349999999997
+          },
+          "fontFamily": "f7k2jcadfekyi0sq",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 8,
+            "maxCharsPerLine": 8
+          }
+        },
+        {
+          "id": "ebec1b8e-9458-4927-8183-0153bab1b816",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "This is where you enter the\nkeywords here.\nThe font used is KoPubWorld\nSerif_Pro Medium",
+          "areaSize": 45057.15182,
+          "fontSize": 23.999,
+          "position": {
+            "x": 32.75492937485842,
+            "y": 234.84363529632162,
+            "width": 318.2,
+            "height": 141.6001
+          },
+          "fontFamily": "fymbim4h1slen2n3",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 45,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 825.7701149425288,
+        "y": 0,
+        "width": 383.7098587497168,
+        "height": 419.10767017092985
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "6572efa1-0391-4536-8b7b-ce2120c8cb76"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2c01ccbe-9e81-4976-acb2-c3ab20c4a0df"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "f5b7ece4-cc0b-4a61-b2b7-a015d659ef73"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "ebec1b8e-9458-4927-8183-0153bab1b816"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zstack_card_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "aa6839c4-4569-4ef7-a6ae-9d8a151cbdf9",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k41dgvxirid5y3vn",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 383.7098587497171,
+            "height": 419.10767017092985
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "a274ed68-fc02-4d41-9777-e23edc41445e",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kem8p2u2nqeiygez",
+          "position": {
+            "x": 134.7060479828133,
+            "y": 17.15495844973009,
+            "width": 114.29776278409054,
+            "height": 114.2977627840919
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "311540a5-7e3f-492b-923b-ec682fb3ffdb",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "KeywordD",
+          "areaSize": 4992.650519999999,
+          "fontSize": 21.333,
+          "position": {
+            "x": 108.25646689771406,
+            "y": 136.12321711450346,
+            "width": 167.2,
+            "height": 29.860349999999997
+          },
+          "fontFamily": "f7k2jcadfekyi0sq",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 8,
+            "maxCharsPerLine": 8
+          }
+        },
+        {
+          "id": "35a149d9-617d-4f06-ac45-75c51e6a9336",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "This is where you enter the\nkeywords here.\nThe font used is KoPubWorld\nSerif_Pro Medium",
+          "areaSize": 45057.15182,
+          "fontSize": 23.999,
+          "position": {
+            "x": 32.754929374858875,
+            "y": 234.84363529632162,
+            "width": 318.2,
+            "height": 141.6001
+          },
+          "fontFamily": "fymbim4h1slen2n3",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 45,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 1238.655172413793,
+        "y": 0,
+        "width": 383.7098587497171,
+        "height": 419.10767017092985
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "aa6839c4-4569-4ef7-a6ae-9d8a151cbdf9"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a274ed68-fc02-4d41-9777-e23edc41445e"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "311540a5-7e3f-492b-923b-ec682fb3ffdb"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "35a149d9-617d-4f06-ac45-75c51e6a9336"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 228.72657532733575,
+    "y": 405.1507056127693,
+    "width": 1622.3650311635101,
+    "height": 419.10767017092985
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card_1",
+          "zstack_card_2",
+          "zstack_card_3",
+          "zstack_card_4"
+        ]
+      ]
+    }
+  ]
+}

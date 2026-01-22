@@ -1,0 +1,241 @@
+{
+  "id": "group_info_block",
+  "role": "Role.LayoutContainer.Description",
+  "type": "Group",
+  "children": [
+    {
+      "id": "6a8e1474-a4eb-4b33-84d7-5d394bc77a76",
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "svgData": "",
+      "position": {
+        "x": 288.5955045560749,
+        "y": 0.2827418950204219,
+        "width": 3.75,
+        "height": 205.55722013406137
+      }
+    },
+    {
+      "id": "hstack_info_columns",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_info_left_col",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "hstack_info_row_1_left",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "c60ffef2-4cfa-4f3a-b10b-2f5c721304f7",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "90419de4-4627-4231-a2ea-4ad161fb6eb1",
+                  "position": {
+                    "x": 0,
+                    "y": 3.5551437255512894,
+                    "width": 50.98952741376252,
+                    "height": 50.98952741376232
+                  }
+                },
+                {
+                  "id": "4c3aaa2e-a2c4-492d-8457-690b546e2d8a",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "접종 시기",
+                  "areaSize": 11628.46875,
+                  "fontSize": 38.999,
+                  "position": {
+                    "x": 58.848207258778075,
+                    "y": 0,
+                    "width": 213,
+                    "height": 54.59375
+                  },
+                  "fontFamily": "fg7drwvly17fggt1",
+                  "fontWeight": "400"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 271.8482072587781,
+                "height": 54.59375
+              },
+              "alignment": "center"
+            },
+            {
+              "id": "hstack_info_row_2_left",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "81102ec2-7200-457e-a166-eef67edbf7cd",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "90419de4-4627-4231-a2ea-4ad161fb6eb1",
+                  "position": {
+                    "x": 0,
+                    "y": 0.10758825516995785,
+                    "width": 50.98952741376252,
+                    "height": 50.98952741376229
+                  }
+                },
+                {
+                  "id": "69b7f825-8acf-42fa-ab78-98ac3af2829e",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "접종 횟수",
+                  "areaSize": 10967.884375,
+                  "fontSize": 38.999,
+                  "position": {
+                    "x": 58.848207258778075,
+                    "y": 0,
+                    "width": 200.9,
+                    "height": 54.59375
+                  },
+                  "fontFamily": "fg7drwvly17fggt1",
+                  "fontWeight": "400"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 77.459,
+                "width": 259.74820725877805,
+                "height": 54.59375
+              },
+              "alignment": "center"
+            },
+            {
+              "id": "hstack_info_row_3_left",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "3dc155a6-9bbb-4bab-a295-a4e9ac97ce4b",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "90419de4-4627-4231-a2ea-4ad161fb6eb1",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 50.98952741376252,
+                    "height": 50.98952741376229
+                  }
+                },
+                {
+                  "id": "0b0500f1-3c13-4cca-8218-dff8cfe8c0f6",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "예방 질병",
+                  "areaSize": 10967.884375,
+                  "fontSize": 38.999,
+                  "position": {
+                    "x": 58.84820725877813,
+                    "y": 1.5794222972972989,
+                    "width": 200.9,
+                    "height": 54.59375
+                  },
+                  "fontFamily": "fg7drwvly17fggt1",
+                  "fontWeight": "400"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 153.8585777027027,
+                "width": 259.74820725877817,
+                "height": 56.1731722972973
+              },
+              "alignment": "center"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 271.8482072587781,
+            "height": 210.03175
+          },
+          "alignment": "leading"
+        },
+        {
+          "id": "vstack_info_right_col",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "7b9ac643-a883-443e-b10a-4593cd216d0a",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "생후 1개월 이내",
+              "areaSize": 37183.2421875,
+              "fontSize": 35.999,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 737.9,
+                "height": 50.390625
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400"
+            },
+            {
+              "id": "d1e413ed-9c79-4e2e-9ef0-17f550391544",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1회",
+              "areaSize": 37183.2421875,
+              "fontSize": 35.999,
+              "position": {
+                "x": 0,
+                "y": 76.45900000000006,
+                "width": 737.9,
+                "height": 50.390625
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400"
+            },
+            {
+              "id": "e7019d43-ea22-4e35-8103-d793c721458c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "결핵 [증상 - 기침, 가래, 합병증 뇌막염]",
+              "areaSize": 37183.2421875,
+              "fontSize": 35.999,
+              "position": {
+                "x": 0,
+                "y": 152.438,
+                "width": 737.9,
+                "height": 50.390625
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400"
+            }
+          ],
+          "position": {
+            "x": 344.4975315831017,
+            "y": 0.6691300675675507,
+            "width": 737.9000000000001,
+            "height": 202.828625
+          },
+          "alignment": "leading"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1082.3975315831017,
+        "height": 210.03175
+      },
+      "alignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1082.3975315831017,
+    "height": 210.03175
+  }
+}

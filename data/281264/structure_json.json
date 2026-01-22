@@ -1,0 +1,590 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_card_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "zstack_icon_left",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "children": [
+            {
+              "id": "ba3f85ab-c205-43b6-915c-291d3907dd48",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 560.0000000000005,
+                "height": 632.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "305e6b15-a1b9-4c46-8bd6-2ff8d08cac4a",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kco23o5db5gwkzi8",
+              "position": {
+                "x": 205.01853130455868,
+                "y": 73.65279695683745,
+                "width": 149.96293739088333,
+                "height": 149.96293739088355
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "92ecda58-6442-46e4-a740-d41766d50b43",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 195.75000000000034,
+                "y": 64.38426565227934,
+                "width": 168.5,
+                "height": 168.49999999999977
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560.0000000000005,
+            "height": 632.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ba3f85ab-c205-43b6-915c-291d3907dd48"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "305e6b15-a1b9-4c46-8bd6-2ff8d08cac4a"
+                ],
+                [
+                  "92ecda58-6442-46e4-a740-d41766d50b43"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6839889a-ffa3-4518-8fc0-d05fb65e6618",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Subtitle 01",
+          "areaSize": 12686.475,
+          "fontSize": 32,
+          "position": {
+            "x": 138.40000000000035,
+            "y": 276.00000000000017,
+            "width": 283.2,
+            "height": 44.796875
+          },
+          "fontFamily": "fkshfej4c2dggtqq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 19,
+            "maxCharsPerLine": 19
+          }
+        },
+        {
+          "id": "b1163bf1-6d60-44d8-bea0-06aba9e1e288",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.350000000000335,
+            "y": 332.8000000000001,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        },
+        {
+          "id": "f3196233-4591-4115-b11d-deb8e47c75f4",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.350000000000335,
+            "y": 473.8000000000001,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 560.0000000000005,
+        "height": 632.0000000000002
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "patterns": [
+            [
+              "zstack_icon_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "6839889a-ffa3-4518-8fc0-d05fb65e6618"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "b1163bf1-6d60-44d8-bea0-06aba9e1e288",
+              "f3196233-4591-4115-b11d-deb8e47c75f4"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_card_center",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "zstack_icon_center",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "children": [
+            {
+              "id": "3eab8968-134b-4e6a-a238-e9b0972b3894",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 560.0000000000005,
+                "height": 632.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "dd0dcd27-fa18-4d96-a60e-56cb7551828e",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kkgjxqd8lh9546cf",
+              "position": {
+                "x": 203.00000000000023,
+                "y": 71.63426565227917,
+                "width": 154,
+                "height": 154
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "4e5741ed-dbf3-4c75-bfdb-1cf0b16720a4",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 195.75000000000045,
+                "y": 64.38426565227928,
+                "width": 168.5,
+                "height": 168.49999999999977
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560.0000000000005,
+            "height": 632.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "3eab8968-134b-4e6a-a238-e9b0972b3894"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "dd0dcd27-fa18-4d96-a60e-56cb7551828e"
+                ],
+                [
+                  "4e5741ed-dbf3-4c75-bfdb-1cf0b16720a4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9f0bb9e7-e5b8-4873-a7d6-6a44e5e9515a",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Subtitle 02",
+          "areaSize": 12686.475,
+          "fontSize": 32,
+          "position": {
+            "x": 138.4000000000002,
+            "y": 275.00000000000034,
+            "width": 283.2,
+            "height": 44.796875
+          },
+          "fontFamily": "fkshfej4c2dggtqq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 19,
+            "maxCharsPerLine": 19
+          }
+        },
+        {
+          "id": "2e5126c2-fdef-4312-b9f0-263cbe6208ee",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.35000000000025,
+            "y": 331.8000000000003,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        },
+        {
+          "id": "9fffe7f5-631c-4a20-91ff-94d0c4c9e3a6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.350000000000136,
+            "y": 472.8000000000003,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        }
+      ],
+      "position": {
+        "x": 576.9629373908834,
+        "y": 5.684341886080802e-14,
+        "width": 560.0000000000005,
+        "height": 632.0000000000002
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "patterns": [
+            [
+              "zstack_icon_center"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "9f0bb9e7-e5b8-4873-a7d6-6a44e5e9515a"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "2e5126c2-fdef-4312-b9f0-263cbe6208ee",
+              "9fffe7f5-631c-4a20-91ff-94d0c4c9e3a6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_card_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "zstack_icon_right",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "children": [
+            {
+              "id": "ba64dcd2-fdfd-4a02-913e-5839a0aa8d82",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 560.0000000000005,
+                "height": 632.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "7a96d509-424d-4b85-99c2-cedf7bfa21e4",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kfri64e3itgqal52",
+              "position": {
+                "x": 207.2411283650854,
+                "y": 73.87539401736427,
+                "width": 149.51774326982968,
+                "height": 149.51774326982968
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "fc7d3982-91ec-45af-b930-d35307ea6119",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 195.75000000000023,
+                "y": 64.38426565227923,
+                "width": 168.5,
+                "height": 168.49999999999977
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560.0000000000005,
+            "height": 632.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ba64dcd2-fdfd-4a02-913e-5839a0aa8d82"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "7a96d509-424d-4b85-99c2-cedf7bfa21e4"
+                ],
+                [
+                  "fc7d3982-91ec-45af-b930-d35307ea6119"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "21951719-3ade-4358-b692-9115f2f594f6",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Subtitle 03",
+          "areaSize": 12686.475,
+          "fontSize": 32,
+          "position": {
+            "x": 138.4000000000001,
+            "y": 275.0000000000003,
+            "width": 283.2,
+            "height": 44.796875
+          },
+          "fontFamily": "fkshfej4c2dggtqq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 19,
+            "maxCharsPerLine": 19
+          }
+        },
+        {
+          "id": "77a5e7fe-b5fd-41c0-94fe-f7f5ae2e72b9",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.350000000000364,
+            "y": 331.80000000000024,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        },
+        {
+          "id": "89b25fa9-b67f-40fa-8fae-a1169cbb82b1",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Adipiscing elit. Placerat bibendum put massa bibendum leo felis scelerisque phase allus un pretium himenaeos ki ri cia hil yammet",
+          "areaSize": 43536.3890625,
+          "fontSize": 22.667,
+          "position": {
+            "x": 51.350000000000136,
+            "y": 472.80000000000024,
+            "width": 457.3,
+            "height": 95.203125
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 135,
+            "maxCharsPerLine": 45
+          }
+        }
+      ],
+      "position": {
+        "x": 1153.925874781767,
+        "y": 1.1368683772161603e-13,
+        "width": 560.0000000000005,
+        "height": 632.0000000000002
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "ZStack",
+          "patterns": [
+            [
+              "zstack_icon_right"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "21951719-3ade-4358-b692-9115f2f594f6"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "77a5e7fe-b5fd-41c0-94fe-f7f5ae2e72b9",
+              "89b25fa9-b67f-40fa-8fae-a1169cbb82b1"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 52.81931933928627,
+    "y": 260.1501133711052,
+    "width": 1713.9258747817676,
+    "height": 632.0000000000005
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_card_left",
+          "vstack_card_right"
+        ],
+        [
+          "vstack_card_center"
+        ]
+      ]
+    }
+  ]
+}

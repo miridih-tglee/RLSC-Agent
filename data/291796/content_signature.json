@@ -1,0 +1,196 @@
+[
+  {
+    "role": null,
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 1,
+              "totalMaxChars": 6,
+              "maxCharsPerLine": 6
+            }
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 4,
+              "totalMaxChars": 160,
+              "maxCharsPerLine": 40
+            }
+          },
+          {
+            "role": null,
+            "type": "Group",
+            "children": [
+              {
+                "role": null,
+                "type": "SVG"
+              },
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": null,
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Decoration",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 32,
+                      "maxCharsPerLine": 16
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 9,
+                      "totalMaxChars": 243,
+                      "maxCharsPerLine": 27
+                    }
+                  },
+                  {
+                    "role": "Decoration",
+                    "type": "SVG"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Decoration",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 32,
+                      "maxCharsPerLine": 16
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 9,
+                      "totalMaxChars": 243,
+                      "maxCharsPerLine": 27
+                    }
+                  },
+                  {
+                    "role": "Decoration",
+                    "type": "SVG"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": null,
+                "type": "Frame",
+                "children": [
+                  {
+                    "role": "Decoration",
+                    "type": "Image"
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 32,
+                      "maxCharsPerLine": 16
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 9,
+                      "totalMaxChars": 243,
+                      "maxCharsPerLine": 27
+                    }
+                  },
+                  {
+                    "role": "Decoration",
+                    "type": "SVG"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

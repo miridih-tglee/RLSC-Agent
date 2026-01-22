@@ -1,0 +1,398 @@
+# Structure Fixer - Few-shot 예시
+# LLM에게 제공할 입출력 예시
+# 
+# ⭐ 핵심 규칙:
+# - Background만 겹침 허용 (유일한 예외)
+# - Decoration, Marker 등 겹치면 → 무조건 그룹으로 묶고 큰 것을 Background로 변경
+# - 컨테이너당 Background는 1개만!
+# - Element.Marker 안에 Element.Marker 절대 금지!
+
+# ============================================================
+# ✅ 올바른 구조 예시 (참고용)
+# ============================================================
+
+correct_structure_example: |
+  # ZStack 안에 Background + VStack(콘텐츠)가 있는 올바른 구조
+  {
+    "id": "zstack_card",
+    "type": "ZStack",
+    "children": [
+      {
+        "id": "bg_1",
+        "role": "Role.Element.Background",
+        "type": "SVG"
+      },
+      {
+        "id": "vstack_content",
+        "type": "VStack",
+        "children": [
+          {
+            "id": "deco_1",
+            "role": "Role.Element.Decoration",
+            "type": "SVG"
+          },
+          {
+            "id": "title_1",
+            "role": "Role.Element.Title",
+            "type": "Text"
+          },
+          {
+            "id": "desc_1",
+            "role": "Role.Element.Description",
+            "type": "Text"
+          }
+        ]
+      }
+    ]
+  }
+  # → Background와 VStack은 겹쳐도 OK (Background는 겹침 허용)
+  # → VStack 안의 Decoration, Title, Description은 서로 안 겹침 (세로로 나열)
+
+# 마커가 포함된 올바른 구조
+correct_marker_structure: |
+  # 원형 배경 + 아이콘 마커가 있는 올바른 구조
+  {
+    "id": "card_with_marker",
+    "type": "ZStack",
+    "children": [
+      {
+        "id": "card_bg",
+        "role": "Role.Element.Background",
+        "type": "SVG"
+      },
+      {
+        "id": "content_vstack",
+        "type": "VStack",
+        "children": [
+          {
+            "id": "marker_container",
+            "role": "Role.LayoutContainer.Marker",
+            "type": "ZStack",
+            "children": [
+              {
+                "id": "marker_bg",
+                "role": "Role.Element.Background",
+                "type": "SVG"
+              },
+              {
+                "id": "marker_icon",
+                "role": "Role.Element.Marker",
+                "type": "SVG"
+              }
+            ]
+          },
+          {
+            "id": "title",
+            "role": "Role.Element.Title",
+            "type": "Text"
+          },
+          {
+            "id": "desc",
+            "role": "Role.Element.Description",
+            "type": "Text"
+          }
+        ]
+      }
+    ]
+  }
+  # → LayoutContainer.Marker 안에 Background + Marker (겹침 OK, Background니까)
+  # → Element.Marker 안에 또 Element.Marker 절대 금지!
+
+examples:
+  # 예시 1: Decoration 겹침 → 그룹으로 묶기
+  - name: "Decoration 겹침 → 그룹으로 묶고 Background로 변경"
+    description: "두 Decoration이 겹칠 때, 새 그룹으로 묶고 큰 것을 Background로 변경"
+    
+    input: |
+      {
+        "id": "card_1",
+        "type": "Group",
+        "children": [
+          {
+            "id": "rect_1",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 0, "y": 0, "width": 200, "height": 200}
+          },
+          {
+            "id": "circle_1",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 50, "y": 50, "width": 50, "height": 50}
+          },
+          {
+            "id": "title_1",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 20, "y": 220, "width": 160, "height": 30}
+          }
+        ],
+        "position": {"x": 100, "y": 100, "width": 200, "height": 260}
+      }
+    
+    output: |
+      {
+        "id": "card_1",
+        "type": "Group",
+        "children": [
+          {
+            "id": "decoration_group_1",
+            "role": "Role.LayoutContainer.Decoration",
+            "type": "ZStack",
+            "children": [
+              {
+                "id": "rect_1",
+                "role": "Role.Element.Background",
+                "type": "SVG",
+                "position": {"x": 0, "y": 0, "width": 200, "height": 200}
+              },
+              {
+                "id": "circle_1",
+                "role": "Role.Element.Decoration",
+                "type": "SVG",
+                "position": {"x": 50, "y": 50, "width": 50, "height": 50}
+              }
+            ],
+            "position": {"x": 0, "y": 0, "width": 200, "height": 200}
+          },
+          {
+            "id": "title_1",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 20, "y": 220, "width": 160, "height": 30}
+          }
+        ],
+        "position": {"x": 100, "y": 100, "width": 200, "height": 260}
+      }
+
+  # 예시 2: Marker 겹침 → 그룹으로 묶기
+  - name: "Marker 겹침 → 그룹으로 묶고 Background로 변경"
+    description: "두 Marker가 겹칠 때, 새 그룹으로 묶고 큰 것을 Background로 변경"
+    
+    input: |
+      {
+        "id": "icon_section",
+        "type": "HStack",
+        "children": [
+          {
+            "id": "circle_marker",
+            "role": "Role.Element.Marker",
+            "type": "SVG",
+            "position": {"x": 10, "y": 10, "width": 80, "height": 80}
+          },
+          {
+            "id": "star_marker",
+            "role": "Role.Element.Marker",
+            "type": "SVG",
+            "position": {"x": 30, "y": 30, "width": 40, "height": 40}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 100, "height": 100}
+      }
+    
+    output: |
+      {
+        "id": "icon_section",
+        "type": "HStack",
+        "children": [
+          {
+            "id": "marker_group_1",
+            "role": "Role.LayoutContainer.Marker",
+            "type": "ZStack",
+            "children": [
+              {
+                "id": "circle_marker",
+                "role": "Role.Element.Background",
+                "type": "SVG",
+                "position": {"x": 10, "y": 10, "width": 80, "height": 80}
+              },
+              {
+                "id": "star_marker",
+                "role": "Role.Element.Marker",
+                "type": "SVG",
+                "position": {"x": 30, "y": 30, "width": 40, "height": 40}
+              }
+            ],
+            "position": {"x": 10, "y": 10, "width": 80, "height": 80}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 100, "height": 100}
+      }
+
+  # 예시 3: Background 2개 → 1개만 유지
+  - name: "Background 2개 → 1개만 유지"
+    description: "같은 컨테이너에 Background가 2개일 때, 하나만 Background로 유지"
+    
+    input: |
+      {
+        "id": "section_1",
+        "type": "VStack",
+        "children": [
+          {
+            "id": "bg_1",
+            "role": "Role.Element.Background",
+            "type": "SVG",
+            "position": {"x": 0, "y": 0, "width": 400, "height": 300}
+          },
+          {
+            "id": "bg_2",
+            "role": "Role.Element.Background",
+            "type": "SVG",
+            "position": {"x": 10, "y": 10, "width": 380, "height": 280}
+          },
+          {
+            "id": "title_1",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 20, "y": 50, "width": 200, "height": 40}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 400, "height": 300}
+      }
+    
+    output: |
+      {
+        "id": "section_1",
+        "type": "VStack",
+        "children": [
+          {
+            "id": "bg_1",
+            "role": "Role.Element.Background",
+            "type": "SVG",
+            "position": {"x": 0, "y": 0, "width": 400, "height": 300}
+          },
+          {
+            "id": "bg_2",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 10, "y": 10, "width": 380, "height": 280}
+          },
+          {
+            "id": "title_1",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 20, "y": 50, "width": 200, "height": 40}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 400, "height": 300}
+      }
+
+  # 예시 4: 원형 배경 + 아이콘 → LayoutContainer.Marker
+  - name: "원형 배경 + 아이콘 → LayoutContainer.Marker로 묶기"
+    description: "원형 배경 위에 아이콘이 있는 패턴 → 그룹으로 묶고 원형=Background, 아이콘=Marker"
+    
+    input: |
+      {
+        "id": "card_with_icon",
+        "type": "Group",
+        "children": [
+          {
+            "id": "circle_bg",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 50, "y": 50, "width": 100, "height": 100}
+          },
+          {
+            "id": "icon",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 70, "y": 70, "width": 60, "height": 60}
+          },
+          {
+            "id": "title",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 50, "y": 170, "width": 100, "height": 30}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 200, "height": 250}
+      }
+    
+    output: |
+      {
+        "id": "card_with_icon",
+        "type": "Group",
+        "children": [
+          {
+            "id": "marker_group",
+            "role": "Role.LayoutContainer.Marker",
+            "type": "ZStack",
+            "children": [
+              {
+                "id": "circle_bg",
+                "role": "Role.Element.Background",
+                "type": "SVG",
+                "position": {"x": 50, "y": 50, "width": 100, "height": 100}
+              },
+              {
+                "id": "icon",
+                "role": "Role.Element.Marker",
+                "type": "SVG",
+                "position": {"x": 70, "y": 70, "width": 60, "height": 60}
+              }
+            ],
+            "position": {"x": 50, "y": 50, "width": 100, "height": 100}
+          },
+          {
+            "id": "title",
+            "role": "Role.Element.Title",
+            "type": "Text",
+            "position": {"x": 50, "y": 170, "width": 100, "height": 30}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 200, "height": 250}
+      }
+
+  # 예시 5: Decoration + Marker 겹침 → 그룹으로 묶기
+  - name: "Decoration + Marker 겹침 → 그룹으로 묶기"
+    description: "Decoration과 Marker가 겹칠 때도 그룹으로 묶고 큰 것을 Background로"
+    
+    input: |
+      {
+        "id": "mixed_section",
+        "type": "Group",
+        "children": [
+          {
+            "id": "deco_rect",
+            "role": "Role.Element.Decoration",
+            "type": "SVG",
+            "position": {"x": 0, "y": 0, "width": 150, "height": 150}
+          },
+          {
+            "id": "marker_icon",
+            "role": "Role.Element.Marker",
+            "type": "SVG",
+            "position": {"x": 45, "y": 45, "width": 60, "height": 60}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 150, "height": 150}
+      }
+    
+    output: |
+      {
+        "id": "mixed_section",
+        "type": "Group",
+        "children": [
+          {
+            "id": "overlap_group_1",
+            "role": "Role.LayoutContainer.Marker",
+            "type": "ZStack",
+            "children": [
+              {
+                "id": "deco_rect",
+                "role": "Role.Element.Background",
+                "type": "SVG",
+                "position": {"x": 0, "y": 0, "width": 150, "height": 150}
+              },
+              {
+                "id": "marker_icon",
+                "role": "Role.Element.Marker",
+                "type": "SVG",
+                "position": {"x": 45, "y": 45, "width": 60, "height": 60}
+              }
+            ],
+            "position": {"x": 0, "y": 0, "width": 150, "height": 150}
+          }
+        ],
+        "position": {"x": 0, "y": 0, "width": 150, "height": 150}
+      }

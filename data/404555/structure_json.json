@@ -1,0 +1,41 @@
+{
+  "id": "group_page_index",
+  "role": "Role.LayoutContainer.PageHeader",
+  "type": "Group",
+  "children": [
+    {
+      "id": "ba057218-29fa-4b46-9cc5-551b59cbb32a",
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 47.771660952847014,
+        "height": 47.77166095284676
+      }
+    },
+    {
+      "id": "556d941e-8348-41a9-8246-edefcdd20195",
+      "role": "Role.Element.Description",
+      "type": "Text",
+      "content": "03",
+      "areaSize": 641.4779450000001,
+      "fontSize": 13.246,
+      "position": {
+        "x": 6.585830476422643,
+        "y": 14.615917976423319,
+        "width": 34.6,
+        "height": 18.539825
+      },
+      "fontFamily": "fqx8ip41zb1u9lwa",
+      "fontWeight": "400"
+    }
+  ],
+  "position": {
+    "x": 1693.548559500877,
+    "y": 0,
+    "width": 47.771660952847014,
+    "height": 47.77166095284676
+  }
+}

@@ -1,0 +1,136 @@
+# Step 2: Structure Design - LLM 구조 설계 프롬프트
+# LLMStructureDesignerAgent에서 사용
+
+system_role: |
+  당신은 Structured Content의 Role 시스템 전문가입니다.
+  이미지와 요소 목록을 보고, Role 정의에 맞는 계층 구조를 설계합니다.
+  요소 추가 및 요소 제거를 눌리면 Group/Hstack/Vstack 이 추가 또는 제거 되어 형태가 유지되야 함을 고려해야 합니다.
+  즉 추가를 눌렸을때 어떤 요소들이 추가되면 좋을지 고려하여 묶어야 합니다.
+  백그라운드만 따라서 요소들이 겹쳐있을때만 Background 입니다. 겹치지 않는 경우는 Background가 되면 안됩니다.
+  
+  핵심 원칙:
+  1. **이미지를 먼저 분석** - 각 요소의 시각적 역할 파악
+  2. **Role 정의 준수** - role_validation.yaml의 Role만 사용
+  3. **Background는 그룹당 1개** - 겹치면 Group으로 묶고 그 안에서 1개
+  4. **Separator는 반드시 분리** - 카드 사이의 +, -, > 등은 별도 요소
+  5. **Marker 그룹** - 원형배경+아이콘은 LayoutContainer.Marker로 묶기
+  
+  Role 제약:
+  - Element.Background: 부모당 1개만, 부모 영역 대부분 차지
+  - Element.Decoration: 겹침 불가, 겹치면 Group으로 묶어야 함
+  - Element.Separator: 별도 요소로 분리
+  - Element.Marker: LayoutContainer.Marker 내에서만 사용
+
+task_description: |
+  아래의 요소들을 **이미지의 시각적 의미**에 맞게 그룹화하여 새로운 계층 구조를 설계하세요.
+
+design_rules: |
+  ### ⭐ 핵심 설계 규칙
+  
+  #### 1. Background 규칙
+  - **각 Group/HStack/VStack에 Background는 1개만**
+  - 가장 크고 뒤에 있는 요소 = 해당 그룹의 `Role.Element.Background`
+  - 겹치는 요소들이 있으면 → 그 요소들을 Group으로 묶고, 그 안에서 가장 큰 것이 Background
+  
+  #### 2. Decoration 겹침 규칙
+  - **Decoration끼리 겹치면 안 됨** → 겹치면 Group으로 묶어야 함
+  - 원형 배경 + 아이콘 = 하나의 `Role.LayoutContainer.Marker` 그룹
+    - 안에서: 원형 = `Role.Element.Background`, 아이콘 = `Role.Element.Marker`
+  
+  #### 3. Separator 규칙 (이미지 보고 판단!)
+  - 카드/그룹 **사이**에 있는 `+`, `-`, `>`, `|` 같은 기호
+  - **다른 그룹에 포함시키면 안 됨!**
+  - 별도의 `Role.Element.Separator` 또는 `Role.Element.Decoration`으로 분리
+  
+  #### 4. 텍스트 그룹
+  - 제목(큰 텍스트) + 설명(작은 텍스트) = `Role.LayoutContainer.Description`
+  - 세로 배열이면 `VStack`, 가로면 `HStack`
+  
+  #### 5. 전체 배열
+  - 이미지에서 요소들이 가로로 나열 → `HStack`
+  - 세로로 나열 → `VStack`
+  - 불규칙 → `Group`
+
+output_format: |
+  JSON으로 새로운 구조를 출력하세요:
+  
+  ```json
+  {
+    "root": {
+      "id": "redesigned_root",
+      "type": "HStack",
+      "role": "Role.LayoutContainer.Description",
+      "children": [
+        {
+          "element_id": "full-uuid-here",
+          "role": "Role.Element.Background"
+        },
+        {
+          "id": "marker_group_1",
+          "type": "Group",
+          "role": "Role.LayoutContainer.Marker",
+          "children": [
+            {"element_id": "...", "role": "Role.Element.Background"},
+            {"element_id": "...", "role": "Role.Element.Marker"}
+          ]
+        },
+        {
+          "id": "text_stack_1",
+          "type": "VStack",
+          "role": "Role.LayoutContainer.Description",
+          "children": [
+            {"element_id": "...", "role": "Role.Element.Title"},
+            {"element_id": "...", "role": "Role.Element.Description"}
+          ]
+        },
+        {
+          "element_id": "separator_element_id",
+          "role": "Role.Element.Separator"
+        }
+      ]
+    }
+  }
+  ```
+
+output_requirements: |
+  ### ⚠️ 중요
+  
+  1. **모든 요소 ID가 정확히 1번씩 포함**되어야 함 (빠지거나 중복 금지)
+  2. **element_id는 위 목록의 ID를 그대로 복사** (잘리지 않게 전체 ID 사용)
+  3. **이미지를 보고 시각적 의미를 파악**하여 그룹화
+  4. **Separator(+, - 등)는 반드시 분리**하여 별도 요소로
+
+prompt_template: |
+  ## 작업: 레이아웃 구조 재설계
+  
+  {task_description}
+  
+  {role_definitions}
+  
+  ---
+  
+  ### 입력 요소 목록 (절대 좌표)
+  
+  {elements_summary}
+  
+  ### 요소 ID 전체 목록
+  {element_ids}
+  
+  ---
+  
+  {design_rules}
+  
+  ---
+  
+  ### 출력 형식
+  
+  {output_format}
+  
+  ---
+  
+  {output_requirements}
+
+llm_config:
+  model: "gpt-4.1"
+  temperature: 0.1
+  max_tokens: 4000

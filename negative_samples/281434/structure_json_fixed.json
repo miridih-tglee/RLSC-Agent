@@ -1,0 +1,596 @@
+{
+  "id": "grid_service_cards",
+  "gap": 84.35,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "7cc048e3-035c-4bb5-87d3-08a557178436",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "7f2673bc-d349-4a44-8af3-b49fe92d8aae",
+              "url": "get_a10742639_st_in_60",
+              "role": "Role.Element.Marker",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 380.449399656947,
+                "height": 374.2169811320758
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.03,
+            "y": 0.0,
+            "width": 380.449399656947,
+            "height": 374.2169811320758
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "7f2673bc-d349-4a44-8af3-b49fe92d8aae"
+                ]
+              ]
+            }
+          ],
+          "role": "Role.Element.Marker",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "8bd92507-5f3c-475f-b271-a9d28c286e23",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Corporate Tax Planning",
+          "areaSize": 14203.3515625,
+          "fontSize": 26.667,
+          "position": {
+            "x": 0.0,
+            "y": 419.21,
+            "width": 380.5,
+            "height": 37.328125
+          },
+          "fontFamily": "ft8080w1k59v5oyk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 32,
+            "maxCharsPerLine": 32
+          }
+        },
+        {
+          "id": "0db0df7b-4c90-4f1a-a6fa-0e40a5e5a23e",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet consectetur adipiscing.",
+          "areaSize": 25564.84375,
+          "fontSize": 24,
+          "position": {
+            "x": 0.0,
+            "y": 466.02,
+            "width": 380.5,
+            "height": 67.1875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 70,
+            "maxCharsPerLine": 35
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 380.5,
+        "height": 533.2063679245275
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "7cc048e3-035c-4bb5-87d3-08a557178436",
+          "type": "Frame",
+          "patterns": [
+            [
+              "7cc048e3-035c-4bb5-87d3-08a557178436"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "8bd92507-5f3c-475f-b271-a9d28c286e23"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "0db0df7b-4c90-4f1a-a6fa-0e40a5e5a23e"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.24
+    },
+    {
+      "id": "vstack_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "c4a7dd75-8b06-4446-bfb2-c00012f10e1f",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "5c0466a1-f028-4b8c-b694-461184c1b27c",
+              "url": "get_185989479_st_in_9",
+              "role": "Role.Element.Marker",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 380.449399656947,
+                "height": 374.21698113207566
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.03,
+            "y": 0.0,
+            "width": 380.449399656947,
+            "height": 374.21698113207566
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "5c0466a1-f028-4b8c-b694-461184c1b27c"
+                ]
+              ]
+            }
+          ],
+          "role": "Role.Element.Marker",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "3d27060c-2195-49b8-935c-425d43808516",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Tax Compliance & Reporting",
+          "areaSize": 14203.3515625,
+          "fontSize": 26.667,
+          "position": {
+            "x": 0.0,
+            "y": 419.21,
+            "width": 380.5,
+            "height": 37.328125
+          },
+          "fontFamily": "ft8080w1k59v5oyk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 32,
+            "maxCharsPerLine": 32
+          }
+        },
+        {
+          "id": "117d20f8-765c-441d-8ab0-b8824a3c1efa",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet consectetur adipiscing.",
+          "areaSize": 25564.84375,
+          "fontSize": 24,
+          "position": {
+            "x": 0.0,
+            "y": 466.02,
+            "width": 380.5,
+            "height": 67.1875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 70,
+            "maxCharsPerLine": 35
+          }
+        }
+      ],
+      "position": {
+        "x": 464.85,
+        "y": 0.0,
+        "width": 380.5,
+        "height": 533.2063679245275
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "c4a7dd75-8b06-4446-bfb2-c00012f10e1f",
+          "type": "Frame",
+          "patterns": [
+            [
+              "c4a7dd75-8b06-4446-bfb2-c00012f10e1f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "3d27060c-2195-49b8-935c-425d43808516"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "117d20f8-765c-441d-8ab0-b8824a3c1efa"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.24
+    },
+    {
+      "id": "vstack_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "632d35a1-bcee-4495-a594-cd3bb22c4e23",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "621a6830-ae8a-49dc-98b3-a2fb2ae29453",
+              "url": "get_1188796069_200113_st_hk_01",
+              "role": "Role.Element.Marker",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 380.449399656947,
+                "height": 374.2169811320756
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.03,
+            "y": 0.0,
+            "width": 380.449399656947,
+            "height": 374.2169811320756
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "621a6830-ae8a-49dc-98b3-a2fb2ae29453"
+                ]
+              ]
+            }
+          ],
+          "role": "Role.Element.Marker",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "421ca61b-623e-4d44-99ef-c8eb35048b5d",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "International Tax Strategies",
+          "areaSize": 14203.3515625,
+          "fontSize": 26.667,
+          "position": {
+            "x": 0.0,
+            "y": 419.21,
+            "width": 380.5,
+            "height": 37.328125
+          },
+          "fontFamily": "ft8080w1k59v5oyk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 32,
+            "maxCharsPerLine": 32
+          }
+        },
+        {
+          "id": "a872f9be-c578-453b-9387-7cd2f86350b9",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet consectetur adipiscing.",
+          "areaSize": 25564.84375,
+          "fontSize": 24,
+          "position": {
+            "x": 0.0,
+            "y": 466.02,
+            "width": 380.5,
+            "height": 67.1875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 70,
+            "maxCharsPerLine": 35
+          }
+        }
+      ],
+      "position": {
+        "x": 929.7,
+        "y": 0.0,
+        "width": 380.5,
+        "height": 533.2063679245275
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "632d35a1-bcee-4495-a594-cd3bb22c4e23",
+          "type": "Frame",
+          "patterns": [
+            [
+              "632d35a1-bcee-4495-a594-cd3bb22c4e23"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "421ca61b-623e-4d44-99ef-c8eb35048b5d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "a872f9be-c578-453b-9387-7cd2f86350b9"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.24
+    },
+    {
+      "id": "vstack_card_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "03237139-3d5a-4e51-af15-a740def69d51",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "34b404b4-fa3e-4c6c-bdd7-55115f9d427a",
+              "url": "get_1190794780_200118_st_hk_01",
+              "role": "Role.Element.Marker",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 380.4493996569472,
+                "height": 374.21698113207566
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.03,
+            "y": 0.0,
+            "width": 380.4493996569472,
+            "height": 374.21698113207566
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "34b404b4-fa3e-4c6c-bdd7-55115f9d427a"
+                ]
+              ]
+            }
+          ],
+          "role": "Role.Element.Marker",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "c4d3e73c-01cb-4e45-8ad8-a47ef05107ad",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Tax Risk Management",
+          "areaSize": 14203.3515625,
+          "fontSize": 26.667,
+          "position": {
+            "x": 0.0,
+            "y": 419.21,
+            "width": 380.5,
+            "height": 37.328125
+          },
+          "fontFamily": "ft8080w1k59v5oyk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 32,
+            "maxCharsPerLine": 32
+          }
+        },
+        {
+          "id": "c7dfb920-fb4b-43eb-9864-bd9ef9000cc7",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet consectetur adipiscing.",
+          "areaSize": 25564.84375,
+          "fontSize": 24,
+          "position": {
+            "x": 0.0,
+            "y": 466.02,
+            "width": 380.5,
+            "height": 67.1875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 70,
+            "maxCharsPerLine": 35
+          }
+        }
+      ],
+      "position": {
+        "x": 1394.55,
+        "y": 0.0,
+        "width": 380.5,
+        "height": 533.2063679245275
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "03237139-3d5a-4e51-af15-a740def69d51",
+          "type": "Frame",
+          "patterns": [
+            [
+              "03237139-3d5a-4e51-af15-a740def69d51"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "c4d3e73c-01cb-4e45-8ad8-a47ef05107ad"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c7dfb920-fb4b-43eb-9864-bd9ef9000cc7"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.24
+    }
+  ],
+  "position": {
+    "x": 72.47,
+    "y": 391.98,
+    "width": 1775.0506003430532,
+    "height": 533.2063679245275
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_card_1",
+          "vstack_card_2",
+          "vstack_card_3",
+          "vstack_card_4"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  }
+}

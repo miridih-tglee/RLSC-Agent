@@ -1,0 +1,449 @@
+{
+  "id": "grid_portfolio",
+  "gap": 173.87,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_portfolio_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "a6fddc33-70e0-4e65-8fe0-961c9c31e444",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "f1fc79d4-dd7e-4111-892e-a618fa12314c",
+              "url": "get_462241947_st_in_2",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 420.1238174451936,
+                "height": 495.70658631038305
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 23.21,
+            "y": 0.0,
+            "width": 420.1238174451936,
+            "height": 495.70658631038305
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "f1fc79d4-dd7e-4111-892e-a618fa12314c",
+              "type": "Image",
+              "patterns": [
+                [
+                  "f1fc79d4-dd7e-4111-892e-a618fa12314c"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "a3519148-7797-44d3-91db-c2d76399e485",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Work A",
+          "areaSize": 35791.761935999995,
+          "fontSize": 74.667,
+          "position": {
+            "x": 62.45,
+            "y": 527.39,
+            "width": 342.4,
+            "height": 104.532015
+          },
+          "fontFamily": "f135umwzwn86m1lq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 9,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "fd0e1e6c-ddbe-493b-82de-3c60aa25cb93",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem Ipsum is not simply random text.\n It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+          "areaSize": 52371.398316,
+          "fontSize": 25.333,
+          "position": {
+            "x": 0.0,
+            "y": 663.85,
+            "width": 466.8,
+            "height": 112.19237
+          },
+          "fontFamily": "fkahhbio6ycmnx1y",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 4,
+            "totalMaxChars": 172,
+            "maxCharsPerLine": 43
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 3.45,
+        "width": 466.79999999999995,
+        "height": 776.0450501181887
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "a6fddc33-70e0-4e65-8fe0-961c9c31e444",
+          "type": "Frame",
+          "patterns": [
+            [
+              "a6fddc33-70e0-4e65-8fe0-961c9c31e444"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "a3519148-7797-44d3-91db-c2d76399e485"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "fd0e1e6c-ddbe-493b-82de-3c60aa25cb93"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 31.81
+    },
+    {
+      "id": "vstack_portfolio_center",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "d4dbefb1-4764-45dd-8e26-f6274318090c",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "6156efd6-4a84-408b-939b-ee066872101c",
+              "url": "uto_20307108_st_in_2",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 420.1238174451936,
+                "height": 495.70658631038305
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 23.21,
+            "y": 0.0,
+            "width": 420.1238174451936,
+            "height": 495.70658631038305
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "6156efd6-4a84-408b-939b-ee066872101c",
+              "type": "Image",
+              "patterns": [
+                [
+                  "6156efd6-4a84-408b-939b-ee066872101c"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "b4de61d9-a761-4a66-b862-7fa2caf17bc4",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Work B",
+          "areaSize": 35791.761935999995,
+          "fontSize": 74.667,
+          "position": {
+            "x": 62.45,
+            "y": 527.39,
+            "width": 342.4,
+            "height": 104.532015
+          },
+          "fontFamily": "f135umwzwn86m1lq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 9,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "445d7ff8-13f3-457b-af7b-cf40780b0228",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem Ipsum is not simply random text.\n It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+          "areaSize": 52371.398316,
+          "fontSize": 25.333,
+          "position": {
+            "x": 0.0,
+            "y": 663.85,
+            "width": 466.8,
+            "height": 112.19237
+          },
+          "fontFamily": "fkahhbio6ycmnx1y",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 4,
+            "totalMaxChars": 172,
+            "maxCharsPerLine": 43
+          }
+        }
+      ],
+      "position": {
+        "x": 639.87,
+        "y": 3.45,
+        "width": 466.80000000000007,
+        "height": 776.0450501181887
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "d4dbefb1-4764-45dd-8e26-f6274318090c",
+          "type": "Frame",
+          "patterns": [
+            [
+              "d4dbefb1-4764-45dd-8e26-f6274318090c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "b4de61d9-a761-4a66-b862-7fa2caf17bc4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "445d7ff8-13f3-457b-af7b-cf40780b0228"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 31.81
+    },
+    {
+      "id": "vstack_portfolio_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "8f5ede2b-b6dc-4a47-8310-61b3e6f1cd0a",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "2d5fbe7f-313a-4ca7-a2da-1643839d6149",
+              "url": "2zDbWz7R16K0kHmHfiNzV",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 420.1238174451935,
+                "height": 495.706586310383
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 23.8,
+            "y": 0.0,
+            "width": 420.1238174451935,
+            "height": 495.706586310383
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "2d5fbe7f-313a-4ca7-a2da-1643839d6149",
+              "type": "Image",
+              "patterns": [
+                [
+                  "2d5fbe7f-313a-4ca7-a2da-1643839d6149"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "fbb1b99a-feff-4664-abd0-46038a1e8f6f",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Work C",
+          "areaSize": 35791.761935999995,
+          "fontSize": 74.667,
+          "position": {
+            "x": 62.45,
+            "y": 532.85,
+            "width": 342.4,
+            "height": 104.532015
+          },
+          "fontFamily": "f135umwzwn86m1lq",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 9,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "ab9c760e-97b0-4977-a43d-0ec021f043a6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem Ipsum is not simply random text.\n It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+          "areaSize": 52371.398316,
+          "fontSize": 25.333,
+          "position": {
+            "x": 0.0,
+            "y": 669.31,
+            "width": 466.8,
+            "height": 112.19237
+          },
+          "fontFamily": "fkahhbio6ycmnx1y",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 4,
+            "totalMaxChars": 172,
+            "maxCharsPerLine": 43
+          }
+        }
+      ],
+      "position": {
+        "x": 1281.34,
+        "y": 0.0,
+        "width": 466.79999999999995,
+        "height": 781.4982875282606
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "8f5ede2b-b6dc-4a47-8310-61b3e6f1cd0a",
+          "type": "Frame",
+          "patterns": [
+            [
+              "8f5ede2b-b6dc-4a47-8310-61b3e6f1cd0a"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "fbb1b99a-feff-4664-abd0-46038a1e8f6f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "ab9c760e-97b0-4977-a43d-0ec021f043a6"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 34.54
+    }
+  ],
+  "position": {
+    "x": 104.63,
+    "y": 184.15,
+    "width": 1748.1449676803181,
+    "height": 781.4982875282606
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_portfolio_left",
+          "vstack_portfolio_center",
+          "vstack_portfolio_right"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  }
+}

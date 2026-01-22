@@ -1,0 +1,239 @@
+[
+  {
+    "role": null,
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 11,
+                  "maxCharsPerLine": 11
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "HStack",
+                "children": [
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 4,
+                      "maxCharsPerLine": 4
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 9,
+                      "maxCharsPerLine": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 108,
+                  "maxCharsPerLine": 27
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "ZStack",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 15,
+                      "maxCharsPerLine": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 11,
+                  "maxCharsPerLine": 11
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "HStack",
+                "children": [
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 4,
+                      "maxCharsPerLine": 4
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 9,
+                      "maxCharsPerLine": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 108,
+                  "maxCharsPerLine": 27
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "ZStack",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 15,
+                      "maxCharsPerLine": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 11,
+                  "maxCharsPerLine": 11
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "HStack",
+                "children": [
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 4,
+                      "maxCharsPerLine": 4
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 9,
+                      "maxCharsPerLine": 9
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 4,
+                  "totalMaxChars": 108,
+                  "maxCharsPerLine": 27
+                }
+              },
+              {
+                "role": "Highlight",
+                "type": "ZStack",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": null,
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 15,
+                      "maxCharsPerLine": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

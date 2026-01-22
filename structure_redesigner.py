@@ -148,7 +148,8 @@ def get_elements_summary(flat_elements: List[Dict]) -> str:
 class LLMStructureDesignerAgent:
     """
     이미지 + flat 요소 목록을 보고 새로운 그룹 구조를 설계하는 에이전트
-    role_validation.yaml의 Role 정의를 참조
+    prompts/structure_design.yaml 프롬프트 사용
+    prompts/role_validation.yaml의 Role 정의를 참조
     """
     
     def __init__(self, llm_client, reference_image_path: Optional[str] = None):
@@ -156,24 +157,33 @@ class LLMStructureDesignerAgent:
         self.reference_image_path = reference_image_path
         self.reference_image_base64 = None
         self.role_definitions = None
+        self.design_prompts = None
         
         if reference_image_path:
             self.reference_image_base64 = encode_image_to_base64(reference_image_path)
             if self.reference_image_base64:
                 print(f"📷 참조 이미지 로드 완료: {reference_image_path}")
         
-        # role_validation.yaml에서 Role 정의 로드
-        self._load_role_definitions()
+        # 프롬프트 로드
+        self._load_prompts()
     
-    def _load_role_definitions(self):
-        """role_validation.yaml에서 Role 정의 로드"""
+    def _load_prompts(self):
+        """YAML 프롬프트 파일들 로드"""
         try:
-            yaml_path = Path(__file__).parent / 'prompts' / 'role_validation.yaml'
-            with open(yaml_path, 'r', encoding='utf-8') as f:
+            # structure_design.yaml 로드
+            design_path = Path(__file__).parent / 'prompts' / 'structure_design.yaml'
+            with open(design_path, 'r', encoding='utf-8') as f:
+                self.design_prompts = yaml.safe_load(f)
+            print(f"📋 Design 프롬프트 로드 완료: {design_path}")
+            
+            # role_validation.yaml에서 Role 정의 로드
+            role_path = Path(__file__).parent / 'prompts' / 'role_validation.yaml'
+            with open(role_path, 'r', encoding='utf-8') as f:
                 self.role_definitions = yaml.safe_load(f)
-            print(f"📋 Role 정의 로드 완료: {yaml_path}")
+            print(f"📋 Role 정의 로드 완료: {role_path}")
         except Exception as e:
-            print(f"⚠️ Role 정의 로드 실패: {e}")
+            print(f"⚠️ 프롬프트 로드 실패: {e}")
+            self.design_prompts = {}
             self.role_definitions = {}
     
     def _get_role_definitions_text(self) -> str:
@@ -223,113 +233,40 @@ class LLMStructureDesignerAgent:
         return structure
     
     def _create_prompt(self, flat_elements: List[Dict]) -> str:
-        """구조 설계용 프롬프트 생성 (role_validation.yaml 참조)"""
+        """구조 설계용 프롬프트 생성 (YAML에서 로드)"""
         elements_summary = get_elements_summary(flat_elements)
         role_definitions_text = self._get_role_definitions_text()
+        element_ids = json.dumps([elem['id'] for elem in flat_elements], indent=2)
         
-        # 요소 ID 목록
-        element_ids = [elem['id'] for elem in flat_elements]
+        # YAML에서 프롬프트 템플릿 로드
+        if self.design_prompts and 'prompt_template' in self.design_prompts:
+            template = self.design_prompts['prompt_template']
+            prompt = template.format(
+                task_description=self.design_prompts.get('task_description', ''),
+                role_definitions=role_definitions_text,
+                elements_summary=elements_summary,
+                element_ids=element_ids,
+                design_rules=self.design_prompts.get('design_rules', ''),
+                output_format=self.design_prompts.get('output_format', ''),
+                output_requirements=self.design_prompts.get('output_requirements', '')
+            )
+            return prompt
         
-        prompt = f"""## 작업: 레이아웃 구조 재설계
-
-아래의 요소들을 **이미지의 시각적 의미**에 맞게 그룹화하여 새로운 계층 구조를 설계하세요.
+        # 폴백: 기본 프롬프트
+        return f"""## 작업: 레이아웃 구조 재설계
 
 {role_definitions_text}
 
----
-
-### 입력 요소 목록 (절대 좌표)
-
+### 입력 요소 목록
 {elements_summary}
 
-### 요소 ID 전체 목록
-{json.dumps(element_ids, indent=2)}
+### 요소 ID
+{element_ids}
 
----
-
-### ⭐ 핵심 설계 규칙
-
-#### 1. Background 규칙
-- **각 Group/HStack/VStack에 Background는 1개만**
-- 가장 크고 뒤에 있는 요소 = 해당 그룹의 `Role.Element.Background`
-- 겹치는 요소들이 있으면 → 그 요소들을 Group으로 묶고, 그 안에서 가장 큰 것이 Background
-
-#### 2. Decoration 겹침 규칙
-- **Decoration끼리 겹치면 안 됨** → 겹치면 Group으로 묶어야 함
-- 원형 배경 + 아이콘 = 하나의 `Role.LayoutContainer.Marker` 그룹
-  - 안에서: 원형 = `Role.Element.Background`, 아이콘 = `Role.Element.Marker`
-
-#### 3. Separator 규칙 (이미지 보고 판단!)
-- 카드/그룹 **사이**에 있는 `+`, `-`, `>`, `|` 같은 기호
-- **다른 그룹에 포함시키면 안 됨!**
-- 별도의 `Role.Element.Separator` 또는 `Role.Element.Decoration`으로 분리
-
-#### 4. 텍스트 그룹
-- 제목(큰 텍스트) + 설명(작은 텍스트) = `Role.LayoutContainer.Description`
-- 세로 배열이면 `VStack`, 가로면 `HStack`
-
-#### 5. 전체 배열
-- 이미지에서 요소들이 가로로 나열 → `HStack`
-- 세로로 나열 → `VStack`
-- 불규칙 → `Group`
-
----
-
-### 출력 형식
-
-JSON으로 새로운 구조를 출력하세요:
-
-```json
-{{
-  "root": {{
-    "id": "redesigned_root",
-    "type": "HStack",  // "HStack" | "VStack" | "Group" | "Grid" | "Graph"
-    "role": "Role.LayoutContainer.Description",
-    "children": [
-      {{
-        "element_id": "028bf193-c782-47f8-a456-95b6ad8a1936",  // 기존 요소의 전체 ID (잘리지 않게!)
-        "role": "Role.Element.Background"
-      }},
-      {{
-        "id": "marker_group_1",
-        "type": "Group",  // 겹치는 요소들은 Group
-        "role": "Role.LayoutContainer.Marker",
-        "children": [
-          {{"element_id": "...", "role": "Role.Element.Background"}},
-          {{"element_id": "...", "role": "Role.Element.Marker"}}
-        ]
-      }},
-      {{
-        "id": "text_stack_1",
-        "type": "VStack",  // 세로 배열된 텍스트들
-        "role": "Role.LayoutContainer.Description",
-        "children": [
-          {{"element_id": "...", "role": "Role.Element.Title"}},
-          {{"element_id": "...", "role": "Role.Element.Description"}}
-        ]
-      }},
-      {{
-        "element_id": "separator_element_id",  // Separator는 별도 요소로!
-        "role": "Role.Element.Separator"
-      }}
-    ]
-  }}
-}}
-```
-
----
-
-### ⚠️ 중요
-
-1. **모든 요소 ID가 정확히 1번씩 포함**되어야 함 (빠지거나 중복 금지)
-2. **element_id는 위 목록의 ID를 그대로 복사** (잘리지 않게 전체 ID 사용)
-3. **이미지를 보고 시각적 의미를 파악**하여 그룹화
-4. **Separator(+, - 등)는 반드시 분리**하여 별도 요소로
-"""
-        return prompt
+JSON 구조로 출력하세요."""
     
     def _call_llm(self, prompt: str) -> str:
-        """LLM 호출 (멀티모달)"""
+        """LLM 호출 (멀티모달, YAML 프롬프트 사용)"""
         if not self.llm_client:
             return '{}'
         
@@ -352,30 +289,23 @@ JSON으로 새로운 구조를 출력하세요:
         else:
             user_content = prompt
         
-        system_message = """당신은 Structured Content의 Role 시스템 전문가입니다.
-이미지와 요소 목록을 보고, Role 정의에 맞는 계층 구조를 설계합니다.
-
-핵심 원칙:
-1. **이미지를 먼저 분석** - 각 요소의 시각적 역할 파악
-2. **Role 정의 준수** - role_validation.yaml의 Role만 사용
-3. **Background는 그룹당 1개** - 겹치면 Group으로 묶고 그 안에서 1개
-4. **Separator는 반드시 분리** - 카드 사이의 +, -, > 등은 별도 요소
-5. **Marker 그룹** - 원형배경+아이콘은 LayoutContainer.Marker로 묶기
-
-Role 제약:
-- Element.Background: 부모당 1개만, 부모 영역 대부분 차지
-- Element.Decoration: 겹침 불가, 겹치면 Group으로 묶어야 함
-- Element.Separator: LayoutContainer.Separator 내에서만 사용
-- Element.Marker: LayoutContainer.Marker 내에서만 사용"""
+        # YAML에서 system_role 로드
+        system_message = self.design_prompts.get('system_role', '') if self.design_prompts else ''
+        
+        # YAML에서 LLM 설정 로드
+        llm_config = self.design_prompts.get('llm_config', {}) if self.design_prompts else {}
+        model = llm_config.get('model', 'gpt-4o')
+        temperature = llm_config.get('temperature', 0.1)
+        max_tokens = llm_config.get('max_tokens', 4000)
         
         response = self.llm_client.chat.completions.create(
-            model="gpt-4o",
+            model=model,
             messages=[
                 {"role": "system", "content": system_message},
                 {"role": "user", "content": user_content}
             ],
-            temperature=0.1,
-            max_tokens=4000
+            temperature=temperature,
+            max_tokens=max_tokens
         )
         return response.choices[0].message.content
     

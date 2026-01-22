@@ -1,0 +1,921 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_media1",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d4d5c449-c1ec-4276-abb9-abed42591b5e",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "13d8725d-aeb3-4238-9872-5daeb362385f",
+              "position": {
+                "x": 0.7843137254902786,
+                "y": 128.52941176470614,
+                "width": 536.6038530798567,
+                "height": 582.7450980392159
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0ff99142-0c5c-49be-843e-996cf9c685ba",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "children": [
+                {
+                  "id": "e2e3c212-e5be-46da-a60f-192a569d3878",
+                  "url": "30ZcaL9DMY7D96Jw1EkeN",
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 538.1724805308372,
+                    "height": 324.705882352941
+                  },
+                  "patternLabel": "A"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 538.1724805308372,
+                "height": 324.705882352941
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "patterns": [
+                    [
+                      "e2e3c212-e5be-46da-a60f-192a569d3878"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 538.1724805308372,
+            "height": 711.274509803922
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d4d5c449-c1ec-4276-abb9-abed42591b5e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "patterns": [
+                [
+                  "0ff99142-0c5c-49be-843e-996cf9c685ba"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "62e63900-644e-4e44-9160-35db62b8d595",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 323.8091042120416,
+            "width": 538,
+            "height": 4
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_badge1",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "2d0db092-c083-4c3a-bad8-cc7a1d05e76e",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 65
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "bfacd12f-2f9a-45a9-a953-354d3c207efa",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "1",
+              "areaSize": 638.1605999999999,
+              "fontSize": 23.999,
+              "position": {
+                "x": 23,
+                "y": 18.0676723284314,
+                "width": 19,
+                "height": 33.587399999999995
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 0
+              }
+            }
+          ],
+          "position": {
+            "x": 236.5862402654186,
+            "y": 292.205882352941,
+            "width": 65,
+            "height": 65
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2d0db092-c083-4c3a-bad8-cc7a1d05e76e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bfacd12f-2f9a-45a9-a953-354d3c207efa"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_text1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1672a7ec-752b-47ae-a4f4-460857d7587f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "데이터 기반 설계",
+              "areaSize": 19903.02768,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 484.8,
+                "height": 41.0541
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "70227307-6b22-4901-be14-8937a528a66c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "- 빅데이터와 통계로 최적화된 보험 제공\n- 과거 데이터 분석을 통한 위험 예측\n- 정확한 보험료 산정과 보장 설계\n- 효율적인 리스크 관리 가능",
+              "areaSize": 79598.1,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0028535514710483767,
+                "y": 59.78950538888898,
+                "width": 484.8,
+                "height": 164.1875
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 57,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 26.686240265418604,
+            "y": 408.53240927777756,
+            "width": 484.802853551471,
+            "height": 223.97700538888898
+          },
+          "alignment": "leading",
+          "patternLabel": "D",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1672a7ec-752b-47ae-a4f4-460857d7587f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "70227307-6b22-4901-be14-8937a528a66c"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 538.1724805308372,
+        "height": 711.274509803922
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_media1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "62e63900-644e-4e44-9160-35db62b8d595"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_text1"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_media2",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "2fc6315b-51a9-4c7b-b2b5-11f1efbed0d8",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "13d8725d-aeb3-4238-9872-5daeb362385f",
+              "position": {
+                "x": 0,
+                "y": 128.52941176470614,
+                "width": 536.603853079857,
+                "height": 582.7450980392159
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c9196070-c7b9-4390-b91d-52de428ee671",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "children": [
+                {
+                  "id": "db6a2f7b-f975-4025-b772-db7ab70ae6c2",
+                  "url": "51320df5-7e5d-43b8-8211-e2b8093a9c2a",
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 536.6038530798568,
+                    "height": 324.70588235294076
+                  },
+                  "patternLabel": "A"
+                }
+              ],
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 0,
+                "width": 536.6038530798568,
+                "height": 324.70588235294076
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "patterns": [
+                    [
+                      "db6a2f7b-f975-4025-b772-db7ab70ae6c2"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 536.603853079857,
+            "height": 711.274509803922
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2fc6315b-51a9-4c7b-b2b5-11f1efbed0d8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "patterns": [
+                [
+                  "c9196070-c7b9-4390-b91d-52de428ee671"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "67fe7568-9ea9-4968-b499-5ac2b2307a7f",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 1.1368683772161603e-13,
+            "y": 322.8532218591008,
+            "width": 538,
+            "height": 4
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_badge2",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "a1b0dfbd-160c-4524-85d5-a493c0cae252",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 65
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "641d232a-394a-4138-aa47-642fb1134991",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "2",
+              "areaSize": 748.99902,
+              "fontSize": 23.999,
+              "position": {
+                "x": 21.350000000000023,
+                "y": 18.0676723284314,
+                "width": 22.3,
+                "height": 33.587399999999995
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 0
+              }
+            }
+          ],
+          "position": {
+            "x": 235.80192653992856,
+            "y": 292.205882352941,
+            "width": 65,
+            "height": 65
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a1b0dfbd-160c-4524-85d5-a493c0cae252"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "641d232a-394a-4138-aa47-642fb1134991"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_text2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "6237ab8f-a895-4006-a270-508a3bafe6af",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "개인 맞춤 분석",
+              "areaSize": 19903.02768,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 484.8,
+                "height": 41.0541
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "b6931382-c733-46d0-840c-e00dc12ebc64",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "- 연령, 건강, 생활 패턴에 따른 맞춤 설계\n- 개인별 위험 분석으로 맞춤 보장 제공\n- 라이프스타일에 맞는 보험 상품 추천\n- 고객 상황 변화에 따른 유연한 조정",
+              "areaSize": 79598.1,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0028535514710483767,
+                "y": 59.78950538888898,
+                "width": 484.8,
+                "height": 164.1875
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 57,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 27.013037651039895,
+            "y": 408.53240927777756,
+            "width": 484.802853551471,
+            "height": 223.97700538888898
+          },
+          "alignment": "leading",
+          "patternLabel": "D",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6237ab8f-a895-4006-a270-508a3bafe6af"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b6931382-c733-46d0-840c-e00dc12ebc64"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 567.2555568537066,
+        "y": 0,
+        "width": 538.0000000000001,
+        "height": 711.274509803922
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_media2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "67fe7568-9ea9-4968-b499-5ac2b2307a7f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_text2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "group_media3",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "f78b5fce-6e2a-4e72-8a31-37a903a697f4",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "13d8725d-aeb3-4238-9872-5daeb362385f",
+              "position": {
+                "x": 0,
+                "y": 128.52941176470608,
+                "width": 536.6038530798567,
+                "height": 582.7450980392159
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "74209551-1609-4ccb-9f5e-95892ae57e7b",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "children": [
+                {
+                  "id": "7937dfaf-6a4e-43b3-bd31-7e93f5c956c2",
+                  "url": "2z27gdNLP0RJ7MFsMsJ70",
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 536.6038530798567,
+                    "height": 324.70588235294076
+                  },
+                  "patternLabel": "A"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 536.6038530798567,
+                "height": 324.70588235294076
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "Image",
+                  "patterns": [
+                    [
+                      "7937dfaf-6a4e-43b3-bd31-7e93f5c956c2"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 536.6038530798567,
+            "height": 711.274509803922
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f78b5fce-6e2a-4e72-8a31-37a903a697f4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Frame",
+              "patterns": [
+                [
+                  "74209551-1609-4ccb-9f5e-95892ae57e7b"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09e21bf4-f43e-4043-9e94-ecd02d5fcaf7",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 322.8532218591008,
+            "width": 538,
+            "height": 4
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "group_badge3",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "beee29f5-ed50-473e-966f-20d37720780f",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 65,
+                "height": 65
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0ddbdbbc-ee06-4036-aed2-cddd05dd4af4",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "3",
+              "areaSize": 853.1199599999999,
+              "fontSize": 23.999,
+              "position": {
+                "x": 19.799999999999955,
+                "y": 18.0676723284314,
+                "width": 25.4,
+                "height": 33.587399999999995
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 1,
+                "maxCharsPerLine": 1
+              }
+            }
+          ],
+          "position": {
+            "x": 235.80192653992844,
+            "y": 292.205882352941,
+            "width": 65,
+            "height": 65
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "beee29f5-ed50-473e-966f-20d37720780f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0ddbdbbc-ee06-4036-aed2-cddd05dd4af4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_text3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1ba2d139-21ec-446f-9a22-9499de08e563",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "전문적 시스템",
+              "areaSize": 19903.02768,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 484.8,
+                "height": 41.0541
+              },
+              "fontFamily": "fmviz6ivuv2f4b08",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "f75c2bb7-6ad2-4acc-b9ac-6e8efe625b05",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "- AI 활용으로 빠르고 투명한 정보 제공\n- 복잡한 보험 상품 비교 분석 자동화\n- 실시간 데이터 기반 의사결정 지원\n- 고객 경험 향상과 신속한 서비스 제공",
+              "areaSize": 79598.1,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0028535514711620635,
+                "y": 59.78950538888898,
+                "width": 484.8,
+                "height": 164.1875
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 57,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 25.901926539928354,
+            "y": 408.53240927777756,
+            "width": 484.8028535514711,
+            "height": 223.97700538888898
+          },
+          "alignment": "leading",
+          "patternLabel": "D",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1ba2d139-21ec-446f-9a22-9499de08e563"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f75c2bb7-6ad2-4acc-b9ac-6e8efe625b05"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1134.5111137074136,
+        "y": 0,
+        "width": 538,
+        "height": 711.274509803922
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_media3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "09e21bf4-f43e-4043-9e94-ecd02d5fcaf7"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_text3"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 64.44251660636485,
+    "y": 242.67902141976072,
+    "width": 1672.5111137074136,
+    "height": 711.274509803922
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ]
+}

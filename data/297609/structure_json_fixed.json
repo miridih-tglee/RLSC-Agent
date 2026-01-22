@@ -1,0 +1,206 @@
+{
+  "id": "hstack_bottom_band_refined",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "edfa40e2-a936-48fc-b401-b2fec1fd6277",
+      "role": "Role.LayoutContainer.Decoration",
+      "type": "Frame",
+      "children": [
+        {
+          "id": "21242868-38b0-49e5-a71b-95617eed5906",
+          "url": "efafa40e-67ca-4104-b2cc-926e9d2ca84b",
+          "role": "Role.Element.Decoration",
+          "type": "Image",
+          "position": {
+            "x": 0,
+            "y": 0.0,
+            "width": 454.6743337002057,
+            "height": 316.7498284565778
+          },
+          "patternLabel": "A"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0.0,
+        "width": 454.6743337002057,
+        "height": 316.7498284565778
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "Image",
+          "patterns": [
+            [
+              "21242868-38b0-49e5-a71b-95617eed5906"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "group_center_text_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "bd5764ec-ef49-4181-af0b-e4775708ad27",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 800.477970685989,
+            "height": 316.7498284565778
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "5fa4ed57-0dbd-4f48-86e5-b2c6edf240b6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim.",
+          "areaSize": 139320,
+          "fontSize": 24,
+          "position": {
+            "x": 57.05,
+            "y": 58.37,
+            "width": 691.2,
+            "height": 201.5625
+          },
+          "fontFamily": "fv6fpc03c83vgkfm",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 5,
+            "totalMaxChars": 285,
+            "maxCharsPerLine": 57
+          }
+        }
+      ],
+      "position": {
+        "x": 481.46,
+        "y": 0.0,
+        "width": 800.477970685989,
+        "height": 316.7498284565778
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "bd5764ec-ef49-4181-af0b-e4775708ad27"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "5fa4ed57-0dbd-4f48-86e5-b2c6edf240b6"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "97dcee6c-88bb-4bac-8fcb-d83dbaef1b1f",
+      "role": "Role.LayoutContainer.Decoration",
+      "type": "Frame",
+      "children": [
+        {
+          "id": "4633e4b5-0c0e-405a-bda6-7e30f834f54f",
+          "url": "b7107b91-bd3a-4317-9e28-269bfeba635d",
+          "role": "Role.Element.Decoration",
+          "type": "Image",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 343.46451485741636,
+            "height": 316.7498284565777
+          },
+          "patternLabel": "A"
+        }
+      ],
+      "position": {
+        "x": 1307.66,
+        "y": 0.0,
+        "width": 343.46451485741636,
+        "height": 316.7498284565777
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "Image",
+          "patterns": [
+            [
+              "4633e4b5-0c0e-405a-bda6-7e30f834f54f"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 443.21,
+    "width": 1651.1253927290477,
+    "height": 316.7498284565778
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Decoration",
+      "type": "Frame",
+      "patterns": [
+        [
+          "edfa40e2-a936-48fc-b401-b2fec1fd6277",
+          "97dcee6c-88bb-4bac-8fcb-d83dbaef1b1f"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_center_text_card"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 26.25
+}

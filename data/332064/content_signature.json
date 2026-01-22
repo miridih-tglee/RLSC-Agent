@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Title",
+        "type": "Text"
+      },
+      {
+        "role": "Description",
+        "type": "Chart",
+        "children": [
+          {
+            "role": "Description",
+            "type": "Text"
+          }
+        ]
+      }
+    ]
+  }
+]

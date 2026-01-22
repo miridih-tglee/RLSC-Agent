@@ -1,0 +1,561 @@
+{
+  "id": "hstack_main_content",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_projects_column",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_project_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b3071bf9-99b5-4208-b46f-733d9d91ae9b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Your Project Title here",
+              "areaSize": 26521.6,
+              "fontSize": 40,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 473.6,
+                "height": 55.99999999999999
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 12,
+                "maxCharsPerLine": 12
+              }
+            },
+            {
+              "id": "f46b5514-3fec-4aa7-810d-4a5222a229bd",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 79.79,
+                "width": 449.89830674216984,
+                "height": 1.5
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "0799cb67-1b23-45a3-a393-8117cae9bf61",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Nunc fringilla sem ante. Cras efficitur pulvinar blandit. Etiam auctor mollis sem. Pellentesque nec eros at quam sodales pellentesque. ",
+              "areaSize": 49396.1251,
+              "fontSize": 23.33,
+              "position": {
+                "x": 0.0,
+                "y": 120.19,
+                "width": 399.7,
+                "height": 123.583
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 72,
+                "maxCharsPerLine": 18
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 473.59999999999997,
+            "height": 243.77656094890904
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b3071bf9-99b5-4208-b46f-733d9d91ae9b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f46b5514-3fec-4aa7-810d-4a5222a229bd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0799cb67-1b23-45a3-a393-8117cae9bf61"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 31.35
+        },
+        {
+          "id": "vstack_project_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "569855cd-2bda-4f69-979b-1b11c0864029",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Your Project Title here",
+              "areaSize": 26521.6,
+              "fontSize": 40,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 473.6,
+                "height": 55.99999999999999
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 12,
+                "maxCharsPerLine": 12
+              }
+            },
+            {
+              "id": "2497bbea-924d-4fae-8f7c-bf3a8593a9d9",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 79.79,
+                "width": 449.89830674216984,
+                "height": 1.5
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "f3999ef2-42a9-4bdd-a033-30c9139d9b76",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Nunc fringilla sem ante. Cras efficitur pulvinar blandit. Etiam auctor mollis sem. Pellentesque nec eros at quam sodales pellentesque. ",
+              "areaSize": 49396.1251,
+              "fontSize": 23.33,
+              "position": {
+                "x": 0.0,
+                "y": 120.19,
+                "width": 399.7,
+                "height": 123.583
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 72,
+                "maxCharsPerLine": 18
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 331.71,
+            "width": 473.59999999999997,
+            "height": 243.7765609489088
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "569855cd-2bda-4f69-979b-1b11c0864029"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2497bbea-924d-4fae-8f7c-bf3a8593a9d9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f3999ef2-42a9-4bdd-a033-30c9139d9b76"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 31.35
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 32.88,
+        "width": 473.59999999999997,
+        "height": 575.4899421713368
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_project_1",
+              "vstack_project_2"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 87.93
+    },
+    {
+      "id": "vstack_images",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "8eb0a397-c8d0-4db0-9497-4f89f2201980",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "7adc7736-1c99-46da-912b-1e2d81c26457",
+              "url": "fbee490a-ee92-4510-bf1e-2d970ad7af0f",
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 580.9999999999994,
+                "height": 271.4335
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 580.9999999999994,
+            "height": 271.4335
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "patterns": [
+                [
+                  "7adc7736-1c99-46da-912b-1e2d81c26457"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "id": "bb6f9169-ce84-4e5f-ba0f-232ecf88d546",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "05731d64-27cd-4e35-95e5-3233e7f9692a",
+              "url": "e73f55a5-fa0a-4116-8058-ba23b88cb513",
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 580.9999999999995,
+                "height": 271.4335
+              },
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 331.71,
+            "width": 580.9999999999995,
+            "height": 271.4335
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "patterns": [
+                [
+                  "05731d64-27cd-4e35-95e5-3233e7f9692a"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        }
+      ],
+      "position": {
+        "x": 536.65,
+        "y": 0.0,
+        "width": 580.9999999999995,
+        "height": 603.146881222428
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "patterns": [
+            [
+              "8eb0a397-c8d0-4db0-9497-4f89f2201980",
+              "bb6f9169-ce84-4e5f-ba0f-232ecf88d546"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 60.28
+    },
+    {
+      "id": "group_right_info",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "a261a012-bf01-42b3-a3a4-80b6230b85c7",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "d62c50f7-2145-4e60-9f8e-7a0580b9d80f",
+          "position": {
+            "x": 0.0,
+            "y": 238.72,
+            "width": 120.559762444856,
+            "height": 120.55976244485572
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_page_number_title",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "c01033b0-77d4-436c-a710-93acff6d74a6",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "10",
+              "areaSize": 64841.885937499996,
+              "fontSize": 166.67,
+              "position": {
+                "x": 89.0,
+                "y": 0.0,
+                "width": 277.9,
+                "height": 233.328125
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 1
+              }
+            },
+            {
+              "id": "e672818b-5c60-4062-9769-15a2cce08768",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Current Project",
+              "areaSize": 95875.55625,
+              "fontSize": 93.33,
+              "position": {
+                "x": 0.0,
+                "y": 268.83,
+                "width": 366.9,
+                "height": 261.3125
+              },
+              "fontFamily": "fm4vxsxa23q5ad34",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            }
+          ],
+          "position": {
+            "x": 108.21,
+            "y": 0.0,
+            "width": 366.9000000000001,
+            "height": 530.1381471323531
+          },
+          "alignment": "trailing",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c01033b0-77d4-436c-a710-93acff6d74a6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e672818b-5c60-4062-9769-15a2cce08768"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 35.5
+        }
+      ],
+      "position": {
+        "x": 1191.56,
+        "y": 32.72,
+        "width": 475.10872588905386,
+        "height": 530.1381471323531
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a261a012-bf01-42b3-a3a4-80b6230b85c7"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_page_number_title"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "position": {
+    "x": 46.25,
+    "y": 165.25,
+    "width": 1666.667018773383,
+    "height": 608.3718812224278
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_projects_column"
+        ],
+        [
+          "vstack_images"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_right_info"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 68.48
+}

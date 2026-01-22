@@ -1,0 +1,531 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "zstack_card_left",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "b0ada4f0-7b88-4c17-b2e7-36705ee30c03",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kag3boktziox266u",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 541.3759879132765,
+            "height": 630.831167744925
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_left_content",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "12d501d1-e157-41ca-ac4a-6ee579029f67",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kahfkx0qdtkrph6n",
+              "position": {
+                "x": 85.34,
+                "y": 0.0,
+                "width": 223.22745385733504,
+                "height": 223.22745385733083
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "b8eea7ed-1749-4d98-8196-edc5460430ee",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Tech-Savvy Consumers",
+              "areaSize": 43193.955324,
+              "fontSize": 42.667,
+              "position": {
+                "x": 0.0,
+                "y": 232.17,
+                "width": 393.9,
+                "height": 109.65716
+              },
+              "fontFamily": "fscvv621e9l6mkor",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "9022e706-6b83-486d-8470-813cc907874d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Value innovation and streamlined experiences",
+              "areaSize": 32336.728124999998,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0,
+                "y": 367.32,
+                "width": 393.9,
+                "height": 82.09375
+              },
+              "fontFamily": "fbrv7kh2kfjw0r8y",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 30,
+                "maxCharsPerLine": 15
+              }
+            }
+          ],
+          "position": {
+            "x": 73.74,
+            "y": 59.02,
+            "width": 393.8999999999999,
+            "height": 449.4104440175407
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "12d501d1-e157-41ca-ac4a-6ee579029f67"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b8eea7ed-1749-4d98-8196-edc5460430ee"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9022e706-6b83-486d-8470-813cc907874d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.22
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 541.3759879132765,
+        "height": 630.831167744925
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "b0ada4f0-7b88-4c17-b2e7-36705ee30c03"
+            ]
+          ]
+        },
+        {
+          "role": "vstack_card_left_content",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_left_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card_center",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "ac5ffb29-0347-4749-b6f7-a824af362acb",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kag3boktziox266u",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 541.3759879132767,
+            "height": 630.831167744925
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_center_content",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2edef922-5667-42b4-a483-5f71e6a0df9f",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kmfhuqv0d5gav1f5",
+              "position": {
+                "x": 94.57,
+                "y": 0.0,
+                "width": 223.2274538573356,
+                "height": 223.22745385733083
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "2183c084-c253-4694-bb2c-3a8322ed10dd",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Health-Conscious Buyers",
+              "areaSize": 45277.441364,
+              "fontSize": 42.667,
+              "position": {
+                "x": 0.0,
+                "y": 232.17,
+                "width": 412.9,
+                "height": 109.65716
+              },
+              "fontFamily": "fscvv621e9l6mkor",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "7be49de3-baec-438a-92d8-27bbb5f863ea",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Focus on products/services that align with wellness goals",
+              "areaSize": 33896.509375,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0,
+                "y": 367.32,
+                "width": 412.9,
+                "height": 82.09375
+              },
+              "fontFamily": "fbrv7kh2kfjw0r8y",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 30,
+                "maxCharsPerLine": 15
+              }
+            }
+          ],
+          "position": {
+            "x": 64.24,
+            "y": 59.02,
+            "width": 412.89999999999986,
+            "height": 449.4104440175407
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2edef922-5667-42b4-a483-5f71e6a0df9f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2183c084-c253-4694-bb2c-3a8322ed10dd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7be49de3-baec-438a-92d8-27bbb5f863ea"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.22
+        }
+      ],
+      "position": {
+        "x": 591.09,
+        "y": 0.0,
+        "width": 541.3759879132767,
+        "height": 630.831167744925
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ac5ffb29-0347-4749-b6f7-a824af362acb"
+            ]
+          ]
+        },
+        {
+          "role": "vstack_card_center_content",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_center_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card_right",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "ceb3d35a-feda-453e-b81b-a99549620f77",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kag3boktziox266u",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 541.3759879132765,
+            "height": 630.8311677449249
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_right_content",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "fff5cfbf-e4b8-41f7-b470-abf54b054f09",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ksvdbxznplhbq7jb",
+              "position": {
+                "x": 85.59,
+                "y": 0.0,
+                "width": 223.2274538573356,
+                "height": 223.22745385733083
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "279e3597-9b38-46cb-9b39-c362a60469a0",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Cost-Conscious Shoppers",
+              "areaSize": 43248.783903999996,
+              "fontSize": 42.667,
+              "position": {
+                "x": 0.0,
+                "y": 232.17,
+                "width": 394.4,
+                "height": 109.65716
+              },
+              "fontFamily": "fscvv621e9l6mkor",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "6b4928b1-4396-4315-b9d3-823e24bb04f2",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Looking for quality at an affordable price",
+              "areaSize": 32377.774999999998,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0.0,
+                "y": 367.32,
+                "width": 394.4,
+                "height": 82.09375
+              },
+              "fontFamily": "fbrv7kh2kfjw0r8y",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 30,
+                "maxCharsPerLine": 15
+              }
+            }
+          ],
+          "position": {
+            "x": 73.49,
+            "y": 59.02,
+            "width": 394.39999999999986,
+            "height": 449.4104440175407
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "fff5cfbf-e4b8-41f7-b470-abf54b054f09"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "279e3597-9b38-46cb-9b39-c362a60469a0"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6b4928b1-4396-4315-b9d3-823e24bb04f2"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.22
+        }
+      ],
+      "position": {
+        "x": 1176.72,
+        "y": 0.0,
+        "width": 541.3759879132765,
+        "height": 630.8311677449249
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ceb3d35a-feda-453e-b81b-a99549620f77"
+            ]
+          ]
+        },
+        {
+          "role": "vstack_card_right_content",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_right_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "position": {
+    "x": 281.22,
+    "y": 518.35,
+    "width": 1718.0974303720068,
+    "height": 630.831167744925
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "zstack_card_left",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card_left"
+        ]
+      ]
+    },
+    {
+      "role": "zstack_card_center",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card_center"
+        ]
+      ]
+    },
+    {
+      "role": "zstack_card_right",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card_right"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 46.98
+}

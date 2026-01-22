@@ -1,0 +1,13 @@
+{
+  "structure": {
+    "max_depth": 3,
+    "element_count": 7
+  },
+  "extractorVersion": "1.0.0",
+  "included_attributes": [
+    "Pattern",
+    "Hierarchy",
+    "RoleV2",
+    "TextCapacity"
+  ]
+}

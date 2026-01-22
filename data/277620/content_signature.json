@@ -1,0 +1,56 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 1,
+              "totalMaxChars": 3,
+              "maxCharsPerLine": 3
+            }
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 2,
+              "totalMaxChars": 134,
+              "maxCharsPerLine": 67
+            }
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 1,
+              "totalMaxChars": 3,
+              "maxCharsPerLine": 3
+            }
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 2,
+              "totalMaxChars": 134,
+              "maxCharsPerLine": 67
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

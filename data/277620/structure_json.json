@@ -1,0 +1,184 @@
+{
+  "id": "vstack_bullet_list",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_bullet_01",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "60aeae48-5d10-4cfe-b49e-16c99a8c353c",
+          "role": "Role.Element.Marker",
+          "type": "Text",
+          "content": "01",
+          "areaSize": 6228.3125,
+          "fontSize": 50.667,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.8,
+            "height": 70.9375
+          },
+          "fontFamily": "fkshfej4c2dggtqq",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 3,
+            "maxCharsPerLine": 3
+          }
+        },
+        {
+          "id": "0511fcf9-668e-47df-92bc-e08ebe1ac750",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Malesuada quisque fusce a ultricies dictum eget magna magna put curae curae. Nisi sit ipsum finibus ex, put fermentum tempus ri",
+          "areaSize": 43260.3,
+          "fontSize": 22.667,
+          "position": {
+            "x": 87.76195443314151,
+            "y": 4,
+            "width": 681.6,
+            "height": 63.46875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 134,
+            "maxCharsPerLine": 67
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 769.3619544331415,
+        "height": 70.9375
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Marker",
+          "type": "Text",
+          "patterns": [
+            [
+              "60aeae48-5d10-4cfe-b49e-16c99a8c353c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "0511fcf9-668e-47df-92bc-e08ebe1ac750"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_bullet_02",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "3a6b0b29-126d-47b3-afe1-bb59b07cb703",
+          "role": "Role.Element.Marker",
+          "type": "Text",
+          "content": "02",
+          "areaSize": 6228.3125,
+          "fontSize": 50.667,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.8,
+            "height": 70.9375
+          },
+          "fontFamily": "fkshfej4c2dggtqq",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 3,
+            "maxCharsPerLine": 3
+          }
+        },
+        {
+          "id": "8692ede7-592d-4310-854b-a366a795469c",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Malesuada quisque fusce a ultricies dictum eget magna magna put curae curae. Nisi sit ipsum finibus ex, put fermentum tempus ri",
+          "areaSize": 43260.3,
+          "fontSize": 22.667,
+          "position": {
+            "x": 87.76195443314174,
+            "y": 4,
+            "width": 681.6,
+            "height": 63.46875
+          },
+          "fontFamily": "fxr3adtpusuuxszl",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 134,
+            "maxCharsPerLine": 67
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 112.0160891089107,
+        "width": 769.3619544331417,
+        "height": 70.9375
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Marker",
+          "type": "Text",
+          "patterns": [
+            [
+              "3a6b0b29-126d-47b3-afe1-bb59b07cb703"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "8692ede7-592d-4310-854b-a366a795469c"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 536.8331999999999,
+    "width": 769.3619544331417,
+    "height": 182.9535891089107
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_bullet_01",
+          "hstack_bullet_02"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "id": "hstack_cards_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "zstack_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "e8ccbaa7-1b00-4bb8-a5ff-b340ae5b8f98",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 33.47,
+            "width": 538.0000000000005,
+            "height": 539.0695829377853
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "f595dcc7-f502-41eb-b9f6-4e75d53d50dd",
+              "url": "2yujzx4JQpxgwIM50vImN",
+              "role": "Role.Element.Background",
+              "type": "Image",
+              "position": {
+                "x": 201.08,
+                "y": 0.0,
+                "width": 74.9365246759055,
+                "height": 74.93652467590618
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f58a6502-1614-4dff-9ca2-a8f4cedca88d",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "핵심 기술 아키텍처",
+              "areaSize": 18224.8,
+              "fontSize": 37.333,
+              "position": {
+                "x": 64.15,
+                "y": 70.64,
+                "width": 348.8,
+                "height": 52.25
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "d19290e5-4101-4ef1-93f4-895e37dc9a6b",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "제품의 기술 구조를 다이어그램으로 시각화하여 데이터 흐름, 핵심 엔진, 서비스 모듈 등을 보여주세요. 기술에 대한 깊은 이해도를 어필할 수 있습니다.",
+              "areaSize": 67795.181,
+              "fontSize": 26.667,
+              "position": {
+                "x": 33.55,
+                "y": 375.99,
+                "width": 410,
+                "height": 165.3541
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "E",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 51,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "79f85643-8642-4957-b5ab-f082a0d973a9",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "0a1b5a60-2b8c-4b54-aa79-08ff88ee22b9",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 18.25,
+                    "y": 17.01,
+                    "width": 440.6152753425604,
+                    "height": 3.75
+                  },
+                  "patternLabel": "C"
+                },
+                {
+                  "id": "bc1a11e3-ec48-4af6-b906-3a41c8c200fa",
+                  "url": "uto_20736100_200107_st_sa_03",
+                  "role": "Role.Element.Background",
+                  "type": "Image",
+                  "position": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "width": 477.1028552244243,
+                    "height": 264.9157506643394
+                  },
+                  "patternLabel": "D"
+                },
+                {
+                  "id": "0eb494a7-442b-4062-9f37-ad7cd4eab252",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kdsvpciea5qn9fhh",
+                  "position": {
+                    "x": 193.37,
+                    "y": 124.47,
+                    "width": 90.36473125924545,
+                    "height": 15.033076471798722
+                  },
+                  "patternLabel": "C"
+                },
+                {
+                  "id": "4437e491-6bf0-4078-b4a3-2d25a04689e8",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 18.25,
+                    "y": 227.47,
+                    "width": 440.6152753425602,
+                    "height": 3.75
+                  },
+                  "patternLabel": "C"
+                }
+              ],
+              "position": {
+                "x": -0.0,
+                "y": 122.65,
+                "width": 477.1,
+                "height": 264.92
+              },
+              "padding": {
+                "top": 0,
+                "bottom": 0.0,
+                "left": 0,
+                "right": 0
+              }
+            }
+          ],
+          "position": {
+            "x": 30.45,
+            "y": 0.0,
+            "width": 477.1028552244243,
+            "height": 541.3477084595467
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "f595dcc7-f502-41eb-b9f6-4e75d53d50dd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f58a6502-1614-4dff-9ca2-a8f4cedca88d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0a1b5a60-2b8c-4b54-aa79-08ff88ee22b9",
+                  "0eb494a7-442b-4062-9f37-ad7cd4eab252",
+                  "4437e491-6bf0-4078-b4a3-2d25a04689e8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "patterns": [
+                [
+                  "bc1a11e3-ec48-4af6-b906-3a41c8c200fa"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d19290e5-4101-4ef1-93f4-895e37dc9a6b"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 538.0000000000005,
+        "height": 572.5378452757384
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e8ccbaa7-1b00-4bb8-a5ff-b340ae5b8f98"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "a5176db8-654b-4d08-bb21-a93883ba8db8",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 33.47,
+            "width": 538.0000000000005,
+            "height": 539.0695829377853
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "d310b953-f46d-4028-a28a-96d749a2fb3d",
+              "url": "2yujzx4JQpxgwIM50vImN",
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "position": {
+                "x": 182.84,
+                "y": 0.0,
+                "width": 74.9365246759055,
+                "height": 74.93652467590618
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "a0949c56-c7cc-410c-bfe0-ca8ec8379be6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "기술적 경쟁 우위",
+              "areaSize": 18224.8,
+              "fontSize": 37.333,
+              "position": {
+                "x": 45.91,
+                "y": 70.64,
+                "width": 348.8,
+                "height": 52.25
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "9121b171-8ca5-4430-b93a-888050531394",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 139.65,
+                "width": 440.6152753425604,
+                "height": 3.75
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "1be16b3e-c174-4aad-ad91-9dbc8c7224fe",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "핵심 기술 1: 독자 개발 AI 엔진\n이 기술이 타사 대비 어떤 우월한 점\n(정확도, 속도 등)이 있는지 수치로\n보여주세요.",
+              "areaSize": 67795.181,
+              "fontSize": 26.667,
+              "position": {
+                "x": 15.31,
+                "y": 166.32,
+                "width": 410,
+                "height": 165.3541
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 51,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "978622b6-c69a-4ceb-bd14-7c50b3b77a94",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 350.11,
+                "width": 440.61527534256027,
+                "height": 3.75
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "1cdaf8be-abec-4b6e-b4db-050f50b6b187",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": " 핵심 기술 2: 데이터 확보 능력\n독점적으로 확보한 데이터가 있다면\n그 양과 질에 대해 설명하고, 이것이 왜 강력한 경쟁력인지 설명하세요",
+              "areaSize": 67795.181,
+              "fontSize": 26.667,
+              "position": {
+                "x": 15.31,
+                "y": 375.99,
+                "width": 410,
+                "height": 165.3541
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 51,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 48.69,
+            "y": 0.0,
+            "width": 440.6152753425604,
+            "height": 541.3477084595467
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "d310b953-f46d-4028-a28a-96d749a2fb3d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a0949c56-c7cc-410c-bfe0-ca8ec8379be6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9121b171-8ca5-4430-b93a-888050531394",
+                  "978622b6-c69a-4ceb-bd14-7c50b3b77a94"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1be16b3e-c174-4aad-ad91-9dbc8c7224fe",
+                  "1cdaf8be-abec-4b6e-b4db-050f50b6b187"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 20.06
+        }
+      ],
+      "position": {
+        "x": 572.77,
+        "y": 0.0,
+        "width": 538.0000000000005,
+        "height": 572.5378452757384
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a5176db8-654b-4d08-bb21-a93883ba8db8"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    },
+    {
+      "id": "zstack_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "73ea9701-7716-4704-84b4-a9c7952e6726",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 33.47,
+            "width": 538.0000000000005,
+            "height": 539.0695829377853
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "e0426214-ce8d-4cea-ae29-d4f6284a41c1",
+              "url": "2yujzx4JQpxgwIM50vImN",
+              "role": "Role.Element.Background",
+              "type": "Image",
+              "position": {
+                "x": 203.08,
+                "y": 0.0,
+                "width": 74.9365246759055,
+                "height": 74.93652467590618
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "5976854f-5429-486e-8697-1f480f192e9b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "향후 개발 로드맵",
+              "areaSize": 18224.8,
+              "fontSize": 37.333,
+              "position": {
+                "x": 66.15,
+                "y": 70.64,
+                "width": 348.8,
+                "height": 52.25
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "4da519ea-ff15-45dc-9596-9ea44523c9f2",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "과거-현재-미래 순으로 주요 개발 마일스톤과 향후 고도화 계획을 타임라인으로 제시하여 회사의 지속적인 발전 가능성을 보여주세요.",
+              "areaSize": 67795.181,
+              "fontSize": 26.667,
+              "position": {
+                "x": 35.55,
+                "y": 375.99,
+                "width": 410,
+                "height": 165.3541
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "E",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 51,
+                "maxCharsPerLine": 17
+              }
+            },
+            {
+              "id": "51a621a9-eadd-46f6-bb2b-b62d9a0dbec5",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "b73393f4-a7d7-4aae-a765-c7a932920b3f",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 20.25,
+                    "y": 17.01,
+                    "width": 440.6152753425604,
+                    "height": 3.75
+                  },
+                  "patternLabel": "C"
+                },
+                {
+                  "id": "e203f5b7-c4e7-47ed-8fef-2ed68477443e",
+                  "url": "uto_20736100_200107_st_sa_03",
+                  "role": "Role.Element.Background",
+                  "type": "Image",
+                  "position": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "width": 477.1028552244243,
+                    "height": 264.9157506643394
+                  },
+                  "patternLabel": "D"
+                },
+                {
+                  "id": "20b2ad58-2e26-4310-83c2-44fc580dce7b",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kdsvpciea5qn9fhh",
+                  "position": {
+                    "x": 195.37,
+                    "y": 124.47,
+                    "width": 90.36473125924545,
+                    "height": 15.033076471798722
+                  },
+                  "patternLabel": "C"
+                },
+                {
+                  "id": "c399d329-f1ec-4621-a754-f011e04add6c",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 20.25,
+                    "y": 227.47,
+                    "width": 440.6152753425604,
+                    "height": 3.75
+                  },
+                  "patternLabel": "C"
+                }
+              ],
+              "position": {
+                "x": -0.0,
+                "y": 122.65,
+                "width": 477.1,
+                "height": 264.92
+              },
+              "padding": {
+                "top": 0,
+                "bottom": 0.0,
+                "left": 0,
+                "right": 0
+              }
+            }
+          ],
+          "position": {
+            "x": 28.45,
+            "y": 0.0,
+            "width": 477.1028552244243,
+            "height": 541.3477084595467
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "Image",
+              "patterns": [
+                [
+                  "e0426214-ce8d-4cea-ae29-d4f6284a41c1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5976854f-5429-486e-8697-1f480f192e9b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b73393f4-a7d7-4aae-a765-c7a932920b3f",
+                  "20b2ad58-2e26-4310-83c2-44fc580dce7b",
+                  "c399d329-f1ec-4621-a754-f011e04add6c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "patterns": [
+                [
+                  "e203f5b7-c4e7-47ed-8fef-2ed68477443e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4da519ea-ff15-45dc-9596-9ea44523c9f2"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          }
+        }
+      ],
+      "position": {
+        "x": 1147.11,
+        "y": 0.0,
+        "width": 538.0000000000005,
+        "height": 572.5378452757384
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "73ea9701-7716-4704-84b4-a9c7952e6726"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "position": {
+    "x": 38.43,
+    "y": 350.57,
+    "width": 1685.1105331620975,
+    "height": 572.5378452757384
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_card1",
+          "zstack_card3"
+        ],
+        [
+          "zstack_card2"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 35.55
+}
