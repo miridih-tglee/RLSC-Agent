@@ -384,6 +384,35 @@ def find_background_candidate(children: List[Dict]) -> int:
 
 
 # ============================================================
+# Frame/Image → Marker 변환
+# ============================================================
+def convert_frame_image_to_marker(node: Dict) -> Dict:
+    """
+    Frame 타입이면 role을 Marker로 변경하고,
+    Frame 안의 Image도 role을 Marker로 변경
+    """
+    result = deepcopy(node)
+    node_type = get_type(result)
+    
+    # Frame 타입이면 role을 Marker로 변경
+    if node_type == 'Frame':
+        result['role'] = 'Role.Element.Marker'
+        
+        # Frame 안의 children (주로 Image)도 Marker로 변경
+        children = result.get('children', [])
+        for child in children:
+            if get_type(child) == 'Image':
+                child['role'] = 'Role.Element.Marker'
+    
+    # 자식들 재귀 처리
+    children = result.get('children', [])
+    if children:
+        result['children'] = [convert_frame_image_to_marker(c) for c in children]
+    
+    return result
+
+
+# ============================================================
 # 메인 수정 함수
 # ============================================================
 MAX_RECURSION_DEPTH = 50  # 최대 재귀 깊이 제한
@@ -561,7 +590,11 @@ def add_layout_properties(node: Dict) -> Dict:
 def fix_structure(structure: Dict, verbose: bool = True) -> Dict:
     """structure_json 수정 파이프라인"""
     if verbose:
-        print("\n  🔄 절대좌표 변환")
+        print("\n  🔄 Frame/Image → Marker 변환")
+    structure = convert_frame_image_to_marker(structure)
+    
+    if verbose:
+        print("  🔄 절대좌표 변환")
     structure_abs = to_absolute_coords(structure)
     
     if verbose:
