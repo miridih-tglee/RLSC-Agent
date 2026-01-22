@@ -33,7 +33,7 @@
               "children": [
                 {
                   "id": "f505d8fb-c545-48ce-8b59-d90f3a59b647",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -291,7 +291,7 @@
               "children": [
                 {
                   "id": "59118ccc-3e93-4568-af9e-fc1508a2e731",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -549,7 +549,7 @@
               "children": [
                 {
                   "id": "cacdcc0a-13bb-44f9-8729-79b9612a195d",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {

@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "3bd1b549-9d9d-49bf-acc0-a946e789849c",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -62,7 +62,7 @@
               }
             },
             {
-              "id": "860ff7f3-5fda-4cf6-9571-f4b6b768a5bd",
+              "id": "2bebcbe9-f1ed-4aaa-8435-90229b68ef3a",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -285,7 +285,7 @@
       "children": [
         {
           "id": "d5345432-0584-4f97-9c31-5fc834f5e334",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -337,7 +337,7 @@
               }
             },
             {
-              "id": "227d215b-282e-484d-9487-cdd77f1aef50",
+              "id": "3ca20478-f752-45d2-ab4a-2046c44f9caf",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -560,7 +560,7 @@
       "children": [
         {
           "id": "566e21d8-2e4f-47f7-9db1-10ac4ce94431",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "kvbhgboinsbc889w",
           "position": {
@@ -612,7 +612,7 @@
               }
             },
             {
-              "id": "09629a86-3265-4e62-9207-665e1a1ae8f5",
+              "id": "bc35e8ba-32e1-451f-8f6e-1c6175c80014",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [

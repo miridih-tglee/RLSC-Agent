@@ -230,7 +230,7 @@
           "children": [
             {
               "id": "zstack_card1_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -247,7 +247,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "604fa217-56fc-4aad-967e-6269326e5e79",
+                  "id": "31e30ce6-156e-4926-ae80-24ac5ef6e904",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [
@@ -460,7 +460,7 @@
           "children": [
             {
               "id": "zstack_card2_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -477,7 +477,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "2016d717-9db5-43be-b2bc-50d10eb11180",
+                  "id": "485d36c4-dd7d-48b2-a007-eb335b896fc7",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [
@@ -690,7 +690,7 @@
           "children": [
             {
               "id": "zstack_card3_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -707,7 +707,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "a08c6c47-3b47-47c5-b61a-9baa0aec34cb",
+                  "id": "030a2038-c43f-45c6-963e-17520d640d2c",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [
@@ -920,7 +920,7 @@
           "children": [
             {
               "id": "zstack_card4_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -937,7 +937,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "d8020ce1-af75-4d96-b2e0-0adc6241abbc",
+                  "id": "f8cbce19-30a6-497f-8c55-5f0442ff117c",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [
@@ -1150,7 +1150,7 @@
           "children": [
             {
               "id": "zstack_card5_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -1167,7 +1167,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "d5ada3a2-5d8e-4b78-adcf-2690ba7fd65a",
+                  "id": "56ceb3b9-1ae4-47ba-9ff5-650a24761d34",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [
@@ -1380,7 +1380,7 @@
           "children": [
             {
               "id": "zstack_card6_icon",
-              "role": "Role.LayoutContainer.Decoration",
+              "role": "Role.Element.Background",
               "type": "ZStack",
               "children": [
                 {
@@ -1397,7 +1397,7 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "aba0a6be-bc5b-4c4e-aeac-5c1546585683",
+                  "id": "b71aa744-45fc-4e9e-9175-fb8077af8288",
                   "role": "Role.LayoutContainer.Decoration",
                   "type": "Group",
                   "children": [

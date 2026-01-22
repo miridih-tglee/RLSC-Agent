@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "group_media1",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -125,7 +125,7 @@
           "children": [
             {
               "id": "2d0db092-c083-4c3a-bad8-cc7a1d05e76e",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Background",
               "type": "SVG",
               "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
               "position": {
@@ -340,7 +340,7 @@
       "children": [
         {
           "id": "group_media2",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -455,7 +455,7 @@
           "children": [
             {
               "id": "a1b0dfbd-160c-4524-85d5-a493c0cae252",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Background",
               "type": "SVG",
               "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
               "position": {
@@ -670,7 +670,7 @@
       "children": [
         {
           "id": "group_media3",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -785,7 +785,7 @@
           "children": [
             {
               "id": "beee29f5-ed50-473e-966f-20d37720780f",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Background",
               "type": "SVG",
               "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
               "position": {

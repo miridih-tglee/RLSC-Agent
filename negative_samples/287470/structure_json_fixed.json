@@ -27,63 +27,6 @@
               "patternLabel": "A"
             },
             {
-              "id": "88923d24-6450-4c31-afce-2fd2310c2ad9",
-              "type": "Frame",
-              "children": [
-                {
-                  "id": "46621c07-1027-4db4-bcd8-503a9f74d1be",
-                  "url": "ab0b13fa-be1e-44a8-a373-8c376e4e3bd8",
-                  "role": "Role.Element.Marker",
-                  "type": "Image",
-                  "position": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "width": 398.17837923343905,
-                    "height": 559.5733558969421
-                  },
-                  "patternLabel": "A"
-                }
-              ],
-              "position": {
-                "x": 0.0,
-                "y": 0.0,
-                "width": 398.17837923343905,
-                "height": 559.5733558969421
-              },
-              "patternLabel": "B",
-              "patternDimensions": [
-                {
-                  "role": "Role.Element.Description",
-                  "type": "Image",
-                  "patterns": [
-                    [
-                      "46621c07-1027-4db4-bcd8-503a9f74d1be"
-                    ]
-                  ]
-                }
-              ],
-              "role": "Role.Element.Marker",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              }
-            },
-            {
-              "id": "72fc4a43-68b8-45bc-86cf-60a7a10f07c2",
-              "role": "Role.Element.Decoration",
-              "type": "SVG",
-              "svgData": "kvbhgboinsbc889w",
-              "position": {
-                "x": 313.62,
-                "y": 108.87,
-                "width": 236.05833587274333,
-                "height": 431.407117965262
-              },
-              "patternLabel": "C"
-            },
-            {
               "id": "ad1fabc9-82b3-4e62-bc90-0495ad1960b3",
               "role": "Role.Element.Description",
               "type": "Text",
@@ -103,6 +46,82 @@
                 "maxLines": 11,
                 "totalMaxChars": 110,
                 "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "85fa92f0-7e4c-4374-835a-6dd86ecd51fc",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "88923d24-6450-4c31-afce-2fd2310c2ad9",
+                  "type": "Frame",
+                  "children": [
+                    {
+                      "id": "46621c07-1027-4db4-bcd8-503a9f74d1be",
+                      "url": "ab0b13fa-be1e-44a8-a373-8c376e4e3bd8",
+                      "role": "Role.Element.Marker",
+                      "type": "Image",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 398.17837923343905,
+                        "height": 559.5733558969421
+                      },
+                      "patternLabel": "A"
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": -0.0,
+                    "width": 398.17837923343905,
+                    "height": 559.5733558969421
+                  },
+                  "patternLabel": "B",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Image",
+                      "patterns": [
+                        [
+                          "46621c07-1027-4db4-bcd8-503a9f74d1be"
+                        ]
+                      ]
+                    }
+                  ],
+                  "role": "Role.Element.Marker",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
+                },
+                {
+                  "id": "72fc4a43-68b8-45bc-86cf-60a7a10f07c2",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 313.62,
+                    "y": 108.87,
+                    "width": 236.05833587274333,
+                    "height": 431.407117965262
+                  },
+                  "patternLabel": "C"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 549.68,
+                "height": 559.57
+              },
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
               }
             }
           ],
@@ -155,7 +174,7 @@
             "top": 0,
             "bottom": 0,
             "left": 0,
-            "right": 0.0
+            "right": 0
           }
         },
         {
@@ -304,63 +323,6 @@
               "patternLabel": "A"
             },
             {
-              "id": "be90c6d2-71ff-4eb4-b1bd-d21f66f7eaf7",
-              "type": "Frame",
-              "children": [
-                {
-                  "id": "3b77659c-d559-41b6-8170-b2d988136b97",
-                  "url": "84291c1c-a24a-4e19-afc2-bf1c6f534b20",
-                  "role": "Role.Element.Marker",
-                  "type": "Image",
-                  "position": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "width": 398.17837923343905,
-                    "height": 559.5733558969421
-                  },
-                  "patternLabel": "A"
-                }
-              ],
-              "position": {
-                "x": 0.0,
-                "y": 0.0,
-                "width": 398.17837923343905,
-                "height": 559.5733558969421
-              },
-              "patternLabel": "B",
-              "patternDimensions": [
-                {
-                  "role": "Role.Element.Description",
-                  "type": "Image",
-                  "patterns": [
-                    [
-                      "3b77659c-d559-41b6-8170-b2d988136b97"
-                    ]
-                  ]
-                }
-              ],
-              "role": "Role.Element.Marker",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              }
-            },
-            {
-              "id": "1ee5ff2c-3e1a-414c-8f3a-c5d43df569e3",
-              "role": "Role.Element.Decoration",
-              "type": "SVG",
-              "svgData": "kvbhgboinsbc889w",
-              "position": {
-                "x": 313.62,
-                "y": 108.87,
-                "width": 236.05833587274333,
-                "height": 431.407117965262
-              },
-              "patternLabel": "C"
-            },
-            {
               "id": "38e13b03-298f-42b5-8146-8c8a8c4304c6",
               "role": "Role.Element.Description",
               "type": "Text",
@@ -380,6 +342,82 @@
                 "maxLines": 11,
                 "totalMaxChars": 110,
                 "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "18413789-ac40-4212-a486-2606cab2e56a",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "be90c6d2-71ff-4eb4-b1bd-d21f66f7eaf7",
+                  "type": "Frame",
+                  "children": [
+                    {
+                      "id": "3b77659c-d559-41b6-8170-b2d988136b97",
+                      "url": "84291c1c-a24a-4e19-afc2-bf1c6f534b20",
+                      "role": "Role.Element.Marker",
+                      "type": "Image",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 398.17837923343905,
+                        "height": 559.5733558969421
+                      },
+                      "patternLabel": "A"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.0,
+                    "y": 0.0,
+                    "width": 398.17837923343905,
+                    "height": 559.5733558969421
+                  },
+                  "patternLabel": "B",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Image",
+                      "patterns": [
+                        [
+                          "3b77659c-d559-41b6-8170-b2d988136b97"
+                        ]
+                      ]
+                    }
+                  ],
+                  "role": "Role.Element.Marker",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
+                },
+                {
+                  "id": "1ee5ff2c-3e1a-414c-8f3a-c5d43df569e3",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 313.62,
+                    "y": 108.88,
+                    "width": 236.05833587274333,
+                    "height": 431.407117965262
+                  },
+                  "patternLabel": "C"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": -0.0,
+                "width": 549.68,
+                "height": 559.57
+              },
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
               }
             }
           ],
@@ -432,7 +470,7 @@
             "top": 0,
             "bottom": 0,
             "left": 0,
-            "right": 0.0
+            "right": 0
           }
         },
         {
@@ -581,63 +619,6 @@
               "patternLabel": "A"
             },
             {
-              "id": "7afcc700-7953-4b1c-a248-8b9119d1e506",
-              "type": "Frame",
-              "children": [
-                {
-                  "id": "40add3ba-352e-4169-bd3c-77e7ab546347",
-                  "url": "f425a6d8-bcc7-453a-8c3c-e20ac20e4c25",
-                  "role": "Role.Element.Marker",
-                  "type": "Image",
-                  "position": {
-                    "x": 0.0,
-                    "y": 0.0,
-                    "width": 398.17837923343905,
-                    "height": 559.5733558969421
-                  },
-                  "patternLabel": "A"
-                }
-              ],
-              "position": {
-                "x": 0.0,
-                "y": 0.0,
-                "width": 398.17837923343905,
-                "height": 559.5733558969421
-              },
-              "patternLabel": "B",
-              "patternDimensions": [
-                {
-                  "role": "Role.Element.Description",
-                  "type": "Image",
-                  "patterns": [
-                    [
-                      "40add3ba-352e-4169-bd3c-77e7ab546347"
-                    ]
-                  ]
-                }
-              ],
-              "role": "Role.Element.Marker",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              }
-            },
-            {
-              "id": "821d99f6-bb5e-47e7-8168-8ec307907785",
-              "role": "Role.Element.Decoration",
-              "type": "SVG",
-              "svgData": "kvbhgboinsbc889w",
-              "position": {
-                "x": 313.62,
-                "y": 108.87,
-                "width": 236.05833587274333,
-                "height": 431.407117965262
-              },
-              "patternLabel": "C"
-            },
-            {
               "id": "54d7444b-4769-4f14-b619-1a0facd9bf6d",
               "role": "Role.Element.Description",
               "type": "Text",
@@ -657,6 +638,82 @@
                 "maxLines": 11,
                 "totalMaxChars": 110,
                 "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "00403996-db39-4554-9b28-8fce6b0cc912",
+              "role": "Role.LayoutContainer.Decoration",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "7afcc700-7953-4b1c-a248-8b9119d1e506",
+                  "type": "Frame",
+                  "children": [
+                    {
+                      "id": "40add3ba-352e-4169-bd3c-77e7ab546347",
+                      "url": "f425a6d8-bcc7-453a-8c3c-e20ac20e4c25",
+                      "role": "Role.Element.Marker",
+                      "type": "Image",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 398.17837923343905,
+                        "height": 559.5733558969421
+                      },
+                      "patternLabel": "A"
+                    }
+                  ],
+                  "position": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "width": 398.17837923343905,
+                    "height": 559.5733558969421
+                  },
+                  "patternLabel": "B",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Image",
+                      "patterns": [
+                        [
+                          "40add3ba-352e-4169-bd3c-77e7ab546347"
+                        ]
+                      ]
+                    }
+                  ],
+                  "role": "Role.Element.Marker",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  }
+                },
+                {
+                  "id": "821d99f6-bb5e-47e7-8168-8ec307907785",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 313.62,
+                    "y": 108.87,
+                    "width": 236.05833587274333,
+                    "height": 431.407117965262
+                  },
+                  "patternLabel": "C"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 549.68,
+                "height": 559.57
+              },
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
               }
             }
           ],
@@ -709,7 +766,7 @@
             "top": 0,
             "bottom": 0,
             "left": 0,
-            "right": 0.0
+            "right": 0
           }
         },
         {

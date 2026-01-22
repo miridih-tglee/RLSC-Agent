@@ -68,7 +68,7 @@
         },
         {
           "id": "41179a8f-2da4-45cf-b38c-eeda68c169ac",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "",
           "position": {
@@ -355,7 +355,7 @@
         },
         {
           "id": "201d2cad-1cca-40b6-8dbb-f7833623f8fb",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "",
           "position": {
@@ -642,7 +642,7 @@
         },
         {
           "id": "087b3127-6946-40df-a324-70add622fded",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "",
           "position": {
@@ -929,7 +929,7 @@
         },
         {
           "id": "cdecb2d3-681c-4c7e-8c3d-6870ce9356c9",
-          "role": "Role.Element.Decoration",
+          "role": "Role.Element.Background",
           "type": "SVG",
           "svgData": "",
           "position": {

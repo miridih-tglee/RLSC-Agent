@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "zstack_icon_left",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "ZStack",
           "children": [
             {
@@ -27,7 +27,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "36469adc-09ff-4baf-95a3-5309378899eb",
+              "id": "5eebfad7-881c-4f7b-84fe-06d2ff834924",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -230,7 +230,7 @@
       "children": [
         {
           "id": "zstack_icon_center",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "ZStack",
           "children": [
             {
@@ -247,7 +247,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "7d55d207-6457-462a-96db-a8ab175e3ec1",
+              "id": "1097e774-815f-4a5c-a5d6-a3fddd8fab93",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -450,7 +450,7 @@
       "children": [
         {
           "id": "zstack_icon_right",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "ZStack",
           "children": [
             {
@@ -467,7 +467,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "a4033b13-f936-4330-ad2d-b38ec5c939dc",
+              "id": "1934a72e-03f9-46aa-9cbb-fb6b0b0ea409",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [

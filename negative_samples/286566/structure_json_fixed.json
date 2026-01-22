@@ -33,7 +33,7 @@
               "children": [
                 {
                   "id": "40bac5c9-8665-42bc-be79-605c21a1ca7e",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {
@@ -279,7 +279,7 @@
               "children": [
                 {
                   "id": "58334544-7201-4991-b8ec-3c63d55bacf6",
-                  "role": "Role.Element.Decoration",
+                  "role": "Role.Element.Background",
                   "type": "SVG",
                   "svgData": "kw13c3i3iiwabm8r",
                   "position": {

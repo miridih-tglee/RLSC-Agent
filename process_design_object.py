@@ -235,9 +235,7 @@ def should_check_pair(node1: Dict, node2: Dict) -> bool:
     if role2 in ['Title', 'Description', 'Subtitle']:
         return False
     
-    # Frame, Image 타입은 제외
-    if is_frame(node1) or is_frame(node2) or is_image(node1) or is_image(node2):
-        return False
+    # ※ Frame/Image도 role이 Marker면 검사 대상! (제거됨)
     
     # Decoration/Marker끼리 겹치면 검사
     if role1 == 'Decoration' and role2 == 'Decoration':
@@ -450,10 +448,55 @@ def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
     # 2. Background 중복 수정
     children = fix_multiple_backgrounds(children)
     
-    # 3. 먼저 겹침 검사
+    # 3. Title/Description/Subtitle과 겹치는 Decoration → Background 승격
+    existing_bg = any(is_background(c) for c in children)
+    if not existing_bg:
+        text_roles = ['Title', 'Description', 'Subtitle']
+        text_children = [c for c in children if get_role(c) in text_roles]
+        
+        if text_children:
+            # Decoration 중 텍스트와 겹치는 것 찾기
+            best_deco_idx = -1
+            best_deco_area = 0
+            
+            for deco_idx, deco in enumerate(children):
+                deco_role = get_role(deco)
+                deco_type = get_type(deco)
+                
+                # Decoration이고 Text/Frame/Image가 아닌 것만 (SVG 등)
+                if deco_role != 'Decoration':
+                    continue
+                if deco_type in ['Text', 'Frame', 'Image']:
+                    continue
+                
+                deco_bbox = get_bbox(deco)
+                if not deco_bbox:
+                    continue
+                
+                # 텍스트와 겹치는지 확인
+                for text in text_children:
+                    text_bbox = get_bbox(text)
+                    if not text_bbox:
+                        continue
+                    if is_overlapping(deco_bbox, text_bbox):
+                        # 가장 큰 Decoration 선택
+                        pos = deco.get('position', {})
+                        area = pos.get('width', 0) * pos.get('height', 0)
+                        if area > best_deco_area:
+                            best_deco_area = area
+                            best_deco_idx = deco_idx
+                        break
+            
+            if best_deco_idx >= 0:
+                children[best_deco_idx] = deepcopy(children[best_deco_idx])
+                children[best_deco_idx]['role'] = 'Role.Element.Background'
+                if verbose:
+                    print(f"{indent}   🎨 Text와 겹치는 Deco → BG")
+    
+    # 4. Decoration/Marker 끼리 겹침 검사
     pairs = find_overlapping_pairs(children)
     
-    # 4. 겹침이 있을 때 처리
+    # 5. 겹침이 있을 때 처리
     if pairs:
         # ✅ 기존 Background가 있는지 확인
         existing_bg = any(is_background(c) for c in children)

@@ -63,7 +63,7 @@
             },
             {
               "id": "0a1b5a60-2b8c-4b54-aa79-08ff88ee22b9",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Background",
               "type": "SVG",
               "svgData": "",
               "position": {
@@ -518,7 +518,7 @@
             },
             {
               "id": "b73393f4-a7d7-4aae-a765-c7a932920b3f",
-              "role": "Role.Element.Decoration",
+              "role": "Role.Element.Background",
               "type": "SVG",
               "svgData": "",
               "position": {

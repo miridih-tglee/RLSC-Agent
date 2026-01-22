@@ -10,7 +10,7 @@
       "children": [
         {
           "id": "group_cardA_background",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -27,7 +27,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "27e4804e-38f9-44c8-9def-b2ad02564e9b",
+              "id": "674e9f0b-0ac6-4b6f-99e9-7cad498895c3",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -227,7 +227,7 @@
       "children": [
         {
           "id": "group_cardB_background",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -244,7 +244,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "2d588d38-8563-4c23-aa80-8dff962b6937",
+              "id": "47888aef-ebc7-451e-af79-231d01fb624a",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -444,7 +444,7 @@
       "children": [
         {
           "id": "group_cardC_background",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -461,7 +461,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "9214c983-cfcc-46c2-a86e-9b48378613e2",
+              "id": "de8b6446-3e5c-4ab8-b5ca-ca72f06f99b7",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -661,7 +661,7 @@
       "children": [
         {
           "id": "group_cardD_background",
-          "role": "Role.LayoutContainer.Decoration",
+          "role": "Role.Element.Background",
           "type": "Group",
           "children": [
             {
@@ -678,7 +678,7 @@
               "patternLabel": "A"
             },
             {
-              "id": "06fb321a-612f-4ad2-bb4c-d0bcccb13f57",
+              "id": "6fc69877-d709-4f9e-ba49-c17ec41f27a4",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
