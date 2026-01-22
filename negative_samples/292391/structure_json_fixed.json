@@ -63,13 +63,52 @@
             },
             {
               "id": "0a1b5a60-2b8c-4b54-aa79-08ff88ee22b9",
-              "role": "Role.Element.Background",
+              "role": "Role.Element.Decoration",
               "type": "SVG",
               "svgData": "",
               "position": {
                 "x": 18.24,
                 "y": 139.65,
                 "width": 440.6152753425604,
+                "height": 3.75
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "bc1a11e3-ec48-4af6-b906-3a41c8c200fa",
+              "url": "uto_20736100_200107_st_sa_03",
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 122.64,
+                "width": 477.1028552244243,
+                "height": 264.9157506643394
+              },
+              "patternLabel": "D"
+            },
+            {
+              "id": "0eb494a7-442b-4062-9f37-ad7cd4eab252",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kdsvpciea5qn9fhh",
+              "position": {
+                "x": 193.37,
+                "y": 247.12,
+                "width": 90.36473125924545,
+                "height": 15.033076471798722
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "4437e491-6bf0-4078-b4a3-2d25a04689e8",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 18.24,
+                "y": 350.11,
+                "width": 440.6152753425602,
                 "height": 3.75
               },
               "patternLabel": "C"
@@ -94,64 +133,6 @@
                 "maxLines": 3,
                 "totalMaxChars": 51,
                 "maxCharsPerLine": 17
-              }
-            },
-            {
-              "id": "9c7875a0-7179-442f-8f87-3f82ff717313",
-              "role": "Role.LayoutContainer.Decoration",
-              "type": "Group",
-              "children": [
-                {
-                  "id": "bc1a11e3-ec48-4af6-b906-3a41c8c200fa",
-                  "url": "uto_20736100_200107_st_sa_03",
-                  "role": "Role.Element.Description",
-                  "type": "Image",
-                  "position": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "width": 477.1028552244243,
-                    "height": 264.9157506643394
-                  },
-                  "patternLabel": "D"
-                },
-                {
-                  "id": "0eb494a7-442b-4062-9f37-ad7cd4eab252",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kdsvpciea5qn9fhh",
-                  "position": {
-                    "x": 193.37,
-                    "y": 124.47,
-                    "width": 90.36473125924545,
-                    "height": 15.033076471798722
-                  },
-                  "patternLabel": "C"
-                },
-                {
-                  "id": "4437e491-6bf0-4078-b4a3-2d25a04689e8",
-                  "role": "Role.Element.Background",
-                  "type": "SVG",
-                  "svgData": "",
-                  "position": {
-                    "x": 18.25,
-                    "y": 227.47,
-                    "width": 440.6152753425602,
-                    "height": 3.75
-                  },
-                  "patternLabel": "C"
-                }
-              ],
-              "position": {
-                "x": -0.0,
-                "y": 122.65,
-                "width": 477.1,
-                "height": 264.92
-              },
-              "padding": {
-                "top": 0,
-                "bottom": 0.0,
-                "left": 0,
-                "right": 0
               }
             }
           ],
@@ -217,9 +198,9 @@
             "top": 0,
             "bottom": 0.0,
             "left": 0,
-            "right": 0.0
+            "right": 0
           },
-          "gap": 232.59
+          "gap": 71.27
         }
       ],
       "position": {
@@ -537,12 +518,51 @@
             },
             {
               "id": "b73393f4-a7d7-4aae-a765-c7a932920b3f",
-              "role": "Role.Element.Background",
+              "role": "Role.Element.Decoration",
               "type": "SVG",
               "svgData": "",
               "position": {
                 "x": 20.24,
                 "y": 139.65,
+                "width": 440.6152753425604,
+                "height": 3.75
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "e203f5b7-c4e7-47ed-8fef-2ed68477443e",
+              "url": "uto_20736100_200107_st_sa_03",
+              "role": "Role.Element.Description",
+              "type": "Image",
+              "position": {
+                "x": 0.0,
+                "y": 122.64,
+                "width": 477.1028552244243,
+                "height": 264.9157506643394
+              },
+              "patternLabel": "D"
+            },
+            {
+              "id": "20b2ad58-2e26-4310-83c2-44fc580dce7b",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kdsvpciea5qn9fhh",
+              "position": {
+                "x": 195.37,
+                "y": 247.12,
+                "width": 90.36473125924545,
+                "height": 15.033076471798722
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "c399d329-f1ec-4621-a754-f011e04add6c",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 20.24,
+                "y": 350.11,
                 "width": 440.6152753425604,
                 "height": 3.75
               },
@@ -568,64 +588,6 @@
                 "maxLines": 3,
                 "totalMaxChars": 51,
                 "maxCharsPerLine": 17
-              }
-            },
-            {
-              "id": "189c5640-0657-4ce1-9abd-28a93c69354f",
-              "role": "Role.LayoutContainer.Decoration",
-              "type": "Group",
-              "children": [
-                {
-                  "id": "e203f5b7-c4e7-47ed-8fef-2ed68477443e",
-                  "url": "uto_20736100_200107_st_sa_03",
-                  "role": "Role.Element.Description",
-                  "type": "Image",
-                  "position": {
-                    "x": 0.0,
-                    "y": -0.0,
-                    "width": 477.1028552244243,
-                    "height": 264.9157506643394
-                  },
-                  "patternLabel": "D"
-                },
-                {
-                  "id": "20b2ad58-2e26-4310-83c2-44fc580dce7b",
-                  "role": "Role.Element.Decoration",
-                  "type": "SVG",
-                  "svgData": "kdsvpciea5qn9fhh",
-                  "position": {
-                    "x": 195.37,
-                    "y": 124.47,
-                    "width": 90.36473125924545,
-                    "height": 15.033076471798722
-                  },
-                  "patternLabel": "C"
-                },
-                {
-                  "id": "c399d329-f1ec-4621-a754-f011e04add6c",
-                  "role": "Role.Element.Background",
-                  "type": "SVG",
-                  "svgData": "",
-                  "position": {
-                    "x": 20.25,
-                    "y": 227.47,
-                    "width": 440.6152753425604,
-                    "height": 3.75
-                  },
-                  "patternLabel": "C"
-                }
-              ],
-              "position": {
-                "x": -0.0,
-                "y": 122.65,
-                "width": 477.1,
-                "height": 264.92
-              },
-              "padding": {
-                "top": 0,
-                "bottom": 0.0,
-                "left": 0,
-                "right": 0
               }
             }
           ],
@@ -691,9 +653,9 @@
             "top": 0,
             "bottom": 0.0,
             "left": 0,
-            "right": 0.0
+            "right": 0
           },
-          "gap": 232.59
+          "gap": 71.27
         }
       ],
       "position": {

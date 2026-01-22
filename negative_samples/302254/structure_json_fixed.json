@@ -40,7 +40,29 @@
               "patternLabel": "A"
             },
             {
-              "id": "5439a195-c60d-4a1e-924a-21e7c2e252ae",
+              "id": "b06b5c3e-5c3d-49cc-b7c5-bcba405bda69",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "24%",
+              "areaSize": 16760.462475,
+              "fontSize": 66.709,
+              "position": {
+                "x": 67.22,
+                "y": 108.94,
+                "width": 179.5,
+                "height": 93.37304999999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "2b78c899-8aaa-4a85-a7ca-b278cb9dbaaa",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -69,41 +91,19 @@
                     "height": 181.4404731645351
                   },
                   "patternLabel": "C"
-                },
-                {
-                  "id": "b06b5c3e-5c3d-49cc-b7c5-bcba405bda69",
-                  "role": "Role.Element.Highlight",
-                  "type": "Text",
-                  "content": "24%",
-                  "areaSize": 16760.462475,
-                  "fontSize": 66.709,
-                  "position": {
-                    "x": 67.21,
-                    "y": 108.94,
-                    "width": 179.5,
-                    "height": 93.37304999999999
-                  },
-                  "fontFamily": "fjurebdb5vk3fnnk",
-                  "fontWeight": "400",
-                  "patternLabel": "D",
-                  "textCapacity": {
-                    "maxLines": 1,
-                    "totalMaxChars": 3,
-                    "maxCharsPerLine": 3
-                  }
                 }
               ],
               "position": {
                 "x": 0.0,
                 "y": -0.0,
-                "width": 246.72,
+                "width": 246.35,
                 "height": 246.35
               },
               "padding": {
                 "top": 0,
                 "bottom": 0,
                 "left": 0,
-                "right": 0.01
+                "right": 0
               }
             }
           ],
@@ -315,7 +315,29 @@
               "patternLabel": "A"
             },
             {
-              "id": "8ed24843-4ef8-4682-9c5e-a65931d74c50",
+              "id": "260b4208-9236-4016-bf8b-b194a1eed118",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "75%",
+              "areaSize": 16760.462475,
+              "fontSize": 66.709,
+              "position": {
+                "x": 64.88,
+                "y": 106.6,
+                "width": 179.5,
+                "height": 93.37304999999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "79d2dd4f-7c5f-4395-9260-10a15e8c2db1",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -344,28 +366,6 @@
                     "height": 181.44047316453504
                   },
                   "patternLabel": "C"
-                },
-                {
-                  "id": "260b4208-9236-4016-bf8b-b194a1eed118",
-                  "role": "Role.Element.Highlight",
-                  "type": "Text",
-                  "content": "75%",
-                  "areaSize": 16760.462475,
-                  "fontSize": 66.709,
-                  "position": {
-                    "x": 64.88,
-                    "y": 106.61,
-                    "width": 179.5,
-                    "height": 93.37304999999999
-                  },
-                  "fontFamily": "fjurebdb5vk3fnnk",
-                  "fontWeight": "400",
-                  "patternLabel": "D",
-                  "textCapacity": {
-                    "maxLines": 1,
-                    "totalMaxChars": 3,
-                    "maxCharsPerLine": 3
-                  }
                 }
               ],
               "position": {
@@ -590,7 +590,29 @@
               "patternLabel": "A"
             },
             {
-              "id": "27dde7f5-c7f4-45fd-acb5-9391348fdd0b",
+              "id": "ba98cd6d-5fb9-4e30-81b5-14253f798a67",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "53%",
+              "areaSize": 16760.462475,
+              "fontSize": 66.709,
+              "position": {
+                "x": 119.52,
+                "y": 163.57,
+                "width": 179.5,
+                "height": 93.37304999999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "17574dfb-02ee-45e8-8f3d-892f4e640c76",
               "role": "Role.LayoutContainer.Decoration",
               "type": "Group",
               "children": [
@@ -608,6 +630,19 @@
                   "patternLabel": "B"
                 },
                 {
+                  "id": "6a3869f2-768c-4c11-b457-7f7658d65c1a",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "kz73lmmy3zuaxiz2",
+                  "position": {
+                    "x": 0.0,
+                    "y": 153.3,
+                    "width": 155.63282092982377,
+                    "height": 155.63282092982377
+                  },
+                  "patternLabel": "B"
+                },
+                {
                   "id": "8d49240c-0b79-42e5-99ac-74e83e377e7d",
                   "role": "Role.Element.Background",
                   "type": "SVG",
@@ -619,60 +654,6 @@
                     "height": 181.44047316453504
                   },
                   "patternLabel": "C"
-                },
-                {
-                  "id": "ce002f4a-e378-418a-906a-30fa8c3c5e3d",
-                  "role": "Role.LayoutContainer.Decoration",
-                  "type": "Group",
-                  "children": [
-                    {
-                      "id": "6a3869f2-768c-4c11-b457-7f7658d65c1a",
-                      "role": "Role.Element.Background",
-                      "type": "SVG",
-                      "svgData": "kz73lmmy3zuaxiz2",
-                      "position": {
-                        "x": 0.0,
-                        "y": 46.69,
-                        "width": 155.63282092982377,
-                        "height": 155.63282092982377
-                      },
-                      "patternLabel": "B"
-                    },
-                    {
-                      "id": "ba98cd6d-5fb9-4e30-81b5-14253f798a67",
-                      "role": "Role.Element.Highlight",
-                      "type": "Text",
-                      "content": "53%",
-                      "areaSize": 16760.462475,
-                      "fontSize": 66.709,
-                      "position": {
-                        "x": 63.72,
-                        "y": -0.0,
-                        "width": 179.5,
-                        "height": 93.37304999999999
-                      },
-                      "fontFamily": "fjurebdb5vk3fnnk",
-                      "fontWeight": "400",
-                      "patternLabel": "D",
-                      "textCapacity": {
-                        "maxLines": 1,
-                        "totalMaxChars": 3,
-                        "maxCharsPerLine": 3
-                      }
-                    }
-                  ],
-                  "position": {
-                    "x": 0.0,
-                    "y": 106.61,
-                    "width": 243.22,
-                    "height": 202.33
-                  },
-                  "padding": {
-                    "top": 0,
-                    "bottom": 0.01,
-                    "left": 0,
-                    "right": 0
-                  }
                 }
               ],
               "position": {

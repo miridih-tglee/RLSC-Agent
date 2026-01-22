@@ -211,10 +211,15 @@ def is_overlapping(bbox1: Tuple, bbox2: Tuple, threshold: float = 0.1) -> bool:
 # 겹침 검사
 # ============================================================
 def should_check_pair(node1: Dict, node2: Dict) -> bool:
-    """겹침 검사 대상인지 확인 (컨테이너 타입 제외)"""
+    """
+    겹침 검사 대상인지 확인
+    - Decoration, Marker, Frame, Image가 다른 요소와 겹치면 검사 대상
+    - Background, 컨테이너 타입(Group, HStack, VStack 등)은 제외
+    """
     role1, role2 = get_role(node1), get_role(node2)
     type1, type2 = get_type(node1), get_type(node2)
     
+    # Background는 겹침 허용
     if role1 == 'Background' or role2 == 'Background':
         return False
     
@@ -223,19 +228,14 @@ def should_check_pair(node1: Dict, node2: Dict) -> bool:
     if type1 in container_types or type2 in container_types:
         return False
     
-    if role1 in ['Title', 'Description', 'Subtitle'] or type1 == 'Text':
-        return False
-    if role2 in ['Title', 'Description', 'Subtitle'] or type2 == 'Text':
-        return False
-    
-    if is_frame(node1) or is_frame(node2) or is_image(node1) or is_image(node2):
-        return False
-    
-    if role1 == 'Decoration' and role2 == 'Decoration':
+    # Decoration 또는 Marker가 포함되어 있으면 검사
+    checkable_roles = ['Decoration', 'Marker']
+    if role1 in checkable_roles or role2 in checkable_roles:
         return True
-    if (role1 == 'Decoration' and role2 == 'Marker') or (role1 == 'Marker' and role2 == 'Decoration'):
-        return True
-    if role1 == 'Marker' and role2 == 'Marker':
+    
+    # Frame 또는 Image 타입이 포함되어 있으면 검사
+    checkable_types = ['Frame', 'Image']
+    if type1 in checkable_types or type2 in checkable_types:
         return True
     
     return False
@@ -384,6 +384,35 @@ def find_background_candidate(children: List[Dict]) -> int:
 
 
 # ============================================================
+# Frame/Image role 변경
+# ============================================================
+def convert_frame_image_to_marker(node: Dict, verbose: bool = True) -> Dict:
+    """
+    Frame 타입이면 role을 Marker로 변경하고,
+    Frame 안의 Image도 role을 Marker로 변경
+    """
+    result = deepcopy(node)
+    node_type = get_type(result)
+    
+    # Frame 타입이면 role을 Marker로 변경
+    if node_type == 'Frame':
+        result['role'] = 'Role.Element.Marker'
+        
+        # Frame 안의 children (주로 Image)도 Marker로 변경
+        children = result.get('children', [])
+        for child in children:
+            if get_type(child) == 'Image':
+                child['role'] = 'Role.Element.Marker'
+    
+    # 자식들 재귀 처리
+    children = result.get('children', [])
+    if children:
+        result['children'] = [convert_frame_image_to_marker(c, verbose) for c in children]
+    
+    return result
+
+
+# ============================================================
 # 메인 수정 함수
 # ============================================================
 MAX_RECURSION_DEPTH = 50  # 최대 재귀 깊이 제한
@@ -397,6 +426,10 @@ def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
     
     indent = "    " * min(depth, 10)  # 들여쓰기 제한
     result = deepcopy(node)
+    
+    # 0. Frame/Image role을 Marker로 변경
+    result = convert_frame_image_to_marker(result, verbose=False)
+    
     children = result.get('children', [])
     
     if not children:
@@ -415,14 +448,14 @@ def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
     # 3. 먼저 겹침 검사
     pairs = find_overlapping_pairs(children)
     
-    # 4. 겹침이 있을 때만! 가장 큰 Decoration → Background
+    # 4. 겹침이 있을 때만! 가장 큰 Decoration/Marker → Background
     if pairs:
         bg_idx = find_background_candidate(children)
         if bg_idx >= 0:
             children[bg_idx] = deepcopy(children[bg_idx])
             children[bg_idx]['role'] = 'Role.Element.Background'
             if verbose:
-                print(f"{indent}   🎨 겹침 발견 → 가장 큰 Deco → BG")
+                print(f"{indent}   🎨 겹침 발견 → 가장 큰 Deco/Marker → BG")
         
         # 5. 다시 겹침 검사 (Background 제외됨)
         pairs = find_overlapping_pairs(children)

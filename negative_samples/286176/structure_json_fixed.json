@@ -333,13 +333,13 @@
           "children": [
             {
               "id": "f1f95dc6-24c4-4860-9921-d2e3f3565870",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "9aaa4e99-5c33-4d52-a14a-fbef09157497",
                   "url": "burst_white-wall-and-blue-sky",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -377,13 +377,13 @@
             },
             {
               "id": "6152a020-1bb6-4531-8f7c-2885326937de",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "fb84ff6b-c329-4f36-bc76-771e249fa375",
                   "url": "burst_top-of-apartment-building",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -421,13 +421,13 @@
             },
             {
               "id": "16fc5b88-1795-4cdd-9ef3-b6474dfd6a9c",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "14c5bdfa-0ef8-4256-86a8-e75b89438570",
                   "url": "burst_modern-multi-storey-building",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -465,13 +465,13 @@
             },
             {
               "id": "f8c9d5c0-9b0e-44d9-8e80-7db565831343",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "911dc2c8-df37-4a8d-b697-e89f74403906",
                   "url": "burst_a-building-sheathed-in-weave-pattern",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,

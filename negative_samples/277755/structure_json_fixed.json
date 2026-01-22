@@ -197,73 +197,54 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "18ad802f-3517-400b-bae6-eea2155ffab7",
-                  "role": "Role.LayoutContainer.Decoration",
-                  "type": "Group",
-                  "children": [
-                    {
-                      "id": "785eb1d4-d587-4492-9ee8-351d4ad21ad6",
-                      "role": "Role.Element.Background",
-                      "type": "Chart",
-                      "position": {
-                        "x": 0.0,
-                        "y": -0.0,
-                        "width": 346.91007973020817,
-                        "height": 393.7026021124225
-                      },
-                      "rowCount": 4,
-                      "chartType": "PIE_CHART",
-                      "seriesAxis": "columns",
-                      "columnCount": 2,
-                      "patternLabel": "B"
-                    },
-                    {
-                      "id": "2a842763-ba05-48db-93be-153d4bfb47ab",
-                      "role": "Role.Element.Decoration",
-                      "type": "SVG",
-                      "svgData": "ku2qnw9yhfue1q8o",
-                      "position": {
-                        "x": 213.36,
-                        "y": 202.18,
-                        "width": 236.85937316862925,
-                        "height": 120
-                      },
-                      "patternLabel": "A"
-                    },
-                    {
-                      "id": "46940e7e-160f-4872-b4aa-717f6a6a4710",
-                      "role": "Role.Element.Description",
-                      "type": "Text",
-                      "content": "Please add notes about the topic here.",
-                      "areaSize": 14267.999999999998,
-                      "fontSize": 24,
-                      "position": {
-                        "x": 229.33,
-                        "y": 227.38,
-                        "width": 205,
-                        "height": 69.6
-                      },
-                      "fontFamily": "fxiwmmy2ax56jato",
-                      "fontWeight": "400",
-                      "patternLabel": "C",
-                      "textCapacity": {
-                        "maxLines": 2,
-                        "totalMaxChars": 26,
-                        "maxCharsPerLine": 13
-                      }
-                    }
-                  ],
+                  "id": "785eb1d4-d587-4492-9ee8-351d4ad21ad6",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
                   "position": {
                     "x": 23.35,
                     "y": 0.0,
-                    "width": 450.21,
-                    "height": 393.7
+                    "width": 346.91007973020817,
+                    "height": 393.7026021124225
                   },
-                  "padding": {
-                    "top": 0,
-                    "bottom": 0,
-                    "left": 0,
-                    "right": 0
+                  "rowCount": 4,
+                  "chartType": "PIE_CHART",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "2a842763-ba05-48db-93be-153d4bfb47ab",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "ku2qnw9yhfue1q8o",
+                  "position": {
+                    "x": 236.7,
+                    "y": 202.18,
+                    "width": 236.85937316862925,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "46940e7e-160f-4872-b4aa-717f6a6a4710",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please add notes about the topic here.",
+                  "areaSize": 14267.999999999998,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 252.68,
+                    "y": 227.38,
+                    "width": 205,
+                    "height": 69.6
+                  },
+                  "fontFamily": "fxiwmmy2ax56jato",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 26,
+                    "maxCharsPerLine": 13
                   }
                 }
               ],
@@ -414,7 +395,7 @@
               "children": [
                 {
                   "id": "b86f0057-2892-447a-8090-708707209cca",
-                  "role": "Role.Element.Background",
+                  "role": "Role.Element.Decoration",
                   "type": "SVG",
                   "svgData": "2yY1pjESvqEjk695Zdk2N",
                   "position": {
@@ -426,73 +407,54 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "788d09c4-ee82-4f4f-b8e3-b27aa87a16d1",
-                  "role": "Role.LayoutContainer.Decoration",
-                  "type": "Group",
-                  "children": [
-                    {
-                      "id": "0a6d1438-cf9d-40c3-bb20-73c08d18401e",
-                      "role": "Role.Element.Background",
-                      "type": "Chart",
-                      "position": {
-                        "x": 0.0,
-                        "y": 26.0,
-                        "width": 346.91007973020805,
-                        "height": 393.7026021124225
-                      },
-                      "rowCount": 4,
-                      "chartType": "PIE_CHART",
-                      "seriesAxis": "columns",
-                      "columnCount": 2,
-                      "patternLabel": "B"
-                    },
-                    {
-                      "id": "c1052ebd-4029-4ad7-935e-cecbaf3d8adc",
-                      "role": "Role.Element.Decoration",
-                      "type": "SVG",
-                      "svgData": "ku2qnw9yhfue1q8o",
-                      "position": {
-                        "x": 218.19,
-                        "y": -0.0,
-                        "width": 236.8593731686292,
-                        "height": 120
-                      },
-                      "patternLabel": "A"
-                    },
-                    {
-                      "id": "14f3d431-0e79-40f7-87a3-ab7c21a785e4",
-                      "role": "Role.Element.Description",
-                      "type": "Text",
-                      "content": "Please add notes about the topic here.",
-                      "areaSize": 14267.999999999998,
-                      "fontSize": 24,
-                      "position": {
-                        "x": 234.16,
-                        "y": 25.2,
-                        "width": 205,
-                        "height": 69.6
-                      },
-                      "fontFamily": "fxiwmmy2ax56jato",
-                      "fontWeight": "400",
-                      "patternLabel": "C",
-                      "textCapacity": {
-                        "maxLines": 2,
-                        "totalMaxChars": 26,
-                        "maxCharsPerLine": 13
-                      }
-                    }
-                  ],
+                  "id": "0a6d1438-cf9d-40c3-bb20-73c08d18401e",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
                   "position": {
                     "x": 23.35,
-                    "y": 0.0,
-                    "width": 455.05,
-                    "height": 419.7
+                    "y": 26.0,
+                    "width": 346.91007973020805,
+                    "height": 393.7026021124225
                   },
-                  "padding": {
-                    "top": 0,
-                    "bottom": 0,
-                    "left": 0,
-                    "right": 0.0
+                  "rowCount": 4,
+                  "chartType": "PIE_CHART",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "c1052ebd-4029-4ad7-935e-cecbaf3d8adc",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "ku2qnw9yhfue1q8o",
+                  "position": {
+                    "x": 241.54,
+                    "y": 0.0,
+                    "width": 236.8593731686292,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "14f3d431-0e79-40f7-87a3-ab7c21a785e4",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please add notes about the topic here.",
+                  "areaSize": 14267.999999999998,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 257.51,
+                    "y": 25.2,
+                    "width": 205,
+                    "height": 69.6
+                  },
+                  "fontFamily": "fxiwmmy2ax56jato",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 26,
+                    "maxCharsPerLine": 13
                   }
                 }
               ],
@@ -655,73 +617,54 @@
                   "patternLabel": "A"
                 },
                 {
-                  "id": "db31cefb-788a-41a5-9ebe-f04dcb85ebce",
-                  "role": "Role.LayoutContainer.Decoration",
-                  "type": "Group",
-                  "children": [
-                    {
-                      "id": "5dab7bc0-58fa-4acb-9507-33e699838885",
-                      "role": "Role.Element.Background",
-                      "type": "Chart",
-                      "position": {
-                        "x": 133.57,
-                        "y": -0.0,
-                        "width": 346.9100797302083,
-                        "height": 393.7026021124225
-                      },
-                      "rowCount": 4,
-                      "chartType": "PIE_CHART",
-                      "seriesAxis": "columns",
-                      "columnCount": 2,
-                      "patternLabel": "B"
-                    },
-                    {
-                      "id": "7c574afe-27dd-4b87-afdf-8918e7090533",
-                      "role": "Role.Element.Decoration",
-                      "type": "SVG",
-                      "svgData": "ku2qnw9yhfue1q8o",
-                      "position": {
-                        "x": 0.0,
-                        "y": 202.18,
-                        "width": 236.8593731686292,
-                        "height": 120
-                      },
-                      "patternLabel": "A"
-                    },
-                    {
-                      "id": "8634b5ee-7da0-47d6-8d96-e4fc2bad4d20",
-                      "role": "Role.Element.Description",
-                      "type": "Text",
-                      "content": "Please add notes about the topic here.",
-                      "areaSize": 14267.999999999998,
-                      "fontSize": 24,
-                      "position": {
-                        "x": 15.97,
-                        "y": 227.38,
-                        "width": 205,
-                        "height": 69.6
-                      },
-                      "fontFamily": "fxiwmmy2ax56jato",
-                      "fontWeight": "400",
-                      "patternLabel": "C",
-                      "textCapacity": {
-                        "maxLines": 2,
-                        "totalMaxChars": 26,
-                        "maxCharsPerLine": 13
-                      }
-                    }
-                  ],
+                  "id": "5dab7bc0-58fa-4acb-9507-33e699838885",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
                   "position": {
-                    "x": -0.0,
+                    "x": 133.57,
                     "y": 0.0,
-                    "width": 480.48,
-                    "height": 393.7
+                    "width": 346.9100797302083,
+                    "height": 393.7026021124225
                   },
-                  "padding": {
-                    "top": 0,
-                    "bottom": 0,
-                    "left": 0,
-                    "right": 0
+                  "rowCount": 4,
+                  "chartType": "PIE_CHART",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "7c574afe-27dd-4b87-afdf-8918e7090533",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "ku2qnw9yhfue1q8o",
+                  "position": {
+                    "x": 0.0,
+                    "y": 202.18,
+                    "width": 236.8593731686292,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "8634b5ee-7da0-47d6-8d96-e4fc2bad4d20",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Please add notes about the topic here.",
+                  "areaSize": 14267.999999999998,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 15.97,
+                    "y": 227.38,
+                    "width": 205,
+                    "height": 69.6
+                  },
+                  "fontFamily": "fxiwmmy2ax56jato",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 26,
+                    "maxCharsPerLine": 13
                   }
                 }
               ],

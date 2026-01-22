@@ -15,7 +15,7 @@
           "children": [
             {
               "id": "7c5dc9ac-7d35-4ad5-841f-b228a3714515",
-              "role": "Role.Element.Background",
+              "role": "Role.Element.Decoration",
               "type": "SVG",
               "svgData": "kvbhgboinsbc889w",
               "position": {
@@ -97,8 +97,7 @@
                 "width": 506.4918120587182,
                 "height": 625.7845935354987
               },
-              "patternLabel": "A",
-              "role": "Role.Element.Marker"
+              "patternLabel": "A"
             }
           ],
           "position": {
@@ -119,7 +118,6 @@
               ]
             }
           ],
-          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -176,7 +174,7 @@
           "children": [
             {
               "id": "b8273675-c799-4a46-9926-ff8e85d34a54",
-              "role": "Role.Element.Background",
+              "role": "Role.Element.Decoration",
               "type": "SVG",
               "svgData": "kvbhgboinsbc889w",
               "position": {
@@ -258,8 +256,7 @@
                 "width": 506.4918120587181,
                 "height": 625.7845935354987
               },
-              "patternLabel": "A",
-              "role": "Role.Element.Marker"
+              "patternLabel": "A"
             }
           ],
           "position": {
@@ -280,7 +277,6 @@
               ]
             }
           ],
-          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,
@@ -337,7 +333,7 @@
           "children": [
             {
               "id": "527d8e9d-3a70-40ff-ab8c-0a7b0e23ceeb",
-              "role": "Role.Element.Background",
+              "role": "Role.Element.Decoration",
               "type": "SVG",
               "svgData": "kvbhgboinsbc889w",
               "position": {
@@ -419,8 +415,7 @@
                 "width": 506.4918120587181,
                 "height": 625.7845935354987
               },
-              "patternLabel": "A",
-              "role": "Role.Element.Marker"
+              "patternLabel": "A"
             }
           ],
           "position": {
@@ -441,7 +436,6 @@
               ]
             }
           ],
-          "role": "Role.Element.Marker",
           "padding": {
             "top": 0,
             "bottom": 0,

@@ -102,13 +102,13 @@
           "children": [
             {
               "id": "304cd89e-0abf-40f5-b820-8c7ec9f69063",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "6eef9de4-f421-49dd-a543-b73e7b0f42a5",
                   "url": "23202fc7-6e68-4f18-996d-560d97efb352",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -341,13 +341,13 @@
           "children": [
             {
               "id": "9fb2c900-3493-49b4-91f4-1a929ad125a2",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "2d644c57-381a-4bb4-8b77-cdedc7f0709f",
                   "url": "d93118d8-f2d0-47b3-958b-498bb75718cc",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
@@ -580,13 +580,13 @@
           "children": [
             {
               "id": "66453f9d-d597-4dd8-b5f8-60d9459e730b",
-              "role": "Role.Element.Marker",
+              "role": "Role.LayoutContainer.Decoration",
               "type": "Frame",
               "children": [
                 {
                   "id": "87c0f598-9317-43b1-93af-46ec11e05937",
                   "url": "13978561-81a1-4a71-8323-78747bf0545d",
-                  "role": "Role.Element.Marker",
+                  "role": "Role.Element.Decoration",
                   "type": "Image",
                   "position": {
                     "x": 0.0,
