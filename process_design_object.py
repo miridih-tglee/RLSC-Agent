@@ -311,8 +311,8 @@ def wrap_in_group(nodes: List[Dict]) -> Dict:
     
     for i, node in enumerate(nodes):
         node_type = get_type(node)
-        # Text 타입만 Background 후보에서 제외
-        if node_type == 'Text':
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
             continue
         area = get_area(node)
         
@@ -388,8 +388,8 @@ def find_background_candidate(children: List[Dict]) -> int:
     
     for i, child in enumerate(children):
         node_type = get_type(child)
-        # Text 타입만 Background 후보에서 제외
-        if node_type == 'Text':
+        # Text, Frame, Image 타입은 Background 후보에서 제외
+        if node_type in ['Text', 'Frame', 'Image']:
             continue
         # 이미 Background면 제외
         if is_background(child):

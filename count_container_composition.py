@@ -4,6 +4,9 @@ ZStack/Group 내부 구성 분석
 
 케이스 1: ZStack/Group 안에 요소(SVG, Image, Frame) + VStack/HStack이 함께 있는 경우
 케이스 2: ZStack 안에 VStack/HStack 같은 컨테이너가 없고 element 요소만 있는 경우
+
+※ Grid가 포함된 structure는 분석에서 제외
+※ Frame과 겹치는 요소가 있는 structure는 분석에서 제외 (옵션: EXCLUDE_FRAME_OVERLAP)
 """
 
 import sys
@@ -54,6 +57,9 @@ ELEMENT_TYPES = ['SVG', 'Image', 'Frame', 'Text']  # 요소 타입
 LAYOUT_CONTAINER_TYPES = ['VStack', 'HStack']  # 레이아웃 컨테이너
 ALL_CONTAINER_TYPES = ['VStack', 'HStack', 'ZStack', 'Group', 'Grid']  # 모든 컨테이너
 
+# 제외 옵션
+EXCLUDE_FRAME_OVERLAP = True  # Frame과 겹치는 요소가 있으면 제외
+
 
 # ============================================================
 # 헬퍼 함수들
@@ -69,29 +75,158 @@ def has_excluded_structure_role(structure_json) -> bool:
             structure_json = json.loads(structure_json)
         except:
             return False
-    
+
     if structure_json is None:
         return False
-    
+
     def check_node(node):
         if isinstance(node, dict):
             role = node.get('role', '')
             if isinstance(role, str) and role.startswith(EXCLUDED_STRUCTURE_ROLE_PREFIX):
                 return True
-            
+
             children = node.get('children', [])
             for child in children:
                 if check_node(child):
                     return True
-                    
+
         elif isinstance(node, list):
             for item in node:
                 if check_node(item):
                     return True
-        
+
         return False
-    
+
     return check_node(structure_json)
+
+
+def has_grid_type(structure_json) -> bool:
+    """structure_json에 Grid 타입이 포함되어 있는지 확인"""
+    if isinstance(structure_json, str):
+        try:
+            structure_json = json.loads(structure_json)
+        except:
+            return False
+
+    if structure_json is None:
+        return False
+
+    def check_node(node):
+        if isinstance(node, dict):
+            node_type = node.get('type', '')
+            if node_type == 'Grid':
+                return True
+
+            children = node.get('children', [])
+            for child in children:
+                if check_node(child):
+                    return True
+
+        elif isinstance(node, list):
+            for item in node:
+                if check_node(item):
+                    return True
+
+        return False
+
+    return check_node(structure_json)
+
+
+def get_bbox(node: Dict) -> Optional[Tuple[float, float, float, float]]:
+    """노드의 bounding box 반환 (x1, y1, x2, y2)"""
+    pos = node.get('position', {})
+    if not pos:
+        return None
+    x, y = pos.get('x', 0), pos.get('y', 0)
+    w, h = pos.get('width', 0), pos.get('height', 0)
+    return (x, y, x + w, y + h)
+
+
+def is_overlapping(bbox1: Tuple, bbox2: Tuple, threshold: float = 0.1) -> bool:
+    """두 bbox가 겹치는지 확인 (threshold: 작은 면적 대비 교집합 비율)"""
+    x1 = max(bbox1[0], bbox2[0])
+    y1 = max(bbox1[1], bbox2[1])
+    x2 = min(bbox1[2], bbox2[2])
+    y2 = min(bbox1[3], bbox2[3])
+
+    if x1 >= x2 or y1 >= y2:
+        return False
+
+    intersection = (x2 - x1) * (y2 - y1)
+    area1 = (bbox1[2] - bbox1[0]) * (bbox1[3] - bbox1[1])
+    area2 = (bbox2[2] - bbox2[0]) * (bbox2[3] - bbox2[1])
+    smaller_area = min(area1, area2)
+
+    if smaller_area <= 0:
+        return False
+
+    return intersection / smaller_area > threshold
+
+
+def to_absolute_coords(node: Dict, parent_x: float = 0, parent_y: float = 0) -> Dict:
+    """노드와 자식들의 좌표를 절대좌표로 변환"""
+    from copy import deepcopy
+    result = deepcopy(node)
+    pos = result.get('position', {})
+
+    if pos:
+        abs_x = parent_x + pos.get('x', 0)
+        abs_y = parent_y + pos.get('y', 0)
+        pos['x'], pos['y'] = abs_x, abs_y
+    else:
+        abs_x, abs_y = parent_x, parent_y
+
+    children = result.get('children', [])
+    if children:
+        result['children'] = [to_absolute_coords(c, abs_x, abs_y) for c in children]
+
+    return result
+
+
+def has_frame_overlap(structure_json) -> bool:
+    """structure_json에서 Frame과 겹치는 요소가 있는지 확인 (전체 트리, 절대좌표 기준)"""
+    if isinstance(structure_json, str):
+        try:
+            structure_json = json.loads(structure_json)
+        except:
+            return False
+
+    if structure_json is None:
+        return False
+
+    # 절대좌표로 변환
+    structure_abs = to_absolute_coords(structure_json)
+
+    # 전체 트리에서 모든 Frame과 다른 요소 수집
+    frames = []  # [(node, bbox), ...]
+    others = []  # [(node, bbox), ...]
+
+    def collect_nodes(node):
+        if not isinstance(node, dict):
+            return
+
+        node_type = node.get('type', '')
+        bbox = get_bbox(node)
+
+        if bbox:
+            if node_type == 'Frame':
+                frames.append((node, bbox))
+            elif node_type in ['SVG', 'Image', 'Text']:  # 요소 타입만
+                others.append((node, bbox))
+
+        # 자식 재귀 수집
+        for child in node.get('children', []):
+            collect_nodes(child)
+
+    collect_nodes(structure_abs)
+
+    # 모든 Frame과 모든 다른 요소 간 겹침 검사
+    for frame, frame_bbox in frames:
+        for other, other_bbox in others:
+            if is_overlapping(frame_bbox, other_bbox):
+                return True
+
+    return False
 
 
 # ============================================================
@@ -160,10 +295,16 @@ def analyze_row(row: Dict) -> Tuple[Optional[Dict], str]:
     structure_json = row.get('structure_json')
     if not structure_json:
         return (None, "no_structure")
-    
+
     if has_excluded_structure_role(structure_json):
         return (None, "page_role_skipped")
-    
+
+    if has_grid_type(structure_json):
+        return (None, "grid_skipped")
+
+    if EXCLUDE_FRAME_OVERLAP and has_frame_overlap(structure_json):
+        return (None, "frame_overlap_skipped")
+
     if isinstance(structure_json, str):
         try:
             structure_json = json.loads(structure_json)
@@ -275,7 +416,10 @@ def main():
     print("=" * 60)
     print(f"⚡ 병렬 처리: {NUM_WORKERS} workers")
     print(f"📦 배치 크기: {BATCH_SIZE:,}")
-    print(f"📋 필터링: depth {MIN_DEPTH}~{MAX_DEPTH}, Page* 제외")
+    filters = [f"depth {MIN_DEPTH}~{MAX_DEPTH}", "Page* 제외", "Grid 포함 제외"]
+    if EXCLUDE_FRAME_OVERLAP:
+        filters.append("Frame 겹침 제외")
+    print(f"📋 필터링: {', '.join(filters)}")
     print()
     print(f"📋 요소 타입: {ELEMENT_TYPES}")
     print(f"📋 레이아웃 컨테이너: {LAYOUT_CONTAINER_TYPES}")
@@ -375,6 +519,8 @@ def main():
     print(f"   - DB 필터링 후: {total_count:,}개")
     print(f"   - 고유 layout_id: {len(all_layout_ids):,}개")
     print(f"   - Page* 패턴 스킵: {status_counts.get('page_role_skipped', 0):,}개")
+    print(f"   - Grid 포함 스킵: {status_counts.get('grid_skipped', 0):,}개")
+    print(f"   - Frame 겹침 스킵: {status_counts.get('frame_overlap_skipped', 0):,}개")
     print(f"   - 해당 없음: {status_counts.get('no_match', 0):,}개")
     print(f"   - 매칭됨: {len(matched_items):,}개")
     
