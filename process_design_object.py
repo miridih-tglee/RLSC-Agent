@@ -475,10 +475,10 @@ def fix_node(node: Dict, depth: int = 0, verbose: bool = True) -> Dict:
     # 2. Background 중복 수정
     children = fix_multiple_backgrounds(children)
     
-    # 3. Title/Description/Subtitle과 겹치는 Decoration → Background 승격
+    # 3. Title/Description/Subtitle/Highlight와 겹치는 Decoration → Background 승격
     existing_bg = any(is_background(c) for c in children)
     if not existing_bg:
-        text_roles = ['Title', 'Description', 'Subtitle']
+        text_roles = ['Title', 'Description', 'Subtitle', 'Highlight']
         text_children = [c for c in children if get_role(c) in text_roles]
         
         if text_children:
