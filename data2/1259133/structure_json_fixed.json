@@ -1,0 +1,596 @@
+{
+  "id": "vstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_card1_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "df340f8d-b8b9-4cd9-87b8-d89a15b0c3eb",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 248.48484848484804,
+                "height": 93.62705389096595
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c3ee7eb1-ac2d-463f-a7ff-e785bee620b0",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "신규 채용",
+              "areaSize": 9013.13125,
+              "fontSize": 32,
+              "position": {
+                "x": 23.88,
+                "y": 24.31,
+                "width": 201.2,
+                "height": 44.796875
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 248.48484848484804,
+            "height": 93.62705389096595
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "df340f8d-b8b9-4cd9-87b8-d89a15b0c3eb"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c3ee7eb1-ac2d-463f-a7ff-e785bee620b0"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.31,
+            "bottom": 24.52,
+            "left": 23.88,
+            "right": 23.4
+          }
+        },
+        {
+          "id": "1a82bc11-6193-4332-9f30-c446e8a2e2a0",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "신규 서비스 솔루션 전문 영업 인력",
+          "areaSize": 16000.071875,
+          "fontSize": 29.333,
+          "position": {
+            "x": 288.36,
+            "y": 26.31,
+            "width": 389.8,
+            "height": 41.046875
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 17,
+            "maxCharsPerLine": 17
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 678.162454545454,
+        "height": 93.62705389096595
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card1_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "1a82bc11-6193-4332-9f30-c446e8a2e2a0"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 39.88
+    },
+    {
+      "id": "hstack_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_card2_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d5893eab-09d9-4d64-b96a-6a6a836d9f2d",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 248.48484848484804,
+                "height": 93.10218333662647
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "6f0b8a9a-737a-4e67-b4fb-19e017f9186a",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "기존 인력 전환",
+              "areaSize": 9013.13125,
+              "fontSize": 32,
+              "position": {
+                "x": 23.88,
+                "y": 24.05,
+                "width": 201.2,
+                "height": 44.796875
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 248.48484848484804,
+            "height": 93.10218333662647
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d5893eab-09d9-4d64-b96a-6a6a836d9f2d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6f0b8a9a-737a-4e67-b4fb-19e017f9186a"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.05,
+            "bottom": 24.26,
+            "left": 23.88,
+            "right": 23.4
+          }
+        },
+        {
+          "id": "7a2f229f-2b67-4c5b-bb4e-d2b3e654b03b",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "기존 팀에서 역량 있는 인력 이동",
+          "areaSize": 16000.071875,
+          "fontSize": 29.333,
+          "position": {
+            "x": 288.36,
+            "y": 26.05,
+            "width": 389.8,
+            "height": 41.046875
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 17,
+            "maxCharsPerLine": 17
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 140.95,
+        "width": 678.1624545454549,
+        "height": 93.10218333662647
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card2_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "7a2f229f-2b67-4c5b-bb4e-d2b3e654b03b"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 39.88
+    },
+    {
+      "id": "hstack_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_card3_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "168dcb05-66ae-4e54-b94e-352cefaaf8c6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 248.48484848484804,
+                "height": 93.27402212299035
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "31a2277e-d25e-4a6c-8981-ae21e7de0fab",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "전문 교육 과정",
+              "areaSize": 9013.13125,
+              "fontSize": 32,
+              "position": {
+                "x": 23.88,
+                "y": 24.14,
+                "width": 201.2,
+                "height": 44.796875
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 248.48484848484804,
+            "height": 93.27402212299035
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "168dcb05-66ae-4e54-b94e-352cefaaf8c6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "31a2277e-d25e-4a6c-8981-ae21e7de0fab"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.14,
+            "bottom": 24.34,
+            "left": 23.88,
+            "right": 23.4
+          }
+        },
+        {
+          "id": "c6e34a8c-855f-4e6f-8748-f4dbcf43ef6b",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "신기술 이해도 향상을 위한 집중 교육",
+          "areaSize": 19989.828125,
+          "fontSize": 29.333,
+          "position": {
+            "x": 288.36,
+            "y": 26.14,
+            "width": 487,
+            "height": 41.046875
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 21,
+            "maxCharsPerLine": 21
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 281.2,
+        "width": 775.3624545454545,
+        "height": 93.27402212299035
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card3_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c6e34a8c-855f-4e6f-8748-f4dbcf43ef6b"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 39.88
+    },
+    {
+      "id": "hstack_card4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_card4_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "dbd17b8f-d12d-4f83-885c-c2449c8087db",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 248.48484848484804,
+                "height": 94.19251001190537
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "2279438e-93a4-4bc3-a919-24326688ddf6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "성과 목표",
+              "areaSize": 9013.13125,
+              "fontSize": 32,
+              "position": {
+                "x": 23.88,
+                "y": 24.6,
+                "width": 201.2,
+                "height": 44.796875
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 248.48484848484804,
+            "height": 94.19251001190537
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "dbd17b8f-d12d-4f83-885c-c2449c8087db"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2279438e-93a4-4bc3-a919-24326688ddf6"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.6,
+            "bottom": 24.8,
+            "left": 23.88,
+            "right": 23.4
+          }
+        },
+        {
+          "id": "277f11b3-e355-4e64-929e-aafe933412e9",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "신사업 매출 25억원 달성 책임",
+          "areaSize": 16775.8578125,
+          "fontSize": 29.333,
+          "position": {
+            "x": 288.36,
+            "y": 26.6,
+            "width": 408.7,
+            "height": 41.046875
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 18,
+            "maxCharsPerLine": 18
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 421.96,
+        "width": 697.0624545454543,
+        "height": 94.19251001190537
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card4_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "277f11b3-e355-4e64-929e-aafe933412e9"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 39.88
+    }
+  ],
+  "position": {
+    "x": 39.84,
+    "y": 41.43,
+    "width": 775.3624545454545,
+    "height": 516.1533696804396
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_card1",
+          "hstack_card2",
+          "hstack_card3",
+          "hstack_card4"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 47.32
+}

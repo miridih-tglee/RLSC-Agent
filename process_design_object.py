@@ -631,7 +631,14 @@ def add_layout_properties(node: Dict) -> Dict:
     parent_w, parent_h = parent_pos.get('width', 0), parent_pos.get('height', 0)
     
     if parent_w > 0 and parent_h > 0 and children:
-        child_bboxes = [get_bbox(c) for c in children if get_bbox(c)]
+        # Background를 제외한 콘텐츠 요소들로 padding 계산
+        content_children = [c for c in children if not is_background(c)]
+        child_bboxes = [get_bbox(c) for c in content_children if get_bbox(c)]
+        
+        # 콘텐츠 자식이 없으면 전체 자식으로 계산
+        if not child_bboxes:
+            child_bboxes = [get_bbox(c) for c in children if get_bbox(c)]
+        
         if child_bboxes:
             min_x = min(b[0] for b in child_bboxes)
             min_y = min(b[1] for b in child_bboxes)
