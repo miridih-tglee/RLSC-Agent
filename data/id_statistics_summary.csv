@@ -1,3 +1,0 @@
-category,count,depth_min,depth_max,depth_avg,issue_count_min,issue_count_max,issue_count_avg,element_count_min,element_count_max,element_count_avg,structure_depth_min,structure_depth_max,structure_depth_avg,top_issue_type,top_issue_count
-둘 다 포함,167533,0,10,1.10,1,31,1.64,3,2894,19.65,2,13,3.63,overlapping_decorations,117093
-0만 포함,10414,0,6,0.75,1,9,1.16,3,606,18.54,2,11,3.45,overlapping_decorations,10414

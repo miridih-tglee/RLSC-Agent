@@ -1,0 +1,83 @@
+composition,design_object_count,layout_count,sample_id_1,sample_id_2,sample_id_3
+"Group:[types=['SVG', 'VStack'], roles=['Background', 'Description']]",7586,3556,972573,1024466,967167
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Description']]",3954,1628,308956,1027154,568067
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Title']]",3879,1879,425077,631948,789537
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Highlight']]",1794,1020,373694,306726,620085
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Description']]",1648,938,428447,862709,1229876
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Marker']]",1557,460,712104,337125,724805
+"Group:[types=['SVG'], roles=['Background', 'Decoration']]",567,246,1058753,716518,381919
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Title']]",301,205,534234,601185,326421
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Subtitle']]",200,156,600986,621399,619129
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Highlight']]",189,112,775396,895182,1249064
+"Group:[types=['SVG', 'VStack'], roles=['Background', 'Title']]",167,119,1068561,1037902,598496
+"Group:[types=['SVG', 'VStack'], roles=['Background', 'Highlight']]",147,71,932680,1257472,893322
+"ZStack:[types=['SVG', 'VStack'], roles=['Background', 'Description']]",134,33,295075,280911,292892
+"Group:[types=['Chart', 'SVG'], roles=['Background', 'Description']]",101,65,1258776,754031,871400
+"Group:[types=['Image', 'SVG'], roles=['Background', 'Decoration']]",90,47,1224534,765715,1262596
+"Group:[types=['Image', 'VStack'], roles=['Background', 'Description']]",85,50,961923,1152374,471516
+"ZStack:[types=['SVG', 'Text'], roles=['Background', 'Title']]",64,14,292996,285455,277729
+"Group:[types=['SVG', 'Table'], roles=['Background', 'Description']]",54,39,528097,507111,1067339
+"Group:[types=['SVG'], roles=['Background', 'Marker']]",50,20,359907,1171135,582693
+"ZStack:[types=['SVG', 'Text'], roles=['Background', 'Description']]",46,11,281208,282740,285551
+"ZStack:[types=['SVG', 'Text'], roles=['Background', 'Highlight']]",46,8,280494,279129,286917
+"ZStack:[types=['HStack', 'SVG'], roles=['Background', 'Description']]",44,8,281242,282198,292314
+"ZStack:[types=['SVG', 'VStack'], roles=['Background']]",42,9,279553,279166,284436
+"Group:[types=['Group', 'SVG'], roles=['Background', 'Description']]",40,27,357043,922546,921357
+"Group:[types=['HStack', 'SVG'], roles=['Background']]",36,11,997817,288426,951166
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Decoration']]",33,20,393963,912105,336514
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Marker']]",31,8,883209,962192,1243365
+"ZStack:[types=['HStack', 'SVG'], roles=['Background']]",30,6,279616,285669,279952
+"Group:[types=['Group', 'SVG'], roles=['Background', 'Title']]",30,24,833073,928182,485482
+"Group:[types=['SVG', 'VStack'], roles=['Background', 'Decoration']]",30,28,645696,864200,1044049
+"Group:[types=['SVG', 'VStack'], roles=['Background', 'Marker']]",26,7,1189419,1239698,1239713
+"Group:[types=['HStack', 'Image'], roles=['Background', 'Description']]",26,13,666568,1258478,1252419
+"Group:[types=['Image', 'Text'], roles=['Background', 'Title']]",24,14,1183808,301300,601503
+"Group:[types=['SVG'], roles=['Background', 'Description']]",24,11,316502,1111812,314733
+"Group:[types=['SVG'], roles=['Background', 'Highlight']]",23,9,714710,1171122,448842
+"Group:[types=['Image', 'Text'], roles=['Background', 'Highlight']]",21,14,1146157,629609,971875
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Decoration']]",19,14,611219,708664,494677
+"ZStack:[types=['SVG'], roles=['Background', 'Decoration']]",16,3,281358,291657,288331
+"Group:[types=['Group', 'SVG'], roles=['Background', 'Highlight']]",15,12,344334,752125,1251053
+"ZStack:[types=['Image', 'VStack'], roles=['Background', 'Description']]",14,2,290245,290298,290119
+"Group:[types=['Image', 'Text'], roles=['Background', 'Description']]",14,6,1042573,1183808,1065697
+"Group:[types=['Qrcode', 'SVG'], roles=['Background', 'Description']]",13,8,1121196,1129471,708738
+"Group:[types=['Image', 'Text'], roles=['Background', 'Marker']]",11,2,1038936,1038932,1129491
+"ZStack:[types=['Image', 'Text'], roles=['Background', 'Title']]",10,1,290298,286792,286842
+"ZStack:[types=['SVG', 'ZStack'], roles=['Background', 'Description']]",10,1,292947,295943,296253
+"Group:[types=['SVG', 'VStack'], roles=['Background']]",8,5,1205734,293999,297317
+"Group:[types=['Image', 'VStack'], roles=['Background', 'Title']]",8,6,905293,437330,798022
+"Group:[types=['Group', 'SVG'], roles=['Background', 'Decoration']]",7,4,320513,795299,321722
+"ZStack:[types=['SVG'], roles=['Background', 'Marker']]",6,1,292996,288407,291752
+"Group:[types=['Chart', 'SVG'], roles=['Background', 'Highlight']]",6,5,316584,1022834,1184218
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Subtitle']]",5,4,1076309,559043,1136999
+"ZStack:[types=['HStack', 'SVG'], roles=['Background', 'Highlight']]",4,1,282955,281358,281438
+"ZStack:[types=['Chart', 'SVG'], roles=['Background', 'Description']]",4,1,292680,288067,288138
+"Group:[types=['Image'], roles=['Background', 'Decoration']]",4,3,302623,1104411,299296
+"Group:[types=['Group', 'Image'], roles=['Background', 'Description']]",4,4,1085318,883661,490584
+"Group:[types=['HStack', 'Image'], roles=['Background', 'Title']]",4,4,549289,923828,1175116
+"Group:[types=['SVG'], roles=['Background', 'Separator']]",4,3,712927,649966,1138048
+"Group:[types=['Image', 'SVG'], roles=['Background', 'Highlight']]",4,3,922050,922423,1013821
+"Group:[types=['HStack', 'Image'], roles=['Background', 'Highlight']]",4,1,1121193,1121197,1121198
+"Group:[types=['SVG', 'Text'], roles=['Background', 'Separator']]",4,1,1230038,1230072,1230053
+"Group:[types=['Image', 'LayeredDiagram'], roles=['Background', 'Description']]",3,3,383852,1153409,1097077
+"Group:[types=['Quadrant', 'SVG'], roles=['Background', 'Description']]",3,2,409333,409158,1256577
+"Group:[types=['Qrcode', 'SVG'], roles=['Background', 'Highlight']]",3,2,945188,944935,531548
+"ZStack:[types=['SVG', 'Text'], roles=['Background', 'Marker']]",2,1,280922,282156,
+"ZStack:[types=['SVG', 'Text'], roles=['Background', 'Subtitle']]",2,1,286153,288978,
+"ZStack:[types=['HStack', 'Image'], roles=['Background', 'Description']]",2,1,290010,286721,
+"ZStack:[types=['Image'], roles=['Background', 'Decoration']]",2,1,291145,287753,
+"ZStack:[types=['HStack', 'Image'], roles=['Background']]",2,1,292804,288416,
+"ZStack:[types=['HStack', 'SVG'], roles=['Background', 'Title']]",2,1,294571,297182,
+"Group:[types=['Image', 'SVG'], roles=['Background', 'Description']]",2,2,491601,630298,
+"Group:[types=['LayeredDiagram', 'SVG'], roles=['Background', 'Description']]",2,2,841751,533712,
+"Group:[types=['Gantt', 'SVG'], roles=['Background', 'Description']]",2,1,922546,922866,
+"Group:[types=['Image', 'SVG'], roles=['Background', 'Marker']]",2,2,1150126,1055751,
+"Group:[types=['SVG', 'VennDiagram'], roles=['Background', 'Description']]",2,1,1220052,1220056,
+"Group:[types=['SVG', 'Video'], roles=['Background', 'Decoration']]",1,1,483915,,
+"Group:[types=['Image', 'VStack'], roles=['Background', 'Highlight']]",1,1,550275,,
+"Group:[types=['Group', 'Image'], roles=['Background', 'Highlight']]",1,1,709883,,
+"Group:[types=['Group', 'Image'], roles=['Background', 'Decoration']]",1,1,876651,,
+"Group:[types=['Image', 'Text'], roles=['Background', 'Subtitle']]",1,1,879137,,
+"Group:[types=['HStack', 'SVG'], roles=['Background', 'Separator']]",1,1,880993,,
+"Group:[types=['Quadrant', 'SVG'], roles=['Background', 'Separator']]",1,1,961095,,
+"Group:[types=['LayeredDiagram', 'SVG'], roles=['Background', 'Highlight']]",1,1,1251053,,
