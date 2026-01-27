@@ -1,0 +1,278 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "dfe889fd-d15b-4676-98ae-8fbfd84d0781",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "a16fcc58-b5f9-4875-afcc-58b5f938756e",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 828.0328225023529,
+            "height": 575.2995991403848
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_left_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "defbea29-7be3-4c6c-b051-b25195848e23",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "스쿠버 다이빙",
+              "areaSize": 16444.873437500002,
+              "fontSize": 42.666,
+              "position": {
+                "x": 214.23850000000084,
+                "y": 0,
+                "width": 275.3,
+                "height": 59.734375
+              },
+              "fontFamily": "f31dvhk4420ia960",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 6,
+                "maxCharsPerLine": 6
+              }
+            },
+            {
+              "id": "ea5834dc-1d45-479e-bdc0-b38626fa356e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "스쿠바 약자는 'Self Contained Underwater Breating\nApparatus'입니다. 수중 호흡기를 통해 잠수하는 수중다이빙입니다. 다이버는 대략 30미터 깊이의 바다를 탐험할 수 있습니다.",
+              "areaSize": 209773.12276799997,
+              "fontSize": 34.666,
+              "position": {
+                "x": 0,
+                "y": 161.04397649999999,
+                "width": 706.8,
+                "height": 296.79276
+              },
+              "fontFamily": "fjwc2ajj2t1xcdmu",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 5,
+                "totalMaxChars": 90,
+                "maxCharsPerLine": 18
+              }
+            }
+          ],
+          "position": {
+            "x": 58.529929771074535,
+            "y": 32.619099640385,
+            "width": 706.8,
+            "height": 457.8367364999999
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "defbea29-7be3-4c6c-b051-b25195848e23"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ea5834dc-1d45-479e-bdc0-b38626fa356e"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 828.0328225023529,
+        "height": 575.2995991403848
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "dfe889fd-d15b-4676-98ae-8fbfd84d0781"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_left_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "351154e8-9072-4bba-9b5d-4957a0f86f31",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "a16fcc58-b5f9-4875-afcc-58b5f938756e",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 828.0328225023529,
+            "height": 575.2995991403848
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_right_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "a4afecd1-c188-47cd-b776-8ce77e454640",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "스킨 다이빙",
+              "areaSize": 16444.873437500002,
+              "fontSize": 42.666,
+              "position": {
+                "x": 207.66049999999905,
+                "y": 0,
+                "width": 275.3,
+                "height": 59.734375
+              },
+              "fontFamily": "f31dvhk4420ia960",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 6,
+                "maxCharsPerLine": 6
+              }
+            },
+            {
+              "id": "015c4f23-93b9-40d2-b08e-8a4b3408bec1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "프리다이빙이나 스킨다이빙과 달리 장비\n착용은 필수입니다. 이곳에 관련된 세부 내용을 입력해주세요. 핵심문장 혹은 키워드에 대한 부연설명을 넣어주세요.",
+              "areaSize": 203303.04059999998,
+              "fontSize": 34.666,
+              "position": {
+                "x": 0,
+                "y": 161.04397649999999,
+                "width": 685,
+                "height": 296.79276
+              },
+              "fontFamily": "foum4y302ye0n3lx",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 5,
+                "totalMaxChars": 85,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 68.70789273127866,
+            "y": 32.619099640385,
+            "width": 685,
+            "height": 457.8367364999999
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a4afecd1-c188-47cd-b776-8ce77e454640"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "015c4f23-93b9-40d2-b08e-8a4b3408bec1"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 868.6170370397977,
+        "y": 0,
+        "width": 828.0328225023529,
+        "height": 575.2995991403848
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "351154e8-9072-4bba-9b5d-4957a0f86f31"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_right_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 520.3024119954794,
+    "y": 553.2737241798122,
+    "width": 1696.6498595421506,
+    "height": 575.2995991403848
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_left",
+          "group_card_right"
+        ]
+      ]
+    }
+  ]
+}

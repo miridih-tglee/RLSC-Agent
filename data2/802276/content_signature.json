@@ -1,0 +1,76 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 40,
+                  "maxCharsPerLine": 20
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 20
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 42,
+                  "maxCharsPerLine": 21
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 20
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

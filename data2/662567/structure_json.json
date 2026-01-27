@@ -1,0 +1,805 @@
+{
+  "id": "hstack_main_content",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_left_text",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "7ec9e1d7-f0ae-4bb9-8ea6-287f6f37ef21",
+          "role": "Role.Element.Subtitle",
+          "type": "Text",
+          "content": "6. 결정 사항",
+          "areaSize": 16197.549289999997,
+          "fontSize": 37.3324,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 310,
+            "height": 52.25015899999999
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "933c5c14-200e-4686-8bcb-6b5b7afe3e49",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "주민자치회 안건회의 결과\n4개의 사항이 결정되었습니다. ",
+          "areaSize": 135145.4375,
+          "fontSize": 55.9986,
+          "position": {
+            "x": 0,
+            "y": 76,
+            "width": 862,
+            "height": 156.78125
+          },
+          "fontFamily": "fjurebdb5vk3fnnk",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 17,
+            "maxCharsPerLine": 17
+          }
+        },
+        {
+          "id": "db35e30e-96a2-4610-8431-e6a0ccbc88e6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "주민자치회에서 결정된 안건에 대한 진행 사항은\n미리구 주민자치회 채널을 통해 안내해드릴 예정입니다.",
+          "areaSize": 62171.98138799999,
+          "fontSize": 29.3326,
+          "position": {
+            "x": 0,
+            "y": 270.921,
+            "width": 726,
+            "height": 85.636338
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 28,
+            "maxCharsPerLine": 28
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 862,
+        "height": 356.55733799999996
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Subtitle",
+          "type": "Text",
+          "patterns": [
+            [
+              "7ec9e1d7-f0ae-4bb9-8ea6-287f6f37ef21"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "933c5c14-200e-4686-8bcb-6b5b7afe3e49"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "db35e30e-96a2-4610-8431-e6a0ccbc88e6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_agenda_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "017f4cfb-a884-4db0-ac2b-0248d320c5fc",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 884.9999999999995,
+            "height": 792.3592160000001
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_agenda_list",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1907bcc3-dee6-4a8e-b1d9-56505333a0eb",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "최종 결정 안건 사항",
+              "areaSize": 25375.771722199992,
+              "fontSize": 40.6656,
+              "position": {
+                "x": 142.61876008022136,
+                "y": 0,
+                "width": 445.7,
+                "height": 56.93464599999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 12
+              }
+            },
+            {
+              "id": "hstack_agenda1",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "group_agenda1_badge",
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "023af871-fd2e-4d0b-81aa-e974d20ac92f",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 135.92444945849297,
+                        "height": 57.92586648925305
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "f14ac1ae-babf-4842-9382-e0d6d549e4a8",
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "content": "안건 1.",
+                      "areaSize": 4318.001530799999,
+                      "fontSize": 31.9992,
+                      "position": {
+                        "x": 19.762224729246327,
+                        "y": 6.403497244626578,
+                        "width": 96.4,
+                        "height": 44.79254699999999
+                      },
+                      "fontFamily": "fe66s70dv8vhmnow",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 3
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 135.92444945849297,
+                    "height": 57.92586648925305
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "023af871-fd2e-4d0b-81aa-e974d20ac92f"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "f14ac1ae-babf-4842-9382-e0d6d549e4a8"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "50b874da-c7a7-49fe-a47e-b1e9aab0ac19",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "주민  설문조사를  통해 공간 개선 의견  수렴",
+                  "areaSize": 26413.8488566,
+                  "fontSize": 33.3326,
+                  "position": {
+                    "x": 164.80999999999995,
+                    "y": 5.9629332446265835,
+                    "width": 566.2,
+                    "height": 46.651092999999996
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 115.23733660198704,
+                "width": 731.01,
+                "height": 57.92586648925305
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_agenda1_badge"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "50b874da-c7a7-49fe-a47e-b1e9aab0ac19"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "55311a3d-a111-4be0-8530-b62da3b8ebfa",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 7.151927139400527,
+                "y": 206.37521393157422,
+                "width": 716.6322914423957,
+                "height": 2.2721663801582963
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "hstack_agenda2",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "group_agenda2_badge",
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "168fe800-2d58-41d4-a4df-4f925ff0338e",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 135.92444945849297,
+                        "height": 57.92586648925305
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "811c5232-d258-46db-a0b2-b3dca53a22dc",
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "content": "안건 2.",
+                      "areaSize": 4318.001530799999,
+                      "fontSize": 31.9992,
+                      "position": {
+                        "x": 19.762224729246327,
+                        "y": 6.403497244626465,
+                        "width": 96.4,
+                        "height": 44.79254699999999
+                      },
+                      "fontFamily": "fe66s70dv8vhmnow",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 3
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 135.92444945849297,
+                    "height": 57.92586648925305
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "168fe800-2d58-41d4-a4df-4f925ff0338e"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "811c5232-d258-46db-a0b2-b3dca53a22dc"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "04ccc78e-6b56-4928-bdde-cd2bd08bb743",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "자원봉사자와 협력하여 자치 프로그램 기획 및 참여자 모집",
+                  "areaSize": 54148.80198160001,
+                  "fontSize": 33.3326,
+                  "position": {
+                    "x": 164.80999999999995,
+                    "y": 5.9628664892528604,
+                    "width": 566.2,
+                    "height": 95.635468
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 19,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 241.85939115206654,
+                "width": 731.01,
+                "height": 101.5983344892528
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_agenda2_badge"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "04ccc78e-6b56-4928-bdde-cd2bd08bb743"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "06313490-ce55-43de-805b-775ebf416961",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 7.151927139400527,
+                "y": 376.7009864816538,
+                "width": 716.6322914423957,
+                "height": 2.2721663801582963
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "hstack_agenda3",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "group_agenda3_badge",
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "398d02f5-4f83-4359-a04a-ba5a0679a8e1",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 135.92444945849297,
+                        "height": 57.92586648925305
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "f6205900-4425-432e-9eb8-5b0aecf374c1",
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "content": "안건 3.",
+                      "areaSize": 4318.001530799999,
+                      "fontSize": 31.9992,
+                      "position": {
+                        "x": 19.762224729246327,
+                        "y": 6.403497244626578,
+                        "width": 96.4,
+                        "height": 44.79254699999999
+                      },
+                      "fontFamily": "fe66s70dv8vhmnow",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 3
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 135.92444945849297,
+                    "height": 57.92586648925305
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "398d02f5-4f83-4359-a04a-ba5a0679a8e1"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "f6205900-4425-432e-9eb8-5b0aecf374c1"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "297afda7-de41-41ba-addc-4740d119a632",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "공공장소나 주요 거리, 주택가 등에 CCTV를 설치, 마을 내의 활동을 모니터링 계획",
+                  "areaSize": 54148.80198160001,
+                  "fontSize": 33.3326,
+                  "position": {
+                    "x": 164.8080728605987,
+                    "y": 5.962997901160975,
+                    "width": 566.2,
+                    "height": 95.635468
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 19,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0009635697006160626,
+                "y": 412.18516370214616,
+                "width": 731.0080728605988,
+                "height": 101.59846590116092
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_agenda3_badge"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "297afda7-de41-41ba-addc-4740d119a632"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "9cc92b97-72ba-460f-a772-6a6e620cbc96",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 7.151927139400527,
+                "y": 547.0268904436414,
+                "width": 716.6322914423957,
+                "height": 2.2721663801582963
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "hstack_agenda4",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "group_agenda4_badge",
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "262f9504-4a3c-4792-8f99-710eae0ec687",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 135.92444945849297,
+                        "height": 57.92586648925305
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "4d7bfe0c-8680-4f4a-a2e0-58d2c9f286d4",
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "content": "안건 4.",
+                      "areaSize": 4318.001530799999,
+                      "fontSize": 31.9992,
+                      "position": {
+                        "x": 19.762224729246327,
+                        "y": 6.403497244626578,
+                        "width": 96.4,
+                        "height": 44.79254699999999
+                      },
+                      "fontFamily": "fe66s70dv8vhmnow",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 3
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 135.92444945849297,
+                    "height": 57.92586648925305
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "262f9504-4a3c-4792-8f99-710eae0ec687"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "4d7bfe0c-8680-4f4a-a2e0-58d2c9f286d4"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "d78e2f4a-f844-437c-a03a-d08567c00e4a",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "마을 안전을 위한 자금 조달 및 예산 편성",
+                  "areaSize": 26413.8488566,
+                  "fontSize": 33.3326,
+                  "position": {
+                    "x": 164.80999999999995,
+                    "y": 5.963202182480018,
+                    "width": 566.2,
+                    "height": 46.651092999999996
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 582.5110676641335,
+                "width": 731.01,
+                "height": 57.92586648925305
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Marker",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_agenda4_badge"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d78e2f4a-f844-437c-a03a-d08567c00e4a"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 77.03192713940098,
+            "y": 69.96121600000006,
+            "width": 731.01,
+            "height": 640.4369341533866
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1907bcc3-dee6-4a8e-b1d9-56505333a0eb"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_agenda1",
+                  "hstack_agenda2",
+                  "hstack_agenda3",
+                  "hstack_agenda4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "55311a3d-a111-4be0-8530-b62da3b8ebfa",
+                  "06313490-ce55-43de-805b-775ebf416961",
+                  "9cc92b97-72ba-460f-a772-6a6e620cbc96"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 810.0000000000005,
+        "y": 52.64078399999994,
+        "width": 884.9999999999995,
+        "height": 792.3592160000001
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "017f4cfb-a884-4db0-ac2b-0248d320c5fc"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_agenda_list"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 150.00000000000034,
+    "y": 64.99999999999999,
+    "width": 1695,
+    "height": 845
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_text"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_agenda_card"
+        ]
+      ]
+    }
+  ]
+}

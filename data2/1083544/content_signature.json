@@ -1,0 +1,109 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 5,
+                  "totalMaxChars": 75,
+                  "maxCharsPerLine": 15
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 44,
+                      "maxCharsPerLine": 22
+                    }
+                  },
+                  {
+                    "role": "Separator",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 4,
+                      "totalMaxChars": 160,
+                      "maxCharsPerLine": 40
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 58,
+                      "maxCharsPerLine": 29
+                    }
+                  },
+                  {
+                    "role": "Separator",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 4,
+                      "totalMaxChars": 160,
+                      "maxCharsPerLine": 40
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

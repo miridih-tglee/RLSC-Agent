@@ -1,0 +1,693 @@
+{
+  "id": "hstack_cards_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "1801bff2-ead4-47d5-bb65-68cbbb00ac6d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 346.5392184608306,
+            "height": 562.7977175292967
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "f8f2f99d-d09c-4a91-8ce0-f1cc21c0edec",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "01",
+              "areaSize": 27467.75,
+              "fontSize": 72.137,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 272,
+                "height": 100.984375
+              },
+              "fontFamily": "f2yhw6v0d67nxefx",
+              "fontWeight": "400",
+              "patternLabel": "A"
+            },
+            {
+              "id": "a14fa435-cae0-40f9-852b-c3bec10ae150",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "2349f19a-535e-47dd-9436-6b52f08b0010",
+              "position": {
+                "x": 74.25591398784638,
+                "y": 121.71755761994018,
+                "width": 121.68474702430728,
+                "height": 126.19161364469699
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "vstack_card1_title",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "c272f549-0d2b-4ab8-86e0-de41d29cfeea",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "신체 리듬 파괴",
+                  "areaSize": 8971.3816675,
+                  "fontSize": 29.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 218.5,
+                    "height": 41.058955
+                  },
+                  "fontFamily": "f8e6e9l6pe3cau28",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 8,
+                    "maxCharsPerLine": 8
+                  }
+                },
+                {
+                  "id": "4382152f-7543-45b9-9b7b-17530e9e074a",
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 0.7545180702750827,
+                    "y": 57.84165200000007,
+                    "width": 216.99096385945,
+                    "height": 2.25
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 25.84828749999997,
+                "y": 284.0497947546311,
+                "width": 218.5,
+                "height": 60.09165200000007
+              },
+              "alignment": "center",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c272f549-0d2b-4ab8-86e0-de41d29cfeea"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "4382152f-7543-45b9-9b7b-17530e9e074a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ed75f835-7153-4275-9b03-3cf49a2c7231",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "내분비 장애\n해당 내용을 써주세요\n해당 내용을 써주세요",
+              "areaSize": 19458.2152515,
+              "fontSize": 21.333,
+              "position": {
+                "x": 25.9565003799612,
+                "y": 372.0143536526117,
+                "width": 218.3,
+                "height": 89.135205
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 33,
+                "maxCharsPerLine": 11
+              }
+            }
+          ],
+          "position": {
+            "x": 38.17132173041523,
+            "y": 30.74683035715384,
+            "width": 272,
+            "height": 461.14955865261174
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f8f2f99d-d09c-4a91-8ce0-f1cc21c0edec"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a14fa435-cae0-40f9-852b-c3bec10ae150"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card1_title"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ed75f835-7153-4275-9b03-3cf49a2c7231"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 346.5392184608306,
+        "height": 562.7977175292967
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1801bff2-ead4-47d5-bb65-68cbbb00ac6d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_1"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "0ded68a1-7ffc-4b96-a554-5ff78d99082b",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 346.5392184608305,
+            "height": 562.797717529297
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ba04c20b-5210-44c0-a3c4-4eaa41a24456",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "02",
+              "areaSize": 27467.75,
+              "fontSize": 72.137,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 272,
+                "height": 100.984375
+              },
+              "fontFamily": "f2yhw6v0d67nxefx",
+              "fontWeight": "400",
+              "patternLabel": "A"
+            },
+            {
+              "id": "4ca6eb4f-206c-4699-8acc-f0a29a26dda8",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "7adb0d06-5ca3-4246-969c-7b4d524b35c1",
+              "position": {
+                "x": 67.17353534350775,
+                "y": 113.43108087859355,
+                "width": 135.84969797320184,
+                "height": 135.84969797320218
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "vstack_card2_title",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f40a80f2-9d34-4e99-b7be-6ffb99acf157",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "심리적 우울감",
+                  "areaSize": 8971.3816675,
+                  "fontSize": 29.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 218.5,
+                    "height": 41.058955
+                  },
+                  "fontFamily": "f8e6e9l6pe3cau28",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 8,
+                    "maxCharsPerLine": 8
+                  }
+                },
+                {
+                  "id": "f66326df-3c5f-4e5b-aac7-2c3b677cd651",
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 0.7542493202751075,
+                    "y": 57.436090216305274,
+                    "width": 216.99096385944995,
+                    "height": 2.25
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 25.848653080108647,
+                "y": 284.45553555405604,
+                "width": 218.5000000000001,
+                "height": 59.686090216305274
+              },
+              "alignment": "center",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f40a80f2-9d34-4e99-b7be-6ffb99acf157"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "f66326df-3c5f-4e5b-aac7-2c3b677cd651"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ce4ba264-d7e6-4706-aab0-dc8fb31095d0",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "발작성 수면 장애\n해당 내용을 써주세요\n해당 내용을 써주세요",
+              "areaSize": 19458.2152515,
+              "fontSize": 21.333,
+              "position": {
+                "x": 25.956384330108676,
+                "y": 372.0145326683419,
+                "width": 218.3,
+                "height": 89.135205
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 33,
+                "maxCharsPerLine": 11
+              }
+            }
+          ],
+          "position": {
+            "x": 38.171224900306356,
+            "y": 30.7466513414239,
+            "width": 272,
+            "height": 461.1497376683419
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ba04c20b-5210-44c0-a3c4-4eaa41a24456"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "4ca6eb4f-206c-4699-8acc-f0a29a26dda8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card2_title"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ce4ba264-d7e6-4706-aab0-dc8fb31095d0"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 486.2442128799614,
+        "y": 0,
+        "width": 346.5392184608305,
+        "height": 562.797717529297
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0ded68a1-7ffc-4b96-a554-5ff78d99082b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "f315b559-c19b-4cde-b5e9-b4b05f79a3da",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 346.5392184608306,
+            "height": 562.7977175292967
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "6fc8eceb-616a-46c7-86be-d1ef8147e0e5",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "03",
+              "areaSize": 27467.75,
+              "fontSize": 72.137,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 272,
+                "height": 100.984375
+              },
+              "fontFamily": "f2yhw6v0d67nxefx",
+              "fontWeight": "400",
+              "patternLabel": "A"
+            },
+            {
+              "id": "112e37e9-56c1-416f-9e61-cba1c11b94b3",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "9f8b6968-60d1-4220-819c-c38d6695aadc",
+              "position": {
+                "x": 73.96361439827479,
+                "y": 123.38224179963458,
+                "width": 130.26996562359045,
+                "height": 130.26996562358988
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "vstack_card3_title",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "66fc2dbf-4c14-417b-b395-0328e524729b",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "일상생활에 지장",
+                  "areaSize": 8971.3816675,
+                  "fontSize": 29.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 218.5,
+                    "height": 41.058955
+                  },
+                  "fontFamily": "f8e6e9l6pe3cau28",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 8,
+                    "maxCharsPerLine": 8
+                  }
+                },
+                {
+                  "id": "e92cdcfa-1997-478b-8094-f25dbf240b98",
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 0.7514622002363467,
+                    "y": 57.84135660201946,
+                    "width": 216.99096385944995,
+                    "height": 2.25
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 25.851653080108463,
+                "y": 284.05026916834174,
+                "width": 218.5,
+                "height": 60.09135660201946
+              },
+              "alignment": "center",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "66fc2dbf-4c14-417b-b395-0328e524729b"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Separator",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "e92cdcfa-1997-478b-8094-f25dbf240b98"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "b997cef7-0fef-4d33-a0d3-d40f2981e4d8",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "피로감과 의욕상실\n해당 내용을 써주세요\n해당 내용을 써주세요",
+              "areaSize": 19458.2152515,
+              "fontSize": 21.333,
+              "position": {
+                "x": 25.95438433010827,
+                "y": 372.01453266834176,
+                "width": 218.3,
+                "height": 89.135205
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 33,
+                "maxCharsPerLine": 11
+              }
+            }
+          ],
+          "position": {
+            "x": 38.171012020345415,
+            "y": 30.746651341423785,
+            "width": 272,
+            "height": 461.1497376683418
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6fc8eceb-616a-46c7-86be-d1ef8147e0e5"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "112e37e9-56c1-416f-9e61-cba1c11b94b3"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card3_title"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b997cef7-0fef-4d33-a0d3-d40f2981e4d8"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 972.4884257599225,
+        "y": 0,
+        "width": 346.5392184608306,
+        "height": 562.7977175292967
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "f315b559-c19b-4cde-b5e9-b4b05f79a3da"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_3"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 193.2302973114321,
+    "y": 0,
+    "width": 1319.0276442207532,
+    "height": 562.797717529297
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_1",
+          "group_card_2",
+          "group_card_3"
+        ]
+      ]
+    }
+  ]
+}

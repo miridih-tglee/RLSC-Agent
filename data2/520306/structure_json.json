@@ -1,0 +1,372 @@
+{
+  "id": "vstack_keywords",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "vstack_keyword1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_keyword1_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "b29cbc19-75ac-4487-a793-e4e32b9abe88",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 304.3890066647109,
+                "height": 77.83783783783792
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "025c49a7-6a04-45f3-a481-ded6226a3299",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 1",
+              "areaSize": 11530.501091999999,
+              "fontSize": 34.667,
+              "position": {
+                "x": 25.52968572129714,
+                "y": 16.775948918918743,
+                "width": 237.6,
+                "height": 48.529044999999996
+              },
+              "fontFamily": "fdi9kmiew3l1m104",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 19,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 304.3890066647109,
+            "height": 77.83783783783792
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b29cbc19-75ac-4487-a793-e4e32b9abe88"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "025c49a7-6a04-45f3-a481-ded6226a3299"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword1_body",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "abed7205-1f90-428e-9d23-62413ba3aa70",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1258.9422470790514,
+                "height": 170.6163519202733
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "5064b4c4-a38e-409e-844e-45ae445d150c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이 단에서는 키워드 1에 대한 설명을 제공합니다. 키워드 1의 주요 특징과 장점을 나열해 청자가 이해하기 쉽게 정리해 보세요. 비교 또는 분류할 다른 항목과의 차별점을 강조해도 좋습니다. \n참고로 설명할 땐 복잡한 문장보다 청자가 이해하기 쉬운 언어로 서술해야 합니다. ",
+              "areaSize": 153824.30012250002,
+              "fontSize": 26.667,
+              "position": {
+                "x": 29.83608545880486,
+                "y": 22.003943564658528,
+                "width": 1201.9,
+                "height": 127.984275
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 104,
+                "maxCharsPerLine": 52
+              }
+            }
+          ],
+          "position": {
+            "x": 3.410605131648481e-13,
+            "y": 99.03730813444548,
+            "width": 1258.9422470790514,
+            "height": 170.6163519202733
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "abed7205-1f90-428e-9d23-62413ba3aa70"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5064b4c4-a38e-409e-844e-45ae445d150c"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1258.9422470790516,
+        "height": 269.6536600547188
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword1_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword1_body"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_keyword2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_keyword2_title",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "2a7d389e-6da6-457f-8586-d8bfc1b0aa52",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 304.3890066647109,
+                "height": 77.83783783783792
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "8bade95b-6bd5-4fc4-bceb-4d6470af43c8",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 2",
+              "areaSize": 11530.501091999999,
+              "fontSize": 34.667,
+              "position": {
+                "x": 25.52968572129714,
+                "y": 16.775948918918857,
+                "width": 237.6,
+                "height": 48.529044999999996
+              },
+              "fontFamily": "fdi9kmiew3l1m104",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 19,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 304.3890066647109,
+            "height": 77.83783783783792
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2a7d389e-6da6-457f-8586-d8bfc1b0aa52"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8bade95b-6bd5-4fc4-bceb-4d6470af43c8"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword2_body",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "be6f61ce-9b90-4e3e-b2f6-a5c2da31bcc7",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1258.9422470790514,
+                "height": 170.61635192027325
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "7cb15beb-d6c1-410b-a3a2-0243892dc091",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이 단에서는 키워드 2에 대한 설명을 제공합니다. 키워드 2의 주요 특징과 장점을 나열해 청자가 이해하기 쉽게 정리해 보세요. 비교 또는 분류할 다른 항목과의 차별점을 강조해도 좋습니다. \n참고로 설명할 땐 복잡한 문장보다 청자가 이해하기 쉬운 언어로 서술해야 합니다. ",
+              "areaSize": 153824.30012250002,
+              "fontSize": 26.667,
+              "position": {
+                "x": 29.836085458804632,
+                "y": 22.003943564658584,
+                "width": 1201.9,
+                "height": 127.984275
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 104,
+                "maxCharsPerLine": 52
+              }
+            }
+          ],
+          "position": {
+            "x": 3.410605131648481e-13,
+            "y": 98.27809187007529,
+            "width": 1258.9422470790514,
+            "height": 170.61635192027325
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "be6f61ce-9b90-4e3e-b2f6-a5c2da31bcc7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7cb15beb-d6c1-410b-a3a2-0243892dc091"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 361.7055957989852,
+        "width": 1258.9422470790516,
+        "height": 268.89444379034853
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword2_title"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword2_body"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 49.422734254195575,
+    "y": 45.35187733086394,
+    "width": 1258.9422470790516,
+    "height": 630.6000395893337
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_keyword1",
+          "vstack_keyword2"
+        ]
+      ]
+    }
+  ]
+}

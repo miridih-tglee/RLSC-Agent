@@ -1,0 +1,1027 @@
+{
+  "id": "grid_cards",
+  "gap": 16,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "21b29660-3860-4efc-8ca5-d3f798900902",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "657c58c5-15ca-4c43-bc58-c515caec43da",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 365.9764702420123,
+            "height": 413.9332730014737
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_card1_header",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "970f0745-cb79-48c1-9235-a286d9d9e229",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "01",
+                  "areaSize": 11030.7959075,
+                  "fontSize": 78.562,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 100.3,
+                    "height": 109.978025
+                  },
+                  "fontFamily": "f5odfyf3uf4cjyxf",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "eabd7483-d55f-49f2-88bd-ffb154012335",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "제목을 입력하세요.",
+                  "areaSize": 8661.302399999999,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0.02011245602690792,
+                    "y": 121.60517184797442,
+                    "width": 232,
+                    "height": 37.3332
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 9,
+                    "maxCharsPerLine": 9
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 232.0201124560269,
+                "height": 158.93837184797445
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "970f0745-cb79-48c1-9235-a286d9d9e229"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "eabd7483-d55f-49f2-88bd-ffb154012335"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_card1_bullets",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "a658fba9-015f-4b15-93cd-f9882a14fb9d",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "f776dc24-22a0-41d7-aa27-76ab318fc350",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 38.12923986827275,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "f1dc1c86-4fca-4b39-aa53-0da917991a26",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 76.25847973654481,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.02011245602690792,
+                "y": 190.9289055420615,
+                "width": 232,
+                "height": 111.00472973654485
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "a658fba9-015f-4b15-93cd-f9882a14fb9d",
+                      "f776dc24-22a0-41d7-aa27-76ab318fc350",
+                      "f1dc1c86-4fca-4b39-aa53-0da917991a26"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 47.286695298030025,
+            "y": 56.20021796114901,
+            "width": 232.0201124560269,
+            "height": 301.93363527860635
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card1_header"
+                ],
+                [
+                  "vstack_card1_bullets"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 365.9764702420123,
+        "height": 413.9332730014737
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "21b29660-3860-4efc-8ca5-d3f798900902"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "1eb11ca2-bc2f-4713-8324-fa7af0d941d2",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "657c58c5-15ca-4c43-bc58-c515caec43da",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 365.9764702420123,
+            "height": 413.9332730014737
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_card2_header",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "1ac077af-d211-46f5-85a5-24f927c54470",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "02",
+                  "areaSize": 10304.940942500001,
+                  "fontSize": 78.562,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 93.7,
+                    "height": 109.978025
+                  },
+                  "fontFamily": "f5odfyf3uf4cjyxf",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "e584d167-7c96-45da-8aaa-40a265240f49",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "제목을 입력하세요.",
+                  "areaSize": 8661.302399999999,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0.019725999999991473,
+                    "y": 121.60508941812787,
+                    "width": 232,
+                    "height": 37.3332
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 9,
+                    "maxCharsPerLine": 9
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 232.019726,
+                "height": 158.9382894181279
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "1ac077af-d211-46f5-85a5-24f927c54470"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e584d167-7c96-45da-8aaa-40a265240f49"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_card2_bullets",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "d731bdff-7b77-471a-b753-0659af2ec64e",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "f2e79cd3-1677-478f-94da-08065f1b6599",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 38.12923986827275,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "e4f395e9-1589-4c7d-9663-30539aa00579",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 76.25847973654459,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.019725999999991473,
+                "y": 190.92882311221496,
+                "width": 232,
+                "height": 111.00472973654462
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d731bdff-7b77-471a-b753-0659af2ec64e",
+                      "f2e79cd3-1677-478f-94da-08065f1b6599",
+                      "e4f395e9-1589-4c7d-9663-30539aa00579"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 50.98027400000001,
+            "y": 51.0979685093277,
+            "width": 232.019726,
+            "height": 301.9335528487596
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card2_header"
+                ],
+                [
+                  "vstack_card2_bullets"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 448.5357983385961,
+        "y": 5.102331881667851,
+        "width": 365.9764702420123,
+        "height": 413.9332730014737
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1eb11ca2-bc2f-4713-8324-fa7af0d941d2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "6e11b617-7517-4ae4-9bf3-cdd394745965",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "8278602b-7d8e-40ea-b860-2b7d8e00ea16",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 368.88666832063745,
+            "height": 416.38714341945933
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_card3_header",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "2281c8e7-df1b-4e23-b29b-c476986b3d69",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "03",
+                  "areaSize": 10216.958522500001,
+                  "fontSize": 78.562,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 92.9,
+                    "height": 109.978025
+                  },
+                  "fontFamily": "f5odfyf3uf4cjyxf",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "b4e4da2b-b39e-486a-b71d-a90fff8bb5d9",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "제목을 입력하세요.",
+                  "areaSize": 8661.302399999999,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0.012535999999954583,
+                    "y": 121.60508941812787,
+                    "width": 232,
+                    "height": 37.3332
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 9,
+                    "maxCharsPerLine": 9
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 232.01253599999995,
+                "height": 158.9382894181279
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2281c8e7-df1b-4e23-b29b-c476986b3d69"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b4e4da2b-b39e-486a-b71d-a90fff8bb5d9"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_card3_bullets",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "39439dab-8602-4e17-9c8b-3e1df1433021",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "dda645f8-7292-482b-a73e-64cc06703508",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 38.12923986827275,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "0b2f70df-3e73-4904-9595-c0fc522953c4",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 76.25847973654459,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.012535999999954583,
+                "y": 190.92882311221496,
+                "width": 232,
+                "height": 111.00472973654462
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "39439dab-8602-4e17-9c8b-3e1df1433021",
+                      "dda645f8-7292-482b-a73e-64cc06703508",
+                      "0b2f70df-3e73-4904-9595-c0fc522953c4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 52.60268569816003,
+            "y": 51.0979685093277,
+            "width": 232.01253599999995,
+            "height": 301.9335528487596
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card3_header"
+                ],
+                [
+                  "vstack_card3_bullets"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 898.3765940849548,
+        "y": 5.102331881667851,
+        "width": 368.88666832063745,
+        "height": 416.38714341945933
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "6e11b617-7517-4ae4-9bf3-cdd394745965"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ae876833-05c0-460a-b347-50c51b75b873",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "657c58c5-15ca-4c43-bc58-c515caec43da",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 365.9764702420123,
+            "height": 413.9332730014737
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card4_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_card4_header",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "c36c226b-781c-4dfb-ab01-07aeb6f9ca66",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "04",
+                  "areaSize": 12548.4926525,
+                  "fontSize": 78.562,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 114.1,
+                    "height": 109.978025
+                  },
+                  "fontFamily": "f5odfyf3uf4cjyxf",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "53978fc2-4835-426f-a656-11e96ea531a2",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "제목을 입력하세요.",
+                  "areaSize": 8661.302399999999,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0.0005694222586498654,
+                    "y": 121.60508941812787,
+                    "width": 232,
+                    "height": 37.3332
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 9,
+                    "maxCharsPerLine": 9
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 232.00056942225865,
+                "height": 158.9382894181279
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c36c226b-781c-4dfb-ab01-07aeb6f9ca66"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "53978fc2-4835-426f-a656-11e96ea531a2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_card4_bullets",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f36e82aa-e5cc-47fa-a100-fe172f7f2d21",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "2af1a2e5-865c-4a15-ab8b-61530b812ac4",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 38.129239868272634,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "ab3495ba-65e5-4028-9a3e-a60a4023e5e5",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "- 내용을 입력하세요",
+                  "areaSize": 8061.129999999999,
+                  "fontSize": 24.825,
+                  "position": {
+                    "x": 0,
+                    "y": 76.25847973654459,
+                    "width": 232,
+                    "height": 34.746249999999996
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0005694222586498654,
+                "y": 190.92882311221496,
+                "width": 232,
+                "height": 111.00472973654462
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f36e82aa-e5cc-47fa-a100-fe172f7f2d21",
+                      "2af1a2e5-865c-4a15-ab8b-61530b812ac4",
+                      "ab3495ba-65e5-4028-9a3e-a60a4023e5e5"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 61.21838727181694,
+            "y": 51.0979685093277,
+            "width": 232.00056942225865,
+            "height": 301.9335528487596
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card4_header"
+                ],
+                [
+                  "vstack_card4_bullets"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1350.3712452023,
+        "y": 5.102331881667851,
+        "width": 365.9764702420123,
+        "height": 413.9332730014737
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ae876833-05c0-460a-b347-50c51b75b873"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card4_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 116.8615540086239,
+    "y": 372.8685625,
+    "width": 1716.3477154443124,
+    "height": 421.4894753011272
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card4"
+        ],
+        [
+          "group_card3"
+        ]
+      ]
+    }
+  ]
+}

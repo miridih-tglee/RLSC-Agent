@@ -1,0 +1,527 @@
+{
+  "id": "grid_cards",
+  "gap": 55.69,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_icon_1",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "fa46d479-acc0-443f-ba6a-de24ce8a0d13",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 161.88495687529132,
+                "height": 161.88495687529252
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "b663cd67-2f22-4e3e-aea7-5792584fd1c3",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "labrtapl6OSY4_5a952abb82f52cf2af8810ae885f0a1ff35d0ad5372acadb65f73d803a187cf5",
+              "position": {
+                "x": 25.34,
+                "y": 24.36,
+                "width": 111.21397774975162,
+                "height": 111.21397774975242
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 102.46,
+            "y": 0.0,
+            "width": 161.88495687529132,
+            "height": 161.88495687529252
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "fa46d479-acc0-443f-ba6a-de24ce8a0d13"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b663cd67-2f22-4e3e-aea7-5792584fd1c3"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.36,
+            "bottom": 26.31,
+            "left": 25.34,
+            "right": 25.33
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "a8a9c4b7-a497-4a4e-9a30-9de9f5853347",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "문제 해결 방식",
+          "areaSize": 18683.875,
+          "fontSize": 36.393,
+          "position": {
+            "x": 0.0,
+            "y": 204.38,
+            "width": 366.8,
+            "height": 50.9375
+          },
+          "fontFamily": "fc35jkrvja048lu4",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 11
+          }
+        },
+        {
+          "id": "1b012d25-32fc-4b68-a5cb-b04e29222e71",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "문제 해결 방식에 대한 정확한 \n과정을 미래커머스에 보여주세요",
+          "areaSize": 27467.549699999996,
+          "fontSize": 25.995,
+          "position": {
+            "x": 7.43,
+            "y": 269.99,
+            "width": 352.2,
+            "height": 77.98849999999999
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 17,
+            "maxCharsPerLine": 17
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 366.80000000000007,
+        "height": 347.97681511233424
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_icon_1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "a8a9c4b7-a497-4a4e-9a30-9de9f5853347"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "1b012d25-32fc-4b68-a5cb-b04e29222e71"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 28.58
+    },
+    {
+      "id": "vstack_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_icon_2",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d7bf079f-800c-4c56-8d64-aff0ffb39e8d",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 161.88495687529144,
+                "height": 161.88495687529252
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "1a2ee8e0-17e9-4a11-897f-a8d36d7e65b1",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "l80ydgr0UGZO4_613bdc33230aa2a51d436f503676975f6289eb64ba32d6cc9c6c88ef4e9d5aea",
+              "position": {
+                "x": 30.31,
+                "y": 37.37,
+                "width": 101.2641287227109,
+                "height": 101.26412872271175
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 141.76,
+            "y": 0.0,
+            "width": 161.88495687529144,
+            "height": 161.88495687529252
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d7bf079f-800c-4c56-8d64-aff0ffb39e8d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1a2ee8e0-17e9-4a11-897f-a8d36d7e65b1"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 37.37,
+            "bottom": 23.25,
+            "left": 30.31,
+            "right": 30.31
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "3ac1c562-f879-41e3-a2a1-7249528a580f",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "논리적, 객관적 사고",
+          "areaSize": 22687.5625,
+          "fontSize": 36.393,
+          "position": {
+            "x": 0.0,
+            "y": 204.38,
+            "width": 445.4,
+            "height": 50.9375
+          },
+          "fontFamily": "fc35jkrvja048lu4",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 13
+          }
+        },
+        {
+          "id": "f90457bf-ae91-458a-a8c1-8495b7d79b10",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "업무를 어떻게 풀어갈 것인지\n미래커머스에 보여주세요",
+          "areaSize": 25073.302749999995,
+          "fontSize": 25.995,
+          "position": {
+            "x": 62.08,
+            "y": 273.89,
+            "width": 321.5,
+            "height": 77.98849999999999
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 438.66,
+        "y": 0.0,
+        "width": 445.4000000000001,
+        "height": 351.8762081332994
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_icon_2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "3ac1c562-f879-41e3-a2a1-7249528a580f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "f90457bf-ae91-458a-a8c1-8495b7d79b10"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 30.53
+    },
+    {
+      "id": "vstack_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_icon_3",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "1dae3dd4-cf84-49fe-adfd-583c8242ac71",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 161.88495687529144,
+                "height": 161.88495687529252
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "b865c037-6b67-4660-b06d-e4ef28dbeafd",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "lakqpa0uC73VP_342242b7ef69093449e3e6c85e016b03f73daff50ee5007d77e9fd85bc1aa999",
+              "position": {
+                "x": 23.67,
+                "y": 24.64,
+                "width": 114.55191613398142,
+                "height": 114.5519161339829
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 167.06,
+            "y": 0.0,
+            "width": 161.88495687529144,
+            "height": 161.88495687529252
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1dae3dd4-cf84-49fe-adfd-583c8242ac71"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b865c037-6b67-4660-b06d-e4ef28dbeafd"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 24.64,
+            "bottom": 22.69,
+            "left": 23.67,
+            "right": 23.66
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "29e484f4-6248-462b-8ca9-698ea341ccf1",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "직무에 관한 구체적 청사진",
+          "areaSize": 25265,
+          "fontSize": 36.393,
+          "position": {
+            "x": 0.0,
+            "y": 204.38,
+            "width": 496,
+            "height": 50.9375
+          },
+          "fontFamily": "fc35jkrvja048lu4",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 15
+          }
+        },
+        {
+          "id": "061f7f09-9a53-41df-a12f-7b89235c90ec",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "본인이 왜 꼭 이 업무에 필요한 사람인지\n미래커머스에 보여주세요",
+          "areaSize": 31249.991949999996,
+          "fontSize": 25.995,
+          "position": {
+            "x": 47.78,
+            "y": 273.89,
+            "width": 400.7,
+            "height": 77.98849999999999
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 19,
+            "maxCharsPerLine": 19
+          }
+        }
+      ],
+      "position": {
+        "x": 923.58,
+        "y": 0.0,
+        "width": 496,
+        "height": 351.8762081332994
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_icon_3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "29e484f4-6248-462b-8ca9-698ea341ccf1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "061f7f09-9a53-41df-a12f-7b89235c90ec"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 30.53
+    }
+  ],
+  "position": {
+    "x": 135.84,
+    "y": 66.17,
+    "width": 1419.5822367338392,
+    "height": 351.8762081332994
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_card_1",
+          "vstack_card_2",
+          "vstack_card_3"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  }
+}

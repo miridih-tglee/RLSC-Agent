@@ -1,0 +1,581 @@
+{
+  "id": "vstack_left_body",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "8b5a22d6-d84e-4d02-a49f-2a62398dff04",
+      "role": "Role.Element.Description",
+      "type": "Text",
+      "content": "아래에 프로그램의 목적을\n직관적인 키워드를 입력하여 보여주세요.",
+      "areaSize": 42890.015625,
+      "fontSize": 26.667,
+      "position": {
+        "x": 14.44,
+        "y": 0.0,
+        "width": 574.5,
+        "height": 74.65625
+      },
+      "fontFamily": "fd9spew91ifdfz4a",
+      "fontWeight": "400",
+      "patternLabel": "A",
+      "textCapacity": {
+        "maxLines": 1,
+        "totalMaxChars": 24,
+        "maxCharsPerLine": 24
+      }
+    },
+    {
+      "id": "f85b357f-127f-4365-88ab-ab4ca7f9f969",
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "svgData": "",
+      "position": {
+        "x": 0.0,
+        "y": 121.95,
+        "width": 618.7877194278037,
+        "height": 3
+      },
+      "patternLabel": "B"
+    },
+    {
+      "id": "vstack_keywords",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "hstack_keyword_row_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_keyword_1",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "377399ea-1aa0-48f2-a31b-5be744e26c73",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 172.616807975323,
+                    "height": 68.1894179299859
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "6366a30e-f43f-45fd-baf7-ee20307da0ba",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "#키워드",
+                  "areaSize": 4203.146874999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.01,
+                    "y": 15.59,
+                    "width": 112.6,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 172.616807975323,
+                "height": 68.1894179299859
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "377399ea-1aa0-48f2-a31b-5be744e26c73"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "6366a30e-f43f-45fd-baf7-ee20307da0ba"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 15.59,
+                "bottom": 15.27,
+                "left": 30.01,
+                "right": 30.01
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_keyword_2",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "a68c7b8d-c720-42c1-8457-f8d16c61fe00",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 172.616807975323,
+                    "height": 68.1894179299859
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "c82870bb-67ed-4022-9c97-e3b959d022d9",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "#키워드",
+                  "areaSize": 4203.146874999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.01,
+                    "y": 15.59,
+                    "width": 112.6,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 188.0,
+                "y": 0.0,
+                "width": 172.616807975323,
+                "height": 68.1894179299859
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "a68c7b8d-c720-42c1-8457-f8d16c61fe00"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c82870bb-67ed-4022-9c97-e3b959d022d9"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 15.59,
+                "bottom": 15.27,
+                "left": 30.01,
+                "right": 30.01
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_keyword_3",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "1ec12e30-f052-42f7-bdb9-dac55bd2238b",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 172.616807975323,
+                    "height": 68.1894179299859
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "6c04e9dd-f1d9-41a8-a8e3-9c463a9a3968",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "#키워드",
+                  "areaSize": 4203.146874999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.01,
+                    "y": 15.59,
+                    "width": 112.6,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 376.01,
+                "y": 0.0,
+                "width": 172.616807975323,
+                "height": 68.1894179299859
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "1ec12e30-f052-42f7-bdb9-dac55bd2238b"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "6c04e9dd-f1d9-41a8-a8e3-9c463a9a3968"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 15.59,
+                "bottom": 15.27,
+                "left": 30.01,
+                "right": 30.01
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 548.6223781224478,
+            "height": 68.1894179299859
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_keyword_1",
+                  "group_keyword_2",
+                  "group_keyword_3"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 15.39
+        },
+        {
+          "id": "hstack_keyword_row_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_keyword_4",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "560875e4-723b-4a03-af38-1a38a0b6e852",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 172.61680797532307,
+                    "height": 68.1894179299859
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "c4c3aa86-d883-4b26-ac6b-ed90a2dd8a60",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "#키워드",
+                  "areaSize": 4203.146874999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.01,
+                    "y": 15.59,
+                    "width": 112.6,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 172.61680797532307,
+                "height": 68.1894179299859
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "560875e4-723b-4a03-af38-1a38a0b6e852"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c4c3aa86-d883-4b26-ac6b-ed90a2dd8a60"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 15.59,
+                "bottom": 15.27,
+                "left": 30.01,
+                "right": 30.01
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_keyword_5",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "483837a3-41ff-4939-98ec-c3793bc6fb08",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 172.616807975323,
+                    "height": 68.1894179299859
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "4e126d4e-92bf-4bf0-ab45-440739d1876d",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "#키워드",
+                  "areaSize": 4203.146874999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.01,
+                    "y": 15.59,
+                    "width": 112.6,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 188.0,
+                "y": 0.0,
+                "width": 172.616807975323,
+                "height": 68.1894179299859
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "483837a3-41ff-4939-98ec-c3793bc6fb08"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "4e126d4e-92bf-4bf0-ab45-440739d1876d"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 15.59,
+                "bottom": 15.27,
+                "left": 30.01,
+                "right": 30.01
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 94.0,
+            "y": 86.38,
+            "width": 360.6195930488853,
+            "height": 68.1894179299859
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_keyword_4",
+                  "group_keyword_5"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 15.38
+        }
+      ],
+      "position": {
+        "x": 27.38,
+        "y": 176.62,
+        "width": 548.6223781224478,
+        "height": 154.57102379205446
+      },
+      "alignment": "center",
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_keyword_row_1"
+            ],
+            [
+              "hstack_keyword_row_2"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 18.19
+    }
+  ],
+  "position": {
+    "x": 70.65,
+    "y": 221.59,
+    "width": 618.7877194278037,
+    "height": 331.1944984493242
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Description",
+      "type": "Text",
+      "patterns": [
+        [
+          "8b5a22d6-d84e-4d02-a49f-2a62398dff04"
+        ]
+      ]
+    },
+    {
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "patterns": [
+        [
+          "f85b357f-127f-4365-88ab-ab4ca7f9f969"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_keywords"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 49.48,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
+}

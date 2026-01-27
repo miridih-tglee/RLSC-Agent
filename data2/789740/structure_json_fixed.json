@@ -1,0 +1,461 @@
+{
+  "id": "vstack_right_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_cardR1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "0c76fa2d-dab4-4264-91a8-9a49d79034c0",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 766.4280415641488,
+            "height": 173.80775962827659
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_cardR1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2e73d877-9f25-4fef-9a16-7431b4945e5e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "트램/경전철 (Tram & Light Rail)",
+              "areaSize": 19918.079999999998,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 444.6,
+                "height": 44.8
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 16
+              }
+            },
+            {
+              "id": "010a8262-8e6c-4675-abff-dc0f71de55fc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "도심 교통난 해소와 친환경 이동을 위한\n조용하고 쾌적한 솔루션입니다.",
+              "areaSize": 30039.36,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 51.8,
+                "width": 431.6,
+                "height": 69.6
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 93.81,
+            "y": 25.8,
+            "width": 444.60000000000036,
+            "height": 121.39999999999986
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2e73d877-9f25-4fef-9a16-7431b4945e5e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "010a8262-8e6c-4675-abff-dc0f71de55fc"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 7.0
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 766.4280415641488,
+        "height": 173.80775962827659
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0c76fa2d-dab4-4264-91a8-9a49d79034c0"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_cardR1_text"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 25.8,
+        "bottom": 26.61,
+        "left": 93.81,
+        "right": 228.02
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_cardR2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "a199f307-e1b5-4d39-a9f2-9425c7379b34",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 766.4280415641488,
+            "height": 173.80775962827659
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_cardR2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "150a380d-0582-4e4d-a140-8e17025a481d",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "기관차 (Locomotive)",
+              "areaSize": 19918.079999999998,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 444.6,
+                "height": 44.8
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 16
+              }
+            },
+            {
+              "id": "e6365ad9-8e83-4c96-8854-1241826f2f9d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "강력한 견인력으로 화물 및 여객 열차의\n동력을 책임지는 핵심 차량입니다.",
+              "areaSize": 30039.36,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 51.8,
+                "width": 431.6,
+                "height": 69.6
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 93.56,
+            "y": 25.8,
+            "width": 444.60000000000036,
+            "height": 121.40000000000009
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "150a380d-0582-4e4d-a140-8e17025a481d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e6365ad9-8e83-4c96-8854-1241826f2f9d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 7.0
+        }
+      ],
+      "position": {
+        "x": 0.25,
+        "y": 206.31,
+        "width": 766.4280415641488,
+        "height": 173.80775962827659
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a199f307-e1b5-4d39-a9f2-9425c7379b34"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_cardR2_text"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 25.8,
+        "bottom": 26.61,
+        "left": 93.56,
+        "right": 228.27
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_cardR3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "8dbfccdb-37b9-4792-abf8-ed39f2387f3c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 766.4280415641488,
+            "height": 173.80775962827659
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_cardR3_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ceda5632-92b0-49c1-944a-50106b3d38fd",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "객차 (Passenger Car)",
+              "areaSize": 19918.079999999998,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 444.6,
+                "height": 44.8
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 16
+              }
+            },
+            {
+              "id": "5d8bd724-4427-4050-ab60-313856c2f5dc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "관광 및 장거리 여객 운송에 최적화된\n편의성과 안전성을 갖춘 맞춤형 차량입니다.",
+              "areaSize": 30039.36,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 51.8,
+                "width": 431.6,
+                "height": 69.6
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 93.56,
+            "y": 25.8,
+            "width": 444.60000000000036,
+            "height": 121.40000000000009
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ceda5632-92b0-49c1-944a-50106b3d38fd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5d8bd724-4427-4050-ab60-313856c2f5dc"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 7.0
+        }
+      ],
+      "position": {
+        "x": 0.25,
+        "y": 412.62,
+        "width": 766.4280415641488,
+        "height": 173.80775962827659
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "8dbfccdb-37b9-4792-abf8-ed39f2387f3c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_cardR3_text"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 25.8,
+        "bottom": 26.61,
+        "left": 93.56,
+        "right": 228.27
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 1393.44,
+    "y": 101.96,
+    "width": 766.678041564149,
+    "height": 586.4232788848295
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_cardR1",
+          "group_cardR2",
+          "group_cardR3"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 32.5
+}

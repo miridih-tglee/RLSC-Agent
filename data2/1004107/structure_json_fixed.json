@@ -1,0 +1,535 @@
+{
+  "id": "group_cards_area",
+  "role": "Role.LayoutContainer.Description",
+  "type": "Group",
+  "children": [
+    {
+      "id": "4962a94c-2d0c-4a54-aab9-227f9479540d",
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "svgData": "kvbhgboinsbc889w",
+      "position": {
+        "x": 0,
+        "y": 0.0,
+        "width": 1920,
+        "height": 498.0552995391705
+      },
+      "patternLabel": "A"
+    },
+    {
+      "id": "hstack_timeline_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_card_2013",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1eb92661-a966-4a3e-9a71-4fa291e18e97",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 157.35,
+                "y": 0.0,
+                "width": 3,
+                "height": 100
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "fb664331-f29d-4139-8ab0-4732d37672d4",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "2013년의 성과",
+              "areaSize": 13401.29516,
+              "fontSize": 31.999,
+              "position": {
+                "x": 0.0,
+                "y": 141.76,
+                "width": 299.2,
+                "height": 44.790425
+              },
+              "fontFamily": "f8e6e9l6pe3cau28",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "45c5da75-6713-41d1-aaa2-52d20ee2d49e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사 성과에 대한 설명을 입력해주세요. 사용된 폰트는 프리텐다드 Regular 18pt 중앙정렬입니다.",
+              "areaSize": 33266.143404999995,
+              "fontSize": 23.999,
+              "position": {
+                "x": 10.2,
+                "y": 224.09,
+                "width": 301.4,
+                "height": 110.372075
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 311.60240533410183,
+            "height": 334.4640734447015
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1eb92661-a966-4a3e-9a71-4fa291e18e97"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "fb664331-f29d-4139-8ab0-4732d37672d4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "45c5da75-6713-41d1-aaa2-52d20ee2d49e"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 39.65,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        },
+        {
+          "id": "vstack_card_2017",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "cccf5bdc-cef2-4ce5-8803-245aa25b93cc",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 157.35,
+                "y": 0.0,
+                "width": 3,
+                "height": 100
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "d3a900e8-15b6-41e7-b6a1-c08d7f7db3cc",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "2017년의 성과",
+              "areaSize": 13401.29516,
+              "fontSize": 31.999,
+              "position": {
+                "x": 0.0,
+                "y": 141.76,
+                "width": 299.2,
+                "height": 44.790425
+              },
+              "fontFamily": "f8e6e9l6pe3cau28",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "c93f0793-6d8d-4395-80b0-d5b006704191",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사 성과에 대한 설명을 입력해주세요. 사용된 폰트는 프리텐다드 Regular 18pt 중앙정렬입니다.",
+              "areaSize": 33266.143404999995,
+              "fontSize": 23.999,
+              "position": {
+                "x": 10.2,
+                "y": 224.09,
+                "width": 301.4,
+                "height": 110.372075
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 394.35,
+            "y": 0.0,
+            "width": 311.6024233199695,
+            "height": 334.4640734447015
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "cccf5bdc-cef2-4ce5-8803-245aa25b93cc"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d3a900e8-15b6-41e7-b6a1-c08d7f7db3cc"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c93f0793-6d8d-4395-80b0-d5b006704191"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 39.65,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        },
+        {
+          "id": "vstack_card_2021",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "22658835-6e38-4304-a7ff-8a543a748a9f",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 157.35,
+                "y": 0.0,
+                "width": 3,
+                "height": 100
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "eedcf1cb-22ba-4f64-b401-49d11c16457f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "2021년의 성과",
+              "areaSize": 13401.29516,
+              "fontSize": 31.999,
+              "position": {
+                "x": 0.0,
+                "y": 141.76,
+                "width": 299.2,
+                "height": 44.790425
+              },
+              "fontFamily": "f8e6e9l6pe3cau28",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "314f2d19-ad4a-4dc7-b31c-1ca35e44ded4",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사 성과에 대한 설명을 입력해주세요. 사용된 폰트는 프리텐다드 Regular 18pt 중앙정렬입니다.",
+              "areaSize": 33266.143404999995,
+              "fontSize": 23.999,
+              "position": {
+                "x": 10.2,
+                "y": 224.09,
+                "width": 301.4,
+                "height": 110.372075
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 788.69,
+            "y": 0.0,
+            "width": 311.6043393369804,
+            "height": 334.4640734447015
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "22658835-6e38-4304-a7ff-8a543a748a9f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "eedcf1cb-22ba-4f64-b401-49d11c16457f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "314f2d19-ad4a-4dc7-b31c-1ca35e44ded4"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 39.65,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        },
+        {
+          "id": "vstack_card_20xx",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "3fe4ccdf-6144-4b59-99bc-aab010ae27af",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 157.35,
+                "y": 0.0,
+                "width": 3,
+                "height": 100
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "038c9b40-76f7-4c6b-bd25-809ebf14c65f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "20XX년의 성과",
+              "areaSize": 13401.29516,
+              "fontSize": 31.999,
+              "position": {
+                "x": 0.0,
+                "y": 141.76,
+                "width": 299.2,
+                "height": 44.790425
+              },
+              "fontFamily": "f8e6e9l6pe3cau28",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "321d9b22-16ec-404f-9c65-0b8c1446f20c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사 성과에 대한 설명을 입력해주세요. 사용된 폰트는 프리텐다드 Regular 18pt 중앙정렬입니다.",
+              "areaSize": 33266.143404999995,
+              "fontSize": 23.999,
+              "position": {
+                "x": 10.2,
+                "y": 224.09,
+                "width": 301.4,
+                "height": 110.372075
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 1183.04,
+            "y": 0.0,
+            "width": 311.6002553539911,
+            "height": 334.4640734447015
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "3fe4ccdf-6144-4b59-99bc-aab010ae27af"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "038c9b40-76f7-4c6b-bd25-809ebf14c65f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "321d9b22-16ec-404f-9c65-0b8c1446f20c"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 39.65,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 216.35,
+        "y": 74.81,
+        "width": 1494.6401533851342,
+        "height": 334.4640734447016
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_2013",
+              "vstack_card_2017",
+              "vstack_card_2021",
+              "vstack_card_20xx"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 82.74
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 129.94,
+    "width": 1920,
+    "height": 498.0552995391705
+  },
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "patterns": [
+        [
+          "4962a94c-2d0c-4a54-aab9-227f9479540d"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_timeline_cards"
+        ]
+      ]
+    }
+  ],
+  "padding": {
+    "top": 74.81,
+    "bottom": 88.78,
+    "left": 216.35,
+    "right": 209.01
+  },
+  "horizontalAlignment": "center",
+  "verticalAlignment": "center"
+}

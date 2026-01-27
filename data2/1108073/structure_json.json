@@ -1,0 +1,764 @@
+{
+  "id": "vstack_rows",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_row_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "dbc0f080-ee98-4bb1-afe4-2b237f9f3dbb",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kzeumwfmyf3c9rou",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1710.2359862513047,
+            "height": 117.65585085827115
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_row_1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "hstack_row1_left",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "5f9e391f-54a1-41f5-902e-b15f06b47431",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "1",
+                  "areaSize": 2510.9669597446286,
+                  "fontSize": 32.974904388293076,
+                  "position": {
+                    "x": 0,
+                    "y": 1.5236255629142192,
+                    "width": 54.4,
+                    "height": 46.157480877658614
+                  },
+                  "fontFamily": "fr5me9c41oa5pmmk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "f996be22-e68d-41c3-8f97-ea2546aa527c",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단락의 제목을 적어주세요",
+                  "areaSize": 28431.098459999997,
+                  "fontSize": 39.998999999999995,
+                  "position": {
+                    "x": 108.47430105145577,
+                    "y": 0,
+                    "width": 507.7,
+                    "height": 55.99979999999999
+                  },
+                  "fontFamily": "ful3i6kz0vtc5yea",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 616.1743010514557,
+                "height": 55.99979999999999
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "5f9e391f-54a1-41f5-902e-b15f06b47431"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f996be22-e68d-41c3-8f97-ea2546aa527c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5fc49222-3f4b-4295-af6f-ce0f0aa6ec57",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1. 텍스트를 입력해주세요  ㅣ 2. 이 항목에 관련된 내용을 간략하게 적어주세요",
+              "areaSize": 41470.758741,
+              "fontSize": 27.999299999999998,
+              "position": {
+                "x": 635.1502926249553,
+                "y": 8.403505596026434,
+                "width": 1058.1,
+                "height": 39.19361
+              },
+              "fontFamily": "ful3i6kz0vtc5yea",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 40,
+                "maxCharsPerLine": 40
+              }
+            }
+          ],
+          "position": {
+            "x": 16.985692074196436,
+            "y": 23.91075525379273,
+            "width": 1693.2502926249554,
+            "height": 55.99979999999999
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_row1_left"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5fc49222-3f4b-4295-af6f-ce0f0aa6ec57"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1710.2359862513047,
+        "height": 117.65585085827115
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "dbc0f080-ee98-4bb1-afe4-2b237f9f3dbb"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row_1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_row_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e3b0b3b0-100f-498b-b6a7-dda1ef969d3e",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kzeumwfmyf3c9rou",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1710.2359862513047,
+            "height": 117.65585085827115
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_row_2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "hstack_row2_left",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "25128999-2ea7-419e-b691-9dbc18eefb25",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "2",
+                  "areaSize": 2510.9667348837206,
+                  "fontSize": 32.97488372093023,
+                  "position": {
+                    "x": 0,
+                    "y": 1.5233218595152493,
+                    "width": 54.4,
+                    "height": 46.15747674418604
+                  },
+                  "fontFamily": "fr5me9c41oa5pmmk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "491d0855-8e63-45a2-a9b4-71ae5110fdf3",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단락의 제목을 적어주세요",
+                  "areaSize": 28431.098459999997,
+                  "fontSize": 39.998999999999995,
+                  "position": {
+                    "x": 108.47430105145577,
+                    "y": 0,
+                    "width": 507.7,
+                    "height": 55.99979999999999
+                  },
+                  "fontFamily": "ful3i6kz0vtc5yea",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 616.1743010514557,
+                "height": 55.99979999999994
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "25128999-2ea7-419e-b691-9dbc18eefb25"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "491d0855-8e63-45a2-a9b4-71ae5110fdf3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "16cd6246-0997-4853-b294-cfd0afb1ceb3",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1. 텍스트를 입력해주세요  ㅣ 2. 이 항목에 관련된 내용을 간략하게 적어주세요",
+              "areaSize": 41470.758741,
+              "fontSize": 27.999299999999998,
+              "position": {
+                "x": 635.1502926249553,
+                "y": 8.403505596026434,
+                "width": 1058.1,
+                "height": 39.19361
+              },
+              "fontFamily": "ful3i6kz0vtc5yea",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 40,
+                "maxCharsPerLine": 40
+              }
+            }
+          ],
+          "position": {
+            "x": 16.985692074196436,
+            "y": 23.910755253792672,
+            "width": 1693.2502926249554,
+            "height": 55.99979999999994
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_row2_left"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "16cd6246-0997-4853-b294-cfd0afb1ceb3"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 160.11464833916028,
+        "width": 1710.2359862513047,
+        "height": 117.65585085827115
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e3b0b3b0-100f-498b-b6a7-dda1ef969d3e"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row_2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_row_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "f9ff0bb6-3d67-46cb-be62-14e8b0b7b8da",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kzeumwfmyf3c9rou",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1710.2359862513047,
+            "height": 117.65585085827115
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_row_3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "hstack_row3_left",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "4ea337ee-eb04-44cd-a9a2-bfa17a6eef2f",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "3",
+                  "areaSize": 2510.9667348837206,
+                  "fontSize": 32.97488372093023,
+                  "position": {
+                    "x": 0,
+                    "y": 1.5236735203549188,
+                    "width": 54.4,
+                    "height": 46.15747674418604
+                  },
+                  "fontFamily": "fr5me9c41oa5pmmk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "ae111245-9892-4180-b057-ca21c2253743",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단락의 제목을 적어주세요",
+                  "areaSize": 28431.098459999997,
+                  "fontSize": 39.998999999999995,
+                  "position": {
+                    "x": 108.47430105145577,
+                    "y": 0,
+                    "width": 507.7,
+                    "height": 55.99979999999999
+                  },
+                  "fontFamily": "ful3i6kz0vtc5yea",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 616.1743010514557,
+                "height": 55.99979999999994
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "4ea337ee-eb04-44cd-a9a2-bfa17a6eef2f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "ae111245-9892-4180-b057-ca21c2253743"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0240579b-6e5b-4b1b-ac79-9fabf01d14e3",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1. 텍스트를 입력해주세요  ㅣ 2. 이 항목에 관련된 내용을 간략하게 적어주세요",
+              "areaSize": 41470.758741,
+              "fontSize": 27.999299999999998,
+              "position": {
+                "x": 635.1502926249553,
+                "y": 8.403505596026434,
+                "width": 1058.1,
+                "height": 39.19361
+              },
+              "fontFamily": "ful3i6kz0vtc5yea",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 40,
+                "maxCharsPerLine": 40
+              }
+            }
+          ],
+          "position": {
+            "x": 16.985692074196436,
+            "y": 23.910755253792672,
+            "width": 1693.2502926249554,
+            "height": 55.99979999999994
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_row3_left"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0240579b-6e5b-4b1b-ac79-9fabf01d14e3"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 320.2292966783206,
+        "width": 1710.2359862513047,
+        "height": 117.65585085827115
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "f9ff0bb6-3d67-46cb-be62-14e8b0b7b8da"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row_3_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_row_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "2890c633-d0ff-4e5a-9942-6cfc0b654422",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kzeumwfmyf3c9rou",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1710.2359862513047,
+            "height": 117.65585085827115
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_row_4_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "hstack_row4_left",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "f3b2daf6-4822-44a7-af28-867f501980a6",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "4",
+                  "areaSize": 2510.9667348837206,
+                  "fontSize": 32.97488372093023,
+                  "position": {
+                    "x": 0,
+                    "y": 1.5240251811945882,
+                    "width": 54.4,
+                    "height": 46.15747674418604
+                  },
+                  "fontFamily": "fr5me9c41oa5pmmk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                },
+                {
+                  "id": "0b09b07d-5e38-4ed5-9a45-a3653f3f7d8e",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단락의 제목을 적어주세요",
+                  "areaSize": 28431.098459999997,
+                  "fontSize": 39.998999999999995,
+                  "position": {
+                    "x": 108.47430105145577,
+                    "y": 0,
+                    "width": 507.7,
+                    "height": 55.99979999999999
+                  },
+                  "fontFamily": "ful3i6kz0vtc5yea",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 616.1743010514557,
+                "height": 55.99979999999994
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f3b2daf6-4822-44a7-af28-867f501980a6"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "0b09b07d-5e38-4ed5-9a45-a3653f3f7d8e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "25651665-c3a5-4b72-a52d-918cb5c17aa5",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1. 텍스트를 입력해주세요  ㅣ 2. 이 항목에 관련된 내용을 간략하게 적어주세요",
+              "areaSize": 41470.758741,
+              "fontSize": 27.999299999999998,
+              "position": {
+                "x": 635.1502926249553,
+                "y": 8.403505596026434,
+                "width": 1058.1,
+                "height": 39.19361
+              },
+              "fontFamily": "ful3i6kz0vtc5yea",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 40,
+                "maxCharsPerLine": 40
+              }
+            }
+          ],
+          "position": {
+            "x": 16.985692074196436,
+            "y": 23.910755253792672,
+            "width": 1693.2502926249554,
+            "height": 55.99979999999994
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_row4_left"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "25651665-c3a5-4b72-a52d-918cb5c17aa5"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 480.34394501748096,
+        "width": 1710.2359862513047,
+        "height": 117.65585085827115
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2890c633-d0ff-4e5a-9942-6cfc0b654422"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row_4_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 64.88200687434798,
+    "y": 339.3352745475318,
+    "width": 1710.2359862513047,
+    "height": 597.9997958757522
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_row_1"
+        ],
+        [
+          "group_row_2",
+          "group_row_4"
+        ],
+        [
+          "group_row_3"
+        ]
+      ]
+    }
+  ]
+}

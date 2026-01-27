@@ -1,0 +1,180 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Title",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Highlight",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Highlight",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 15
+                }
+              }
+            ]
+          },
+          {
+            "role": "Title",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 0,
+              "totalMaxChars": 0,
+              "maxCharsPerLine": 25
+            }
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Description",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Chart"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 1,
+                          "totalMaxChars": 15,
+                          "maxCharsPerLine": 15
+                        }
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 2,
+                          "totalMaxChars": 38,
+                          "maxCharsPerLine": 19
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Chart"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 1,
+                          "totalMaxChars": 15,
+                          "maxCharsPerLine": 15
+                        }
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 2,
+                          "totalMaxChars": 38,
+                          "maxCharsPerLine": 19
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "Chart"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 1,
+                          "totalMaxChars": 15,
+                          "maxCharsPerLine": 15
+                        }
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 2,
+                          "totalMaxChars": 38,
+                          "maxCharsPerLine": 19
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

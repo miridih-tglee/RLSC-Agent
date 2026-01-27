@@ -1,0 +1,362 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_left_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "49abcd18-1038-4d5f-8098-23f4717631f3",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "2z0yXBFbwCOUdIoW30g6s",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 830.4794077558605,
+            "height": 535.5641241977748
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_card_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_left_card_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "b4ae503f-dbc9-4b98-a2d8-fbb98050a63a",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 715.4725090304444,
+                    "height": 135.78206209888708
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "bf3bbac1-c645-4ad6-9f4e-b39a5cb804c4",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "어떤 식물이 좋을까?",
+                  "areaSize": 39746.972429999994,
+                  "fontSize": 50.667,
+                  "position": {
+                    "x": 77.53625451522225,
+                    "y": 38.42799354944361,
+                    "width": 560.4,
+                    "height": 70.926075
+                  },
+                  "fontFamily": "f2r8qn68yqgr3583",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 11,
+                    "maxCharsPerLine": 11
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 715.4725090304444,
+                "height": 135.78206209888708
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "b4ae503f-dbc9-4b98-a2d8-fbb98050a63a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "bf3bbac1-c645-4ad6-9f4e-b39a5cb804c4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "b973efdd-c062-42d4-b274-2c0ae24bed1d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "초보자에게 좋은 해바라기,\n상추, 콩나물을 추천해요.",
+              "areaSize": 72756.46875,
+              "fontSize": 42.667,
+              "position": {
+                "x": 53.23625451522224,
+                "y": 209.87968849947526,
+                "width": 609,
+                "height": 119.46875
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 57.503449362708,
+            "y": 99.22684538202003,
+            "width": 715.4725090304444,
+            "height": 329.34843849947526
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_left_card_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b973efdd-c062-42d4-b274-2c0ae24bed1d"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 830.4794077558605,
+        "height": 535.5641241977748
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "49abcd18-1038-4d5f-8098-23f4717631f3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_card_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_right_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "c5e1994f-734e-4a64-a271-127f42f667c0",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "2z0yXBFbwCOUdIoW30g6s",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 830.4794077558604,
+            "height": 535.5641241977748
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_right_card_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_right_card_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "f7c524b9-5e09-49ec-8bf1-1c6c6fa61715",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 715.4725090304445,
+                    "height": 135.78206209888708
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "dcd487df-116e-49dc-8fb3-1c2ce5754329",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "준비물 체크하기",
+                  "areaSize": 39746.972429999994,
+                  "fontSize": 50.667,
+                  "position": {
+                    "x": 77.53625451522214,
+                    "y": 38.427993549443386,
+                    "width": 560.4,
+                    "height": 70.926075
+                  },
+                  "fontFamily": "f2r8qn68yqgr3583",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 11,
+                    "maxCharsPerLine": 11
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 715.4725090304445,
+                "height": 135.78206209888708
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "f7c524b9-5e09-49ec-8bf1-1c6c6fa61715"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "dcd487df-116e-49dc-8fb3-1c2ce5754329"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "257732ad-286b-416b-9071-2a330901393f",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "화분, 흙, 씨앗, 물뿌리개, 햇빛이 잘 드는 장소를 준비해요.",
+              "areaSize": 72756.46875,
+              "fontSize": 42.667,
+              "position": {
+                "x": 53.236254515222186,
+                "y": 209.87968849947515,
+                "width": 609,
+                "height": 119.46875
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 57.503449362707784,
+            "y": 99.22684538202003,
+            "width": 715.4725090304445,
+            "height": 329.34843849947515
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_right_card_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "257732ad-286b-416b-9071-2a330901393f"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 869.8791116337908,
+        "y": 1.9200000000000728,
+        "width": 830.4794077558604,
+        "height": 535.5641241977748
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "c5e1994f-734e-4a64-a271-127f42f667c0"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_right_card_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 90.12088836620923,
+    "y": 445.07587580222497,
+    "width": 1700.358519389651,
+    "height": 537.4841241977749
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_left_card",
+          "group_right_card"
+        ]
+      ]
+    }
+  ]
+}

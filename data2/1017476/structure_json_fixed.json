@@ -1,0 +1,430 @@
+{
+  "id": "vstack_cards_left",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_card_left_top",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ddf40104-6874-4db2-a7dc-cd5f910bc013",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kcd36cfnboloa5pf",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 546.1816509542423,
+            "height": 265.0109284811234
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_left_top_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b9e21f01-ae86-4994-9ee7-f9ce548b95b1",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "75%",
+              "areaSize": 23750.580039999997,
+              "fontSize": 94.051,
+              "position": {
+                "x": 7.0,
+                "y": 0.0,
+                "width": 180.4,
+                "height": 131.65509999999998
+              },
+              "fontFamily": "fou3fgr83awtgoyv",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            },
+            {
+              "id": "e4c9a4b9-4b80-4331-b7bb-91bf34a6c217",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Item 1",
+              "areaSize": 8934.48864,
+              "fontSize": 45.333,
+              "position": {
+                "x": 193.84,
+                "y": 47.85,
+                "width": 140.8,
+                "height": 63.455175
+              },
+              "fontFamily": "fktci3z4uelbeddw",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "9ef8e275-4866-4962-8a7a-209e3ec750c0",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 121.05,
+                "width": 425.47342751455153,
+                "height": 2.25
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "5b4ff6d0-b7c0-49e8-b4b5-4ed3f1649bc1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Please enter a brief description.\nUse graphs to effectively build pages.",
+              "areaSize": 32489.243749999998,
+              "fontSize": 25.333,
+              "position": {
+                "x": 5.67,
+                "y": 138.61,
+                "width": 458.2,
+                "height": 70.90625
+              },
+              "fontFamily": "fktci3z4uelbeddw",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 52,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 39.0,
+            "y": 19.46,
+            "width": 463.8666666666667,
+            "height": 209.51397131796318
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b9e21f01-ae86-4994-9ee7-f9ce548b95b1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e4c9a4b9-4b80-4331-b7bb-91bf34a6c217"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9ef8e275-4866-4962-8a7a-209e3ec750c0"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5b4ff6d0-b7c0-49e8-b4b5-4ed3f1649bc1"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 12.53,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "bottom"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 546.1816509542423,
+        "height": 265.0109284811234
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ddf40104-6874-4db2-a7dc-cd5f910bc013"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_left_top_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 19.46,
+        "bottom": 36.04,
+        "left": 39.0,
+        "right": 43.31
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card_left_bottom",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "7bac5b2e-db12-418d-8b6c-34d0aaaefd9c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kcd36cfnboloa5pf",
+          "position": {
+            "x": 0,
+            "y": 0.0,
+            "width": 546.1816509542423,
+            "height": 265.0109284811234
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_left_bottom_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "9d5b8027-2ba7-455d-8de9-b0959cda8f5b",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "14%",
+              "areaSize": 24645.834719999995,
+              "fontSize": 94.051,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 187.2,
+                "height": 131.65509999999998
+              },
+              "fontFamily": "fou3fgr83awtgoyv",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "21735473-2ba0-49b8-918d-a00518a0aa3e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Item 3",
+              "areaSize": 8566.448624999999,
+              "fontSize": 45.333,
+              "position": {
+                "x": 186.84,
+                "y": 51.38,
+                "width": 135,
+                "height": 63.455175
+              },
+              "fontFamily": "fktci3z4uelbeddw",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "b8a6203d-e725-4d26-8a86-52691ffc25cf",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 124.79,
+                "width": 425.4734275145514,
+                "height": 2.25
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "ab05fe99-a5c5-42f9-a7ea-9ab75b825bfe",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Please enter a brief description.\nUse graphs to effectively build pages.",
+              "areaSize": 32489.243749999998,
+              "fontSize": 25.333,
+              "position": {
+                "x": 0.0,
+                "y": 147.09,
+                "width": 458.2,
+                "height": 70.90625
+              },
+              "fontFamily": "fktci3z4uelbeddw",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 52,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 46.0,
+            "y": 21.01,
+            "width": 458.20000000000005,
+            "height": 217.99253772105237
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9d5b8027-2ba7-455d-8de9-b0959cda8f5b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "21735473-2ba0-49b8-918d-a00518a0aa3e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b8a6203d-e725-4d26-8a86-52691ffc25cf"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ab05fe99-a5c5-42f9-a7ea-9ab75b825bfe"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 15.0,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "bottom"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 321.99,
+        "width": 546.1816509542423,
+        "height": 265.0109284811234
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "7bac5b2e-db12-418d-8b6c-34d0aaaefd9c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_left_bottom_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 21.01,
+        "bottom": 26.01,
+        "left": 46.0,
+        "right": 41.98
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 546.1816509542423,
+    "height": 586.9999999999992
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_left_top"
+        ],
+        [
+          "group_card_left_bottom"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 56.98
+}

@@ -1,0 +1,732 @@
+{
+  "id": "vstack_right_list",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_item1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item1_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "2f571f91-6019-488b-ae83-3323f872d1ac",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605648
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "b08bc8d1-fc13-4d60-928e-4499a6342447",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "ky560s2xg7swlkyi",
+              "position": {
+                "x": 17.334214285503435,
+                "y": 17.180863795686207,
+                "width": 53.312168425049094,
+                "height": 53.61886940468406
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605648
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2f571f91-6019-488b-ae83-3323f872d1ac"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b08bc8d1-fc13-4d60-928e-4499a6342447"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e2f12b5d-9ff1-4286-8f15-47f89d0c2eb5",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "조제한 약은 반품할 수 없습니다.",
+          "areaSize": 23682.7125,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164107,
+            "y": 20.99029849802821,
+            "width": 507.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 16
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 617.742732691641,
+        "height": 87.98059699605648
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item1_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "e2f12b5d-9ff1-4286-8f15-47f89d0c2eb5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_item2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item2_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e9f2ddbf-8444-48e2-86ce-df1334377ecc",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605648
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "87f550a7-fa06-4629-a904-32c98b5a3f12",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "kk02gx4bdj7guajr",
+              "position": {
+                "x": 10.642828635060255,
+                "y": 10.642828635059914,
+                "width": 66.69493972593636,
+                "height": 66.69493972593659
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605648
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e9f2ddbf-8444-48e2-86ce-df1334377ecc"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "87f550a7-fa06-4629-a904-32c98b5a3f12"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "42f4b2e6-7492-447e-a0ae-adcbd4d5f897",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "임산부, 약물 알러지 환자는 미리 말씀해주세요.",
+          "areaSize": 33480.525,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164084,
+            "y": 20.99029849802821,
+            "width": 717.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 23
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 112.14456448952558,
+        "width": 827.742732691641,
+        "height": 87.98059699605648
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item2_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "42f4b2e6-7492-447e-a0ae-adcbd4d5f897"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_item3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item3_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "eb440679-2ade-44c3-9f70-f4ce72681906",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605653
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "a55f7ea9-4972-4d89-81ae-a86772df99a1",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "klryjr6zl6ep3g2d",
+              "position": {
+                "x": 8.086285527312725,
+                "y": 8.086285527312839,
+                "width": 71.80802594143154,
+                "height": 71.80802594143086
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605653
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "eb440679-2ade-44c3-9f70-f4ce72681906"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a55f7ea9-4972-4d89-81ae-a86772df99a1"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8bfbc128-292b-4f51-b226-7d73119d3928",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "약국은 무상으로 드링크를 제공할 수 없습니다.",
+          "areaSize": 33480.525,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164084,
+            "y": 20.990298498028324,
+            "width": 717.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 23
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 224.28912897905104,
+        "width": 827.742732691641,
+        "height": 87.98059699605653
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item3_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "8bfbc128-292b-4f51-b226-7d73119d3928"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_item4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item4_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "45ff58cb-163a-412a-9e03-614ad16cceee",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605653
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c47274cb-5835-4a05-89bb-e32d592c5579",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "k2yaay5i9918e5k9",
+              "position": {
+                "x": 11.535974420470666,
+                "y": 11.535974420470438,
+                "width": 64.90864815511566,
+                "height": 64.90864815511577
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605653
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "45ff58cb-163a-412a-9e03-614ad16cceee"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "c47274cb-5835-4a05-89bb-e32d592c5579"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c5e893b2-e6b2-4e7a-ad2b-10e8a79cff63",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "의약품 부작용 발생 시 반드시 약사와 상의하세요.",
+          "areaSize": 33947.0875,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164107,
+            "y": 20.990298498028324,
+            "width": 727.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 23
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 336.43369346857673,
+        "width": 837.742732691641,
+        "height": 87.98059699605653
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item4_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c5e893b2-e6b2-4e7a-ad2b-10e8a79cff63"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_item5",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item5_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ff815b98-4048-4615-b0c6-220b08203841",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605653
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "e2bee1c3-6bfa-4b85-a9ec-a506f682b740",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "k9iswwyuub3yfp1z",
+              "position": {
+                "x": 12.297703603569516,
+                "y": 12.297703603569289,
+                "width": 63.38518978891784,
+                "height": 63.38518978891784
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605653
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ff815b98-4048-4615-b0c6-220b08203841"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e2bee1c3-6bfa-4b85-a9ec-a506f682b740"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "01668388-ba20-4437-9350-ea99bf494f36",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "처방조제 약값은 모든 약국이 동일합니다.",
+          "areaSize": 29748.025,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164107,
+            "y": 20.990298498028324,
+            "width": 637.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 20
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 448.5782579581022,
+        "width": 747.742732691641,
+        "height": 87.98059699605653
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item5_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "01668388-ba20-4437-9350-ea99bf494f36"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_item6",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_item6_icon",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "51620631-16ce-4889-bbe2-8f8ada0d9db8",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.98059699605687,
+                "height": 87.98059699605653
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "9153a6db-4758-4fc8-82fd-83312feb2e65",
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "svgData": "k2t6td2vc36cmnsq",
+              "position": {
+                "x": 10.292527669400556,
+                "y": 10.292527669399988,
+                "width": 67.39554165725588,
+                "height": 67.39554165725656
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 87.98059699605687,
+            "height": 87.98059699605653
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "51620631-16ce-4889-bbe2-8f8ada0d9db8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9153a6db-4758-4fc8-82fd-83312feb2e65"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c72d7aa1-6eda-4815-b097-d58b93a63ce3",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "약국은 본인 부담금 할인 행위를 할 수 없습니다.",
+          "areaSize": 31894.2125,
+          "fontSize": 33.332499999999996,
+          "position": {
+            "x": 110.14273269164107,
+            "y": 20.990298498028324,
+            "width": 683.6,
+            "height": 46.65625
+          },
+          "fontFamily": "flsdnrg8qzusvrdo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 22
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 560.7228224476279,
+        "width": 793.742732691641,
+        "height": 87.98059699605653
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_item6_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c72d7aa1-6eda-4815-b097-d58b93a63ce3"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 74.31619452095231,
+    "y": 116.59067309065779,
+    "width": 837.742732691641,
+    "height": 648.7034194436844
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_item1",
+          "hstack_item2",
+          "hstack_item3",
+          "hstack_item4",
+          "hstack_item5",
+          "hstack_item6"
+        ]
+      ]
+    }
+  ]
+}

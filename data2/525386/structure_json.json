@@ -1,0 +1,405 @@
+{
+  "id": "hstack_feature_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "5276b052-9f21-4f1d-a436-3483e07cc832",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 384.3938485006462,
+            "height": 245.47347675290212
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "3d80bcd5-a363-4f83-bf22-0492142e25bc",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "제품 특성",
+              "areaSize": 26120.47557,
+              "fontSize": 52.7858,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 353.5,
+                "height": 73.89102
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "7c05694f-2e5f-488f-8874-d6537e318cbb",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "제품이 가진 고유한 특성에 관해 설명해 주세요. 다른 제품과 차별화 되는 장점을 입력해주세요",
+              "areaSize": 31798.575,
+              "fontSize": 21.975107418849458,
+              "position": {
+                "x": 3.476255000000151,
+                "y": 96.2256717782102,
+                "width": 344.7,
+                "height": 92.25
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 32,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 16.37066925032309,
+            "y": 25.650300258761263,
+            "width": 353.5,
+            "height": 188.4756717782102
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3d80bcd5-a363-4f83-bf22-0492142e25bc"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7c05694f-2e5f-488f-8874-d6537e318cbb"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 384.3938485006462,
+        "height": 245.47347675290212
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "5276b052-9f21-4f1d-a436-3483e07cc832"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "8e1b2161-9010-4e4b-8383-d426e1d99e72",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 384.3938485006461,
+            "height": 245.47347675290212
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "8d1ca17a-e86c-4ca3-a4e8-05b8db72d184",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "제품 특성",
+              "areaSize": 26120.47557,
+              "fontSize": 52.7858,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 353.5,
+                "height": 73.89102
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "7e5f5a2f-46e9-4af8-9ebe-882b595574e1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "제품이 가진 고유한 특성에 관해 설명해 주세요. 다른 제품과 차별화 되는 장점을 입력해주면 더욱 좋습니다.",
+              "areaSize": 42533.4,
+              "fontSize": 21.975107418849458,
+              "position": {
+                "x": 2.9262550000001966,
+                "y": 96.2256717782102,
+                "width": 345.8,
+                "height": 123
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 16.370669250322862,
+            "y": 25.650300258761263,
+            "width": 353.5,
+            "height": 219.2256717782102
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8d1ca17a-e86c-4ca3-a4e8-05b8db72d184"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7e5f5a2f-46e9-4af8-9ebe-882b595574e1"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 425.58769950489636,
+        "y": 0,
+        "width": 384.3938485006461,
+        "height": 245.47347675290212
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "8e1b2161-9010-4e4b-8383-d426e1d99e72"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "18e12d2e-fca5-4bcd-be7c-0265825b621c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 384.3938485006463,
+            "height": 245.47347675290212
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "574b3416-fa1f-4378-ac55-72fcd735f5b1",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "제품 특성",
+              "areaSize": 26120.47557,
+              "fontSize": 52.7858,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 353.5,
+                "height": 73.89102
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "f65a1350-4d5b-4765-b39e-3286a8a45276",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "제품이 가진 고유한 특성에 관해 설명해 주세요. 다른 제품과 차별화 되는 장점을 입력해주세요",
+              "areaSize": 27997.875,
+              "fontSize": 21.975107418849458,
+              "position": {
+                "x": 24.076254999999946,
+                "y": 96.2256717782102,
+                "width": 303.5,
+                "height": 92.25
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 28,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 16.370669250323317,
+            "y": 25.650300258761263,
+            "width": 353.5,
+            "height": 188.4756717782102
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "574b3416-fa1f-4378-ac55-72fcd735f5b1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f65a1350-4d5b-4765-b39e-3286a8a45276"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 855.1753990097925,
+        "y": 0,
+        "width": 384.3938485006463,
+        "height": 245.47347675290212
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "18e12d2e-fca5-4bcd-be7c-0265825b621c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 697.180560185633,
+    "y": 1046.8548854546834,
+    "width": 1239.5692475104388,
+    "height": 245.47347675290212
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ]
+}

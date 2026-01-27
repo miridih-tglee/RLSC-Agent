@@ -1,0 +1,537 @@
+{
+  "id": "hstack_testimonials_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_testimonial_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "b7e7791b-2c4d-49e6-a945-3b33364eede8",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kgi5xwvmq8iqq84z",
+          "position": {
+            "x": 49.73,
+            "y": 0.0,
+            "width": 289,
+            "height": 247
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_badge_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "6608a7ef-76ea-4168-ace5-7d77fc6ee23f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0.0,
+                "width": 362.461875311973,
+                "height": 63.237875659060364
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "1255c667-1873-45d2-9190-ca61bd9a54b0",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "이미리 (10세/수강자)",
+              "areaSize": 12438.9,
+              "fontSize": 27.333,
+              "position": {
+                "x": 18.8,
+                "y": 12.49,
+                "width": 325.2,
+                "height": 38.25
+              },
+              "fontFamily": "flych7rvqvdoktvt",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 299.93,
+            "width": 362.461875311973,
+            "height": 63.237875659060364
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "6608a7ef-76ea-4168-ace5-7d77fc6ee23f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1255c667-1873-45d2-9190-ca61bd9a54b0"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 12.49,
+            "bottom": 12.5,
+            "left": 18.8,
+            "right": 18.46
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "62928558-0dae-4335-91a2-a1ad2a2e544a",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "\"그림을 그리면 슬프고 아픈 감정들이 다 사라져요. 미운 것도 그림으로 그리면 예쁘게 보여요. 내가 생각하는 것들을 마음대로 표현할 수 있어서 좋아요.\"",
+          "areaSize": 46862.0645,
+          "fontSize": 21.333,
+          "position": {
+            "x": 4,
+            "y": 410.53,
+            "width": 372.5,
+            "height": 125.8042
+          },
+          "fontFamily": "frzqsml8iiegynyj",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 51,
+            "maxCharsPerLine": 17
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 15.51,
+        "width": 376.5,
+        "height": 536.3332954588756
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "b7e7791b-2c4d-49e6-a945-3b33364eede8"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "62928558-0dae-4335-91a2-a1ad2a2e544a"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 50.15,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
+    },
+    {
+      "id": "vstack_testimonial_center",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "0d68b14e-2f2a-4659-806e-c6a10d118f4b",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kd4jl7u7zywnszss",
+          "position": {
+            "x": 66.43,
+            "y": 0.0,
+            "width": 244.9999999999999,
+            "height": 245
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_badge_center",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "f848272e-2ab5-48f2-b030-7dff5c8ea886",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 362.46187531197313,
+                "height": 63.237875659060364
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "4a69fc56-1868-4a5b-b5b0-621fb076a571",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "조미리 (38세/학부모)",
+              "areaSize": 12438.9,
+              "fontSize": 27.333,
+              "position": {
+                "x": 18.8,
+                "y": 12.49,
+                "width": 325.2,
+                "height": 38.25
+              },
+              "fontFamily": "flych7rvqvdoktvt",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 301.93,
+            "width": 362.46187531197313,
+            "height": 63.237875659060364
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f848272e-2ab5-48f2-b030-7dff5c8ea886"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4a69fc56-1868-4a5b-b5b0-621fb076a571"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 12.49,
+            "bottom": 12.5,
+            "left": 18.8,
+            "right": 18.46
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "2935041c-0600-416d-92f9-7bdee711e78f",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "\"아이가 불안이 심해서 미술 치료를 시작했는데, 이후에는 자신의 감정을 솔직하게 잘 표현하고 더이상 불안해하지 않아요. 앞으로 올바른 정서를 가진 아이로 성장하길 기대합니다.\"",
+          "areaSize": 57198.35843750001,
+          "fontSize": 21.333,
+          "position": {
+            "x": 0.0,
+            "y": 396.54,
+            "width": 362.5,
+            "height": 157.788575
+          },
+          "fontFamily": "frzqsml8iiegynyj",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 4,
+            "totalMaxChars": 64,
+            "maxCharsPerLine": 16
+          }
+        }
+      ],
+      "position": {
+        "x": 506.08,
+        "y": 13.51,
+        "width": 362.5000000000001,
+        "height": 554.3254829588756
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0d68b14e-2f2a-4659-806e-c6a10d118f4b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge_center"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "2935041c-0600-416d-92f9-7bdee711e78f"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 44.15,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
+    },
+    {
+      "id": "vstack_testimonial_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "fb0f7aaa-4b0b-45d5-9de1-80754adc043e",
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 45.61,
+            "y": 0.0,
+            "width": 276.1557728811845,
+            "height": 276.1557728811847
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_badge_right",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "612dfdb8-020c-416c-95ed-89b457ceed92",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 362.461875311973,
+                "height": 63.237875659060364
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "5e8a4ea8-a8c9-452f-8de3-14b91a4234ee",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "신미리(17세/수강자)",
+              "areaSize": 12438.9,
+              "fontSize": 27.333,
+              "position": {
+                "x": 18.8,
+                "y": 12.49,
+                "width": 325.2,
+                "height": 38.25
+              },
+              "fontFamily": "flych7rvqvdoktvt",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 315.44,
+            "width": 362.461875311973,
+            "height": 63.237875659060364
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "612dfdb8-020c-416c-95ed-89b457ceed92"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5e8a4ea8-a8c9-452f-8de3-14b91a4234ee"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 12.49,
+            "bottom": 12.5,
+            "left": 18.8,
+            "right": 18.46
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "f5a9b614-0469-4a0d-8ea3-2456851656c8",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "\"입시 스트레스 때문에 많이 힘들었는데, 미술치료를 통해 제 안에 있던 부정적인 감정들을 올바르게 해소하는 법을 배웠어요. 스트레스 해소방법을 잘 알지 못하는 학생들에게 추천합니다.",
+          "areaSize": 54242.03665,
+          "fontSize": 19.999,
+          "position": {
+            "x": 0.0,
+            "y": 409.17,
+            "width": 366.5,
+            "height": 148.0001
+          },
+          "fontFamily": "frzqsml8iiegynyj",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 4,
+            "totalMaxChars": 68,
+            "maxCharsPerLine": 17
+          }
+        }
+      ],
+      "position": {
+        "x": 1044.67,
+        "y": 0.0,
+        "width": 366.5,
+        "height": 557.1713630390328
+      },
+      "alignment": "center",
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Decoration",
+          "type": "SVG",
+          "patterns": [
+            [
+              "fb0f7aaa-4b0b-45d5-9de1-80754adc043e"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge_right"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "f5a9b614-0469-4a0d-8ea3-2456851656c8"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 34.89,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 203.16,
+    "width": 1411.1691951474413,
+    "height": 567.8321230390329
+  },
+  "alignment": "top",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_testimonial_left"
+        ],
+        [
+          "vstack_testimonial_center"
+        ],
+        [
+          "vstack_testimonial_right"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 152.83
+}

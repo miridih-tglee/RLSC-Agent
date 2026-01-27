@@ -1,0 +1,92 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text"
+              },
+              {
+                "role": "Description",
+                "type": "Text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text"
+              },
+              {
+                "role": "Description",
+                "type": "Text"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text"
+              },
+              {
+                "role": "Description",
+                "type": "Text"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

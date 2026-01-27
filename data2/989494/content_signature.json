@@ -1,0 +1,192 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Highlight",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 14,
+                      "maxCharsPerLine": 14
+                    }
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 5,
+                      "maxCharsPerLine": 5
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 38,
+                      "maxCharsPerLine": 19
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Highlight",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 18,
+                      "maxCharsPerLine": 9
+                    }
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 5,
+                      "maxCharsPerLine": 5
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 38,
+                      "maxCharsPerLine": 19
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Highlight",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 14,
+                      "maxCharsPerLine": 14
+                    }
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 5,
+                      "maxCharsPerLine": 5
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 38,
+                      "maxCharsPerLine": 19
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Highlight",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 28,
+                      "maxCharsPerLine": 14
+                    }
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 5,
+                      "maxCharsPerLine": 5
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 38,
+                      "maxCharsPerLine": 19
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

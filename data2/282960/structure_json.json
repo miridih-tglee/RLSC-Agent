@@ -1,0 +1,575 @@
+{
+  "id": "hstack_right_side_refined",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "zstack_blue_panel_refined",
+      "role": "Role.LayoutContainer.Background",
+      "type": "ZStack",
+      "children": [
+        {
+          "id": "90bdc284-e188-444d-baf6-5c5930143e8b",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 414,
+            "height": 742.0000000000001
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_items_blue_refined",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_item_03_refined",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f2aa2aaf-27f5-46b0-ba7e-1baede43e201",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "03",
+                  "areaSize": 7347.871875,
+                  "fontSize": 45.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 115.8,
+                    "height": 63.453125
+                  },
+                  "fontFamily": "f192raskiq28ux4u",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 2,
+                    "maxCharsPerLine": 2
+                  }
+                },
+                {
+                  "id": "5b928684-8fb5-4725-8078-e5d8889a3ed4",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Subtitle 03",
+                  "areaSize": 12019.65625,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 1.1368683772161603e-13,
+                    "y": 90.0926998368679,
+                    "width": 322,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "f192raskiq28ux4u",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 12,
+                    "maxCharsPerLine": 12
+                  }
+                },
+                {
+                  "id": "24940192-9b2a-40ea-a4b8-78487daa3e37",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Fringilla curabitur iki un blandit purus mus habitant elit et.",
+                  "areaSize": 20690.8125,
+                  "fontSize": 22.667,
+                  "position": {
+                    "x": 1.1368683772161603e-13,
+                    "y": 146.59269983686767,
+                    "width": 326,
+                    "height": 63.46875
+                  },
+                  "fontFamily": "fnqwf2bapy57tyys",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 28,
+                    "maxCharsPerLine": 14
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 326.0000000000001,
+                "height": 210.06144983686767
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f2aa2aaf-27f5-46b0-ba7e-1baede43e201"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "5b928684-8fb5-4725-8078-e5d8889a3ed4"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "24940192-9b2a-40ea-a4b8-78487daa3e37"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_item_04_refined",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "d59be5ee-6b0e-4431-86eb-2545bc66faaa",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "04",
+                  "areaSize": 7347.871875,
+                  "fontSize": 45.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 115.8,
+                    "height": 63.453125
+                  },
+                  "fontFamily": "f192raskiq28ux4u",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 2,
+                    "maxCharsPerLine": 2
+                  }
+                },
+                {
+                  "id": "fb67ed4c-babf-4c2e-9a39-50a897672be1",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Subtitle 04",
+                  "areaSize": 12019.65625,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 1.1368683772161603e-13,
+                    "y": 90.09269983686784,
+                    "width": 322,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "f192raskiq28ux4u",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 12,
+                    "maxCharsPerLine": 12
+                  }
+                },
+                {
+                  "id": "be0a17e1-a2f0-4541-9adf-ebe7b666ec85",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Fringilla curabitur iki un blandit purus mus habitant elit et.",
+                  "areaSize": 20690.8125,
+                  "fontSize": 22.667,
+                  "position": {
+                    "x": 1.1368683772161603e-13,
+                    "y": 146.5926998368676,
+                    "width": 326,
+                    "height": 63.46875
+                  },
+                  "fontFamily": "fnqwf2bapy57tyys",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 28,
+                    "maxCharsPerLine": 14
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 284.04634991843403,
+                "width": 326.0000000000001,
+                "height": 210.0614498368676
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d59be5ee-6b0e-4431-86eb-2545bc66faaa"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "fb67ed4c-babf-4c2e-9a39-50a897672be1"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "be0a17e1-a2f0-4541-9adf-ebe7b666ec85"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 43.999999999999886,
+            "y": 78.15730016313233,
+            "width": 326.0000000000001,
+            "height": 494.10779975530164
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_item_03_refined",
+                  "vstack_item_04_refined"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 742.0000000000001
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "90bdc284-e188-444d-baf6-5c5930143e8b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_items_blue_refined"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_items_right_refined",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_item_05_refined",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2f198ba7-4160-4506-8ed5-437bbbde5d81",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "05",
+              "areaSize": 7347.871875,
+              "fontSize": 45.333,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 115.8,
+                "height": 63.453125
+              },
+              "fontFamily": "f192raskiq28ux4u",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            },
+            {
+              "id": "34dc5e7c-206f-4949-9c5c-44c8d5e0466f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Subtitle 05",
+              "areaSize": 12019.65625,
+              "fontSize": 26.667,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 90.0926998368679,
+                "width": 322,
+                "height": 37.328125
+              },
+              "fontFamily": "f192raskiq28ux4u",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 12,
+                "maxCharsPerLine": 12
+              }
+            },
+            {
+              "id": "6876a5b7-1d02-4fec-9dd0-8aee03ac5784",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Fringilla curabitur iki un blandit purus mus habitant elit et.",
+              "areaSize": 20690.8125,
+              "fontSize": 22.667,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 146.59269983686767,
+                "width": 326,
+                "height": 63.46875
+              },
+              "fontFamily": "fnqwf2bapy57tyys",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 28,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 326.0000000000002,
+            "height": 210.06144983686767
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2f198ba7-4160-4506-8ed5-437bbbde5d81"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "34dc5e7c-206f-4949-9c5c-44c8d5e0466f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6876a5b7-1d02-4fec-9dd0-8aee03ac5784"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_item_06_refined",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "05c2c7aa-09d0-4b2e-a377-c52d97858548",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "06",
+              "areaSize": 7347.871875,
+              "fontSize": 45.333,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 115.8,
+                "height": 63.453125
+              },
+              "fontFamily": "f192raskiq28ux4u",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            },
+            {
+              "id": "c59d7889-a953-440e-b168-0dbe2d2f68e9",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Subtitle 06",
+              "areaSize": 12019.65625,
+              "fontSize": 26.667,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 90.09269983686784,
+                "width": 322,
+                "height": 37.328125
+              },
+              "fontFamily": "f192raskiq28ux4u",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 12,
+                "maxCharsPerLine": 12
+              }
+            },
+            {
+              "id": "bb05f76c-d5cd-4277-b822-85f53195c32c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Fringilla curabitur iki un blandit purus mus habitant elit et.",
+              "areaSize": 20690.8125,
+              "fontSize": 22.667,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 146.5926998368676,
+                "width": 326,
+                "height": 63.46875
+              },
+              "fontFamily": "fnqwf2bapy57tyys",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 28,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 284.04634991843403,
+            "width": 326.0000000000002,
+            "height": 210.0614498368676
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "05c2c7aa-09d0-4b2e-a377-c52d97858548"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c59d7889-a953-440e-b168-0dbe2d2f68e9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bb05f76c-d5cd-4277-b822-85f53195c32c"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 490.9840760034424,
+        "y": 78.15730016313233,
+        "width": 326.0000000000002,
+        "height": 494.10779975530164
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_item_05_refined",
+              "vstack_item_06_refined"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 893.9681520068849,
+    "y": 5.684341886080802e-14,
+    "width": 816.9840760034426,
+    "height": 742.0000000000001
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Background",
+      "type": "ZStack",
+      "patterns": [
+        [
+          "zstack_blue_panel_refined"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_items_right_refined"
+        ]
+      ]
+    }
+  ]
+}

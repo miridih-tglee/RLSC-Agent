@@ -1,0 +1,448 @@
+{
+  "id": "vstack_steps",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_step1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_step1_badge",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "516d0bfc-de9e-4fbe-b7cb-55e80325122e",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kw13c3i3iiwabm8r",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 50.779287501943315,
+                "height": 50.77928750194428
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "028e9cd2-85a0-4f24-a0d6-e5b3c560b9bd",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "1",
+              "areaSize": 1827.3117450000002,
+              "fontSize": 36.063,
+              "position": {
+                "x": 7.38,
+                "y": 0.15,
+                "width": 36.2,
+                "height": 50.478225
+              },
+              "fontFamily": "fwf2tp3phpp5zsjv",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.61,
+            "width": 50.779287501943315,
+            "height": 50.77928750194428
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "516d0bfc-de9e-4fbe-b7cb-55e80325122e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "028e9cd2-85a0-4f24-a0d6-e5b3c560b9bd"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0.15,
+            "bottom": 0.15,
+            "left": 7.38,
+            "right": 7.2
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "vstack_step1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ee16d7a9-dd4e-419a-801c-8c4fc61b9641",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Define and Set Up",
+              "areaSize": 24927.449235,
+              "fontSize": 37.333,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 477.1,
+                "height": 52.24785
+              },
+              "fontFamily": "fwf2tp3phpp5zsjv",
+              "fontWeight": "700",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 27,
+                "maxCharsPerLine": 27
+              }
+            },
+            {
+              "id": "dc23d91c-e2c8-4111-91dc-f377ec127cb1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Set the session's goal and pick an accessible collaboration tool.",
+              "areaSize": 67416.86207999999,
+              "fontSize": 30.99,
+              "position": {
+                "x": 0.0,
+                "y": 62.17,
+                "width": 747.8,
+                "height": 90.1536
+              },
+              "fontFamily": "fujm30ivvhot3u89",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 102,
+                "maxCharsPerLine": 51
+              }
+            }
+          ],
+          "position": {
+            "x": 78.33,
+            "y": 0.0,
+            "width": 747.8,
+            "height": 152.32520772883663
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ee16d7a9-dd4e-419a-801c-8c4fc61b9641"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "dc23d91c-e2c8-4111-91dc-f377ec127cb1"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 9.92
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 826.125442914372,
+        "height": 152.32520772883663
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_step1_badge"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_step1_text"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.55
+    },
+    {
+      "id": "hstack_step2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_step2_badge",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "76472dac-2ebe-4862-905f-ef9354dcf14e",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kw13c3i3iiwabm8r",
+              "position": {
+                "x": 0.0,
+                "y": 1.85,
+                "width": 50.779287501943315,
+                "height": 50.77928750194428
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "eb1715b4-6053-47b2-8bb9-81aabab8b30a",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "2",
+              "areaSize": 1827.3117450000002,
+              "fontSize": 36.063,
+              "position": {
+                "x": 7.38,
+                "y": 0.0,
+                "width": 36.2,
+                "height": 50.478225
+              },
+              "fontFamily": "fwf2tp3phpp5zsjv",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 2,
+                "maxCharsPerLine": 2
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 2.78,
+            "width": 50.779287501943315,
+            "height": 52.6287562509724
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "76472dac-2ebe-4862-905f-ef9354dcf14e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "eb1715b4-6053-47b2-8bb9-81aabab8b30a"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 0,
+            "bottom": 2.15,
+            "left": 7.38,
+            "right": 7.2
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "vstack_step2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "223bf3e8-a167-40f3-b38b-094f4035fd25",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Generate Ideas",
+              "areaSize": 22785.287385,
+              "fontSize": 37.333,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 436.1,
+                "height": 52.24785
+              },
+              "fontFamily": "fwf2tp3phpp5zsjv",
+              "fontWeight": "700",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 24,
+                "maxCharsPerLine": 24
+              }
+            },
+            {
+              "id": "82576dbb-e00e-4334-b4a2-0d05e6e97311",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Encourage open sharing without criticism, then group, discuss, and prioritize ideas.",
+              "areaSize": 67416.86207999999,
+              "fontSize": 30.99,
+              "position": {
+                "x": 0.0,
+                "y": 59.0,
+                "width": 747.8,
+                "height": 90.1536
+              },
+              "fontFamily": "fujm30ivvhot3u89",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 102,
+                "maxCharsPerLine": 51
+              }
+            }
+          ],
+          "position": {
+            "x": 78.33,
+            "y": 0.0,
+            "width": 747.8,
+            "height": 149.15570258616435
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "223bf3e8-a167-40f3-b38b-094f4035fd25"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "82576dbb-e00e-4334-b4a2-0d05e6e97311"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 6.75
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 196.33,
+        "width": 826.125442914372,
+        "height": 149.15570258616435
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_step2_badge"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_step2_text"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 27.55
+    }
+  ],
+  "position": {
+    "x": 9.11,
+    "y": 395.85,
+    "width": 826.125442914372,
+    "height": 345.48420897015353
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_step1",
+          "hstack_step2"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 44.0
+}

@@ -609,6 +609,96 @@ def to_relative_coords(node: Dict, parent_x: float = 0, parent_y: float = 0) -> 
 
 
 # ============================================================
+# Alignment 계산
+# ============================================================
+def calculate_alignment(child_pos: Dict, parent_width: float, parent_height: float, threshold: float = 0.05) -> Tuple[str, str]:
+    """
+    자식의 position과 부모 크기로 정렬 계산
+
+    Returns:
+        (horizontalAlignment, verticalAlignment)
+    """
+    x = child_pos.get('x', 0)
+    y = child_pos.get('y', 0)
+    w = child_pos.get('width', 0)
+    h = child_pos.get('height', 0)
+
+    # 여백 계산
+    left_margin = x
+    right_margin = parent_width - (x + w)
+    top_margin = y
+    bottom_margin = parent_height - (y + h)
+
+    # 허용 오차 (5% 또는 10px 중 큰 값)
+    h_thresh = max(parent_width * threshold, 10)
+    v_thresh = max(parent_height * threshold, 10)
+
+    # 수평 정렬
+    if abs(left_margin - right_margin) <= h_thresh:
+        h_align = "center"
+    elif left_margin < right_margin - h_thresh:
+        h_align = "left"
+    else:
+        h_align = "right"
+
+    # 수직 정렬
+    if abs(top_margin - bottom_margin) <= v_thresh:
+        v_align = "center"
+    elif top_margin < bottom_margin - v_thresh:
+        v_align = "top"
+    else:
+        v_align = "bottom"
+
+    return h_align, v_align
+
+
+def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
+    """
+    SVG/Image 자식의 위치를 기반으로 부모 컨테이너에 alignment 추가
+    """
+    result = deepcopy(node)
+    node_type = get_type(result)
+    children = result.get('children', [])
+    position = result.get('position', {})
+
+    container_types = ['VStack', 'HStack', 'ZStack', 'Group', 'Grid']
+
+    if node_type in container_types and children:
+        parent_width = position.get('width', 0)
+        parent_height = position.get('height', 0)
+
+        if parent_width > 0 and parent_height > 0:
+            # SVG/Image 자식들의 alignment 투표
+            h_votes = {}
+            v_votes = {}
+
+            for child in children:
+                child_type = get_type(child)
+                child_pos = child.get('position', {})
+
+                if child_type in ['SVG', 'Image'] and child_pos:
+                    h, v = calculate_alignment(child_pos, parent_width, parent_height)
+                    h_votes[h] = h_votes.get(h, 0) + 1
+                    v_votes[v] = v_votes.get(v, 0) + 1
+
+            # 투표 결과로 부모에 alignment 추가
+            if h_votes:
+                result['horizontalAlignment'] = max(h_votes, key=h_votes.get)
+            if v_votes:
+                result['verticalAlignment'] = max(v_votes, key=v_votes.get)
+
+            if verbose and (h_votes or v_votes):
+                print(f"    [{node_type}] {result.get('id', '')[:15]} -> "
+                      f"h={result.get('horizontalAlignment')}, v={result.get('verticalAlignment')}")
+
+    # 자식 재귀 처리
+    if children:
+        result['children'] = [add_alignment_to_containers(c, verbose) for c in children]
+
+    return result
+
+
+# ============================================================
 # Layout Properties
 # ============================================================
 def add_layout_properties(node: Dict) -> Dict:
@@ -653,19 +743,23 @@ def add_layout_properties(node: Dict) -> Dict:
             }
     
     if len(children) >= 2 and node_type in ['HStack', 'VStack']:
-        gaps = []
-        key = 'x' if node_type == 'HStack' else 'y'
-        sorted_children = sorted(children, key=lambda c: c.get('position', {}).get(key, 0))
+        # Background를 제외한 콘텐츠 요소들로 gap 계산
+        content_children = [c for c in children if not is_background(c)]
         
-        for i in range(len(sorted_children) - 1):
-            bbox1, bbox2 = get_bbox(sorted_children[i]), get_bbox(sorted_children[i + 1])
-            if bbox1 and bbox2:
-                gap = (bbox2[0] - bbox1[2]) if node_type == 'HStack' else (bbox2[1] - bbox1[3])
-                if gap > 0:
-                    gaps.append(gap)
-        
-        if gaps:
-            result['gap'] = round(sum(gaps) / len(gaps), 2)
+        if len(content_children) >= 2:
+            gaps = []
+            key = 'x' if node_type == 'HStack' else 'y'
+            sorted_children = sorted(content_children, key=lambda c: c.get('position', {}).get(key, 0))
+            
+            for i in range(len(sorted_children) - 1):
+                bbox1, bbox2 = get_bbox(sorted_children[i]), get_bbox(sorted_children[i + 1])
+                if bbox1 and bbox2:
+                    gap = (bbox2[0] - bbox1[2]) if node_type == 'HStack' else (bbox2[1] - bbox1[3])
+                    if gap > 0:
+                        gaps.append(gap)
+            
+            if gaps:
+                result['gap'] = round(sum(gaps) / len(gaps), 2)
     
     return result
 
@@ -678,23 +772,27 @@ def fix_structure(structure: Dict, verbose: bool = True) -> Dict:
     if verbose:
         print("\n  🔄 Frame/Image → Marker 변환")
     structure = convert_frame_image_to_marker(structure)
-    
+
     if verbose:
         print("  🔄 절대좌표 변환")
     structure_abs = to_absolute_coords(structure)
-    
+
     if verbose:
         print("  🔧 겹침 수정")
     fixed_abs = fix_node(structure_abs, verbose=verbose)
-    
+
     if verbose:
         print("  🔄 상대좌표 변환")
     fixed_rel = to_relative_coords(fixed_abs)
-    
+
     if verbose:
         print("  📐 padding/gap/direction 추가")
     result = add_layout_properties(fixed_rel)
-    
+
+    if verbose:
+        print("  📍 alignment 추가")
+    result = add_alignment_to_containers(result, verbose=verbose)
+
     return result
 
 

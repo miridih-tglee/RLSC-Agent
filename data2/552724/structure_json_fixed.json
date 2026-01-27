@@ -1,0 +1,369 @@
+{
+  "id": "vstack_right",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "2d3ca3c1-e4f3-4ac6-8a63-6e17a6f5c5c3",
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "content": "Traditional way",
+      "areaSize": 20454.9059715,
+      "fontSize": 46.665,
+      "position": {
+        "x": 400.08,
+        "y": 0.0,
+        "width": 313.1,
+        "height": 65.330265
+      },
+      "fontFamily": "fhr23djg86kyatty",
+      "fontWeight": "400",
+      "patternLabel": "A",
+      "textCapacity": {
+        "maxLines": 0,
+        "totalMaxChars": 0,
+        "maxCharsPerLine": 7
+      }
+    },
+    {
+      "id": "vstack_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_card_top",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "3e83d019-d9de-4858-935c-7254c1b7d572",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "f3d986e4-c18c-4905-9986-e4c18cc905a2",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 706.4464858058564,
+                "height": 313.1131524725231
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_card_top_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "328d9b88-e2ca-429d-9b23-b7c64022701a",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "· 영업방식에 대하여\n· 영업과 마케팅의 차이\n· 영업을 잘하려면?",
+                  "areaSize": 46959.5050376,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0.0,
+                    "y": 8.43,
+                    "width": 320.8,
+                    "height": 146.382497
+                  },
+                  "fontFamily": "fhr23djg86kyatty",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "a6b83e87-10c6-4f7a-b515-c5cf203f14f5",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "116067ae-8dc1-49b7-a067-ae8dc109b7b6",
+                  "position": {
+                    "x": 382.09,
+                    "y": 0.0,
+                    "width": 176.51505265567903,
+                    "height": 161.20626175160533
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 62.26,
+                "y": 71.95,
+                "width": 558.6096398439722,
+                "height": 161.20626175160533
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "328d9b88-e2ca-429d-9b23-b7c64022701a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "a6b83e87-10c6-4f7a-b515-c5cf203f14f5"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "horizontal",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 61.29,
+              "horizontalAlignment": "right",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 706.4464858058564,
+            "height": 313.1131524725231
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "3e83d019-d9de-4858-935c-7254c1b7d572"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_card_top_content"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 71.95,
+            "bottom": 79.96,
+            "left": 62.26,
+            "right": 85.58
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_card_bottom",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "4dff26e8-4d59-4f87-bf7c-dcdf379da76a",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "f3d986e4-c18c-4905-9986-e4c18cc905a2",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 706.4464858058561,
+                "height": 313.1131524725233
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_card_bottom_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "96a964dc-4a6d-4cce-ba6a-eb5d44b3d1d9",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "· 영업방식에 대하여\n· 영업과 마케팅의 차이\n· 영업을 잘하려면?",
+                  "areaSize": 46959.5050376,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0.0,
+                    "y": 13.33,
+                    "width": 320.8,
+                    "height": 146.382497
+                  },
+                  "fontFamily": "fhr23djg86kyatty",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "1d4e5aa3-e396-43c5-955a-cade7f4fb4be",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "be12e7d2-9240-4e48-92e7-d292401e48bb",
+                  "position": {
+                    "x": 386.04,
+                    "y": 0.0,
+                    "width": 168.63372514977482,
+                    "height": 168.27945261794764
+                  },
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 62.26,
+                "y": 71.28,
+                "width": 554.6689760910201,
+                "height": 168.27945261794764
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "96a964dc-4a6d-4cce-ba6a-eb5d44b3d1d9"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "1d4e5aa3-e396-43c5-955a-cade7f4fb4be"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "horizontal",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 65.24,
+              "horizontalAlignment": "right",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 376.21,
+            "width": 706.4464858058561,
+            "height": 313.1131524725233
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "4dff26e8-4d59-4f87-bf7c-dcdf379da76a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_card_bottom_content"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 71.28,
+            "bottom": 73.55,
+            "left": 62.26,
+            "right": 89.52
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 213.2,
+        "width": 706.4464858058568,
+        "height": 689.3232074545078
+      },
+      "alignment": "trailing",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_top",
+              "group_card_bottom"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 63.1
+    }
+  ],
+  "position": {
+    "x": 893.23,
+    "y": 4.32,
+    "width": 713.1782561594205,
+    "height": 902.5199231407346
+  },
+  "alignment": "trailing",
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "patterns": [
+        [
+          "2d3ca3c1-e4f3-4ac6-8a63-6e17a6f5c5c3"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_cards"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 147.87
+}

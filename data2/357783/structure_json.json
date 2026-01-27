@@ -1,0 +1,372 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_leftCard",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_leftBubble",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "c2958e96-ca20-4901-a094-05916da3f0f9",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "k03zp3he62i5q17b",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 268.8353633504681,
+                "height": 117.71360764166445
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "2b455b16-b73c-4a4f-a03c-c1914eef7977",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "노하우 얻기",
+              "areaSize": 8255.915500000001,
+              "fontSize": 29.675,
+              "position": {
+                "x": 35.31443167523392,
+                "y": 30.673617575909248,
+                "width": 198.8,
+                "height": 41.52875
+              },
+              "fontFamily": "ft521hj68uw35btg",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 268.8353633504681,
+            "height": 117.71360764166445
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "c2958e96-ca20-4901-a094-05916da3f0f9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2b455b16-b73c-4a4f-a03c-c1914eef7977"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "041aaa80-2b52-4d8e-ad26-07208d41a6a3",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "운영 사례를 공유하며\n서로의 노하우를\n얻을 수 있어요.",
+          "areaSize": 59414.732684999995,
+          "fontSize": 37.333,
+          "position": {
+            "x": 2.842170943040401e-14,
+            "y": 154.66544112242752,
+            "width": 361.8,
+            "height": 164.219825
+          },
+          "fontFamily": "fq4jijyd7vsc4cch",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 24,
+            "maxCharsPerLine": 12
+          }
+        },
+        {
+          "id": "d74b3ac0-cbe5-4604-a8e9-14b2c4beb0e5",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0,
+            "y": 360.1624178698636,
+            "width": 435.37010298248225,
+            "height": 3
+          },
+          "patternLabel": "C"
+        },
+        {
+          "id": "ace9b3a0-fdbe-4b70-a674-f290a2f62254",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "이곳에 위의 내용에 관한 구체적인 설명을 입력해 주세요. 이곳에 위의 내용에 관한 설명을 입력해 주세요. ",
+          "areaSize": 38206.08,
+          "fontSize": 24,
+          "position": {
+            "x": 2.842170943040401e-14,
+            "y": 413.1624178698636,
+            "width": 361.8,
+            "height": 105.6
+          },
+          "fontFamily": "fq4jijyd7vsc4cch",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 40,
+            "maxCharsPerLine": 20
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 435.37010298248225,
+        "height": 518.7624178698636
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_leftBubble"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "041aaa80-2b52-4d8e-ad26-07208d41a6a3"
+            ],
+            [
+              "ace9b3a0-fdbe-4b70-a674-f290a2f62254"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "d74b3ac0-cbe5-4604-a8e9-14b2c4beb0e5"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_rightCard",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_rightBubble",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "7f7b85ec-d033-41b2-adb3-03dd1f836a78",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "k03zp3he62i5q17b",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 268.83536335046824,
+                "height": 117.71360764166445
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "3cff463a-947d-435f-ae6c-8e04d4ea7496",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "아이디어 발견",
+              "areaSize": 8255.915500000001,
+              "fontSize": 29.675,
+              "position": {
+                "x": 35.31443167523389,
+                "y": 30.673617575909248,
+                "width": 198.8,
+                "height": 41.52875
+              },
+              "fontFamily": "ft521hj68uw35btg",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 167.35737889636835,
+            "y": 0,
+            "width": 268.83536335046824,
+            "height": 117.71360764166445
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "7f7b85ec-d033-41b2-adb3-03dd1f836a78"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3cff463a-947d-435f-ae6c-8e04d4ea7496"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "23478e8e-4f3f-43af-9488-05fdec91019c",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "교사 간 교류로\n학급 운영 아이디어를\n발견할 수 있어요.",
+          "areaSize": 59726.75035249999,
+          "fontSize": 37.333,
+          "position": {
+            "x": 74.3593922468367,
+            "y": 154.66544112242786,
+            "width": 363.7,
+            "height": 164.219825
+          },
+          "fontFamily": "fq4jijyd7vsc4cch",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 24,
+            "maxCharsPerLine": 12
+          }
+        },
+        {
+          "id": "a6871cd7-143a-40d4-9a95-a7fca75fb4c4",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0,
+            "y": 360.1624178698636,
+            "width": 435.3701029824822,
+            "height": 3
+          },
+          "patternLabel": "C"
+        },
+        {
+          "id": "dd8dc861-205c-4d96-8f14-d687f148ac52",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "이곳에 위의 내용에 관한 구체적인 설명을 입력해 주세요. 이곳에 위의 내용에 관한 설명을 입력해 주세요. ",
+          "areaSize": 38332.799999999996,
+          "fontSize": 24,
+          "position": {
+            "x": 73.57010298248201,
+            "y": 413.1624178698636,
+            "width": 363,
+            "height": 105.6
+          },
+          "fontFamily": "fq4jijyd7vsc4cch",
+          "fontWeight": "400",
+          "patternLabel": "D",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 40,
+            "maxCharsPerLine": 20
+          }
+        }
+      ],
+      "position": {
+        "x": 1095.4997639607736,
+        "y": 0,
+        "width": 438.05939224683675,
+        "height": 518.7624178698636
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_rightBubble"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "23478e8e-4f3f-43af-9488-05fdec91019c"
+            ],
+            [
+              "dd8dc861-205c-4d96-8f14-d687f148ac52"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a6871cd7-143a-40d4-9a95-a7fca75fb4c4"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 119.04583322713023,
+    "y": 313.34738673327536,
+    "width": 1533.5591562076104,
+    "height": 518.7624178698636
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_leftCard",
+          "vstack_rightCard"
+        ]
+      ]
+    }
+  ]
+}

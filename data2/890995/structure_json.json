@@ -1,0 +1,549 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_card1_icon",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "81af84dc-6ba8-4b3a-a7f2-cf7a760aad86",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 306,
+                "height": 306.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "5b1fdb90-d362-4ec4-9580-c835137366ba",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "knlz31uk10q1u6iz",
+              "position": {
+                "x": 110.81218119394316,
+                "y": 121.30339269046999,
+                "width": 84.37563761211356,
+                "height": 63.393214619060245
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 306,
+            "height": 306.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "81af84dc-6ba8-4b3a-a7f2-cf7a760aad86"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "5b1fdb90-d362-4ec4-9580-c835137366ba"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_card1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "97cd596a-20aa-4e6d-ac1b-7611aab4aea2",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 01",
+              "areaSize": 9339.8953375,
+              "fontSize": 29.333,
+              "position": {
+                "x": 21.31321103178459,
+                "y": 0,
+                "width": 227.5,
+                "height": 41.054485
+              },
+              "fontFamily": "f1qu2i0xayhk8wg4",
+              "fontWeight": "700",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "64029473-cd23-4ae8-9cde-93531ff70952",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Enter the text. This typeface is IBM Plex Sans KR Light. It is recommended to set the leading to 1.5.",
+              "areaSize": 47987.54702,
+              "fontSize": 23.999,
+              "position": {
+                "x": 0,
+                "y": 55.550335667899844,
+                "width": 270.2,
+                "height": 177.6001
+              },
+              "fontFamily": "f0hfh757qsngxoq5",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 12
+              }
+            }
+          ],
+          "position": {
+            "x": 17.936788968215296,
+            "y": 382.16191148369273,
+            "width": 270.20000000000005,
+            "height": 233.15043566789984
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "97cd596a-20aa-4e6d-ac1b-7611aab4aea2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "64029473-cd23-4ae8-9cde-93531ff70952"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 306,
+        "height": 615.3123471515926
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card1_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_card2_icon",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "bff707a4-e769-4b88-b755-8b1ebf716def",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 306,
+                "height": 306.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "2b706808-ea12-486e-95be-17607daa6fe8",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kfxpwvf1hrnrc1no",
+              "position": {
+                "x": 110.81218119394316,
+                "y": 110.81218119394345,
+                "width": 84.37563761211368,
+                "height": 84.3756376121134
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 306,
+            "height": 306.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "bff707a4-e769-4b88-b755-8b1ebf716def"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2b706808-ea12-486e-95be-17607daa6fe8"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_card2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ef1d4694-4667-4124-94ec-a21d6b9be81c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 02",
+              "areaSize": 9339.8953375,
+              "fontSize": 29.333,
+              "position": {
+                "x": 21.309111111112315,
+                "y": 0,
+                "width": 227.5,
+                "height": 41.054485
+              },
+              "fontFamily": "f1qu2i0xayhk8wg4",
+              "fontWeight": "700",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "d01a52ed-c569-4171-b37d-933199c92576",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Enter the text. This typeface is IBM Plex Sans KR Light. It is recommended to set the leading to 1.5.",
+              "areaSize": 47987.54702,
+              "fontSize": 23.999,
+              "position": {
+                "x": 0,
+                "y": 55.55061868676785,
+                "width": 270.2,
+                "height": 177.6001
+              },
+              "fontFamily": "f0hfh757qsngxoq5",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 12
+              }
+            }
+          ],
+          "position": {
+            "x": 17.936788968215524,
+            "y": 382.16162846482473,
+            "width": 270.20000000000005,
+            "height": 233.15071868676785
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ef1d4694-4667-4124-94ec-a21d6b9be81c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d01a52ed-c569-4171-b37d-933199c92576"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 380.8888888888887,
+        "y": 0,
+        "width": 306,
+        "height": 615.3123471515926
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card2_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_card3_icon",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "4275fbc2-75e0-424d-993b-e50d47200161",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "87723d33-a584-49a7-b23d-33a58439a738",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 306,
+                "height": 306.0000000000002
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "bd00fdb6-7249-46f5-aaca-185959202314",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kivr2knmygqwf3ay",
+              "position": {
+                "x": 111.75714771574235,
+                "y": 110.81218119394345,
+                "width": 82.48570456851508,
+                "height": 84.3756376121134
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 306,
+            "height": 306.0000000000002
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "4275fbc2-75e0-424d-993b-e50d47200161"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "bd00fdb6-7249-46f5-aaca-185959202314"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_card3_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ab90b35a-b918-47d7-9a0e-6918a94ece90",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 03",
+              "areaSize": 9339.8953375,
+              "fontSize": 29.333,
+              "position": {
+                "x": 21.310222222223047,
+                "y": 0,
+                "width": 227.5,
+                "height": 41.054485
+              },
+              "fontFamily": "f1qu2i0xayhk8wg4",
+              "fontWeight": "700",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "f805b85c-15b2-4b89-b55a-b4cf8bb56214",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Enter the text. This typeface is IBM Plex Sans KR Light. It is recommended to set the leading to 1.5.",
+              "areaSize": 47987.54702,
+              "fontSize": 23.999,
+              "position": {
+                "x": 0,
+                "y": 55.55061868676785,
+                "width": 270.2,
+                "height": 177.6001
+              },
+              "fontFamily": "f0hfh757qsngxoq5",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 12
+              }
+            }
+          ],
+          "position": {
+            "x": 17.936788968215524,
+            "y": 382.16162846482473,
+            "width": 270.20000000000005,
+            "height": 233.15071868676785
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ab90b35a-b918-47d7-9a0e-6918a94ece90"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f805b85c-15b2-4b89-b55a-b4cf8bb56214"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 761.7777777777778,
+        "y": 0,
+        "width": 306,
+        "height": 615.3123471515926
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card3_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 592.333,
+    "y": 23.137531181740314,
+    "width": 1067.7777777777778,
+    "height": 615.3123471515926
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_card1",
+          "vstack_card2",
+          "vstack_card3"
+        ]
+      ]
+    }
+  ]
+}

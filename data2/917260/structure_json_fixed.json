@@ -1,0 +1,368 @@
+{
+  "id": "hstack_bottom_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_left_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "c7dbb94c-4b63-4ce0-b920-2db767616b6c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0.0,
+            "width": 666.585365853659,
+            "height": 564.8681964737942
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_card_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2089c733-8f19-4df5-80a3-f171b2375a4e",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kqq7ot20hbqq5hsv",
+              "position": {
+                "x": 195.25,
+                "y": 0.0,
+                "width": 130,
+                "height": 129.99999999999943
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "385dbf53-716e-4300-bac1-847eb508f585",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "핵심 키워드를 입력해주세요.",
+              "areaSize": 18137.70138,
+              "fontSize": 29.333,
+              "position": {
+                "x": 39.35,
+                "y": 175.33,
+                "width": 441.8,
+                "height": 41.0541
+              },
+              "fontFamily": "f04x145j5hnp4mol",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 16,
+                "maxCharsPerLine": 16
+              }
+            },
+            {
+              "id": "11b36b8e-970c-45a0-a44f-cd902f58a641",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이 단에서는 키워드에 대한 설명을 제공합니다. 키워드의 주요 특징과 장점을 나열해 청자가 이해하기 쉽게 정리해 주세요.비교할 다른 항목과의 차별점을 강조해보세요.",
+              "areaSize": 57448.56093749999,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 240.75,
+                "width": 520.5,
+                "height": 110.37187499999999
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 50,
+                "maxCharsPerLine": 25
+              }
+            }
+          ],
+          "position": {
+            "x": 73.04,
+            "y": 105.77,
+            "width": 520.5,
+            "height": 351.1230945121947
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2089c733-8f19-4df5-80a3-f171b2375a4e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "385dbf53-716e-4300-bac1-847eb508f585"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "11b36b8e-970c-45a0-a44f-cd902f58a641"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 34.85,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0.0,
+        "width": 666.585365853659,
+        "height": 564.8681964737942
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "c7dbb94c-4b63-4ce0-b920-2db767616b6c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_card_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 105.77,
+        "bottom": 107.98,
+        "left": 73.04,
+        "right": 73.05
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_right_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "2f814873-26bb-44aa-bdc6-6ee6d79193c9",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 666.5853658536591,
+            "height": 564.8681964737942
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_right_card_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "edb49afb-d849-488d-b7eb-b0b6a52349a9",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kwfzcelv2eqtq9za",
+              "position": {
+                "x": 195.25,
+                "y": 0.0,
+                "width": 129.99999999999977,
+                "height": 130.00000000000023
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "fa1a9ee6-2b0b-498e-9d0b-5be1ea344f25",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "핵심 키워드를 입력해주세요.",
+              "areaSize": 18137.70138,
+              "fontSize": 29.333,
+              "position": {
+                "x": 39.35,
+                "y": 175.33,
+                "width": 441.8,
+                "height": 41.0541
+              },
+              "fontFamily": "f04x145j5hnp4mol",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 16,
+                "maxCharsPerLine": 16
+              }
+            },
+            {
+              "id": "bc8c79f8-80c5-4e76-98da-c1ba4e839efb",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이 단에서는 키워드에 대한 설명을 제공합니다. 키워드의 주요 특징과 장점을 나열해 청자가 이해하기 쉽게 정리해 주세요.비교할 다른 항목과의 차별점을 강조해보세요.",
+              "areaSize": 57448.56093749999,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 240.75,
+                "width": 520.5,
+                "height": 110.37187499999999
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 50,
+                "maxCharsPerLine": 25
+              }
+            }
+          ],
+          "position": {
+            "x": 73.04,
+            "y": 105.77,
+            "width": 520.5,
+            "height": 351.1230945121954
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "edb49afb-d849-488d-b7eb-b0b6a52349a9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "fa1a9ee6-2b0b-498e-9d0b-5be1ea344f25"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bc8c79f8-80c5-4e76-98da-c1ba4e839efb"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 34.85,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 666.59,
+        "y": 0.0,
+        "width": 666.5853658536591,
+        "height": 564.8681964737942
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2f814873-26bb-44aa-bdc6-6ee6d79193c9"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_right_card_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 105.77,
+        "bottom": 107.98,
+        "left": 73.04,
+        "right": 73.05
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 521.13,
+    "width": 1333.1707317073183,
+    "height": 564.8681964737942
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_left_card"
+        ],
+        [
+          "group_right_card"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 0.0
+}

@@ -1,0 +1,441 @@
+{
+  "id": "hstack_values_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_value1_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "9a936667-68c3-463e-b4e7-47aa74d14537",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 363,
+            "height": 363
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_value1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "4b45d613-e702-4218-b4f0-018fb5f7b768",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "\n밸류 01",
+              "areaSize": 24907.243749999998,
+              "fontSize": 29.333,
+              "position": {
+                "x": 11.349999999999852,
+                "y": 0,
+                "width": 303.4,
+                "height": 82.09375
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "09333369-6aac-4377-b7a0-7dfe745a0d30",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사가 목표로 하는\n가치에 대해\n설명합시다.",
+              "areaSize": 37563.6628125,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 91.89477678863727,
+                "width": 326.1,
+                "height": 115.190625
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 30,
+                "maxCharsPerLine": 15
+              }
+            }
+          ],
+          "position": {
+            "x": 18.48477803232828,
+            "y": 62.30013661152543,
+            "width": 326.09999999999997,
+            "height": 207.08540178863723
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4b45d613-e702-4218-b4f0-018fb5f7b768"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "09333369-6aac-4377-b7a0-7dfe745a0d30"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 363,
+        "height": 363
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "9a936667-68c3-463e-b4e7-47aa74d14537"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_value1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1908f0dd-86d6-44fa-9718-5a622bdc2708",
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "svgData": "2yYS2fOlN6NZojLAiukRa",
+      "position": {
+        "x": 429.1315413451547,
+        "y": 166.7156802785205,
+        "width": 29.568639442958442,
+        "height": 29.56863944295901
+      },
+      "patternLabel": "B"
+    },
+    {
+      "id": "group_value2_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "4667023e-4d15-4269-88fa-53911d2823a0",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 363.0000000000001,
+            "height": 363
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_value2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "c71cbd1e-2909-43f4-92dc-a5120441538c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "\n밸류 02",
+              "areaSize": 22608.618749999998,
+              "fontSize": 29.333,
+              "position": {
+                "x": 11.349999999999909,
+                "y": 0,
+                "width": 275.4,
+                "height": 82.09375
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "03125635-b129-40da-8bd2-a1a7a31e67fb",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사가 목표로 하는\n가치에 대해\n설명합시다.",
+              "areaSize": 34338.325312500005,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 91.89477678863727,
+                "width": 298.1,
+                "height": 115.190625
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 28,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 32.48477803232788,
+            "y": 62.30013661152543,
+            "width": 298.10000000000014,
+            "height": 207.08540178863723
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c71cbd1e-2909-43f4-92dc-a5120441538c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "03125635-b129-40da-8bd2-a1a7a31e67fb"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 524.8317221332677,
+        "y": 0,
+        "width": 363.0000000000001,
+        "height": 363
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "4667023e-4d15-4269-88fa-53911d2823a0"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_value2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fd31b2ed-737c-4ed5-849d-3e6130097ebc",
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "svgData": "2yYS2fOlN6NZojLAiukRa",
+      "position": {
+        "x": 953.9632634784226,
+        "y": 166.7156802785205,
+        "width": 29.56863944295833,
+        "height": 29.56863944295901
+      },
+      "patternLabel": "B"
+    },
+    {
+      "id": "group_value3_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "9c03b9d7-01f9-4bf3-b44f-59af11a06d6d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 363,
+            "height": 363
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_value3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "c07736a4-7ea4-4830-a8f5-a3bad8949415",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "\n밸류 03",
+              "areaSize": 21639.912500000002,
+              "fontSize": 29.333,
+              "position": {
+                "x": 21.049999999999727,
+                "y": 0,
+                "width": 263.6,
+                "height": 82.09375
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "f044a45f-735b-4cd3-9cd6-6346baab58c6",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사가 목표로 하는\n가치에 대해\n설명합시다.",
+              "areaSize": 35213.7740625,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 91.89477678863727,
+                "width": 305.7,
+                "height": 115.190625
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 28,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 28.684778032328268,
+            "y": 62.30013661152543,
+            "width": 305.70000000000005,
+            "height": 207.08540178863723
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c07736a4-7ea4-4830-a8f5-a3bad8949415"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f044a45f-735b-4cd3-9cd6-6346baab58c6"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1049.6634442665359,
+        "y": 0,
+        "width": 363,
+        "height": 363
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "9c03b9d7-01f9-4bf3-b44f-59af11a06d6d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_value3_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 110.84938820048302,
+    "y": 76.8407537266911,
+    "width": 1412.6634442665359,
+    "height": 363
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_value1_card",
+          "group_value2_card",
+          "group_value3_card"
+        ]
+      ]
+    },
+    {
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "patterns": [
+        [
+          "1908f0dd-86d6-44fa-9718-5a622bdc2708",
+          "fd31b2ed-737c-4ed5-849d-3e6130097ebc"
+        ]
+      ]
+    }
+  ]
+}

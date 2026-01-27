@@ -1,0 +1,144 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 3
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 0,
+              "totalMaxChars": 0,
+              "maxCharsPerLine": 16
+            }
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 3
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 0,
+              "totalMaxChars": 0,
+              "maxCharsPerLine": 20
+            }
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 4
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 0,
+              "totalMaxChars": 0,
+              "maxCharsPerLine": 21
+            }
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Marker",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 4
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Text",
+            "textCapacity": {
+              "maxLines": 0,
+              "totalMaxChars": 0,
+              "maxCharsPerLine": 21
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

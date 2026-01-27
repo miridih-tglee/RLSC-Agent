@@ -1,0 +1,278 @@
+{
+  "id": "vstack_right_bottom_right",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_challenges_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "52c313fb-fe3c-490d-aa89-311f319afe2d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 604.61764705883,
+            "height": 126.74183006535884
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_challenges_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "7c5dd72d-4fd9-4715-bbf1-305e2ecaccc2",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Challenges",
+              "areaSize": 10823.119999999999,
+              "fontSize": 28,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 276.1,
+                "height": 39.199999999999996
+              },
+              "fontFamily": "fkshfej4c2dggtqq",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 24
+              }
+            },
+            {
+              "id": "82d8be47-ca1c-40a7-ba15-58771cf34bb1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Prefers brands with a strong reputation",
+              "areaSize": 18698.399999999998,
+              "fontSize": 28,
+              "position": {
+                "x": 0,
+                "y": 52.364705882353405,
+                "width": 477,
+                "height": 39.199999999999996
+              },
+              "fontFamily": "fxr3adtpusuuxszl",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 41
+              }
+            }
+          ],
+          "position": {
+            "x": 26.147058823533143,
+            "y": 17.209150326797044,
+            "width": 477,
+            "height": 91.56470588235345
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7c5dd72d-4fd9-4715-bbf1-305e2ecaccc2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "82d8be47-ca1c-40a7-ba15-58771cf34bb1"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1,
+        "y": 0,
+        "width": 604.61764705883,
+        "height": 126.74183006535884
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "52c313fb-fe3c-490d-aa89-311f319afe2d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_challenges_card"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_values_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "efed3188-23e3-4509-90aa-f5f32ea09c0d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 604.61764705883,
+            "height": 126.74183006535884
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_values_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "f4162a36-a66b-4841-b92d-c83795e3d518",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Values and Lifestyle",
+              "areaSize": 10823.119999999999,
+              "fontSize": 28,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 0,
+                "width": 276.1,
+                "height": 39.199999999999996
+              },
+              "fontFamily": "fkshfej4c2dggtqq",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 24
+              }
+            },
+            {
+              "id": "fdbfd8d2-b387-4428-af9c-a367f7637f4e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Prioritizes sustainability and ethical practices",
+              "areaSize": 21559.999999999996,
+              "fontSize": 28,
+              "position": {
+                "x": 0,
+                "y": 46.36470588235318,
+                "width": 550,
+                "height": 39.199999999999996
+              },
+              "fontFamily": "fxr3adtpusuuxszl",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 48
+              }
+            }
+          ],
+          "position": {
+            "x": 25.852941176472314,
+            "y": 18.406209150326276,
+            "width": 550,
+            "height": 85.56470588235322
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f4162a36-a66b-4841-b92d-c83795e3d518"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "fdbfd8d2-b387-4428-af9c-a367f7637f4e"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 134.13202614379088,
+        "width": 604.61764705883,
+        "height": 126.74183006535884
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "efed3188-23e3-4509-90aa-f5f32ea09c0d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_values_card"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 350.0296338529781,
+    "y": 0,
+    "width": 605.61764705883,
+    "height": 260.8738562091497
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_challenges_card",
+          "group_values_card"
+        ]
+      ]
+    }
+  ]
+}

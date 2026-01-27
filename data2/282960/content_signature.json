@@ -1,0 +1,162 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Background",
+        "type": "ZStack",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 2,
+                      "maxCharsPerLine": 2
+                    }
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 12,
+                      "maxCharsPerLine": 12
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 28,
+                      "maxCharsPerLine": 14
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 2,
+                      "maxCharsPerLine": 2
+                    }
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 12,
+                      "maxCharsPerLine": 12
+                    }
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 2,
+                      "totalMaxChars": 28,
+                      "maxCharsPerLine": 14
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 12,
+                  "maxCharsPerLine": 12
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 28,
+                  "maxCharsPerLine": 14
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Marker",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 12,
+                  "maxCharsPerLine": 12
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 28,
+                  "maxCharsPerLine": 14
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

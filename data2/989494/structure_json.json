@@ -1,0 +1,714 @@
+{
+  "id": "hstack_metrics",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_metrics_col_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_metric_card_1",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "44b66d58-5b30-4b3d-89e1-426862a3828e",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 487.30196332364096,
+                "height": 579.0074518797331
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_metric_card_1_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "65f14939-47c8-4115-bd4a-150f454ca71a",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Revenue Growth",
+                  "areaSize": 18755.004998999997,
+                  "fontSize": 37.333,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 358.9,
+                    "height": 52.25690999999999
+                  },
+                  "fontFamily": "fou3fgr83awtgoyv",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 14,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "2762d20a-55e4-467d-9a49-816aa90d9b9b",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "+20M",
+                  "areaSize": 46417.87424999999,
+                  "fontSize": 96,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 57.996579999999994,
+                    "width": 345.4,
+                    "height": 134.38875
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "e38cfff3-e5f5-4623-8c0c-2f610a758e66",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor adipiscing elit sed do eiusmod tempor.",
+                  "areaSize": 26794.128125,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 201.9159249952669,
+                    "width": 358.9,
+                    "height": 74.65625
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 38,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 51.22016047224918,
+                "y": 30.785029865844194,
+                "width": 358.9000000000001,
+                "height": 276.5721749952669
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "65f14939-47c8-4115-bd4a-150f454ca71a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2762d20a-55e4-467d-9a49-816aa90d9b9b"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e38cfff3-e5f5-4623-8c0c-2f610a758e66"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 487.30196332364096,
+            "height": 579.0074518797331
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "44b66d58-5b30-4b3d-89e1-426862a3828e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_metric_card_1_text"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_metric_card_2",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "2e7844af-b18a-4303-a3c6-65fed33ab6c1",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 487.30196332364096,
+                "height": 564.6494590362778
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_metric_card_2_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "164044e8-81bb-45d1-b6ac-891de61a6098",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Operational Efficiency",
+                  "areaSize": 22268.17845,
+                  "fontSize": 37.333,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 0,
+                    "width": 229.5,
+                    "height": 97.0291
+                  },
+                  "fontFamily": "fou3fgr83awtgoyv",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 18,
+                    "maxCharsPerLine": 9
+                  }
+                },
+                {
+                  "id": "24b4b534-1701-49e3-b95d-dbbc8906833a",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "4.5/5",
+                  "areaSize": 46417.87424999999,
+                  "fontSize": 96,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 116.58695174036131,
+                    "width": 345.4,
+                    "height": 134.38875
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "8090ca16-7b99-4fb9-a6ee-74a7d91065f4",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor adipiscing elit sed do eiusmod tempor.",
+                  "areaSize": 26794.128125,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 264.375226888233,
+                    "width": 358.9,
+                    "height": 74.65625
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 38,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 51.22016047224918,
+                "y": 50,
+                "width": 358.9000000000001,
+                "height": 339.031476888233
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "164044e8-81bb-45d1-b6ac-891de61a6098"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "24b4b534-1701-49e3-b95d-dbbc8906833a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8090ca16-7b99-4fb9-a6ee-74a7d91065f4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 347.88222499150004,
+            "width": 487.30196332364096,
+            "height": 564.6494590362778
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "2e7844af-b18a-4303-a3c6-65fed33ab6c1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_metric_card_2_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 83,
+        "width": 487.30196332364096,
+        "height": 912.5316840277778
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_metric_card_1"
+            ],
+            [
+              "group_metric_card_2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_metrics_col_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_metric_card_3",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "930bec74-d4d6-4022-9372-54eeb6665f2f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 487.3019633236411,
+                "height": 474.54889165816644
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_metric_card_3_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "6241e5c6-d913-4fb3-9cf4-3bd943e5da81",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Market Trends",
+                  "areaSize": 18755.004998999997,
+                  "fontSize": 37.333,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 0,
+                    "width": 358.9,
+                    "height": 52.25690999999999
+                  },
+                  "fontFamily": "fou3fgr83awtgoyv",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 14,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "e9b3982a-b7ec-4be2-9e6b-ab5afb304089",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "+200",
+                  "areaSize": 46417.87424999999,
+                  "fontSize": 96,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 49.23818986584419,
+                    "width": 345.4,
+                    "height": 134.38875
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "d919b0a0-62ca-46cb-a1d1-9e4fb6e9ba3f",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor adipiscing elit sed do eiusmod tempor.",
+                  "areaSize": 26794.128125,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 175.44818986584417,
+                    "width": 358.9,
+                    "height": 74.65625
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 38,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 64.22016047224884,
+                "y": 40.29342,
+                "width": 358.9000000000003,
+                "height": 250.10443986584417
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "6241e5c6-d913-4fb3-9cf4-3bd943e5da81"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e9b3982a-b7ec-4be2-9e6b-ab5afb304089"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d919b0a0-62ca-46cb-a1d1-9e4fb6e9ba3f"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 487.3019633236411,
+            "height": 474.54889165816644
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "930bec74-d4d6-4022-9372-54eeb6665f2f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_metric_card_3_text"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_metric_card_4",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "644720f8-baec-41fc-a87c-5f966a4168ba",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 487.3019633236411,
+                "height": 688.3817976294226
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_metric_card_4_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "0aa0be22-f003-4443-b327-6eb200d3d77d",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Customer Engagement",
+                  "areaSize": 34823.743989999995,
+                  "fontSize": 37.333,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 0,
+                    "width": 358.9,
+                    "height": 97.0291
+                  },
+                  "fontFamily": "fou3fgr83awtgoyv",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 28,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "bc6911d8-2143-42a4-9371-2506b557cda3",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "+14%",
+                  "areaSize": 46417.87424999999,
+                  "fontSize": 96,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 229.65262366683965,
+                    "width": 345.4,
+                    "height": 134.38875
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "92b1001c-fceb-4e78-b854-0451d417dae8",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor adipiscing elit sed do eiusmod tempor.",
+                  "areaSize": 26794.128125,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 378.1908988147113,
+                    "width": 358.9,
+                    "height": 74.65625
+                  },
+                  "fontFamily": "f3hdhqrpwh8iv7i0",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 38,
+                    "maxCharsPerLine": 19
+                  }
+                }
+              ],
+              "position": {
+                "x": 64.22016047224884,
+                "y": 49.99999999999994,
+                "width": 358.9000000000003,
+                "height": 452.8471488147113
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "0aa0be22-f003-4443-b327-6eb200d3d77d"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "bc6911d8-2143-42a4-9371-2506b557cda3"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "92b1001c-fceb-4e78-b854-0451d417dae8"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 317.81655306502176,
+            "width": 487.3019633236411,
+            "height": 688.3817976294226
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "644720f8-baec-41fc-a87c-5f966a4168ba"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_metric_card_4_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 487.30196332364096,
+        "y": 0,
+        "width": 487.3019633236411,
+        "height": 1006.1983506944443
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_metric_card_3"
+            ],
+            [
+              "group_metric_card_4"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 792.0147818781368,
+    "y": 0,
+    "width": 974.603926647282,
+    "height": 1006.1983506944443
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_metrics_col_left"
+        ],
+        [
+          "vstack_metrics_col_right"
+        ]
+      ]
+    }
+  ]
+}

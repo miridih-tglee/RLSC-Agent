@@ -1,0 +1,140 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 4,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 67,
+                  "maxCharsPerLine": 67
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 7,
+                      "maxCharsPerLine": 7
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 67,
+                  "maxCharsPerLine": 67
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Title",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 1,
+                      "totalMaxChars": 6,
+                      "maxCharsPerLine": 6
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 67,
+                  "maxCharsPerLine": 67
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

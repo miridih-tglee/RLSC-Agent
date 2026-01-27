@@ -1,0 +1,262 @@
+{
+  "id": "hstack_cards_row_top",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_top_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "48bb189d-0211-49c1-8670-778389118190",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "3f59217f-e595-4dd2-9921-7fe5956dd260",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 623.5714285714283,
+            "height": 286.857142857143
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_top_left_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "be2aa26f-d851-4741-96f2-36c2e7014204",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "선생님, 스승의 날을 진심으로 축하드려요! 선생님 덕분에 수업이 항상 들거워요. \n앞으로도 좋은 일만 가득하시길 바랍니다 ",
+              "areaSize": 67419.4921875,
+              "fontSize": 29.3326,
+              "position": {
+                "x": 0.40438849789904907,
+                "y": 0,
+                "width": 547.5,
+                "height": 123.140625
+              },
+              "fontFamily": "fdiggq7x086hbi6z",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 40,
+                "maxCharsPerLine": 20
+              }
+            },
+            {
+              "id": "c4ab7d9e-1091-404e-bd21-79b14c00d87c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "- 김미리 ",
+              "areaSize": 22501.896875000002,
+              "fontSize": 29.3326,
+              "position": {
+                "x": 0,
+                "y": 159.9991428571431,
+                "width": 548.2,
+                "height": 41.046875
+              },
+              "fontFamily": "fljdbnn6vwdmyh9r",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 37.66219553571409,
+            "y": 43.2628375000001,
+            "width": 548.2000000000002,
+            "height": 201.0460178571431
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "be2aa26f-d851-4741-96f2-36c2e7014204",
+                  "c4ab7d9e-1091-404e-bd21-79b14c00d87c"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 623.5714285714283,
+        "height": 286.857142857143
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "48bb189d-0211-49c1-8670-778389118190"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_top_left_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_top_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "c4c4627b-9ca3-4850-83de-f6d93be6e436",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "3f59217f-e595-4dd2-9921-7fe5956dd260",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 623.5714285714282,
+            "height": 286.857142857143
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_top_right_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "39008295-c774-462f-a0ab-976f07565728",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "선생님, 스승의 날을 맞이하여 감사의 마음을 전합니다.선생님의 열정적인 수업 덕분에 많이 배우고 있어요.항상 건강하세요!",
+              "areaSize": 67419.4921875,
+              "fontSize": 29.3326,
+              "position": {
+                "x": 0.40703750000011496,
+                "y": 0,
+                "width": 547.5,
+                "height": 123.140625
+              },
+              "fontFamily": "fdiggq7x086hbi6z",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 42,
+                "maxCharsPerLine": 21
+              }
+            },
+            {
+              "id": "0e91494a-d199-4191-9910-bf8263d3cdb3",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "- 박미리",
+              "areaSize": 22501.896875000002,
+              "fontSize": 29.3326,
+              "position": {
+                "x": 0,
+                "y": 159.99900000000025,
+                "width": 548.2,
+                "height": 41.046875
+              },
+              "fontFamily": "fljdbnn6vwdmyh9r",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 37.66010535714304,
+            "y": 43.262857142857115,
+            "width": 548.2,
+            "height": 201.04587500000025
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "39008295-c774-462f-a0ab-976f07565728",
+                  "0e91494a-d199-4191-9910-bf8263d3cdb3"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 668.5714285714283,
+        "y": 0,
+        "width": 623.5714285714282,
+        "height": 286.857142857143
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "c4c4627b-9ca3-4850-83de-f6d93be6e436"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_top_right_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 317.1428571428571,
+    "y": 0,
+    "width": 1292.1428571428564,
+    "height": 286.857142857143
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_top_left",
+          "group_card_top_right"
+        ]
+      ]
+    }
+  ]
+}

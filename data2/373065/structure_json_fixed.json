@@ -1,0 +1,505 @@
+{
+  "id": "vstack_right_column",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_view_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "5da52172-6175-496e-9108-34fdbaf4d0f0",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 18.73,
+            "width": 694.0000000000005,
+            "height": 247.51512833141663
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_view_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "806b7a8d-bc3c-4d50-8eff-4166130d3d41",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "  < 보기 >  ",
+              "areaSize": 12112.995986,
+              "fontSize": 30.667,
+              "position": {
+                "x": 158.03,
+                "y": 0.0,
+                "width": 282.1,
+                "height": 42.93866
+              },
+              "fontFamily": "fxs69qa1zdodvbqq",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 9
+              }
+            },
+            {
+              "id": "b54a95be-4fb6-4198-9f9b-e981b09e0ee8",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "ㄱ. 식물은 광합성을 할 때 햇빛을 에너지로 이용한다.\nㄴ. 광합성이 일어나려면 잎이 땅속에 있어야 한다.\nㄷ. 광합성은 식물이 뿌리로 양분을 만드는 과정이다.",
+              "areaSize": 89999.91,
+              "fontSize": 26.667,
+              "position": {
+                "x": 0.0,
+                "y": 75.83,
+                "width": 675,
+                "height": 133.3332
+              },
+              "fontFamily": "fxs69qa1zdodvbqq",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 52,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 47.92,
+            "y": 0.0,
+            "width": 675,
+            "height": 209.15901641635776
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "806b7a8d-bc3c-4d50-8eff-4166130d3d41"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b54a95be-4fb6-4198-9f9b-e981b09e0ee8"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 32.89
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 722.9229242996432,
+        "height": 266.2499805820661
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "5da52172-6175-496e-9108-34fdbaf4d0f0"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_view_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 57.09,
+        "left": 47.92,
+        "right": 0.0
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
+    },
+    {
+      "id": "vstack_answer_explain",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "hstack_answer_line",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_answer_label",
+              "role": "Role.LayoutContainer.Highlight",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "983ab569-1124-4020-a2d0-0cd8eddbb6b9",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 106.93061521611025,
+                    "height": 39.96832558446022
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "efa2bb1b-c1f3-46bc-924c-eee6ff357ed5",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "정답",
+                  "areaSize": 3445.3859374999997,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 7.32,
+                    "y": 1.32,
+                    "width": 92.3,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "ffi23l1xz5xc6rax",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 106.93061521611025,
+                "height": 39.96832558446022
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "983ab569-1124-4020-a2d0-0cd8eddbb6b9"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "efa2bb1b-c1f3-46bc-924c-eee6ff357ed5"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 1.32,
+                "bottom": 1.32,
+                "left": 7.32,
+                "right": 7.31
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "41cfcaa0-29c6-4484-a5d2-0ae399ed709e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이곳에 정답을 입력해 주세요.",
+              "areaSize": 15165.951974,
+              "fontSize": 26.667,
+              "position": {
+                "x": 128.04,
+                "y": 1.32,
+                "width": 406.3,
+                "height": 37.32698
+              },
+              "fontFamily": "fxs69qa1zdodvbqq",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 20
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 534.3391039532921,
+            "height": 39.96832558446022
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Highlight",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_answer_label"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "41cfcaa0-29c6-4484-a5d2-0ae399ed709e"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 21.11
+        },
+        {
+          "id": "hstack_explain_line",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_explain_label",
+              "role": "Role.LayoutContainer.Highlight",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "2b80aa09-513c-4b43-9cd2-eb4ed45c5c76",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 106.93061521611025,
+                    "height": 39.96832558446022
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "ee2424d9-ec05-4225-90e0-49f1f4811829",
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "content": "해설",
+                  "areaSize": 3445.3859374999997,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 7.32,
+                    "y": 1.32,
+                    "width": 92.3,
+                    "height": 37.328125
+                  },
+                  "fontFamily": "ffi23l1xz5xc6rax",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 4
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.12,
+                "width": 106.93061521611025,
+                "height": 39.96832558446022
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "2b80aa09-513c-4b43-9cd2-eb4ed45c5c76"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Highlight",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "ee2424d9-ec05-4225-90e0-49f1f4811829"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 1.32,
+                "bottom": 1.32,
+                "left": 7.32,
+                "right": 7.31
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "798ee433-8f1a-4342-a7c9-d8ae8c7aa7b1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "지문과 보기가 함께 제시된 문제 유형을 입력하기\n좋은 페이지입니다.\n이곳에 정답에 대한 해설을 입력해 주세요.",
+              "areaSize": 71621.11970399998,
+              "fontSize": 26.667,
+              "position": {
+                "x": 128.04,
+                "y": 0.0,
+                "width": 557.3,
+                "height": 128.51448
+              },
+              "fontFamily": "fxs69qa1zdodvbqq",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 54,
+                "maxCharsPerLine": 27
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 65.43,
+            "width": 685.3391039532892,
+            "height": 128.51447999999993
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Highlight",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_explain_label"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "798ee433-8f1a-4342-a7c9-d8ae8c7aa7b1"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 21.11
+        }
+      ],
+      "position": {
+        "x": 1.37,
+        "y": 319.88,
+        "width": 685.3391039532892,
+        "height": 193.94021313516362
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_answer_line"
+            ],
+            [
+              "hstack_explain_line"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 25.46
+    }
+  ],
+  "position": {
+    "x": 1189.19,
+    "y": 352.87,
+    "width": 722.9229242996432,
+    "height": 513.8202071802174
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_view_card"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_answer_explain"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 53.63
+}

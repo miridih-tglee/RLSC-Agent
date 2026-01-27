@@ -1,0 +1,440 @@
+{
+  "id": "hstack_cardsRow",
+  "role": "Role.LayoutContainer.Highlight",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e5780e79-6e8c-4c0f-a94a-97e02e30d319",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 320,
+            "height": 212.91665374398224
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1Content",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "634fc718-1d5f-4392-bea2-d4aaececd606",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kyxiglf3o4h2y8so",
+              "position": {
+                "x": 81.66,
+                "y": 0.0,
+                "width": 59.57377049180309,
+                "height": 56.86167809247763
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0c80fac5-d3d6-4720-971b-17ad7bb61e71",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "20년 이상의 경력",
+              "areaSize": 8320.4390625,
+              "fontSize": 26.67,
+              "position": {
+                "x": 0.0,
+                "y": 76.27,
+                "width": 222.9,
+                "height": 37.328125
+              },
+              "fontFamily": "fq8rffrjvzpwrqgn",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 48.55,
+            "y": 51.53,
+            "width": 222.90000000000003,
+            "height": 113.59351217424762
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "634fc718-1d5f-4392-bea2-d4aaececd606"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0c80fac5-d3d6-4720-971b-17ad7bb61e71"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 19.41,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 320,
+        "height": 212.91665374398224
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e5780e79-6e8c-4c0f-a94a-97e02e30d319"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1Content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 51.53,
+        "bottom": 47.79,
+        "left": 48.55,
+        "right": 48.55
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "5691ca00-21c5-4138-a39d-159d7293cb69",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 320,
+            "height": 212.91665374398224
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2Content",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "d79c8068-a735-4c92-91a6-c2665dc6d57d",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kyxiglf3o4h2y8so",
+              "position": {
+                "x": 81.66,
+                "y": 0.0,
+                "width": 59.57377049180309,
+                "height": 56.86167809247763
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "8a5a87e3-5dd8-4193-9fd4-034efcf1b8ef",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "전국 15개 지사",
+              "areaSize": 8320.4390625,
+              "fontSize": 26.67,
+              "position": {
+                "x": 0.0,
+                "y": 76.27,
+                "width": 222.9,
+                "height": 37.328125
+              },
+              "fontFamily": "fq8rffrjvzpwrqgn",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 48.55,
+            "y": 51.53,
+            "width": 222.90000000000003,
+            "height": 113.59351217424773
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d79c8068-a735-4c92-91a6-c2665dc6d57d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8a5a87e3-5dd8-4193-9fd4-034efcf1b8ef"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 19.41,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 339.47,
+        "y": 0.0,
+        "width": 320,
+        "height": 212.91665374398224
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "5691ca00-21c5-4138-a39d-159d7293cb69"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2Content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 51.53,
+        "bottom": 47.79,
+        "left": 48.55,
+        "right": 48.55
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ad92edac-5a9f-447c-93d3-7306fe2e9a87",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 320.0000000000001,
+            "height": 212.91665374398224
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3Content",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "5c0f5bde-d9bd-49fe-bf20-9acb8f6cc59c",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kyxiglf3o4h2y8so",
+              "position": {
+                "x": 81.66,
+                "y": 0.0,
+                "width": 59.57377049180309,
+                "height": 56.86167809247763
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0ce28ee0-0be0-4582-bd19-b0aedf2038ec",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "고객 만족 1위",
+              "areaSize": 8320.4390625,
+              "fontSize": 26.67,
+              "position": {
+                "x": 0.0,
+                "y": 76.27,
+                "width": 222.9,
+                "height": 37.328125
+              },
+              "fontFamily": "fq8rffrjvzpwrqgn",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 48.55,
+            "y": 51.53,
+            "width": 222.9000000000001,
+            "height": 113.59351217424773
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "5c0f5bde-d9bd-49fe-bf20-9acb8f6cc59c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0ce28ee0-0be0-4582-bd19-b0aedf2038ec"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 19.41,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 678.93,
+        "y": 0.0,
+        "width": 320.0000000000001,
+        "height": 212.91665374398224
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ad92edac-5a9f-447c-93d3-7306fe2e9a87"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3Content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 51.53,
+        "bottom": 47.79,
+        "left": 48.55,
+        "right": 48.55
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 122.96,
+    "y": 60.0,
+    "width": 998.9320000000004,
+    "height": 212.91665374398247
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 19.46
+}

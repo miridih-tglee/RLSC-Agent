@@ -1,0 +1,278 @@
+{
+  "id": "hstack_contact_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "hstack_contact_phone",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_contact_phone_label",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "559a9d5e-2286-4669-be2e-247343253826",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 150.21154720275138,
+                "height": 66.42179528377778
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "4e019c13-2b99-4b00-aafe-43ca05bb5bee",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "전화",
+              "areaSize": 5062.6684079999995,
+              "fontSize": 29.332666666666665,
+              "position": {
+                "x": 13.901242196086741,
+                "y": 12.931017641888957,
+                "width": 123.3,
+                "height": 41.05976
+              },
+              "fontFamily": "fy3tsi4ktbac4cwj",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 150.21154720275138,
+            "height": 66.42179528377778
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "559a9d5e-2286-4669-be2e-247343253826"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4e019c13-2b99-4b00-aafe-43ca05bb5bee"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "92c3a40d-b071-4cdb-bc31-aad7b3f403cb",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "02.1234.5678",
+          "areaSize": 7489.082887225806,
+          "fontSize": 26.665858064516122,
+          "position": {
+            "x": 170.54421386941817,
+            "y": 14.544796996727769,
+            "width": 200.6,
+            "height": 37.333414193548386
+          },
+          "fontFamily": "fi2y416ono8ff264",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 9
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 371.1442138694182,
+        "height": 66.42179528377778
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_contact_phone_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "92c3a40d-b071-4cdb-bc31-aad7b3f403cb"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_contact_email",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_contact_email_label",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "children": [
+            {
+              "id": "1d540da2-4bc2-4692-8d8c-4146c4224907",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 150.21154720275126,
+                "height": 66.42179528377778
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "6e5e8c4f-68dd-40b2-bef0-31b6b5db1114",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "이메일",
+              "areaSize": 5062.6684079999995,
+              "fontSize": 29.332666666666665,
+              "position": {
+                "x": 13.901584799412262,
+                "y": 12.93126072413611,
+                "width": 123.3,
+                "height": 41.05976
+              },
+              "fontFamily": "fy3tsi4ktbac4cwj",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 150.21154720275126,
+            "height": 66.42179528377778
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1d540da2-4bc2-4692-8d8c-4146c4224907"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6e5e8c4f-68dd-40b2-bef0-31b6b5db1114"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a70cace4-e77d-4442-be61-558a76d8b4e3",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "miricenter@miri.com",
+          "areaSize": 9826.154615741934,
+          "fontSize": 26.665858064516122,
+          "position": {
+            "x": 171.2636069003588,
+            "y": 14.545260724136256,
+            "width": 263.2,
+            "height": 37.333414193548386
+          },
+          "fontFamily": "fi2y416ono8ff264",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 11
+          }
+        }
+      ],
+      "position": {
+        "x": 447.11681204487536,
+        "y": 0,
+        "width": 434.46360690035885,
+        "height": 66.42179528377778
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_contact_email_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "a70cace4-e77d-4442-be61-558a76d8b4e3"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 205.7150959683579,
+    "y": 595.6575736514833,
+    "width": 881.5804189452342,
+    "height": 66.42179528377778
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_contact_phone",
+          "hstack_contact_email"
+        ]
+      ]
+    }
+  ]
+}

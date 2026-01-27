@@ -1,0 +1,584 @@
+{
+  "id": "hstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_left_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_card_ingredient",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_header_ingredient",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "d149e4a7-cece-4295-a354-bdedec99ba99",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "d104313b-9e71-468b-8431-3b9e71a68b5b",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 285.4341793140792,
+                    "height": 72.61130598039756
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "416d5876-fd90-4b3b-bd1b-2152cef18839",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "식재료 위생",
+                  "areaSize": 10598.587422499999,
+                  "fontSize": 39.322,
+                  "position": {
+                    "x": 47.15522465703913,
+                    "y": 8.718522965276065,
+                    "width": 192.5,
+                    "height": 55.057596999999994
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 7
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 285.4341793140792,
+                "height": 72.61130598039756
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "d149e4a7-cece-4295-a354-bdedec99ba99"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "416d5876-fd90-4b3b-bd1b-2152cef18839"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3d88d199-cb78-4bbd-8679-0b904098d16c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "GAP 인증제품 구매\n입고된 식재료 검수\n식재료 보관 수칙 준수\n선입선출 원칙 준수",
+              "areaSize": 47571.6659,
+              "fontSize": 26.871,
+              "position": {
+                "x": 0,
+                "y": 97.01251918746965,
+                "width": 285.5,
+                "height": 166.6258
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 42,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 285.5,
+            "height": 263.6383191874697
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_header_ingredient"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3d88d199-cb78-4bbd-8679-0b904098d16c"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_card_kitchen",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_header_kitchen",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "a669248b-0448-4caf-a09d-bdf347cbd562",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "d104313b-9e71-468b-8431-3b9e71a68b5b",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 285.43417931407896,
+                    "height": 72.61130598039745
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "7e37a683-4a6e-4199-9828-029c6d026a3e",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "주방 위생",
+                  "areaSize": 8737.640643899998,
+                  "fontSize": 39.322,
+                  "position": {
+                    "x": 64.05522465703882,
+                    "y": 8.718520222185475,
+                    "width": 158.7,
+                    "height": 55.057596999999994
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 5
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 285.43417931407896,
+                "height": 72.61130598039745
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "a669248b-0448-4caf-a09d-bdf347cbd562"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7e37a683-4a6e-4199-9828-029c6d026a3e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "22a0da94-4bb4-4b4f-a1a9-ba2a3e6dc4c9",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "조리실 정기 청소\n시설 청결 유지\n기구 세척・소독",
+              "areaSize": 31227.87708,
+              "fontSize": 26.871,
+              "position": {
+                "x": 0,
+                "y": 99.85831900607184,
+                "width": 252.6,
+                "height": 123.6258
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 26,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 347.97527238019785,
+            "width": 285.43417931407896,
+            "height": 223.48411900607186
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_header_kitchen"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "22a0da94-4bb4-4b4f-a1a9-ba2a3e6dc4c9"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 285.5,
+        "height": 571.4593913862698
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_ingredient",
+              "vstack_card_kitchen"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_right_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_card_personal",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_header_personal",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "930a5bf3-9bfa-4110-8f09-bb3ce91a656b",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "d104313b-9e71-468b-8431-3b9e71a68b5b",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 285.4341793140791,
+                    "height": 72.61130598039756
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "5b5323c6-0ee7-4fee-b52f-887223ff898e",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "개인 위생",
+                  "areaSize": 8572.4678529,
+                  "fontSize": 39.322,
+                  "position": {
+                    "x": 65.55522465703939,
+                    "y": 8.718520222185987,
+                    "width": 155.7,
+                    "height": 55.057596999999994
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 5
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 285.4341793140791,
+                "height": 72.61130598039756
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "930a5bf3-9bfa-4110-8f09-bb3ce91a656b"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "5b5323c6-0ee7-4fee-b52f-887223ff898e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c8886551-8ead-4010-98dd-688cd0b7caf9",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "위생점검 교육\n조리 전 손 세척\n위생 복장 착용",
+              "areaSize": 31190.78934,
+              "fontSize": 26.871,
+              "position": {
+                "x": 0,
+                "y": 97.01251918746982,
+                "width": 252.3,
+                "height": 123.6258
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 26,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 285.4341793140791,
+            "height": 220.6383191874698
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_header_personal"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c8886551-8ead-4010-98dd-688cd0b7caf9"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_card_serving",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_header_serving",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "8713640a-b608-4501-917c-3c17bdd42339",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "d104313b-9e71-468b-8431-3b9e71a68b5b",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 285.4341793140791,
+                    "height": 72.61130598039745
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "f035a968-3fcc-403d-a29e-00b17ab5417e",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "배식 시 위생",
+                  "areaSize": 10934.438764199998,
+                  "fontSize": 39.322,
+                  "position": {
+                    "x": 44.105224657039116,
+                    "y": 8.718522965275724,
+                    "width": 198.6,
+                    "height": 55.057596999999994
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 7
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 285.4341793140791,
+                "height": 72.61130598039745
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "8713640a-b608-4501-917c-3c17bdd42339"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f035a968-3fcc-403d-a29e-00b17ab5417e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "0a0e41d1-23df-4812-a6d7-24ceed67a304",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "위생 복장 착용\n식판・수저 소독\n조리 후 1~2시간 이내 배식\n배식 후 남은 음식 전량 폐기",
+              "areaSize": 57085.99908,
+              "fontSize": 26.871,
+              "position": {
+                "x": 0,
+                "y": 99.85831900607207,
+                "width": 342.6,
+                "height": 166.6258
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 51,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 347.97527238019774,
+            "width": 342.60000000000014,
+            "height": 266.4841190060721
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_header_serving"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0a0e41d1-23df-4812-a6d7-24ceed67a304"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1073.8134815280791,
+        "y": 1.1368683772161603e-13,
+        "width": 342.60000000000014,
+        "height": 614.4593913862698
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_personal",
+              "vstack_card_serving"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 264.38787007279313,
+    "y": 323.2210443835764,
+    "width": 1416.413481528079,
+    "height": 614.45939138627
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_cards",
+          "vstack_right_cards"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "id": "hstack_metrics_bottom",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_bottom_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "662961fd-802b-4e8c-b515-2427f6a62355",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 516.2796051756504,
+            "height": 350.26807458396684
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_bottom_left_texts",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "d9743a63-00fe-46e1-80ac-397bd3cbc3cb",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "누적 주행거리",
+              "areaSize": 9371.14122,
+              "fontSize": 33.333,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 200.9,
+                "height": 46.645799999999994
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            },
+            {
+              "id": "e70690b5-bb79-4e8d-bb4c-c96fab13310f",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "12억km 이상",
+              "areaSize": 47565.28672999999,
+              "fontSize": 85.822,
+              "position": {
+                "x": 0.0,
+                "y": 48.83,
+                "width": 395.9,
+                "height": 120.14469999999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 5,
+                "maxCharsPerLine": 5
+              }
+            },
+            {
+              "id": "875ceea4-c78b-4c3c-b6d5-d2717bddd8e3",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "지구-달 왕복 거리를 수백 번 넘나드는 압도적인 주행 안정성을 자랑합니다.",
+              "areaSize": 26436.182355,
+              "fontSize": 25.333,
+              "position": {
+                "x": 0.0,
+                "y": 178.97,
+                "width": 366.3,
+                "height": 72.17085
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 36,
+                "maxCharsPerLine": 18
+              }
+            }
+          ],
+          "position": {
+            "x": 73.7,
+            "y": 49.79,
+            "width": 395.89999999999986,
+            "height": 251.14352882793514
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d9743a63-00fe-46e1-80ac-397bd3cbc3cb"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e70690b5-bb79-4e8d-bb4c-c96fab13310f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "875ceea4-c78b-4c3c-b6d5-d2717bddd8e3"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 6.09
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 516.2796051756504,
+        "height": 350.26807458396684
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "662961fd-802b-4e8c-b515-2427f6a62355"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_bottom_left_texts"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 49.79,
+        "bottom": 49.33,
+        "left": 73.7,
+        "right": 46.68
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card_bottom_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "1cb69726-c9b8-4b69-9cd1-2427e1061b91",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 516.2796051756507,
+            "height": 350.26807458396684
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_bottom_right_texts",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1fb54f85-f789-4f78-94d3-095c5370c688",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "고객 만족도",
+              "areaSize": 9371.14122,
+              "fontSize": 33.333,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 200.9,
+                "height": 46.645799999999994
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            },
+            {
+              "id": "7549c253-2773-4aa9-bb19-e29a9a892d46",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "93%",
+              "areaSize": 47565.28672999999,
+              "fontSize": 85.822,
+              "position": {
+                "x": 0.0,
+                "y": 48.83,
+                "width": 395.9,
+                "height": 120.14469999999999
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 5,
+                "maxCharsPerLine": 5
+              }
+            },
+            {
+              "id": "acaa3073-07c0-42de-b12d-8a0bba411a8a",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "지속적인 소통과 완벽한 사후 관리로 고객의 높은 신뢰를 얻고 있습니다.",
+              "areaSize": 26436.182355,
+              "fontSize": 25.333,
+              "position": {
+                "x": 0.0,
+                "y": 178.97,
+                "width": 366.3,
+                "height": 72.17085
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 36,
+                "maxCharsPerLine": 18
+              }
+            }
+          ],
+          "position": {
+            "x": 73.7,
+            "y": 49.79,
+            "width": 395.89999999999986,
+            "height": 251.14352882793514
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1fb54f85-f789-4f78-94d3-095c5370c688"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7549c253-2773-4aa9-bb19-e29a9a892d46"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "acaa3073-07c0-42de-b12d-8a0bba411a8a"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 6.09
+        }
+      ],
+      "position": {
+        "x": 545.77,
+        "y": 0.0,
+        "width": 516.2796051756507,
+        "height": 350.26807458396684
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1cb69726-c9b8-4b69-9cd1-2427e1061b91"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_bottom_right_texts"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 49.79,
+        "bottom": 49.33,
+        "left": 73.7,
+        "right": 46.68
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 651.39,
+    "y": 301.8,
+    "width": 1062.0516639991797,
+    "height": 350.26807458396684
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_bottom_left",
+          "group_card_bottom_right"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 29.49
+}

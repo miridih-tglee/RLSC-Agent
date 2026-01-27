@@ -1,0 +1,188 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "HStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 6,
+                  "maxCharsPerLine": 6
+                }
+              },
+              {
+                "role": "Subtitle",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 0,
+                  "totalMaxChars": 0,
+                  "maxCharsPerLine": 19
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Chart",
+            "children": [
+              {
+                "role": "Description",
+                "type": "Chart"
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 2,
+                  "maxCharsPerLine": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 22
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 22
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Description",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 22
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 22
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

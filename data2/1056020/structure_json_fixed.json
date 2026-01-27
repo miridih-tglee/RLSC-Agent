@@ -1,0 +1,775 @@
+{
+  "id": "vstack_quiz_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_quiz_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "3085d8e0-c699-45be-8e39-8428688bc368",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 27.07,
+            "width": 706.4372520916221,
+            "height": 191.12804280317192
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_quiz_card_inner_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_quiz_badge_1",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "d1e1152a-d4f9-4506-a3cc-e3ebf8886f4f",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 108.78161126949203,
+                    "height": 54.13174428331763
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "dd6e2418-db12-44fe-a58a-5e9ac5013d02",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "Q.1",
+                  "areaSize": 1754.7165649999997,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.89,
+                    "y": 8.33,
+                    "width": 47,
+                    "height": 37.334394999999994
+                  },
+                  "fontFamily": "fndc52l17d73codj",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                }
+              ],
+              "position": {
+                "x": 31.22,
+                "y": 0.0,
+                "width": 108.78161126949203,
+                "height": 54.13174428331763
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "d1e1152a-d4f9-4506-a3cc-e3ebf8886f4f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "dd6e2418-db12-44fe-a58a-5e9ac5013d02"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 8.33,
+                "bottom": 8.47,
+                "left": 30.89,
+                "right": 30.89
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "f24b8499-0899-4659-998c-17ec3a2ca33c",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "베토벤의 대표적인 작품은 무엇인가요?",
+              "areaSize": 26339.459999999995,
+              "fontSize": 32,
+              "position": {
+                "x": 57.22,
+                "y": 66.33,
+                "width": 588,
+                "height": 44.794999999999995
+              },
+              "fontFamily": "fndc52l17d73codj",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 19,
+                "maxCharsPerLine": 19
+              }
+            },
+            {
+              "id": "4bc512d9-0539-479c-8d7d-ea39867c0fc3",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 130.0,
+                "width": 704.4931566448289,
+                "height": 3
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "d1662482-1557-470c-be22-7f80155db248",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1) 월광 소나타  2) 벚꽃 소나타   3) 강아지 소나타",
+              "areaSize": 22663.880709999998,
+              "fontSize": 26.667,
+              "position": {
+                "x": 47.79,
+                "y": 153.33,
+                "width": 607,
+                "height": 37.337529999999994
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 27,
+                "maxCharsPerLine": 27
+              }
+            }
+          ],
+          "position": {
+            "x": 2.0,
+            "y": 0.0,
+            "width": 704.4931566448289,
+            "height": 190.67010214165884
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_quiz_badge_1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f24b8499-0899-4659-998c-17ec3a2ca33c"
+                ],
+                [
+                  "d1662482-1557-470c-be22-7f80155db248"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "4bc512d9-0539-479c-8d7d-ea39867c0fc3"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.13,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 706.4931566448289,
+        "height": 218.19391494483074
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "3085d8e0-c699-45be-8e39-8428688bc368"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_quiz_card_inner_1"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 27.52,
+        "left": 2.0,
+        "right": 0
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
+    },
+    {
+      "id": "group_quiz_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "a1d574f4-dfde-4d32-baf5-3133d90020e6",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 27.07,
+            "width": 706.437252091622,
+            "height": 191.12804280317192
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_quiz_card_inner_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_quiz_badge_2",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "fdcb802e-0ce5-42fa-a69a-56f7bab5858f",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 108.78161126949203,
+                    "height": 54.13174428331763
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "31366f45-bc08-48fb-b878-b76795331368",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "Q.2",
+                  "areaSize": 1754.7165649999997,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.89,
+                    "y": 8.33,
+                    "width": 47,
+                    "height": 37.334394999999994
+                  },
+                  "fontFamily": "fndc52l17d73codj",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                }
+              ],
+              "position": {
+                "x": 31.22,
+                "y": 0.0,
+                "width": 108.78161126949203,
+                "height": 54.13174428331763
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "fdcb802e-0ce5-42fa-a69a-56f7bab5858f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "31366f45-bc08-48fb-b878-b76795331368"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 8.33,
+                "bottom": 8.47,
+                "left": 30.89,
+                "right": 30.89
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "a3e01b6c-2c1a-4eaa-b457-65210a34e56e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "클래식 음악의 특징은 무엇인가요?",
+              "areaSize": 26339.459999999995,
+              "fontSize": 32,
+              "position": {
+                "x": 57.22,
+                "y": 66.33,
+                "width": 588,
+                "height": 44.794999999999995
+              },
+              "fontFamily": "fndc52l17d73codj",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 19,
+                "maxCharsPerLine": 19
+              }
+            },
+            {
+              "id": "6953b9f6-4c26-4793-8ec8-c9e56885763d",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 130.0,
+                "width": 704.4931566448288,
+                "height": 3
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "982b4489-9c67-4584-97c7-15b47752eef9",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1)가사와 멜로디   2) 오케스트라와 피아노  3) 기타와 드럼",
+              "areaSize": 22663.880709999998,
+              "fontSize": 26.667,
+              "position": {
+                "x": 47.79,
+                "y": 153.33,
+                "width": 607,
+                "height": 37.337529999999994
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 27,
+                "maxCharsPerLine": 27
+              }
+            }
+          ],
+          "position": {
+            "x": 2.0,
+            "y": 0.0,
+            "width": 704.4931566448288,
+            "height": 190.6701021416588
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_quiz_badge_2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a3e01b6c-2c1a-4eaa-b457-65210a34e56e"
+                ],
+                [
+                  "982b4489-9c67-4584-97c7-15b47752eef9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "6953b9f6-4c26-4793-8ec8-c9e56885763d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.13,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 232.18,
+        "width": 706.4931566448288,
+        "height": 218.19391494483074
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a1d574f4-dfde-4d32-baf5-3133d90020e6"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_quiz_card_inner_2"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 27.52,
+        "left": 2.0,
+        "right": 0
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
+    },
+    {
+      "id": "group_quiz_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "6512bd09-1220-4e58-8f86-e504de7f6092",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 27.07,
+            "width": 706.437252091622,
+            "height": 191.12804280317187
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_quiz_card_inner_3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_quiz_badge_3",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "a8ad5aa3-5199-4483-a548-ea091c70921b",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 108.78161126949203,
+                    "height": 54.13174428331763
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "7b9864ec-2d2b-49a2-a6b6-48d76385f9e4",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "Q.1",
+                  "areaSize": 1754.7165649999997,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 30.89,
+                    "y": 8.33,
+                    "width": 47,
+                    "height": 37.334394999999994
+                  },
+                  "fontFamily": "fndc52l17d73codj",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 1,
+                    "maxCharsPerLine": 1
+                  }
+                }
+              ],
+              "position": {
+                "x": 31.22,
+                "y": 0.0,
+                "width": 108.78161126949203,
+                "height": 54.13174428331763
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "a8ad5aa3-5199-4483-a548-ea091c70921b"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7b9864ec-2d2b-49a2-a6b6-48d76385f9e4"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 8.33,
+                "bottom": 8.47,
+                "left": 30.89,
+                "right": 30.89
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "0c20d972-7304-48bc-892d-c57d845b202b",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우리가 오늘 배운 악기가 아닌것은 무엇인가요?",
+              "areaSize": 30160.473499999993,
+              "fontSize": 32,
+              "position": {
+                "x": 15.93,
+                "y": 66.33,
+                "width": 673.3,
+                "height": 44.794999999999995
+              },
+              "fontFamily": "fndc52l17d73codj",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 21,
+                "maxCharsPerLine": 21
+              }
+            },
+            {
+              "id": "3190c23a-76d0-454b-b494-a514ef79daa8",
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 130.0,
+                "width": 704.4931566448288,
+                "height": 3
+              },
+              "patternLabel": "C"
+            },
+            {
+              "id": "1e8c2c37-d1d8-4cac-b708-373c2361c137",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "1) 관악기   2) 현악기  3) 나무악기",
+              "areaSize": 22663.880709999998,
+              "fontSize": 26.667,
+              "position": {
+                "x": 47.79,
+                "y": 153.33,
+                "width": 607,
+                "height": 37.337529999999994
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "D",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 27,
+                "maxCharsPerLine": 27
+              }
+            }
+          ],
+          "position": {
+            "x": 2.0,
+            "y": 0.0,
+            "width": 704.4931566448288,
+            "height": 190.67010214165884
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_quiz_badge_3"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0c20d972-7304-48bc-892d-c57d845b202b"
+                ],
+                [
+                  "1e8c2c37-d1d8-4cac-b708-373c2361c137"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Separator",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "3190c23a-76d0-454b-b494-a514ef79daa8"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 17.13,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 464.35,
+        "width": 706.4931566448288,
+        "height": 218.19391494483068
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "6512bd09-1220-4e58-8f86-e504de7f6092"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_quiz_card_inner_3"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 0,
+        "bottom": 27.52,
+        "left": 2.0,
+        "right": 0
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
+    }
+  ],
+  "position": {
+    "x": 1023.73,
+    "y": 164.47,
+    "width": 706.4931566448289,
+    "height": 682.5444524415196
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_quiz_card_1",
+          "group_quiz_card_3"
+        ],
+        [
+          "group_quiz_card_2"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 13.98
+}

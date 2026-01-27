@@ -1,0 +1,340 @@
+{
+  "id": "hstack_insight_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_insight_1_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "9e5b8c12-6e5e-4c95-8c3e-b754e84ed23d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 501.2161589710561,
+            "height": 566.0660610217485
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_insight_1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2bb74d6b-cc6d-4906-9246-31212ae88d5b",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "1.",
+              "areaSize": 6545.5926375,
+              "fontSize": 46.528,
+              "position": {
+                "x": 2.842170943040401e-14,
+                "y": 0,
+                "width": 100.5,
+                "height": 65.130275
+              },
+              "fontFamily": "fv3z6751bk9n7qsq",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "434e6356-6918-4e22-b312-274775e04123",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Industry Insight A",
+              "areaSize": 18421.098749999997,
+              "fontSize": 32,
+              "position": {
+                "x": 0,
+                "y": 115.8860822520324,
+                "width": 411.3,
+                "height": 44.787499999999994
+              },
+              "fontFamily": "fv3z6751bk9n7qsq",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 23,
+                "maxCharsPerLine": 23
+              }
+            },
+            {
+              "id": "c0369dbb-1c45-447c-ad54-65ea4f72afec",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Curabitur quis odio ut magna feugiat mollis. Nulla sodales dictum egestas. Aliquam velit consectetur porta molestie. \n\nAliquam mi lectus mollis quis pellentesque vel, fringilla eu quam. Pellentesque at enim.",
+              "areaSize": 118193.88258,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0,
+                "y": 194.55779005537693,
+                "width": 411.3,
+                "height": 287.3666
+              },
+              "fontFamily": "febw46l52b2vee7y",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 8,
+                "totalMaxChars": 200,
+                "maxCharsPerLine": 25
+              }
+            }
+          ],
+          "position": {
+            "x": 44.9774135319843,
+            "y": 37.55494758243128,
+            "width": 411.29999999999995,
+            "height": 481.9243900553769
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2bb74d6b-cc6d-4906-9246-31212ae88d5b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "434e6356-6918-4e22-b312-274775e04123"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c0369dbb-1c45-447c-ad54-65ea4f72afec"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 501.2161589710561,
+        "height": 566.0660610217485
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "9e5b8c12-6e5e-4c95-8c3e-b754e84ed23d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_insight_1_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_insight_2_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "63af7f2e-c113-453b-b02c-1d59c1706806",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 501.21615897105596,
+            "height": 566.0660610217483
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_insight_2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b639eaf8-c6df-45af-b2ee-c7e8760324e6",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "2.",
+              "areaSize": 6545.5926375,
+              "fontSize": 46.528,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 100.5,
+                "height": 65.130275
+              },
+              "fontFamily": "fv3z6751bk9n7qsq",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "41073e02-7dff-432b-91c7-88f29e5af998",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Industry Insight B",
+              "areaSize": 18421.098749999997,
+              "fontSize": 32,
+              "position": {
+                "x": 0,
+                "y": 115.8860822520324,
+                "width": 411.3,
+                "height": 44.787499999999994
+              },
+              "fontFamily": "fv3z6751bk9n7qsq",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 23,
+                "maxCharsPerLine": 23
+              }
+            },
+            {
+              "id": "89bb21f6-bb03-4387-b197-5c5bc193c9c6",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Curabitur quis odio ut magna feugiat mollis. Nulla sodales dictum egestas. Aliquam velit consectetur porta molestie. \n\nAliquam mi lectus mollis quis pellentesque vel, fringilla eu quam. Pellentesque at enim.",
+              "areaSize": 118193.88258,
+              "fontSize": 29.333,
+              "position": {
+                "x": 0,
+                "y": 194.55779005537693,
+                "width": 411.3,
+                "height": 287.3666
+              },
+              "fontFamily": "febw46l52b2vee7y",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 8,
+                "totalMaxChars": 200,
+                "maxCharsPerLine": 25
+              }
+            }
+          ],
+          "position": {
+            "x": 44.977413531984325,
+            "y": 37.55494758243128,
+            "width": 411.29999999999995,
+            "height": 481.9243900553769
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b639eaf8-c6df-45af-b2ee-c7e8760324e6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "41073e02-7dff-432b-91c7-88f29e5af998"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "89bb21f6-bb03-4387-b197-5c5bc193c9c6"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 536.6270717954068,
+        "y": 0,
+        "width": 501.21615897105596,
+        "height": 566.0660610217483
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "63af7f2e-c113-453b-b02c-1d59c1706806"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_insight_2_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 284.5663705410716,
+    "width": 1037.8432307664627,
+    "height": 566.0660610217485
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_insight_1_card",
+          "group_insight_2_card"
+        ]
+      ]
+    }
+  ]
+}

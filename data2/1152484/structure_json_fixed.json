@@ -1,0 +1,356 @@
+{
+  "id": "vstack_info_section",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "7da59145-0007-4cdb-b8f8-6309ed558632",
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "svgData": "",
+      "position": {
+        "x": 0,
+        "y": 0.0,
+        "width": 954.682903406238,
+        "height": 1.535714285714172
+      },
+      "patternLabel": "A"
+    },
+    {
+      "id": "hstack_info_foundation",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_label_foundation",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "61a9cbea-0450-40a4-982a-e3a3c010e203",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 140,
+                "height": 52
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c280eb23-93fe-45b1-a6fd-b6e3c147349f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "설립일",
+              "areaSize": 4690.57396,
+              "fontSize": 23.999,
+              "position": {
+                "x": 0.44,
+                "y": 10.35,
+                "width": 139.6,
+                "height": 33.6001
+              },
+              "fontFamily": "f60wmek4ajfq0vl4",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 6
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.13,
+            "width": 140.03710462287108,
+            "height": 52
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "61a9cbea-0450-40a4-982a-e3a3c010e203"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c280eb23-93fe-45b1-a6fd-b6e3c147349f"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 10.35,
+            "bottom": 8.05,
+            "left": 0.44,
+            "right": 0
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "670b05d0-2465-4d71-b1d4-cdbb3a594ab6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "2080.08.12",
+          "areaSize": 74922.9598325,
+          "fontSize": 37.332,
+          "position": {
+            "x": 170.47,
+            "y": 0.0,
+            "width": 1433.9,
+            "height": 52.251174999999996
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 2.06,
+        "y": 42.94,
+        "width": 1604.3742092457421,
+        "height": 52.251175000000046
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_label_foundation"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "670b05d0-2465-4d71-b1d4-cdbb3a594ab6"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 30.43
+    },
+    {
+      "id": "f1802c61-f8ac-4a30-bce1-f5543ec4ba36",
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "svgData": "",
+      "position": {
+        "x": 0,
+        "y": 136.6,
+        "width": 953.113915982233,
+        "height": 1.535714285714172
+      },
+      "patternLabel": "A"
+    },
+    {
+      "id": "hstack_info_business",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_label_business",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e8a6ed45-cee4-4efd-a7b6-042e9d71142f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 140,
+                "height": 52
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "33eecb26-40bb-41eb-bc3b-af69573b304c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "사업영역",
+              "areaSize": 4690.57396,
+              "fontSize": 23.999,
+              "position": {
+                "x": 0.44,
+                "y": 10.35,
+                "width": 139.6,
+                "height": 33.6001
+              },
+              "fontFamily": "f60wmek4ajfq0vl4",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 6
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 140.03710462287108,
+            "height": 52
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e8a6ed45-cee4-4efd-a7b6-042e9d71142f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "33eecb26-40bb-41eb-bc3b-af69573b304c"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 10.35,
+            "bottom": 8.05,
+            "left": 0.44,
+            "right": 0
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "49b67617-7f3d-4804-92f2-b3a7966b56b0",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "마케팅, 콘텐츠기획, 영상제작 등 ",
+          "areaSize": 46947.6807375,
+          "fontSize": 37.332,
+          "position": {
+            "x": 168.27,
+            "y": 1.67,
+            "width": 898.5,
+            "height": 52.251174999999996
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 29
+          }
+        }
+      ],
+      "position": {
+        "x": 2.06,
+        "y": 177.87,
+        "width": 1066.7742092457422,
+        "height": 53.92590122548995
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_label_business"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "49b67617-7f3d-4804-92f2-b3a7966b56b0"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 28.23
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 404.27,
+    "width": 1606.437254901961,
+    "height": 231.793781897759
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Decoration",
+      "type": "SVG",
+      "patterns": [
+        [
+          "7da59145-0007-4cdb-b8f8-6309ed558632",
+          "f1802c61-f8ac-4a30-bce1-f5543ec4ba36"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_info_foundation",
+          "hstack_info_business"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 40.85,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
+}

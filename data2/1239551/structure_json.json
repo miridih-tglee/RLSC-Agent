@@ -1,0 +1,441 @@
+{
+  "id": "vstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "9d4b2606-46db-4ef7-84c2-626a5a2f3765",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 909.955699898183,
+            "height": 179.61488063193508
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "050c3261-04d6-45d5-a306-701c3ea201f2",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "l5ho5p9r0SG9Y_a202bxp3nc800",
+              "position": {
+                "x": 0,
+                "y": 35.39682499999981,
+                "width": 37.99999999999997,
+                "height": 38
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "a8af2439-833e-4e17-b7fa-dbd2c998546e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "수익 구조",
+              "areaSize": 8234.849375,
+              "fontSize": 36,
+              "position": {
+                "x": 53.96705188451051,
+                "y": 29.19838749999991,
+                "width": 163.4,
+                "height": 50.396874999999994
+              },
+              "fontFamily": "fkckb7p9net172u7",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            },
+            {
+              "id": "233e3b44-9380-4d53-834a-a944249f70a0",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우리는 안정적인 반복 매출과 부가적인 수익원이 조화를 이루는 수익 구조를 가지고 있습니다. 주요 수익원은 [수익원 1], [수익원 2], [수익원 3]입니다. ",
+              "areaSize": 61751.275740000005,
+              "fontSize": 22.667,
+              "position": {
+                "x": 228.67021513067516,
+                "y": 0,
+                "width": 567.6,
+                "height": 108.79365
+              },
+              "fontFamily": "fn5v4b11b5e01g2t",
+              "fontWeight": "400",
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 50.83916986787648,
+            "y": 35.41061531596762,
+            "width": 796.2702151306751,
+            "height": 108.79365000000001
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "050c3261-04d6-45d5-a306-701c3ea201f2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a8af2439-833e-4e17-b7fa-dbd2c998546e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "233e3b44-9380-4d53-834a-a944249f70a0"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 909.955699898183,
+        "height": 179.61488063193508
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "9d4b2606-46db-4ef7-84c2-626a5a2f3765"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "c40b7ef2-998d-4ce9-a278-c567fb9124c9",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 909.955699898183,
+            "height": 179.61488063193508
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "7cd2dc35-43c6-45ba-b1a6-98557f31a0f7",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "l5ho5p9r0SG9Y_4ufe2nzpdxk0",
+              "position": {
+                "x": 0,
+                "y": 35.39682499999992,
+                "width": 37.99999999999997,
+                "height": 38
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c4a6fb75-f0dd-401d-92a5-82f116a86a53",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "가격 전략",
+              "areaSize": 8234.849375,
+              "fontSize": 36,
+              "position": {
+                "x": 53.96705188451051,
+                "y": 29.19838750000008,
+                "width": 163.4,
+                "height": 50.396874999999994
+              },
+              "fontFamily": "fkckb7p9net172u7",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            },
+            {
+              "id": "0bf034bc-5d8f-4383-9edc-b1ceb182bfff",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우리의 가격은 고객이 서비스를 통해 얻는 가치에 기반하여 책정되었습니다. 고객은 지불하는 비용보다 최소 [배수] 배 이상의 가치를 얻어갑니다.",
+              "areaSize": 61751.275740000005,
+              "fontSize": 22.667,
+              "position": {
+                "x": 228.67021513067516,
+                "y": 0,
+                "width": 567.6,
+                "height": 108.79365
+              },
+              "fontFamily": "fn5v4b11b5e01g2t",
+              "fontWeight": "400",
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 50.83916986787648,
+            "y": 35.41061531596756,
+            "width": 796.2702151306751,
+            "height": 108.79364999999996
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "7cd2dc35-43c6-45ba-b1a6-98557f31a0f7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c4a6fb75-f0dd-401d-92a5-82f116a86a53"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0bf034bc-5d8f-4383-9edc-b1ceb182bfff"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 208.2935899641908,
+        "width": 909.955699898183,
+        "height": 179.61488063193508
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "c40b7ef2-998d-4ce9-a278-c567fb9124c9"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "108da66a-1998-44ad-8429-67029e773422",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 909.955699898183,
+            "height": 179.61488063193508
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "f4618ccf-9ec4-447c-bc69-8d4067adfc30",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "l5ho5p9r0SG9Y_aaptofv0bcc00",
+              "position": {
+                "x": 0,
+                "y": 15.360646525900393,
+                "width": 37.99999999999997,
+                "height": 38
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "7f694be4-3261-4d4e-8d15-0ca851664205",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "매출 전망",
+              "areaSize": 8234.849375,
+              "fontSize": 36,
+              "position": {
+                "x": 53.967051884510596,
+                "y": 9.93276250000008,
+                "width": 163.4,
+                "height": 50.396874999999994
+              },
+              "fontFamily": "fkckb7p9net172u7",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            },
+            {
+              "id": "ae2ac717-7e6b-4707-9478-4e9791521e54",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "향후 3~5년간 구체적인 매출 목표를 달성하여 성장 잠재력을 보여줍니다.",
+              "areaSize": 39880.93824,
+              "fontSize": 22.667,
+              "position": {
+                "x": 228.67021513067513,
+                "y": 0,
+                "width": 567.6,
+                "height": 70.2624
+              },
+              "fontFamily": "fn5v4b11b5e01g2t",
+              "fontWeight": "400",
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 50.83916986787651,
+            "y": 54.67624031596756,
+            "width": 796.2702151306751,
+            "height": 70.26239999999996
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f4618ccf-9ec4-447c-bc69-8d4067adfc30"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7f694be4-3261-4d4e-8d15-0ca851664205"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ae2ac717-7e6b-4707-9478-4e9791521e54"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 416.5871799283815,
+        "width": 909.955699898183,
+        "height": 179.61488063193508
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "108da66a-1998-44ad-8429-67029e773422"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card3_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 20.87993965967962,
+    "width": 909.955699898183,
+    "height": 596.2020605603166
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ]
+}

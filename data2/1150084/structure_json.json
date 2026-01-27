@@ -1,0 +1,706 @@
+{
+  "id": "hstack_benchmark_and_goals",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "hstack_benchmark_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_company_a_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "a6072d95-76f2-4682-a883-c0bb23bcc31b",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 407.67874324324293,
+                "height": 207.396048108108
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_company_a_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f1055fa4-1206-43a9-ad74-57b1a767d5ff",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "회사 A의 강점",
+                  "areaSize": 14251.592055000001,
+                  "fontSize": 33.735,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 301.8,
+                    "height": 47.221975
+                  },
+                  "fontFamily": "f8e6e9l6pe3cau28",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "47d7804e-e4c3-49a1-9af0-4cb79a24cd5d",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "이곳에 회사 A의 주요 강점을 요약하여 적어보세요.",
+                  "areaSize": 28356.290624999998,
+                  "fontSize": 30.902,
+                  "position": {
+                    "x": 5.684341886080802e-14,
+                    "y": 58.52247779309414,
+                    "width": 327.7,
+                    "height": 86.53125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 24,
+                    "maxCharsPerLine": 12
+                  }
+                }
+              ],
+              "position": {
+                "x": 40.09260675775076,
+                "y": 29.648850799362833,
+                "width": 327.70000000000005,
+                "height": 145.05372779309414
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f1055fa4-1206-43a9-ad74-57b1a767d5ff"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "47d7804e-e4c3-49a1-9af0-4cb79a24cd5d"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 5.684341886080802e-14,
+            "width": 407.67874324324293,
+            "height": 207.396048108108
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a6072d95-76f2-4682-a883-c0bb23bcc31b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_company_a_text"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_company_b_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "112b7ab1-4630-4c17-9f34-13cd76ebf0ee",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 407.67874324324305,
+                "height": 207.39604810810806
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_company_b_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "b73010b4-0fd5-4063-afa1-db871fca4431",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "회사 B의 강점",
+                  "areaSize": 14251.592055000001,
+                  "fontSize": 33.735,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 0,
+                    "width": 301.8,
+                    "height": 47.221975
+                  },
+                  "fontFamily": "f8e6e9l6pe3cau28",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "e1dbb0b9-15b0-4fc9-9726-93d757aa12c3",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "이곳에 회사 B의 주요 강점을 요약하여 적어보세요.",
+                  "areaSize": 28356.290624999998,
+                  "fontSize": 30.902,
+                  "position": {
+                    "x": 0,
+                    "y": 58.52158358108113,
+                    "width": 327.7,
+                    "height": 86.53125
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 24,
+                    "maxCharsPerLine": 12
+                  }
+                }
+              ],
+              "position": {
+                "x": 41.99825675675686,
+                "y": 29.649298986486656,
+                "width": 327.70000000000005,
+                "height": 145.05283358108113
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b73010b4-0fd5-4063-afa1-db871fca4431"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e1dbb0b9-15b0-4fc9-9726-93d757aa12c3"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 407.67874324324293,
+            "y": 0,
+            "width": 407.67874324324305,
+            "height": 207.39604810810806
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "112b7ab1-4630-4c17-9f34-13cd76ebf0ee"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_company_b_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 60.954512432432296,
+        "width": 815.357486486486,
+        "height": 207.39604810810806
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_company_a_card"
+            ],
+            [
+              "group_company_b_card"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14f5449d-89fc-45e7-ad8e-d1e39441d2fd",
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "svgData": "02485524-8ea2-472d-8855-248ea2e72d45",
+      "position": {
+        "x": 848.9767680593153,
+        "y": 148.42106421262844,
+        "width": 68.67469006973943,
+        "height": 16.80575748861088
+      },
+      "patternLabel": "B"
+    },
+    {
+      "id": "group_goals_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "3402e5a5-15bd-4a9a-87da-211aced47f9a",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.039189189189983153,
+            "y": 61.76532324324313,
+            "width": 781.6216216216196,
+            "height": 205.7744264864864
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_goals_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "fc99844e-df9f-40c0-bf90-3816930e72a7",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "자사 목표",
+              "areaSize": 37797.5401,
+              "fontSize": 34.55,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 781.7,
+                "height": 48.352999999999994
+              },
+              "fontFamily": "f8e6e9l6pe3cau28",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 26,
+                "maxCharsPerLine": 26
+              }
+            },
+            {
+              "id": "vstack_goal_rows",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "hstack_goal_row_1",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "9befe582-2efb-46cd-817e-55589791d29d",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "기술 혁신",
+                      "areaSize": 5592.2578125,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 134.5,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "f8e6e9l6pe3cau28",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 5,
+                        "maxCharsPerLine": 5
+                      }
+                    },
+                    {
+                      "id": "b1fd477d-a918-49a1-83b1-0dba30443062",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "이곳에 기술 혁신과 관련된 목표를 적어보세요.",
+                      "areaSize": 23192.278124999997,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 153.44117954573085,
+                        "y": 0,
+                        "width": 557.8,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 21,
+                        "maxCharsPerLine": 21
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 711.2411795457308,
+                    "height": 41.578125
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "9befe582-2efb-46cd-817e-55589791d29d"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "b1fd477d-a918-49a1-83b1-0dba30443062"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_goal_row_2",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "a8b48a72-9325-4ac2-8e40-e46cf749b545",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "서비스 개선",
+                      "areaSize": 5721.15,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 137.6,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "f8e6e9l6pe3cau28",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 5,
+                        "maxCharsPerLine": 5
+                      }
+                    },
+                    {
+                      "id": "21bdc067-ec53-48a5-9b3f-3adb1b3eba44",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "이곳에 기술 혁신과 관련된 목표를 적어보세요.",
+                      "areaSize": 22934.49375,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 153.4315664046287,
+                        "y": 0,
+                        "width": 551.6,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 21,
+                        "maxCharsPerLine": 21
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 53.555770395373884,
+                    "width": 705.0315664046288,
+                    "height": 41.578125
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "a8b48a72-9325-4ac2-8e40-e46cf749b545"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "21bdc067-ec53-48a5-9b3f-3adb1b3eba44"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_goal_row_3",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "12f816f4-7480-4122-a98d-d92406e075ed",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "비용 최적화",
+                      "areaSize": 5721.15,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 137.6,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "f8e6e9l6pe3cau28",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 5,
+                        "maxCharsPerLine": 5
+                      }
+                    },
+                    {
+                      "id": "cebbd12c-a72e-44a6-9ad6-73d4cb01046d",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "비용 절감 및 최적화와 관련된 목표를 적어보세요.",
+                      "areaSize": 23969.7890625,
+                      "fontSize": 29.707,
+                      "position": {
+                        "x": 153.4353451348129,
+                        "y": 0,
+                        "width": 576.5,
+                        "height": 41.578125
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 22,
+                        "maxCharsPerLine": 22
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 107.74024021884179,
+                    "width": 729.9353451348129,
+                    "height": 41.578125
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "12f816f4-7480-4122-a98d-d92406e075ed"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "cebbd12c-a72e-44a6-9ad6-73d4cb01046d"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "position": {
+                "x": 35.493056026910835,
+                "y": 89.99335387706543,
+                "width": 729.9353451348129,
+                "height": 149.3183652188418
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "patterns": [
+                    [
+                      "hstack_goal_row_1",
+                      "hstack_goal_row_2",
+                      "hstack_goal_row_3"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 781.7,
+            "height": 239.31171909590722
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "fc99844e-df9f-40c0-bf90-3816930e72a7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_goal_rows"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 950.6955675675671,
+        "y": 0,
+        "width": 781.7,
+        "height": 267.5397497297295
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "3402e5a5-15bd-4a9a-87da-211aced47f9a"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_goals_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 38.01357371621617,
+    "width": 1732.395567567567,
+    "height": 268.35056054054036
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_benchmark_cards"
+        ]
+      ]
+    },
+    {
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "patterns": [
+        [
+          "14f5449d-89fc-45e7-ad8e-d1e39441d2fd"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_goals_card"
+        ]
+      ]
+    }
+  ]
+}

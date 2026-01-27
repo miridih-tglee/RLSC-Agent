@@ -1,0 +1,278 @@
+{
+  "id": "hstack_info_row_bottom",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "hstack_cell_launch",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_label_launch",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "8cb2dc74-58b5-42f6-9c0a-a3b9def46263",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 228.78695741833042,
+                "height": 67.16793845983125
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "88a6babf-1d3c-4729-b1b7-c21927cd7f54",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "런칭일",
+              "areaSize": 5860.359699999999,
+              "fontSize": 28.665999999999997,
+              "position": {
+                "x": 41.393478709165265,
+                "y": 15.084431729915536,
+                "width": 146,
+                "height": 40.13945
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 5,
+                "maxCharsPerLine": 5
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 228.78695741833042,
+            "height": 67.16793845983125
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "8cb2dc74-58b5-42f6-9c0a-a3b9def46263"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "88a6babf-1d3c-4729-b1b7-c21927cd7f54"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02cf70a2-fc27-4bec-8403-3b19c6b525da",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "2090년 05월 27일 (10년)",
+          "areaSize": 13791.91502,
+          "fontSize": 28.665999999999997,
+          "position": {
+            "x": 269.4281026504222,
+            "y": 15.084826959730549,
+            "width": 343.6,
+            "height": 40.13945
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 13,
+            "maxCharsPerLine": 13
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 613.0281026504222,
+        "height": 67.16793845983125
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_label_launch"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "02cf70a2-fc27-4bec-8403-3b19c6b525da"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_cell_promo",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_label_promo",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "34aef57d-8ea6-4faa-8ad1-628799b3c2e6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 228.78695741833042,
+                "height": 67.16793845983113
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "2f1d7e1b-183f-4b6e-be97-019c8f930202",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "홍보 현황",
+              "areaSize": 8188.447799999999,
+              "fontSize": 28.665999999999997,
+              "position": {
+                "x": 12.393478709165493,
+                "y": 15.084431729915423,
+                "width": 204,
+                "height": 40.13945
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 228.78695741833042,
+            "height": 67.16793845983113
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "34aef57d-8ea6-4faa-8ad1-628799b3c2e6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2f1d7e1b-183f-4b6e-be97-019c8f930202"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a41bf806-8b40-454c-befd-5b998d478585",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "이곳에 본 항목에 해당하는 정보를 기입해 주세요.",
+          "areaSize": 23670.233665,
+          "fontSize": 28.665999999999997,
+          "position": {
+            "x": 272.4882455075664,
+            "y": 15.084431729915423,
+            "width": 589.7,
+            "height": 40.13945
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 23,
+            "maxCharsPerLine": 23
+          }
+        }
+      ],
+      "position": {
+        "x": 699.6497695852539,
+        "y": 1.1368683772161603e-13,
+        "width": 862.1882455075664,
+        "height": 67.16793845983113
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_label_promo"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "a41bf806-8b40-454c-befd-5b998d478585"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 158.9007334969201,
+    "width": 1561.8380150928203,
+    "height": 67.16793845983125
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_cell_launch",
+          "hstack_cell_promo"
+        ]
+      ]
+    }
+  ]
+}

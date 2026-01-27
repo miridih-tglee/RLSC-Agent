@@ -81,7 +81,9 @@
             "bottom": 24.52,
             "left": 23.88,
             "right": 23.4
-          }
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
         },
         {
           "id": "1a82bc11-6193-4332-9f30-c446e8a2e2a0",
@@ -221,7 +223,9 @@
             "bottom": 24.26,
             "left": 23.88,
             "right": 23.4
-          }
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
         },
         {
           "id": "7a2f229f-2b67-4c5b-bb4e-d2b3e654b03b",
@@ -361,7 +365,9 @@
             "bottom": 24.34,
             "left": 23.88,
             "right": 23.4
-          }
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
         },
         {
           "id": "c6e34a8c-855f-4e6f-8748-f4dbcf43ef6b",
@@ -501,7 +507,9 @@
             "bottom": 24.8,
             "left": 23.88,
             "right": 23.4
-          }
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
         },
         {
           "id": "277f11b3-e355-4e64-929e-aafe933412e9",

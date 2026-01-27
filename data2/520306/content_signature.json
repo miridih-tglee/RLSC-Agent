@@ -1,0 +1,96 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 19,
+                  "maxCharsPerLine": 19
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 104,
+                  "maxCharsPerLine": 52
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 19,
+                  "maxCharsPerLine": 19
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 104,
+                  "maxCharsPerLine": 52
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

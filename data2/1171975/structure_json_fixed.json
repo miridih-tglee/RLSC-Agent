@@ -1,0 +1,604 @@
+{
+  "id": "vstack_kpis",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_kpi1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_kpi1_label",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "48aa6b38-054e-4ea6-ab79-b90af3a793d5",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0,
+                "width": 256.67619365164194,
+                "height": 71.83784505784632
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "e7729d38-1057-4bea-8619-6e2d30d23fe2",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "연 매출",
+              "areaSize": 13041.06336,
+              "fontSize": 37.333,
+              "position": {
+                "x": 3.54,
+                "y": 9.69,
+                "width": 249.6,
+                "height": 52.24785
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0,
+            "width": 256.67619365164194,
+            "height": 71.83784505784632
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "48aa6b38-054e-4ea6-ab79-b90af3a793d5"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e7729d38-1057-4bea-8619-6e2d30d23fe2"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 9.69,
+            "bottom": 9.9,
+            "left": 3.54,
+            "right": 3.54
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "0e4dedb8-da66-4a26-b7c4-b94e4e531588",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "2080년 대비 15% 증가",
+          "areaSize": 19112.1596875,
+          "fontSize": 32,
+          "position": {
+            "x": 278.27,
+            "y": 13.27,
+            "width": 426.7,
+            "height": 44.790625
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0,
+        "width": 704.9697117345731,
+        "height": 71.83784505784632
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_kpi1_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "0e4dedb8-da66-4a26-b7c4-b94e4e531588"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 21.59
+    },
+    {
+      "id": "hstack_kpi2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_kpi2_label",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e5c4af7c-f7b5-4f1b-bdd0-34a319fd9dc6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 256.67619365164194,
+                "height": 71.83784505784627
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "82024f6f-523d-4862-88f3-f00df6d64ced",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "신규 고객사 수",
+              "areaSize": 13041.06336,
+              "fontSize": 37.333,
+              "position": {
+                "x": 3.54,
+                "y": 9.69,
+                "width": 249.6,
+                "height": 52.24785
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 256.67619365164194,
+            "height": 71.83784505784627
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e5c4af7c-f7b5-4f1b-bdd0-34a319fd9dc6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "82024f6f-523d-4862-88f3-f00df6d64ced"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 9.69,
+            "bottom": 9.9,
+            "left": 3.54,
+            "right": 3.54
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "4a25bd33-f5b4-4eff-972f-8767f83ed8a6",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "2080년 대비 100개 증가 ",
+          "areaSize": 19112.1596875,
+          "fontSize": 32,
+          "position": {
+            "x": 278.27,
+            "y": 13.27,
+            "width": 426.7,
+            "height": 44.790625
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 108.72,
+        "width": 704.9697117345733,
+        "height": 71.83784505784627
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_kpi2_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "4a25bd33-f5b4-4eff-972f-8767f83ed8a6"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 21.59
+    },
+    {
+      "id": "hstack_kpi3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_kpi3_label",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "227096b6-0de8-4ad4-8490-bff92054fca6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 256.67619365164194,
+                "height": 71.83784505784627
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "22c70b7c-d6f5-4fb3-a098-6a9edef5ab02",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "신제품 판매량",
+              "areaSize": 13041.06336,
+              "fontSize": 37.333,
+              "position": {
+                "x": 3.54,
+                "y": 9.69,
+                "width": 249.6,
+                "height": 52.24785
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 256.67619365164194,
+            "height": 71.83784505784627
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "227096b6-0de8-4ad4-8490-bff92054fca6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "22c70b7c-d6f5-4fb3-a098-6a9edef5ab02"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 9.69,
+            "bottom": 9.9,
+            "left": 3.54,
+            "right": 3.54
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "051e9534-9dfb-4446-b130-ae8d50b7d7e9",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "총 12,500개",
+          "areaSize": 19112.1596875,
+          "fontSize": 32,
+          "position": {
+            "x": 278.27,
+            "y": 13.27,
+            "width": 426.7,
+            "height": 44.790625
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 217.44,
+        "width": 704.9697117345734,
+        "height": 71.83784505784627
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_kpi3_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "051e9534-9dfb-4446-b130-ae8d50b7d7e9"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 21.59
+    },
+    {
+      "id": "hstack_kpi4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_kpi4_label",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "fe375ae6-1161-4a16-8923-ab6dcc8eef47",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 256.67619365164194,
+                "height": 71.83784505784627
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "d97293ac-5832-4383-acb1-24aab6bb79cf",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "시장 점유율",
+              "areaSize": 13041.06336,
+              "fontSize": 37.333,
+              "position": {
+                "x": 3.54,
+                "y": 9.69,
+                "width": 249.6,
+                "height": 52.24785
+              },
+              "fontFamily": "fjurebdb5vk3fnnk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 256.67619365164194,
+            "height": 71.83784505784627
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "fe375ae6-1161-4a16-8923-ab6dcc8eef47"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d97293ac-5832-4383-acb1-24aab6bb79cf"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 9.69,
+            "bottom": 9.9,
+            "left": 3.54,
+            "right": 3.54
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "a90793fe-fb27-4b57-be8f-9613bdbdac36",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "12% → 14% (전년 대비 2% 증가)",
+          "areaSize": 19112.1596875,
+          "fontSize": 32,
+          "position": {
+            "x": 278.27,
+            "y": 13.27,
+            "width": 426.7,
+            "height": 44.790625
+          },
+          "fontFamily": "fd9spew91ifdfz4a",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 326.16,
+        "width": 704.9697117345734,
+        "height": 71.83784505784627
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_kpi4_label"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "a90793fe-fb27-4b57-be8f-9613bdbdac36"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 21.59
+    }
+  ],
+  "position": {
+    "x": 282.58,
+    "y": 0,
+    "width": 704.9697117345736,
+    "height": 397.9997106576391
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_kpi1",
+          "hstack_kpi2",
+          "hstack_kpi3",
+          "hstack_kpi4"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 36.88
+}

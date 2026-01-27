@@ -1,0 +1,318 @@
+{
+  "id": "vstack_left_column",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_left_top_card",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "2c8f4ef2-a3ee-422a-8211-6747b4f8319b",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kp3sdv835z4y6w1s",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 663.8573820935055,
+            "height": 277.4291981786254
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_top_card_content",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "84bed2fb-36d6-4806-973e-191501ca9835",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "당기 순이익",
+              "areaSize": 24578.415674999997,
+              "fontSize": 34.36,
+              "position": {
+                "x": 48.32,
+                "y": 0.0,
+                "width": 511.1,
+                "height": 48.08924999999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "de60793c-5f93-4c68-88bd-be42b87e5ddd",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "100억",
+              "areaSize": 99617.50159999997,
+              "fontSize": 117.034,
+              "position": {
+                "x": 0.0,
+                "y": 78.88,
+                "width": 608,
+                "height": 163.84457499999996
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 6,
+                "maxCharsPerLine": 6
+              }
+            }
+          ],
+          "position": {
+            "x": 28.23,
+            "y": 7.63,
+            "width": 608,
+            "height": 242.72653680595613
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "84bed2fb-36d6-4806-973e-191501ca9835"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "de60793c-5f93-4c68-88bd-be42b87e5ddd"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 30.79
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 663.8573820935055,
+        "height": 277.4291981786254
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2c8f4ef2-a3ee-422a-8211-6747b4f8319b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_top_card_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 7.63,
+        "bottom": 27.07,
+        "left": 28.23,
+        "right": 27.63
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_left_bottom_card",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "0a2b0299-de08-402e-abfe-3b86a9179451",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kp3sdv835z4y6w1s",
+          "position": {
+            "x": 0,
+            "y": 0.0,
+            "width": 663.8573820935055,
+            "height": 277.42919817862537
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_bottom_card_content",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "0cf4222b-e1e4-4883-83e3-ebbd1af2066a",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "총 회원 수",
+              "areaSize": 24588.033524999995,
+              "fontSize": 34.36,
+              "position": {
+                "x": 48.31,
+                "y": 0.0,
+                "width": 511.3,
+                "height": 48.08924999999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 19,
+                "maxCharsPerLine": 19
+              }
+            },
+            {
+              "id": "7737ee00-8156-4f06-b5d7-2bcf932061e3",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "1,500만 명",
+              "areaSize": 99617.50159999997,
+              "fontSize": 117.034,
+              "position": {
+                "x": 0.0,
+                "y": 78.88,
+                "width": 608,
+                "height": 163.84457499999996
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 6,
+                "maxCharsPerLine": 6
+              }
+            }
+          ],
+          "position": {
+            "x": 28.23,
+            "y": 7.63,
+            "width": 608,
+            "height": 242.72687177608418
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0cf4222b-e1e4-4883-83e3-ebbd1af2066a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7737ee00-8156-4f06-b5d7-2bcf932061e3"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 30.79
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 311.17,
+        "width": 663.8573820935055,
+        "height": 277.42919817862537
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0a2b0299-de08-402e-abfe-3b86a9179451"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_bottom_card_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 7.63,
+        "bottom": 27.07,
+        "left": 28.23,
+        "right": 27.63
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 663.8573820935055,
+    "height": 588.5955657825284
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_left_top_card",
+          "group_left_bottom_card"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 33.74
+}

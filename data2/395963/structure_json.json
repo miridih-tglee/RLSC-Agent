@@ -1,0 +1,576 @@
+{
+  "id": "vstack_right_feature_list",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "2c56ac48-6de0-4c18-ad90-f652253a493f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kagqu3n36lpqwwe0",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 680.6349885216728,
+            "height": 195.76327496479593
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "hstack_card1_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "5fc42a5e-7727-47ba-9a38-4338e8433fcb",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "01",
+                  "areaSize": 3434.6728,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 92,
+                    "height": 37.3334
+                  },
+                  "fontFamily": "femrhi27iy3jeey8",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "f8a5c724-b3ae-41db-a73e-77b6f0624a2b",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "차별화된 기술력",
+                  "areaSize": 6495.994199999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 444.4714499449765,
+                    "y": 2,
+                    "width": 174,
+                    "height": 37.333299999999994
+                  },
+                  "fontFamily": "f087tych978v7csy",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 7
+                  }
+                }
+              ],
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 0,
+                "width": 618.4714499449765,
+                "height": 39.33330000000001
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "5fc42a5e-7727-47ba-9a38-4338e8433fcb"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f8a5c724-b3ae-41db-a73e-77b6f0624a2b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "96be607a-dd35-4915-91e6-431884990989",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사의 핵심 기술이 경쟁사 대비 어떤 기술적 우위를 갖는지, \n그리고 그로 인해 고객이 얻는 명확한 이점이 무엇인지 설명합니다.",
+              "areaSize": 44124.50624999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 75.90121189969045,
+                "width": 613,
+                "height": 71.98124999999999
+              },
+              "fontFamily": "f6ev54s5egkwbhm6",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 31,
+                "maxCharsPerLine": 31
+              }
+            }
+          ],
+          "position": {
+            "x": 28.481230639010846,
+            "y": 15.720309692605042,
+            "width": 618.4714499449767,
+            "height": 147.88246189969044
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_card1_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "96be607a-dd35-4915-91e6-431884990989"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 680.6349885216728,
+        "height": 195.76327496479593
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2c56ac48-6de0-4c18-ad90-f652253a493f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "8e922693-ab1d-483c-90d1-e16347d7b209",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kagqu3n36lpqwwe0",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 680.6349885216728,
+            "height": 195.76327496479598
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "hstack_card2_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "5d67a630-2e61-444a-8751-9a91d1f773dc",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "02",
+                  "areaSize": 3434.6728,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 92,
+                    "height": 37.3334
+                  },
+                  "fontFamily": "femrhi27iy3jeey8",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "8aae4aac-68fa-4034-9337-b3ec8f1bb10a",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "차별화된 사용자 경험",
+                  "areaSize": 8511.9924,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 390.4714499449765,
+                    "y": 2,
+                    "width": 228,
+                    "height": 37.333299999999994
+                  },
+                  "fontFamily": "f087tych978v7csy",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 9
+                  }
+                }
+              ],
+              "position": {
+                "x": 4.547473508864641e-13,
+                "y": 0,
+                "width": 618.4714499449765,
+                "height": 39.33330000000001
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "5d67a630-2e61-444a-8751-9a91d1f773dc"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8aae4aac-68fa-4034-9337-b3ec8f1bb10a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8ae34d0f-29ff-43d4-adeb-dcd7b3565b1e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "고객의 참여와 만족도를 높이는 차별화된 사용자 경험을 설명합니다. \n고객의 서비스 체류 시간을 늘리고 재사용률을 높이는지 보여주세요.",
+              "areaSize": 47003.75624999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 75.90121189969045,
+                "width": 653,
+                "height": 71.98124999999999
+              },
+              "fontFamily": "f6ev54s5egkwbhm6",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 33,
+                "maxCharsPerLine": 33
+              }
+            }
+          ],
+          "position": {
+            "x": 28.48123063901062,
+            "y": 15.720309692605042,
+            "width": 653,
+            "height": 147.8824618996905
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_card2_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8ae34d0f-29ff-43d4-adeb-dcd7b3565b1e"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 2.2737367544323206e-13,
+        "y": 236.45258293009465,
+        "width": 681.4812306390106,
+        "height": 195.76327496479598
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "8e922693-ab1d-483c-90d1-e16347d7b209"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "81c1d0ce-46a0-4f65-9d68-717edf8d109d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kagqu3n36lpqwwe0",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 680.6349885216728,
+            "height": 195.76327496479598
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "hstack_card3_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "f2af3d30-1bbe-4a7a-b59e-5da27ba5d0ef",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "03",
+                  "areaSize": 3434.6728,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 92,
+                    "height": 37.3334
+                  },
+                  "fontFamily": "femrhi27iy3jeey8",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 5,
+                    "maxCharsPerLine": 5
+                  }
+                },
+                {
+                  "id": "be34c406-2a1c-49ff-a901-5e99309bcae5",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "품질 및 신뢰도",
+                  "areaSize": 5861.328099999999,
+                  "fontSize": 26.667,
+                  "position": {
+                    "x": 461.4714499449765,
+                    "y": 2,
+                    "width": 157,
+                    "height": 37.333299999999994
+                  },
+                  "fontFamily": "f087tych978v7csy",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 6
+                  }
+                }
+              ],
+              "position": {
+                "x": 1.9156662753980527,
+                "y": 0,
+                "width": 618.4714499449765,
+                "height": 39.33330000000001
+              },
+              "alignment": "center",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f2af3d30-1bbe-4a7a-b59e-5da27ba5d0ef"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "be34c406-2a1c-49ff-a901-5e99309bcae5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "7afdd104-dd80-4dde-81f8-478de7a4b3cc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "기술 외적인 부분에서 회사가 제공하는 핵심적인 가치를 설명합니다. \n고객 충성도를 구축하고 가치를 높이는 중요한 요소가 될 수 있습니다.",
+              "areaSize": 47147.71874999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 75.90121189969022,
+                "width": 655,
+                "height": 71.98124999999999
+              },
+              "fontFamily": "f6ev54s5egkwbhm6",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 33,
+                "maxCharsPerLine": 33
+              }
+            }
+          ],
+          "position": {
+            "x": 26.56556436361302,
+            "y": 15.720309692605156,
+            "width": 655,
+            "height": 147.88246189969016
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_card3_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7afdd104-dd80-4dde-81f8-478de7a4b3cc"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1.9156662753978253,
+        "y": 474.07452085436444,
+        "width": 681.565564363613,
+        "height": 195.76327496479598
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "81c1d0ce-46a0-4f65-9d68-717edf8d109d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 1035.576778854567,
+    "y": 507.1738615930646,
+    "width": 683.4812306390108,
+    "height": 669.8377958191604
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ]
+}

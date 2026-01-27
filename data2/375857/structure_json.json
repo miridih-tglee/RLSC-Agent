@@ -1,0 +1,1336 @@
+{
+  "id": "hstack_cards_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_left_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "0b1010b6-d694-46ef-ad56-a9fc1cfc94f2",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 549.6967317562664,
+            "height": 735.3591463205612
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "00f64777-896b-4d95-8a1e-9cedeacf9db7",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k3upogkov0hhw8hl",
+              "position": {
+                "x": 193.70432142998015,
+                "y": 0,
+                "width": 84.6854219650944,
+                "height": 120.71394278076696
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "771675dc-14e7-4396-bf35-9a465326e57e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "에너지 절감",
+              "areaSize": 20722.552499999998,
+              "fontSize": 48,
+              "position": {
+                "x": 81.84703241252737,
+                "y": 154.87282956431432,
+                "width": 308.4,
+                "height": 67.19375
+              },
+              "fontFamily": "fr5me9c41oa5pmmk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 5,
+                "maxCharsPerLine": 5
+              }
+            },
+            {
+              "id": "vstack_left_body",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "hstack_left_row1",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "89a8142b-68c7-4666-8615-d20c53443498",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 11.96464565866097,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "73307235-0a48-443a-9874-55a966d69b13",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "해당 페이지는 목표에 관해 간단히 보여주는 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073341,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 472.1042231307335,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "89a8142b-68c7-4666-8615-d20c53443498"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "73307235-0a48-443a-9874-55a966d69b13"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_left_row2",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "3744bb69-932f-467b-9a5e-13a60ea32026",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 11.96464565866097,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "db3e177f-b0b1-460c-8bdd-97042c8b9989",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표 별 키워드를 깔끔하게 정리하기 좋은 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073341,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 97.73899371069194,
+                    "width": 472.1042231307335,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "3744bb69-932f-467b-9a5e-13a60ea32026"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "db3e177f-b0b1-460c-8bdd-97042c8b9989"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_left_row3",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "ae42c193-3b28-43b8-9dfb-469c119729ca",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 11.96464565866097,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "d036fc3e-db5a-455e-a6df-b66bd2220887",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표를 달성하기 위해 진행했던 활동을 적어주세요.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073341,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 195.4779874213839,
+                    "width": 472.1042231307335,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "ae42c193-3b28-43b8-9dfb-469c119729ca"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "d036fc3e-db5a-455e-a6df-b66bd2220887"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_left_row4",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "08004a0a-ae96-4819-850d-48ac6e1bcf0e",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 11.96464565866097,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "fa2bd09d-e20c-403f-8e14-7b1ecead0743",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표의 성과도 간략하게 정리해 적어주면 좋습니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073341,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 293.2169811320757,
+                    "width": 472.1042231307335,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "08004a0a-ae96-4819-850d-48ac6e1bcf0e"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "fa2bd09d-e20c-403f-8e14-7b1ecead0743"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 263.33080305261296,
+                "width": 472.1042231307335,
+                "height": 365.2274311320757
+              },
+              "alignment": "leading",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "patterns": [
+                    [
+                      "hstack_left_row1",
+                      "hstack_left_row2",
+                      "hstack_left_row3",
+                      "hstack_left_row4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 38.801333465605865,
+            "y": 50.26378448370565,
+            "width": 472.1042231307335,
+            "height": 628.5582341846887
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "00f64777-896b-4d95-8a1e-9cedeacf9db7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "771675dc-14e7-4396-bf35-9a465326e57e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_left_body"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 549.6967317562664,
+        "height": 735.3591463205612
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0b1010b6-d694-46ef-ad56-a9fc1cfc94f2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_center_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "7549b13c-3958-41f3-ab31-4a27855c62cb",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 550,
+            "height": 735.3591463205612
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_center_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "6ae83a25-7271-4243-a163-38d6429e844a",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kdaif0ohmbc4esyf",
+              "position": {
+                "x": 181.13572515817714,
+                "y": 0,
+                "width": 109.8226145087001,
+                "height": 123.30696361215712
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "830cd77f-aaaa-46a1-a610-b0280b154e9d",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "녹색 제품 구매",
+              "areaSize": 23215.440625,
+              "fontSize": 48,
+              "position": {
+                "x": 63.2970324125273,
+                "y": 154.87282956431432,
+                "width": 345.5,
+                "height": 67.19375
+              },
+              "fontFamily": "fr5me9c41oa5pmmk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 6,
+                "maxCharsPerLine": 6
+              }
+            },
+            {
+              "id": "vstack_center_body",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "hstack_center_row1",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "aba6e4a9-c8ad-4679-808a-4a2f61b1f27c",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "975ccdda-7ba1-4c3d-9360-4e47111b9fc1",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "해당 페이지는 목표에 관해 간단히 보여주는 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 472.10422313073354,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "aba6e4a9-c8ad-4679-808a-4a2f61b1f27c"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "975ccdda-7ba1-4c3d-9360-4e47111b9fc1"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_center_row2",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "cc108950-0364-4173-90df-df6826640000",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "257815b3-12a1-44c0-ad8b-9c2b9e69a416",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표 별 키워드를 깔끔하게 정리하기 좋은 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 97.73899371069194,
+                    "width": 472.10422313073354,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "cc108950-0364-4173-90df-df6826640000"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "257815b3-12a1-44c0-ad8b-9c2b9e69a416"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_center_row3",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "94260556-e790-44d8-9f67-0a5776cb2d60",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "a5dbde68-d157-402e-bdd6-380133b981e5",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표를 달성하기 위해 진행했던 활동을 적어주세요.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 195.4779874213839,
+                    "width": 472.10422313073354,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "94260556-e790-44d8-9f67-0a5776cb2d60"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "a5dbde68-d157-402e-bdd6-380133b981e5"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_center_row4",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "d380b215-b611-49e0-a72d-f5f2692fd222",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "7f26bd6d-e933-4bef-a4a3-73009d1bc5bb",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표의 성과도 간략하게 정리해 적어주면 좋습니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 293.2169811320757,
+                    "width": 472.10422313073354,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "d380b215-b611-49e0-a72d-f5f2692fd222"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "7f26bd6d-e933-4bef-a4a3-73009d1bc5bb"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 263.33080305261296,
+                "width": 472.10422313073354,
+                "height": 365.2274311320757
+              },
+              "alignment": "leading",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "patterns": [
+                    [
+                      "hstack_center_row1",
+                      "hstack_center_row2",
+                      "hstack_center_row3",
+                      "hstack_center_row4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 37.846055758434204,
+            "y": 50.26378448370565,
+            "width": 472.10422313073354,
+            "height": 628.5582341846887
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "6ae83a25-7271-4243-a163-38d6429e844a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "830cd77f-aaaa-46a1-a610-b0280b154e9d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_center_body"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 603.8036435853045,
+        "y": 0,
+        "width": 550,
+        "height": 735.3591463205612
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "7549b13c-3958-41f3-ab31-4a27855c62cb"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_center_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_right_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "f0d0877d-c7eb-479f-a98e-f47172340b6f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 549.5435893849196,
+            "height": 734.5944404382083
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_right_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "e80a421d-ffbf-4c3a-b6b4-03c14d76027d",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "koxioocbtauugmng",
+              "position": {
+                "x": 166.51254119594478,
+                "y": 0,
+                "width": 131.06898243316596,
+                "height": 115.3413240135244
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "16e4303d-d552-4ad1-abda-d60caacc8314",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "친환경 캠페인",
+              "areaSize": 27703.983125,
+              "fontSize": 48,
+              "position": {
+                "x": 29.89703241252755,
+                "y": 154.87282956431432,
+                "width": 412.3,
+                "height": 67.19375
+              },
+              "fontFamily": "fr5me9c41oa5pmmk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            },
+            {
+              "id": "vstack_right_body",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "hstack_right_row1",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "e08eccfd-5326-430a-8fa6-670a721eddc8",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "8bde4dc8-cca7-438b-8f21-929cb067b752",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "해당 페이지는 목표에 관해 간단히 보여주는 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 472.10422313073377,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "e08eccfd-5326-430a-8fa6-670a721eddc8"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "8bde4dc8-cca7-438b-8f21-929cb067b752"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_right_row2",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "e3ceac61-47f1-4498-9878-1e27ea26c179",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "ddcd8e51-2cc3-4566-94ca-9d4ce0feed3c",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표 별 키워드를 깔끔하게 정리하기 좋은 페이지입니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 4.547473508864641e-13,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 97.73899371069194,
+                    "width": 472.10422313073377,
+                    "height": 72.01045000000045
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "e3ceac61-47f1-4498-9878-1e27ea26c179"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "ddcd8e51-2cc3-4566-94ca-9d4ce0feed3c"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_right_row3",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "732bba40-c820-4ae5-a7b1-a9b9c2ef9365",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "d89024d9-df5f-42a0-88d7-f5c652ffec03",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표를 달성하기 위해 진행했던 활동을 적어주세요.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 4.547473508864641e-13,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 195.4779874213839,
+                    "width": 472.10422313073377,
+                    "height": 72.01045000000045
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "732bba40-c820-4ae5-a7b1-a9b9c2ef9365"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "d89024d9-df5f-42a0-88d7-f5c652ffec03"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hstack_right_row4",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "children": [
+                    {
+                      "id": "6d026db6-86e4-426a-af37-ac5bfa251cc9",
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "svgData": "95c7d031-11ef-47b0-9213-1a0579e3a4bd",
+                      "position": {
+                        "x": 0,
+                        "y": 0,
+                        "width": 47.73740868267805,
+                        "height": 47.73740868267805
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "5ae3825f-e68e-4fb5-a177-31d44195e610",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "목표의 성과도 간략하게 정리해 적어주면 좋습니다.",
+                      "areaSize": 29351.45942,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 64.50422313073364,
+                        "y": 0,
+                        "width": 407.6,
+                        "height": 72.01044999999999
+                      },
+                      "fontFamily": "fcxmynl0w6r9vb0u",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 32,
+                        "maxCharsPerLine": 16
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0,
+                    "y": 293.21698113207594,
+                    "width": 472.10422313073377,
+                    "height": 72.01044999999999
+                  },
+                  "alignment": "center",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Marker",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "6d026db6-86e4-426a-af37-ac5bfa251cc9"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "5ae3825f-e68e-4fb5-a177-31d44195e610"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 263.3308030526125,
+                "width": 472.10422313073377,
+                "height": 365.22743113207594
+              },
+              "alignment": "leading",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "HStack",
+                  "patterns": [
+                    [
+                      "hstack_right_row1",
+                      "hstack_right_row2",
+                      "hstack_right_row3",
+                      "hstack_right_row4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 38.72476227993229,
+            "y": 50.26378448370565,
+            "width": 472.10422313073377,
+            "height": 628.5582341846884
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e80a421d-ffbf-4c3a-b6b4-03c14d76027d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "16e4303d-d552-4ad1-abda-d60caacc8314"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_right_body"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1207.910555414342,
+        "y": 0,
+        "width": 549.5435893849196,
+        "height": 734.5944404382083
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "f0d0877d-c7eb-479f-a98e-f47172340b6f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_right_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 90.6243237643123,
+    "y": 195.71275317832047,
+    "width": 1757.4541447992615,
+    "height": 735.3591463205612
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_left_card"
+        ],
+        [
+          "group_center_card"
+        ],
+        [
+          "group_right_card"
+        ]
+      ]
+    }
+  ]
+}

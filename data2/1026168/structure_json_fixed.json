@@ -1,0 +1,701 @@
+{
+  "id": "grid_cards",
+  "gap": 19.36,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "78f6554e-2969-4ded-896d-f9cc1e2bf622",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 537.722172203203,
+            "height": 551.7832346271382
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "dc9477ba-942f-4efc-b999-ff1d259c29aa",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "월간 반복 매출 (MRR) 성장 추이 ",
+              "areaSize": 14949.168,
+              "fontSize": 25.675,
+              "position": {
+                "x": 29.44,
+                "y": 0.0,
+                "width": 416,
+                "height": 35.9355
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "group_card1_chart",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "04510c27-452f-4d92-a91b-d23ac1554547",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 474.8830450746559,
+                    "height": 322.2883476259359
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "9f2e7d51-f392-4180-8fea-5435af033c42",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "position": {
+                    "x": 16.37,
+                    "y": 29.47,
+                    "width": 439.07444969722087,
+                    "height": 257.56205214368424
+                  },
+                  "rowCount": 9,
+                  "chartType": "AREA_LINE_CHART",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 55.31,
+                "width": 474.8830450746559,
+                "height": 322.2883476259359
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "04510c27-452f-4d92-a91b-d23ac1554547"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "patterns": [
+                    [
+                      "9f2e7d51-f392-4180-8fea-5435af033c42"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 29.47,
+                "bottom": 35.26,
+                "left": 16.37,
+                "right": 19.44
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "bbd754bb-e1a3-4d98-95ac-830a345c5f6d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우리의 수익 모델이 얼마나 안정적으로\n성장하고 있는지를 보여줍니다.",
+              "areaSize": 28579.978125,
+              "fontSize": 22.667,
+              "position": {
+                "x": 12.29,
+                "y": 416.18,
+                "width": 450.3,
+                "height": 63.46875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 28.95,
+            "y": 27.67,
+            "width": 474.8830450746559,
+            "height": 479.65034138867554
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "dc9477ba-942f-4efc-b999-ff1d259c29aa"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_card1_chart"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bbd754bb-e1a3-4d98-95ac-830a345c5f6d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 28.98
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 537.722172203203,
+        "height": 551.7832346271382
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "78f6554e-2969-4ded-896d-f9cc1e2bf622"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 27.67,
+        "bottom": 44.46,
+        "left": 28.95,
+        "right": 33.89
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "a5126d61-7b97-4490-b9d2-75b07c009d2f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 537.722172203203,
+            "height": 551.7832346271382
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "a50a4907-cff4-4a06-8545-ef24a5526f7c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "총 거래액 (GMV) 증가율",
+              "areaSize": 14949.168,
+              "fontSize": 25.675,
+              "position": {
+                "x": 29.44,
+                "y": 0.0,
+                "width": 416,
+                "height": 35.9355
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "group_card2_chart",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "80fa4709-6b73-4893-a759-6ba92d4e271c",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 474.8830450746559,
+                    "height": 322.2883476259359
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "622b74ef-d931-489f-8ea5-1e3ca5e9b446",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "position": {
+                    "x": 16.9,
+                    "y": 29.47,
+                    "width": 439.07444969722087,
+                    "height": 257.56205214368424
+                  },
+                  "rowCount": 9,
+                  "chartType": "AREA_LINE_CHART",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 55.31,
+                "width": 474.8830450746559,
+                "height": 322.2883476259359
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "80fa4709-6b73-4893-a759-6ba92d4e271c"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "patterns": [
+                    [
+                      "622b74ef-d931-489f-8ea5-1e3ca5e9b446"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 29.47,
+                "bottom": 35.26,
+                "left": 16.9,
+                "right": 18.91
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "71eeba90-a410-4c0f-b01f-119ba6640f7a",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우리 플랫폼에서 발생하는 전체 거래 규모가\n폭발적으로 성장하고 있음을 증명합니다.",
+              "areaSize": 28579.978125,
+              "fontSize": 22.667,
+              "position": {
+                "x": 12.29,
+                "y": 416.18,
+                "width": 450.3,
+                "height": 63.46875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 31.42,
+            "y": 27.67,
+            "width": 474.8830450746559,
+            "height": 479.65034138867554
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a50a4907-cff4-4a06-8545-ef24a5526f7c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_card2_chart"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "71eeba90-a410-4c0f-b01f-119ba6640f7a"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 28.98
+        }
+      ],
+      "position": {
+        "x": 557.08,
+        "y": 0.0,
+        "width": 537.722172203203,
+        "height": 551.7832346271382
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a5126d61-7b97-4490-b9d2-75b07c009d2f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 27.67,
+        "bottom": 44.46,
+        "left": 31.42,
+        "right": 31.42
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "f879decd-a1b5-4fce-9a75-44c47ec63c67",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 537.722172203203,
+            "height": 551.7832346271382
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "f692fd63-64ef-411a-a4ff-443b552463e4",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "고객당 평균 수익 (ARPU) 변화",
+              "areaSize": 14949.168,
+              "fontSize": 25.675,
+              "position": {
+                "x": 29.44,
+                "y": 0.0,
+                "width": 416,
+                "height": 35.9355
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "group_card3_chart",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "f8952595-ece6-4f8e-bc37-ab6d4226b803",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 474.8830450746559,
+                    "height": 322.2883476259359
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "ff3cdfcf-f688-47f9-a602-d6eb73c1f00b",
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "position": {
+                    "x": 29.13,
+                    "y": 32.28,
+                    "width": 416.61830934634304,
+                    "height": 258.9706931579513
+                  },
+                  "rowCount": 6,
+                  "chartType": "BAR_CHART_VER",
+                  "seriesAxis": "columns",
+                  "columnCount": 2,
+                  "patternLabel": "B"
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 55.31,
+                "width": 474.8830450746559,
+                "height": 322.2883476259359
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "f8952595-ece6-4f8e-bc37-ab6d4226b803"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Chart",
+                  "patterns": [
+                    [
+                      "ff3cdfcf-f688-47f9-a602-d6eb73c1f00b"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 32.28,
+                "bottom": 31.04,
+                "left": 29.13,
+                "right": 29.13
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "bb5a9c12-93fe-48ba-ad9e-7b6a752e82fd",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "시간이 지남에 따라 고객 한 명당 창출하는\n수익이 꾸준히 증가하고 있음을 보여줍니다.",
+              "areaSize": 28579.978125,
+              "fontSize": 22.667,
+              "position": {
+                "x": 12.29,
+                "y": 416.18,
+                "width": 450.3,
+                "height": 63.46875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 31.42,
+            "y": 27.67,
+            "width": 474.8830450746559,
+            "height": 479.65034138867554
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f692fd63-64ef-411a-a4ff-443b552463e4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_card3_chart"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bb5a9c12-93fe-48ba-ad9e-7b6a752e82fd"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 28.98
+        }
+      ],
+      "position": {
+        "x": 1114.16,
+        "y": 0.0,
+        "width": 537.722172203203,
+        "height": 551.7832346271382
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "f879decd-a1b5-4fce-9a75-44c47ec63c67"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 27.67,
+        "bottom": 44.46,
+        "left": 31.42,
+        "right": 31.42
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 33.83,
+    "y": 296.72,
+    "width": 1651.8843411986688,
+    "height": 551.7832346271382
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  }
+}

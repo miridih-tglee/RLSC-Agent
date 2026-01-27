@@ -1,0 +1,682 @@
+{
+  "id": "group_cards_with_ring",
+  "role": "Role.LayoutContainer.Description",
+  "type": "Group",
+  "children": [
+    {
+      "id": "a91081d9-da89-4aac-a975-0c5b9e7f3a11",
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "svgData": "fdc1dd0b-19e5-4e81-81dd-0b19e56e8171",
+      "position": {
+        "x": 0,
+        "y": 0.0,
+        "width": 1467.9097123040124,
+        "height": 348.3368074630295
+      },
+      "patternLabel": "A"
+    },
+    {
+      "id": "hstack_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_card_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "ef2aa975-4d9d-48f2-9257-bffafd8c70b1",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "❶",
+              "areaSize": 2273.0829184,
+              "fontSize": 39.999,
+              "position": {
+                "x": 124.93,
+                "y": 0.0,
+                "width": 40.6,
+                "height": 55.987263999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 1
+              }
+            },
+            {
+              "id": "ac741390-7bf6-4e09-a2ca-a7613b660fae",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "1 ~ 2주차",
+              "areaSize": 13442.246632100001,
+              "fontSize": 37.332,
+              "position": {
+                "x": 16.66,
+                "y": 61.85,
+                "width": 257.3,
+                "height": 52.243477
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "99e005dd-ac5e-4d28-bf65-63cecfe962ce",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이론 : 정전기의 원리 알아보기\n실험 : 정전기로 악기 만들기",
+              "areaSize": 19574.327039999996,
+              "fontSize": 20.168,
+              "position": {
+                "x": 0.0,
+                "y": 266.95,
+                "width": 334.7,
+                "height": 58.4832
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 334.70000000000005,
+            "height": 325.43398484394663
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ef2aa975-4d9d-48f2-9257-bffafd8c70b1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ac741390-7bf6-4e09-a2ca-a7613b660fae"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "99e005dd-ac5e-4d28-bf65-63cecfe962ce"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 79.36
+        },
+        {
+          "id": "vstack_card_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b8994c0e-99cc-444b-a945-bcffe2fe3542",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "❷",
+              "areaSize": 6203.388851199999,
+              "fontSize": 39.999,
+              "position": {
+                "x": 84.9,
+                "y": 0.0,
+                "width": 110.8,
+                "height": 55.987263999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 3
+              }
+            },
+            {
+              "id": "f32b0ca9-36b3-4634-8cd6-43f2f2e522ce",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "3~4주차",
+              "areaSize": 13442.246632100001,
+              "fontSize": 37.332,
+              "position": {
+                "x": 11.72,
+                "y": 61.65,
+                "width": 257.3,
+                "height": 52.243477
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "8fe212d4-1829-47e1-a854-064abb7832e1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이론 : 에너지의 원리 알아보기\n실험 : 태양광 자동차 만들기",
+              "areaSize": 15790.464,
+              "fontSize": 20.168,
+              "position": {
+                "x": 0.0,
+                "y": 266.95,
+                "width": 270,
+                "height": 58.4832
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 13,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 289.94,
+            "y": 0.0,
+            "width": 270,
+            "height": 325.43398484394663
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b8994c0e-99cc-444b-a945-bcffe2fe3542"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f32b0ca9-36b3-4634-8cd6-43f2f2e522ce"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8fe212d4-1829-47e1-a854-064abb7832e1"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 79.36
+        },
+        {
+          "id": "vstack_card_3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "7d68c72d-1fbe-4f01-8a78-72cc9798f230",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "❸",
+              "areaSize": 2664.9937664,
+              "fontSize": 39.999,
+              "position": {
+                "x": 104.78,
+                "y": 0.0,
+                "width": 47.6,
+                "height": 55.987263999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 1
+              }
+            },
+            {
+              "id": "6aac07a0-36c4-40e1-a267-d0fea52f911c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "5~6주차",
+              "areaSize": 13442.246632100001,
+              "fontSize": 37.332,
+              "position": {
+                "x": 0.0,
+                "y": 61.91,
+                "width": 257.3,
+                "height": 52.243477
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "c5ffba61-fb92-4394-b990-8062230d8f32",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이론 : 진동의 원리 알아보기\n실험 : 진동 그림 로봇 만들기",
+              "areaSize": 15018.48576,
+              "fontSize": 20.168,
+              "position": {
+                "x": 9.02,
+                "y": 266.95,
+                "width": 256.8,
+                "height": 58.4832
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 13,
+                "maxCharsPerLine": 13
+              }
+            }
+          ],
+          "position": {
+            "x": 582.36,
+            "y": 0.0,
+            "width": 265.81880126258216,
+            "height": 325.43398484394663
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "7d68c72d-1fbe-4f01-8a78-72cc9798f230"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6aac07a0-36c4-40e1-a267-d0fea52f911c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c5ffba61-fb92-4394-b990-8062230d8f32"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 79.36
+        },
+        {
+          "id": "vstack_card_4",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "1318e7c7-d6a1-49ed-8224-32b4b395b16a",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "❹",
+              "areaSize": 2720.9810304,
+              "fontSize": 39.999,
+              "position": {
+                "x": 104.28,
+                "y": 0.0,
+                "width": 48.6,
+                "height": 55.987263999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 1
+              }
+            },
+            {
+              "id": "f8249919-412a-46c7-b3bb-f665b53e9630",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "7~8주차",
+              "areaSize": 13442.246632100001,
+              "fontSize": 37.332,
+              "position": {
+                "x": 0.0,
+                "y": 62.02,
+                "width": 257.3,
+                "height": 52.243477
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "f743f437-8e1a-4825-a805-370fc68b7d67",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이론 : 빛의 원리 알아보기실험 : 인공 무지개 만들기",
+              "areaSize": 13784.49024,
+              "fontSize": 20.168,
+              "position": {
+                "x": 14.8,
+                "y": 266.95,
+                "width": 235.7,
+                "height": 58.4832
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 12,
+                "maxCharsPerLine": 12
+              }
+            }
+          ],
+          "position": {
+            "x": 863.75,
+            "y": 0.0,
+            "width": 257.29999999999995,
+            "height": 325.43398484394663
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1318e7c7-d6a1-49ed-8224-32b4b395b16a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f8249919-412a-46c7-b3bb-f665b53e9630"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f743f437-8e1a-4825-a805-370fc68b7d67"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 79.36
+        },
+        {
+          "id": "vstack_card_5",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "60fc7795-7119-4b46-8c7f-87ab09836947",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "❺",
+              "areaSize": 2664.9937664,
+              "fontSize": 39.999,
+              "position": {
+                "x": 104.78,
+                "y": 0.0,
+                "width": 47.6,
+                "height": 55.987263999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 1
+              }
+            },
+            {
+              "id": "c9281843-6cfb-48a3-9572-5e2d9422458e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "9~10주차",
+              "areaSize": 13442.246632100001,
+              "fontSize": 37.332,
+              "position": {
+                "x": 0.0,
+                "y": 62.08,
+                "width": 257.3,
+                "height": 52.243477
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "663e39d1-308e-4ac6-a804-e5926887804b",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이론 : 미생물 원리 알아보기\n실험 : 자외선 살균기 만들기",
+              "areaSize": 28247.385599999998,
+              "fontSize": 20.168,
+              "position": {
+                "x": 1.68,
+                "y": 266.95,
+                "width": 483,
+                "height": 58.4832
+              },
+              "fontFamily": "f2r8qn68yqgr3583",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 24,
+                "maxCharsPerLine": 24
+              }
+            }
+          ],
+          "position": {
+            "x": 1157.59,
+            "y": 0.0,
+            "width": 484.6788012625823,
+            "height": 325.4339848439464
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "60fc7795-7119-4b46-8c7f-87ab09836947"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c9281843-6cfb-48a3-9572-5e2d9422458e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "663e39d1-308e-4ac6-a804-e5926887804b"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 79.36
+        }
+      ],
+      "position": {
+        "x": 22.98,
+        "y": 114.95,
+        "width": 1642.2639999999997,
+        "height": 325.43398484394663
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_1",
+              "vstack_card_2",
+              "vstack_card_3",
+              "vstack_card_4",
+              "vstack_card_5"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 24.84
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 261.0,
+    "width": 1665.2413806326235,
+    "height": 440.3855115730018
+  },
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "patterns": [
+        [
+          "a91081d9-da89-4aac-a975-0c5b9e7f3a11"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_cards"
+        ]
+      ]
+    }
+  ],
+  "padding": {
+    "top": 114.95,
+    "bottom": 0.0,
+    "left": 22.98,
+    "right": 0
+  },
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
+}

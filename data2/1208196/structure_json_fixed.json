@@ -1,0 +1,716 @@
+{
+  "id": "hstack_main_blocks",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_left_block",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "ebbffdca-2943-442e-a363-c0b7e4b1b17b",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "청소년 및 어린이 예술 지원 확대",
+          "areaSize": 50423.17034999999,
+          "fontSize": 53.331999999999994,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 675.5,
+            "height": 74.64569999999999
+          },
+          "fontFamily": "f8e6e9l6pe3cau28",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        },
+        {
+          "id": "group_left_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "594ee811-9b58-4565-b788-8b3401536a35",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 840.4036540540532,
+                "height": 571.2224022965364
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "bb28ca0f-4e26-4d59-ac34-3320f7f413a0",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Table",
+              "children": [
+                {
+                  "id": "cc33d106-ccfb-4f37-aaff-1eda59ec6f82",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "프로그램명",
+                  "areaSize": 24774.441814284026,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "width": 219.196838706797,
+                    "height": 113.02371859214138
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "00a153d1-1f38-44f3-8ea3-0f2941ad4f27",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "예술로 살아나다",
+                  "areaSize": 61874.167889299584,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 2.0,
+                    "width": 547.4440998758798,
+                    "height": 113.02371859214138
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "b04c5ddb-9a27-4ab0-9297-77dbd07758d9",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "기간",
+                  "areaSize": 24774.441814284026,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 119.02,
+                    "width": 219.196838706797,
+                    "height": 113.02371859214138
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "a4e5ba59-f307-4bb7-be93-403e9f8cf499",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "20XX.10.14 ~ 12.24",
+                  "areaSize": 61874.167889299584,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 119.02,
+                    "width": 547.4440998758798,
+                    "height": 113.02371859214138
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "e15f3720-2d00-4ee3-b396-ce04a232c2eb",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "목적 및 내용",
+                  "areaSize": 35875.85603055689,
+                  "fontSize": 33.332432432432434,
+                  "position": {
+                    "x": 2.0,
+                    "y": 236.05,
+                    "width": 219.196838706797,
+                    "height": 163.6695868526886
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 5,
+                    "totalMaxChars": 35,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "eaded315-4477-4569-9888-2190d6e0b76b",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "청소년들의 예술 활동 참여를\n독려한다.",
+                  "areaSize": 89599.94965162725,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 236.05,
+                    "width": 547.4440998758798,
+                    "height": 163.6695868526886
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 45,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "8635d536-fe48-491d-bb76-3e0919e3fe78",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "성과 ",
+                  "areaSize": 23726.799353003862,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 403.72,
+                    "width": 219.196838706797,
+                    "height": 108.24425887246213
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "30f7ce32-f9c6-4778-b919-b3ac954898cb",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "134명 참여",
+                  "areaSize": 59257.680865166745,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 403.72,
+                    "width": 547.4440998758798,
+                    "height": 108.24425887246213
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                }
+              ],
+              "position": {
+                "x": 35.91,
+                "y": 32.13,
+                "width": 774.6409385826769,
+                "height": 513.9612829094335
+              },
+              "rowCount": 4,
+              "columnCount": 2,
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "cc33d106-ccfb-4f37-aaff-1eda59ec6f82",
+                      "b04c5ddb-9a27-4ab0-9297-77dbd07758d9",
+                      "8635d536-fe48-491d-bb76-3e0919e3fe78"
+                    ],
+                    [
+                      "00a153d1-1f38-44f3-8ea3-0f2941ad4f27",
+                      "a4e5ba59-f307-4bb7-be93-403e9f8cf499",
+                      "eaded315-4477-4569-9888-2190d6e0b76b",
+                      "30f7ce32-f9c6-4778-b919-b3ac954898cb"
+                    ],
+                    [
+                      "e15f3720-2d00-4ee3-b396-ce04a232c2eb"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 2.0,
+                "bottom": 2.0,
+                "left": 2.0,
+                "right": 2.0
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 107.98,
+            "width": 840.4036540540532,
+            "height": 571.2224022965364
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "594ee811-9b58-4565-b788-8b3401536a35"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Table",
+              "patterns": [
+                [
+                  "bb28ca0f-4e26-4d59-ac34-3320f7f413a0"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 32.13,
+            "bottom": 25.13,
+            "left": 35.91,
+            "right": 29.85
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 840.4036540540532,
+        "height": 679.2028523923027
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "ebbffdca-2943-442e-a363-c0b7e4b1b17b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_left_card"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 33.33
+    },
+    {
+      "id": "vstack_right_block",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "28e862ef-1a50-4724-95f4-cc574ff00061",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "미리센터 온라인 서비스 런칭",
+          "areaSize": 50423.17034999999,
+          "fontSize": 53.331999999999994,
+          "position": {
+            "x": 1.32,
+            "y": 0.0,
+            "width": 675.5,
+            "height": 74.64569999999999
+          },
+          "fontFamily": "f8e6e9l6pe3cau28",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 15,
+            "maxCharsPerLine": 15
+          }
+        },
+        {
+          "id": "group_right_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "1b53b870-379f-4e88-b9c7-4845041c74c4",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 840.4036540540532,
+                "height": 571.2224022965365
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0f0596d9-bc50-4089-98e6-8cfa2c9b351f",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Table",
+              "children": [
+                {
+                  "id": "fef8f639-6060-4a1e-acdb-2e5e995961bb",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "프로그램명",
+                  "areaSize": 24774.441814284008,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "width": 219.196838706797,
+                    "height": 113.0237185921413
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "eace04dd-6178-4b1b-b00b-5713c0666d85",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "온라인 교육 플랫폼",
+                  "areaSize": 61874.16788929953,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 2.0,
+                    "width": 547.4440998758798,
+                    "height": 113.0237185921413
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "eafa98f1-e993-4dc0-a561-3f024221e2fa",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "기간",
+                  "areaSize": 24774.441814284008,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 119.02,
+                    "width": 219.196838706797,
+                    "height": 113.0237185921413
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "1bfef953-1009-47be-8fed-fe0cb4d7070f",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "20XX.10.14 ~ 12.24",
+                  "areaSize": 61874.16788929953,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 119.02,
+                    "width": 547.4440998758798,
+                    "height": 113.0237185921413
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "e2a7178d-a2e9-4b9f-99b3-5f06fa959b66",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "목적 및 내용",
+                  "areaSize": 35875.85603055685,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 236.05,
+                    "width": 219.196838706797,
+                    "height": 163.66958685268847
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 5,
+                    "totalMaxChars": 35,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "db8d1a79-44d3-4b4d-8ae6-6b3d08b08b12",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "온라인을 통해 교육을 제공하는\n플랫폼을 구축한다.",
+                  "areaSize": 89599.94965162718,
+                  "fontSize": 39.99890047393365,
+                  "position": {
+                    "x": 225.2,
+                    "y": 236.05,
+                    "width": 547.4440998758798,
+                    "height": 163.66958685268847
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 45,
+                    "maxCharsPerLine": 15
+                  }
+                },
+                {
+                  "id": "3b88a2ad-67c7-4f05-a5f3-7fe70cdff2be",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "성과 ",
+                  "areaSize": 23726.799353003942,
+                  "fontSize": 33.332499999999996,
+                  "position": {
+                    "x": 2.0,
+                    "y": 403.72,
+                    "width": 219.196838706797,
+                    "height": 108.2442588724625
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 3,
+                    "totalMaxChars": 21,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "3fd21fc0-8842-495a-b982-4e93dcdcb6a9",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "월간 방문자수 1000명",
+                  "areaSize": 59257.68086516695,
+                  "fontSize": 39.99892913385827,
+                  "position": {
+                    "x": 225.2,
+                    "y": 403.72,
+                    "width": 547.4440998758798,
+                    "height": 108.2442588724625
+                  },
+                  "fontFamily": "fgvdme3g6xj57o6n",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 30,
+                    "maxCharsPerLine": 15
+                  }
+                }
+              ],
+              "position": {
+                "x": 36.3,
+                "y": 32.13,
+                "width": 774.6409385826769,
+                "height": 513.9612829094335
+              },
+              "rowCount": 4,
+              "columnCount": 2,
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "fef8f639-6060-4a1e-acdb-2e5e995961bb",
+                      "eafa98f1-e993-4dc0-a561-3f024221e2fa",
+                      "e2a7178d-a2e9-4b9f-99b3-5f06fa959b66",
+                      "3b88a2ad-67c7-4f05-a5f3-7fe70cdff2be"
+                    ],
+                    [
+                      "eace04dd-6178-4b1b-b00b-5713c0666d85",
+                      "1bfef953-1009-47be-8fed-fe0cb4d7070f",
+                      "3fd21fc0-8842-495a-b982-4e93dcdcb6a9"
+                    ],
+                    [
+                      "db8d1a79-44d3-4b4d-8ae6-6b3d08b08b12"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 2.0,
+                "bottom": 2.0,
+                "left": 2.0,
+                "right": 2.0
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 107.98,
+            "width": 840.4036540540532,
+            "height": 571.2224022965365
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1b53b870-379f-4e88-b9c7-4845041c74c4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Table",
+              "patterns": [
+                [
+                  "0f0596d9-bc50-4089-98e6-8cfa2c9b351f"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 32.13,
+            "bottom": 25.13,
+            "left": 36.3,
+            "right": 29.46
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 880.23,
+        "y": 0.0,
+        "width": 840.4036540540532,
+        "height": 679.2028523923027
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "28e862ef-1a50-4724-95f4-cc574ff00061"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_right_card"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 33.33
+    }
+  ],
+  "position": {
+    "x": 94.65,
+    "y": 309.66,
+    "width": 1720.6365318628145,
+    "height": 679.2028523923027
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_block"
+        ],
+        [
+          "vstack_right_block"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 39.83
+}

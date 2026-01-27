@@ -1,0 +1,549 @@
+{
+  "id": "vstack_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_card_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "4c1ad7d1-2346-4f69-8f6a-62712dc82b5c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k9n516j5xxkevcfq",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 806.2240849749417,
+            "height": 166.47904265960983
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card1_inner",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "bd30e9de-cd80-4ad2-819a-681d0fc1840f",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kkmc9srvw1273bct",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 139.43609022556404,
+                "height": 139.43609022556393
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card1_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "61cbc7b9-7318-4c58-b5c9-f26ef05583e6",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "소제목을 입력해주세요",
+                  "areaSize": 22584.136049999997,
+                  "fontSize": 28.163,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 573,
+                    "height": 39.41385
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 23,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "7636da3d-5fa9-4e47-b87a-8288eb2b3244",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "텍스트를 입력해주세요. 해당 페이지에 대한 세부 내용을 적어주세요.\n사용한 서체는 프리텐다드 Regular입니다. 텍스트를 입력해주세요. ",
+                  "areaSize": 35060.70043999999,
+                  "fontSize": 21.122,
+                  "position": {
+                    "x": 0,
+                    "y": 51.665284841660934,
+                    "width": 572.3,
+                    "height": 61.2628
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 31,
+                    "maxCharsPerLine": 31
+                  }
+                }
+              ],
+              "position": {
+                "x": 166.92955308610055,
+                "y": 10.657574301839475,
+                "width": 573,
+                "height": 112.9280848416609
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "61cbc7b9-7318-4c58-b5c9-f26ef05583e6"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7636da3d-5fa9-4e47-b87a-8288eb2b3244"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 12.840674679829249,
+            "y": 14.325378444830108,
+            "width": 739.9295530861006,
+            "height": 139.43609022556393
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "bd30e9de-cd80-4ad2-819a-681d0fc1840f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card1_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 806.2240849749417,
+        "height": 166.47904265960983
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "4c1ad7d1-2346-4f69-8f6a-62712dc82b5c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card1_inner"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ef749193-dd48-4d5e-8625-60724918b1c1",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k9n516j5xxkevcfq",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 806.2240849749417,
+            "height": 166.47904265960983
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card2_inner",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "0a53bb79-c5e0-4f8d-9080-c81fd0e37646",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ke2zfgnv4q7xdon1",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 142.65714285714466,
+                "height": 142.65714285714262
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card2_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "a5219ede-4fef-4c3b-b3ce-7b9afbc8083d",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "소제목을 입력해주세요",
+                  "areaSize": 22584.136049999997,
+                  "fontSize": 28.163,
+                  "position": {
+                    "x": 4.547473508864641e-13,
+                    "y": 0,
+                    "width": 573,
+                    "height": 39.41385
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 23,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "35910db3-653b-4b3f-ad22-5101ea1c58fc",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "텍스트를 입력해주세요. 해당 페이지에 대한 세부 내용을 적어주세요.\n사용한 서체는 프리텐다드 Regular입니다. 텍스트를 입력해주세요. ",
+                  "areaSize": 35060.70043999999,
+                  "fontSize": 21.122,
+                  "position": {
+                    "x": 0,
+                    "y": 51.66528484166179,
+                    "width": 572.3,
+                    "height": 61.2628
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 31,
+                    "maxCharsPerLine": 31
+                  }
+                }
+              ],
+              "position": {
+                "x": 167.50120640269688,
+                "y": 12.451796427060799,
+                "width": 573.0000000000005,
+                "height": 112.92808484166176
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "a5219ede-4fef-4c3b-b3ce-7b9afbc8083d"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "35910db3-653b-4b3f-ad22-5101ea1c58fc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 10.288794980579269,
+            "y": 9.296786561273393,
+            "width": 740.5012064026973,
+            "height": 142.65714285714262
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0a53bb79-c5e0-4f8d-9080-c81fd0e37646"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card2_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 213.13836631964728,
+        "width": 806.2240849749417,
+        "height": 166.47904265960983
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ef749193-dd48-4d5e-8625-60724918b1c1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card2_inner"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "3ab7e54c-9f23-4d81-ad56-7760b74dbe72",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "k9n516j5xxkevcfq",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 806.2240849749417,
+            "height": 166.47904265960983
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_card3_inner",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "076860d7-3cf4-464c-83c1-9d5e14f2da04",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kmoifepigd3xkhpu",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 146.55338345864675,
+                "height": 146.55338345864698
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card3_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "29504a47-e095-43d4-8dfc-de5ce026ef84",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "소제목을 입력해주세요",
+                  "areaSize": 22584.136049999997,
+                  "fontSize": 28.163,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 573,
+                    "height": 39.41385
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 23,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "de359132-7d5b-4e57-b500-3600e317f22e",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "텍스트를 입력해주세요. 해당 페이지에 대한 세부 내용을 적어주세요.\n사용한 서체는 프리텐다드 Regular입니다. 텍스트를 입력해주세요. ",
+                  "areaSize": 35060.70043999999,
+                  "fontSize": 21.122,
+                  "position": {
+                    "x": 0,
+                    "y": 51.665284841661105,
+                    "width": 572.3,
+                    "height": 61.2628
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 31,
+                    "maxCharsPerLine": 31
+                  }
+                }
+              ],
+              "position": {
+                "x": 173.35135759737886,
+                "y": 15.19925490996684,
+                "width": 573,
+                "height": 112.92808484166108
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "29504a47-e095-43d4-8dfc-de5ce026ef84"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "de359132-7d5b-4e57-b500-3600e317f22e"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 6.418870168550939,
+            "y": 11.235863850648002,
+            "width": 746.3513575973789,
+            "height": 146.55338345864698
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "076860d7-3cf4-464c-83c1-9d5e14f2da04"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card3_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 426.2767326392948,
+        "width": 806.2240849749417,
+        "height": 166.47904265960983
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "3ab7e54c-9f23-4d81-ad56-7760b74dbe72"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_card3_inner"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 750.0389762167868,
+    "y": 0,
+    "width": 806.2240849749417,
+    "height": 592.7557752989046
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_1",
+          "group_card_2",
+          "group_card_3"
+        ]
+      ]
+    }
+  ]
+}

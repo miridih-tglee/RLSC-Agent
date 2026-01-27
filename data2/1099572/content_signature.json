@@ -1,0 +1,214 @@
+[
+  {
+    "role": "Description",
+    "type": "HStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 20,
+                  "maxCharsPerLine": 20
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Table",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Title",
+            "type": "Group",
+            "children": [
+              {
+                "role": "Background",
+                "type": "SVG"
+              },
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 20,
+                  "maxCharsPerLine": 20
+                }
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "Table",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 30,
+                  "maxCharsPerLine": 10
+                }
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 3,
+                  "totalMaxChars": 69,
+                  "maxCharsPerLine": 23
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

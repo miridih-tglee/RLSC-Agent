@@ -1,0 +1,963 @@
+{
+  "id": "vstack_content",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "6b3739be-11cb-4909-8488-3cebd2a0574c",
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "content": "이순신의 리더십에서 배울 점",
+      "areaSize": 196672.35119999998,
+      "fontSize": 79.998,
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1756,
+        "height": 112.00019999999999
+      },
+      "fontFamily": "frcaw8wbf0bgww3p",
+      "fontWeight": "700",
+      "patternLabel": "A",
+      "textCapacity": {
+        "maxLines": 0,
+        "totalMaxChars": 0,
+        "maxCharsPerLine": 26
+      }
+    },
+    {
+      "id": "hstack_comparison",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_left_column",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_left_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "55ea7237-dcd6-432e-a04b-92a819d3f894",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "ec2c2d07-6395-41ce-9356-32cd4778862b",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "이순신의 리더십",
+                  "areaSize": 35840.04,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 71.89,
+                    "y": 29.0,
+                    "width": 600,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "55ea7237-dcd6-432e-a04b-92a819d3f894"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "ec2c2d07-6395-41ce-9356-32cd4778862b"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 29.0,
+                "bottom": 31.27,
+                "left": 71.89,
+                "right": 78.11
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_left_row1",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "a0ce2ce8-fe64-4736-a19c-2c2de539d5e1",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "f21737c9-56f1-44b7-a7cc-a47ff71029c1",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "신뢰의 미덕",
+                  "areaSize": 36007.29351999999,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 68.77,
+                    "y": 28.98,
+                    "width": 602.8,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.11,
+                "y": 147.23,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "a0ce2ce8-fe64-4736-a19c-2c2de539d5e1"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f21737c9-56f1-44b7-a7cc-a47ff71029c1"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 28.98,
+                "bottom": 31.29,
+                "left": 68.77,
+                "right": 78.43
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_left_row2",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "110c7ffe-d900-4635-88b1-ee4ff94c02bd",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "0f877553-38dd-468e-8d7e-31c35acc6fdf",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "기록의 습관",
+                  "areaSize": 36216.36042,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 67.94,
+                    "y": 30.6,
+                    "width": 606.3,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.91,
+                "y": 288.03,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "110c7ffe-d900-4635-88b1-ee4ff94c02bd"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "0f877553-38dd-468e-8d7e-31c35acc6fdf"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 30.6,
+                "bottom": 29.67,
+                "left": 67.94,
+                "right": 75.76
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_left_row3",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "76dee160-1c86-4852-87a5-fd0ff391f41a",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "695ddda4-83d6-4f48-8a65-4865df104f84",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "긍정의 습관",
+                  "areaSize": 36007.29351999999,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 67.17,
+                    "y": 29.11,
+                    "width": 602.8,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 4.71,
+                "y": 428.83,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "76dee160-1c86-4852-87a5-fd0ff391f41a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "695ddda4-83d6-4f48-8a65-4865df104f84"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 29.11,
+                "bottom": 31.16,
+                "left": 67.17,
+                "right": 80.03
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_left_row4",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "4a1f6103-f2e8-44d2-9f92-45e1828572e0",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b7c2dbac-2bea-4bf0-94e8-e30c18b74b1d",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "소통의 인정",
+                  "areaSize": 36007.29351999999,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 66.37,
+                    "y": 28.59,
+                    "width": 602.8,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 5.51,
+                "y": 569.63,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "4a1f6103-f2e8-44d2-9f92-45e1828572e0"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b7c2dbac-2bea-4bf0-94e8-e30c18b74b1d"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 28.59,
+                "bottom": 31.68,
+                "left": 66.37,
+                "right": 80.83
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 755.5117451298705,
+            "height": 689.630425
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_left_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_left_row1",
+                  "group_left_row2",
+                  "group_left_row3",
+                  "group_left_row4"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 22.41
+        },
+        {
+          "id": "vstack_right_column",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_right_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "251deb52-eb4a-4493-b86c-e450bfeccab1",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "c1f3b646-6912-4f23-8072-80d703a3ccec",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "적용한 리더십",
+                  "areaSize": 35840.04,
+                  "fontSize": 42.666,
+                  "position": {
+                    "x": 86.15,
+                    "y": 33.13,
+                    "width": 600,
+                    "height": 59.733399999999996
+                  },
+                  "fontFamily": "frcaw8wbf0bgww3p",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "251deb52-eb4a-4493-b86c-e450bfeccab1"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c1f3b646-6912-4f23-8072-80d703a3ccec"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 33.13,
+                "bottom": 27.14,
+                "left": 86.15,
+                "right": 63.85
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_right_row1",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "ed510744-e589-4a7d-85b8-0ba6fd87b6f5",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b24dd7d7-ad22-4f74-a331-889bbc0ad79f",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "부하에 대해 무한한 신뢰를 줌\n성실, 겸손, 절제, 공경 등의 훌륭한 인격",
+                  "areaSize": 46400.04,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 83.04,
+                    "y": 21.91,
+                    "width": 600,
+                    "height": 77.3334
+                  },
+                  "fontFamily": "fkzvka5u99x2ysca",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 26,
+                    "maxCharsPerLine": 26
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.11,
+                "y": 147.23,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "ed510744-e589-4a7d-85b8-0ba6fd87b6f5"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b24dd7d7-ad22-4f74-a331-889bbc0ad79f"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 21.91,
+                "bottom": 20.76,
+                "left": 83.04,
+                "right": 66.96
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_right_row2",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "727cc0f3-2892-450b-92aa-dd1c676fbbf5",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "e913d986-16b5-41c2-b908-b86bd96bbf6d",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "난중일지를 통해 계획과 반성함\n복무를 기록한 장계를 씀",
+                  "areaSize": 46887.240419999995,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 76.7,
+                    "y": 21.33,
+                    "width": 606.3,
+                    "height": 77.3334
+                  },
+                  "fontFamily": "fkzvka5u99x2ysca",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 27,
+                    "maxCharsPerLine": 27
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.11,
+                "y": 288.03,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "727cc0f3-2892-450b-92aa-dd1c676fbbf5"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e913d986-16b5-41c2-b908-b86bd96bbf6d"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 21.33,
+                "bottom": 21.34,
+                "left": 76.7,
+                "right": 67.0
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_right_row3",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "5e5556f0-a734-45dc-adeb-6c08ba66e242",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b636c693-589d-4481-85b2-65bdcf1fd15e",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "필사즉생, 죽기를 각오하고 임함\n최악의 순간에도 희망을 잃지 않음",
+                  "areaSize": 46887.240419999995,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 76.7,
+                    "y": 17.31,
+                    "width": 606.3,
+                    "height": 77.3334
+                  },
+                  "fontFamily": "fkzvka5u99x2ysca",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 27,
+                    "maxCharsPerLine": 27
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.11,
+                "y": 428.83,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "5e5556f0-a734-45dc-adeb-6c08ba66e242"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b636c693-589d-4481-85b2-65bdcf1fd15e"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 17.31,
+                "bottom": 25.36,
+                "left": 76.7,
+                "right": 67.0
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "group_right_row4",
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "6bcf1e0f-811c-4808-a581-2c73a218eedb",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 750,
+                    "height": 120
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b9f2b8aa-a545-4e85-9127-1e3a53b8d73e",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "부하들과 서로 커뮤니케이션\n부하들에게 믿고 전적으로 맡김",
+                  "areaSize": 46887.240419999995,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 76.7,
+                    "y": 21.33,
+                    "width": 606.3,
+                    "height": 77.3334
+                  },
+                  "fontFamily": "fkzvka5u99x2ysca",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 27,
+                    "maxCharsPerLine": 27
+                  }
+                }
+              ],
+              "position": {
+                "x": 3.11,
+                "y": 569.63,
+                "width": 750,
+                "height": 120
+              },
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "6bcf1e0f-811c-4808-a581-2c73a218eedb"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b9f2b8aa-a545-4e85-9127-1e3a53b8d73e"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 21.33,
+                "bottom": 21.34,
+                "left": 76.7,
+                "right": 67.0
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            }
+          ],
+          "position": {
+            "x": 890.8,
+            "y": 0.0,
+            "width": 753.1117451298705,
+            "height": 689.630425
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_right_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_right_row1",
+                  "group_right_row2",
+                  "group_right_row3",
+                  "group_right_row4"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 22.41
+        }
+      ],
+      "position": {
+        "x": 58.04,
+        "y": 152.77,
+        "width": 1643.9117451298707,
+        "height": 689.630425
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_column"
+            ],
+            [
+              "vstack_right_column"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 135.29
+    }
+  ],
+  "position": {
+    "x": 367.79,
+    "y": 168.23,
+    "width": 1756,
+    "height": 842.3996522727273
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "patterns": [
+        [
+          "6b3739be-11cb-4909-8488-3cebd2a0574c"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_comparison"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 40.77
+}

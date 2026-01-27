@@ -1,0 +1,409 @@
+{
+  "id": "hstack_cards_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e5e86155-4eca-45e2-baab-c67d6c500237",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 452.85569172975386,
+            "height": 313.80601509987343
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_left_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "12672651-04e5-4f2f-90c8-a32d56491902",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "20xx년 수능",
+              "areaSize": 17090.038609699997,
+              "fontSize": 34.6658,
+              "position": {
+                "x": 7.500000094751158e-06,
+                "y": 0,
+                "width": 352.1,
+                "height": 48.53745699999999
+              },
+              "fontFamily": "f8paeiunxi9ibvrf",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "c2b08284-2c3a-491e-96d2-c38194eb9c98",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "목표하는 시험의 난이도와 범위 등\n최근 수능 경향에 대해\n간단하게 설명해주세요.",
+              "areaSize": 42310.858398,
+              "fontSize": 23.999399999999998,
+              "position": {
+                "x": 0,
+                "y": 73.88900000000001,
+                "width": 352.7,
+                "height": 119.96274
+              },
+              "fontFamily": "fnqwf2bapy57tyys",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 38,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 50.37758144015211,
+            "y": 62.558692913385585,
+            "width": 352.70000000000005,
+            "height": 193.85173999999995
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "12672651-04e5-4f2f-90c8-a32d56491902"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c2b08284-2c3a-491e-96d2-c38194eb9c98"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 452.85569172975386,
+        "height": 313.80601509987343
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e5e86155-4eca-45e2-baab-c67d6c500237"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_left_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_center",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "b0c255f5-5507-4aa4-a9e1-c05cfb81ca68",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 452.85569172975397,
+            "height": 313.80601509987343
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_center_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "37f300f7-66f4-4cf5-b88a-974cdb470584",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "20xx년 6월 모의고사",
+              "areaSize": 17090.038609699997,
+              "fontSize": 34.6658,
+              "position": {
+                "x": 7.500000037907739e-06,
+                "y": 0,
+                "width": 352.1,
+                "height": 48.53745699999999
+              },
+              "fontFamily": "f8paeiunxi9ibvrf",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "1c6153c8-f50d-4fda-abdb-369db0cd5f69",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "지난 시험 대비 난이도는 어떻게\n조정되었으며, 고난이도 문항은\n어느 정도 인가요?",
+              "areaSize": 42310.858398,
+              "fontSize": 23.999399999999998,
+              "position": {
+                "x": 0,
+                "y": 73.88911023622063,
+                "width": 352.7,
+                "height": 119.96274
+              },
+              "fontFamily": "fnqwf2bapy57tyys",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 38,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 50.377355895132496,
+            "y": 62.55869291338536,
+            "width": 352.70000000000005,
+            "height": 193.85185023622068
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "37f300f7-66f4-4cf5-b88a-974cdb470584"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1c6153c8-f50d-4fda-abdb-369db0cd5f69"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 482.3262255450196,
+        "y": 2.2737367544323206e-13,
+        "width": 452.85569172975397,
+        "height": 313.80601509987343
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "b0c255f5-5507-4aa4-a9e1-c05cfb81ca68"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_center_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "66c24f0c-ac2e-4d13-a2d1-4629cf95f444",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 452.85569172975374,
+            "height": 313.80601509987343
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_right_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "9976abc9-ff2a-4255-8675-b2bfc4b06238",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "20xx년 9월 모의고사",
+              "areaSize": 17080.331118299997,
+              "fontSize": 34.6658,
+              "position": {
+                "x": 0.002472408178164187,
+                "y": 0,
+                "width": 351.9,
+                "height": 48.53745699999999
+              },
+              "fontFamily": "f8paeiunxi9ibvrf",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 11,
+                "maxCharsPerLine": 11
+              }
+            },
+            {
+              "id": "15a0a8ed-696c-421d-aa5a-c66b0c8f7ca0",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "어느 분야, 과목을 중점적으로\n공부해야 할 지 근거와 함께\n꿀팁을 알려주세요.",
+              "areaSize": 42310.858398,
+              "fontSize": 23.999399999999998,
+              "position": {
+                "x": 0,
+                "y": 73.88900000000001,
+                "width": 352.7,
+                "height": 119.96274
+              },
+              "fontFamily": "fnqwf2bapy57tyys",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 38,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 50.378130350112315,
+            "y": 62.558692913385585,
+            "width": 352.70000000000005,
+            "height": 193.85173999999995
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9976abc9-ff2a-4255-8675-b2bfc4b06238"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "15a0a8ed-696c-421d-aa5a-c66b0c8f7ca0"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 964.6524510900398,
+        "y": 0,
+        "width": 452.85569172975374,
+        "height": 313.80601509987343
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "66c24f0c-ac2e-4d13-a2d1-4629cf95f444"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_right_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 483.80082707010183,
+    "y": 503.5433070866144,
+    "width": 1417.5081428197936,
+    "height": 313.80601509987366
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_left"
+        ],
+        [
+          "group_card_center"
+        ],
+        [
+          "group_card_right"
+        ]
+      ]
+    }
+  ]
+}

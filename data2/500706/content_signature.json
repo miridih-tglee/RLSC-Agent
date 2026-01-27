@@ -1,0 +1,134 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Text",
+        "textCapacity": {
+          "maxLines": 1,
+          "totalMaxChars": 24,
+          "maxCharsPerLine": 24
+        }
+      },
+      {
+        "role": "Separator",
+        "type": "SVG"
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 0,
+                      "totalMaxChars": 0,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 0,
+                      "totalMaxChars": 0,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 0,
+                      "totalMaxChars": 0,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 0,
+                      "totalMaxChars": 0,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "Group",
+                "children": [
+                  {
+                    "role": "Background",
+                    "type": "SVG"
+                  },
+                  {
+                    "role": "Description",
+                    "type": "Text",
+                    "textCapacity": {
+                      "maxLines": 0,
+                      "totalMaxChars": 0,
+                      "maxCharsPerLine": 4
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

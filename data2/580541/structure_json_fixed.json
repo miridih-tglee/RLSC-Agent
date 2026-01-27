@@ -1,0 +1,318 @@
+{
+  "id": "vstack_left_column",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "vstack_section_01",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_section1_title_bg",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "b9ebe166-5f44-486d-b64f-2b438070c10f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 675.2590342727145,
+                "height": 76.31336405529908
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "72f58ed8-c30c-4bfb-ba1b-286535a276a6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "01 제품 [Product]",
+              "areaSize": 23731.95,
+              "fontSize": 27.99926267281106,
+              "position": {
+                "x": 34.29,
+                "y": 15.8,
+                "width": 605.6,
+                "height": 39.1875
+              },
+              "fontFamily": "fwd2gapuaowcmhvv",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 23
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 675.2590342727145,
+            "height": 76.31336405529908
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b9ebe166-5f44-486d-b64f-2b438070c10f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "72f58ed8-c30c-4bfb-ba1b-286535a276a6"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 15.8,
+            "bottom": 21.33,
+            "left": 34.29,
+            "right": 35.37
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "25e93537-77f9-4ff0-9cf3-60d55f3c2f2f",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "주요 판매 요소에 대한 설명을 입력해 주세요. 사용된 폰트는 에스코어 드림 3 18pt 좌측정렬입니다. 주요 판매 요소에 대한 설명을 입력해 주세요. 사용된 폰트는 에스코어 드림 3 18pt 좌측정렬입니다. ",
+          "areaSize": 103179.26744700462,
+          "fontSize": 23.999447004608296,
+          "position": {
+            "x": 34.29,
+            "y": 105.61,
+            "width": 605.6,
+            "height": 170.37527649769586
+          },
+          "fontFamily": "flc0lbc9cg5qbv75",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 81,
+            "maxCharsPerLine": 27
+          }
+        }
+      ],
+      "position": {
+        "x": 0.05,
+        "y": 0.0,
+        "width": 675.2590342727145,
+        "height": 275.98920276497705
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_section1_title_bg"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "25e93537-77f9-4ff0-9cf3-60d55f3c2f2f"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 29.3
+    },
+    {
+      "id": "vstack_section_03",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_section3_title_bg",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e56685f4-21dc-46df-bd28-1ce0fea20857",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0.0,
+                "width": 675.2590342727145,
+                "height": 76.31336405529908
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f6cae88f-4260-45eb-8b96-756921226f64",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "03 판매촉진 [promotion]",
+              "areaSize": 23731.95,
+              "fontSize": 27.99926267281106,
+              "position": {
+                "x": 34.29,
+                "y": 15.8,
+                "width": 605.6,
+                "height": 39.1875
+              },
+              "fontFamily": "fwd2gapuaowcmhvv",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 23
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0.0,
+            "width": 675.2590342727145,
+            "height": 76.31336405529908
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e56685f4-21dc-46df-bd28-1ce0fea20857"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f6cae88f-4260-45eb-8b96-756921226f64"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 15.8,
+            "bottom": 21.33,
+            "left": 34.29,
+            "right": 35.37
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "26cc79d8-38e7-473b-a7f0-41aab3157867",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "주요 판매 요소에 대한 설명을 입력해 주세요. 사용된 폰트는 에스코어 드림 3 18pt 좌측정렬입니다. 주요 판매 요소에 대한 설명을 입력해 주세요. 사용된 폰트는 에스코어 드림 3 18pt 좌측정렬입니다. ",
+          "areaSize": 103179.26744700462,
+          "fontSize": 23.999447004608296,
+          "position": {
+            "x": 34.29,
+            "y": 105.61,
+            "width": 605.6,
+            "height": 170.37527649769586
+          },
+          "fontFamily": "flc0lbc9cg5qbv75",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 81,
+            "maxCharsPerLine": 27
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 376.81,
+        "width": 675.2590342727145,
+        "height": 275.989202764977
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_section3_title_bg"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "26cc79d8-38e7-473b-a7f0-41aab3157867"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 29.3
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 75.66,
+    "width": 675.3069605399957,
+    "height": 652.7951105990783
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_section_01",
+          "vstack_section_03"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 100.82
+}

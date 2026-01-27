@@ -1,0 +1,894 @@
+{
+  "id": "vstack_keyword_rows",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_row_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_1_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "c6bae1f0-2f04-4d1e-b9be-ad04438ca1e9",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 411.9763223462843,
+                "height": 145.4242522990499
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "620f6f51-ac4b-4b36-85dc-3538f320104c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 1",
+              "areaSize": 18275.47371,
+              "fontSize": 35.999,
+              "position": {
+                "x": 24.72815867314219,
+                "y": 45.01847614952496,
+                "width": 362.7,
+                "height": 50.387299999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 411.9763223462843,
+            "height": 145.4242522990499
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "c6bae1f0-2f04-4d1e-b9be-ad04438ca1e9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "620f6f51-ac4b-4b36-85dc-3538f320104c"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword_1_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e574852c-438c-4ba2-8f36-15914dc36274",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1201.1430398755806,
+                "height": 145.4242522990499
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "238462ab-7b1e-4c42-bfb5-20821b1d7362",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Keyword 1 Description",
+              "areaSize": 42235.049159999995,
+              "fontSize": 26.666,
+              "position": {
+                "x": 34.94413024209973,
+                "y": 54.04552614952496,
+                "width": 1131.3,
+                "height": 37.3332
+              },
+              "fontFamily": "f8ad9qq0621n7p8q",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 45,
+                "maxCharsPerLine": 45
+              }
+            }
+          ],
+          "position": {
+            "x": 434.4763223462845,
+            "y": 0,
+            "width": 1201.1430398755806,
+            "height": 145.4242522990499
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e574852c-438c-4ba2-8f36-15914dc36274"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "238462ab-7b1e-4c42-bfb5-20821b1d7362"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1635.6193622218652,
+        "height": 145.4242522990499
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_1_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_1_right"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_2_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ab316e11-3a4d-46e7-87ae-742ceb4d6110",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 411.9763223462843,
+                "height": 145.4242522990499
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "18df4d75-2655-4962-a1dd-1a4931d19944",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 2",
+              "areaSize": 18275.47371,
+              "fontSize": 35.999,
+              "position": {
+                "x": 24.72815867314219,
+                "y": 45.01847614952493,
+                "width": 362.7,
+                "height": 50.387299999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 411.9763223462843,
+            "height": 145.4242522990499
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ab316e11-3a4d-46e7-87ae-742ceb4d6110"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "18df4d75-2655-4962-a1dd-1a4931d19944"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword_2_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "9e432dba-0729-42e5-a83c-bdfe133d8eda",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1201.1430398755806,
+                "height": 145.4242522990499
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "46d83c70-d17f-4785-8539-f989247bfa77",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Keyword 2 Description",
+              "areaSize": 42235.049159999995,
+              "fontSize": 26.666,
+              "position": {
+                "x": 34.94413024209973,
+                "y": 54.04552614952496,
+                "width": 1131.3,
+                "height": 37.3332
+              },
+              "fontFamily": "f8ad9qq0621n7p8q",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 45,
+                "maxCharsPerLine": 45
+              }
+            }
+          ],
+          "position": {
+            "x": 434.4763223462845,
+            "y": 0,
+            "width": 1201.1430398755806,
+            "height": 145.4242522990499
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9e432dba-0729-42e5-a83c-bdfe133d8eda"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "46d83c70-d17f-4785-8539-f989247bfa77"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 178.10037076166867,
+        "width": 1635.6193622218652,
+        "height": 145.4242522990499
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_2_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_2_right"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_3_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "956a10a2-e56d-4f69-8ed0-3e473828687b",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 411.9763223462843,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "90af8b61-205f-4174-aeed-719b62e8cd66",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 3",
+              "areaSize": 18275.47371,
+              "fontSize": 35.999,
+              "position": {
+                "x": 24.72815867314219,
+                "y": 45.01847614952487,
+                "width": 362.7,
+                "height": 50.387299999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 411.9763223462843,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "956a10a2-e56d-4f69-8ed0-3e473828687b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "90af8b61-205f-4174-aeed-719b62e8cd66"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword_3_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "041b47b8-ef4a-41f4-8773-33f46fd716c2",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1201.1430398755806,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "8985797a-dea6-4c31-8601-4a114076ff62",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Keyword 3 Description",
+              "areaSize": 42235.049159999995,
+              "fontSize": 26.666,
+              "position": {
+                "x": 34.94413024209973,
+                "y": 54.04552614952502,
+                "width": 1131.3,
+                "height": 37.3332
+              },
+              "fontFamily": "f8ad9qq0621n7p8q",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 45,
+                "maxCharsPerLine": 45
+              }
+            }
+          ],
+          "position": {
+            "x": 434.4763223462845,
+            "y": 0,
+            "width": 1201.1430398755806,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "041b47b8-ef4a-41f4-8773-33f46fd716c2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8985797a-dea6-4c31-8601-4a114076ff62"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 356.20074152333734,
+        "width": 1635.6193622218652,
+        "height": 145.42425229904984
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_3_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_3_right"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_4_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d2ac12b4-2aff-40a0-97df-20e74f5d5738",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 411.9763223462843,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "46d65ee4-4e57-49a5-9911-e69bf72e12f4",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 4",
+              "areaSize": 18275.47371,
+              "fontSize": 35.999,
+              "position": {
+                "x": 24.72815867314219,
+                "y": 45.01847614952487,
+                "width": 362.7,
+                "height": 50.387299999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 411.9763223462843,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d2ac12b4-2aff-40a0-97df-20e74f5d5738"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "46d65ee4-4e57-49a5-9911-e69bf72e12f4"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword_4_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ce15c398-5563-4480-abb2-d707e93a4df1",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1201.1430398755806,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "eefd5824-90ce-4494-979a-4dde4e6ef423",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Keyword 4 Description",
+              "areaSize": 42235.049159999995,
+              "fontSize": 26.666,
+              "position": {
+                "x": 34.94413024209973,
+                "y": 54.0455261495249,
+                "width": 1131.3,
+                "height": 37.3332
+              },
+              "fontFamily": "f8ad9qq0621n7p8q",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 45,
+                "maxCharsPerLine": 45
+              }
+            }
+          ],
+          "position": {
+            "x": 434.4763223462845,
+            "y": 0,
+            "width": 1201.1430398755806,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ce15c398-5563-4480-abb2-d707e93a4df1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "eefd5824-90ce-4494-979a-4dde4e6ef423"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 534.3011122850061,
+        "width": 1635.6193622218652,
+        "height": 145.42425229904984
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_4_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_4_right"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_5",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_5_left",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ef575d36-d370-4f94-aaa1-b540a0bc0940",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 411.9763223462843,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "9c5be382-205c-4c79-84e2-cdea8b9a0658",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 5",
+              "areaSize": 18275.47371,
+              "fontSize": 35.999,
+              "position": {
+                "x": 24.72815867314219,
+                "y": 45.01847614952487,
+                "width": 362.7,
+                "height": 50.387299999999996
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 411.9763223462843,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ef575d36-d370-4f94-aaa1-b540a0bc0940"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9c5be382-205c-4c79-84e2-cdea8b9a0658"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_keyword_5_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "8c055e13-1e64-42dc-b512-f4effaed4775",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 1201.1430398755806,
+                "height": 145.42425229904984
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f389575a-ac97-43d6-8b91-fcd7e34fbecc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Keyword 5 Description",
+              "areaSize": 42235.049159999995,
+              "fontSize": 26.666,
+              "position": {
+                "x": 34.94413024209973,
+                "y": 54.0455261495249,
+                "width": 1131.3,
+                "height": 37.3332
+              },
+              "fontFamily": "f8ad9qq0621n7p8q",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 45,
+                "maxCharsPerLine": 45
+              }
+            }
+          ],
+          "position": {
+            "x": 434.4763223462845,
+            "y": 0,
+            "width": 1201.1430398755806,
+            "height": 145.42425229904984
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "8c055e13-1e64-42dc-b512-f4effaed4775"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f389575a-ac97-43d6-8b91-fcd7e34fbecc"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 712.4014830466746,
+        "width": 1635.6193622218652,
+        "height": 145.42425229904984
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_5_left"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_5_right"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 145.159126755084,
+    "y": 144.03566418197633,
+    "width": 1635.6193622218652,
+    "height": 857.8257353457244
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_row_1",
+          "hstack_row_2",
+          "hstack_row_3",
+          "hstack_row_4",
+          "hstack_row_5"
+        ]
+      ]
+    }
+  ]
+}

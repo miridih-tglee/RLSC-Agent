@@ -1,0 +1,724 @@
+{
+  "id": "vstack_service_list",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_service_row_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "a949d1f9-8e53-4763-bfa3-729e2c90d635",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 788.460438237148,
+            "height": 102.04195976243858
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_service_row_1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "349ed1f2-848e-41f1-add9-7bf9570217ed",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ktxwawtct365lhvl",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 71.83304199938516,
+                "height": 59.95805465466219
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_service_row_1_texts",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "c48fad0f-7fdc-4b22-8ec5-890fffd41626",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "OTT",
+                  "areaSize": 6752.2652595,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 180.9,
+                    "height": 37.325955
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 7,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "2722fda1-2af1-4683-b313-3bb126e6a3f8",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "OTT용 드라마, 다큐, 영화 등",
+                  "areaSize": 11131.575,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 222.43386420053207,
+                    "y": 8.506272409638541,
+                    "width": 372.8,
+                    "height": 29.859375
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 18
+                  }
+                }
+              ],
+              "position": {
+                "x": 90.97697124807792,
+                "y": 7.54316741769253,
+                "width": 595.233864200532,
+                "height": 38.36564740963854
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c48fad0f-7fdc-4b22-8ec5-890fffd41626"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2722fda1-2af1-4683-b313-3bb126e6a3f8"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 98.42482123206366,
+            "y": 23.041952553888223,
+            "width": 686.2108354486099,
+            "height": 59.95805465466219
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "349ed1f2-848e-41f1-add9-7bf9570217ed"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_service_row_1_texts"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 788.460438237148,
+        "height": 102.04195976243858
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "a949d1f9-8e53-4763-bfa3-729e2c90d635"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_service_row_1_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_service_row_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "860b0102-8524-4ee0-89b3-8b437bc883ed",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 786.460438237148,
+            "height": 102.04195976243852
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_service_row_2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "ff478afc-1dc2-4d41-a087-8f531f4cbb33",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "krmhyok038zl0xkd",
+              "position": {
+                "x": 0,
+                "y": 1.2787334507496553,
+                "width": 76.35571094696502,
+                "height": 58.82758309850101
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_service_row_2_texts",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "3a7a0e63-4833-4cc3-af7a-6f92b28aa0bd",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "YOUTUBE",
+                  "areaSize": 6752.2652595,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0,
+                    "y": 13.756665090361594,
+                    "width": 180.9,
+                    "height": 37.325955
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 7,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "dcba9925-59b8-4ef6-9140-863f4c35e540",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "다양한 크리에이터의 특성을 살린 최적화 번역",
+                  "areaSize": 15980.737500000001,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 222.43386420053253,
+                    "y": 0,
+                    "width": 267.6,
+                    "height": 59.71875
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 93.23830572186762,
+                "y": 0,
+                "width": 490.03386420053243,
+                "height": 59.71875
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "3a7a0e63-4833-4cc3-af7a-6f92b28aa0bd"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "dcba9925-59b8-4ef6-9140-863f4c35e540"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 96.16348675827396,
+            "y": 20.4147448526345,
+            "width": 583.2721699224,
+            "height": 60.106316549250664
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ff478afc-1dc2-4d41-a087-8f531f4cbb33"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_service_row_2_texts"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 116.25417889266157,
+        "width": 786.460438237148,
+        "height": 102.04195976243852
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "860b0102-8524-4ee0-89b3-8b437bc883ed"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_service_row_2_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_service_row_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "b024c9c7-5f6a-4932-a894-07d47f001a8d",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 786.460438237148,
+            "height": 102.04195976243852
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_service_row_3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "11d80aa8-4f3c-4a6d-b596-13484c9385e0",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kfaoqbwgbonyjcox",
+              "position": {
+                "x": 0,
+                "y": 5.471956753101722,
+                "width": 78.51480567739145,
+                "height": 45.44062001926238
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_service_row_3_texts",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "f03a0dd0-102d-4fd6-8e22-e411f69578df",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "온라인 강의",
+                  "areaSize": 7651.820775,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0,
+                    "y": 5.756406853094518,
+                    "width": 205,
+                    "height": 37.325955
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 8,
+                    "maxCharsPerLine": 8
+                  }
+                },
+                {
+                  "id": "45e4db60-d8e9-47ce-8036-b1654b9a0bc1",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "공학, 의학, 인문학, 사회과학 등 다양한 전문 분야",
+                  "areaSize": 17879.793749999997,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 234.48398776650038,
+                    "y": 0,
+                    "width": 299.4,
+                    "height": 59.71875
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 15,
+                    "maxCharsPerLine": 15
+                  }
+                }
+              ],
+              "position": {
+                "x": 82.26785308708077,
+                "y": 0,
+                "width": 533.8839877665002,
+                "height": 59.71875
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f03a0dd0-102d-4fd6-8e22-e411f69578df"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "45e4db60-d8e9-47ce-8036-b1654b9a0bc1"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 95.08393939306063,
+            "y": 22.82871311848635,
+            "width": 616.151840853581,
+            "height": 59.71875
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "11d80aa8-4f3c-4a6d-b596-13484c9385e0"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_service_row_3_texts"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 238.56763074559046,
+        "width": 786.460438237148,
+        "height": 102.04195976243852
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "b024c9c7-5f6a-4932-a894-07d47f001a8d"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_service_row_3_content"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_service_row_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "5541631f-e697-4f22-892a-18660efe3120",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 786.460438237148,
+            "height": 102.04195976243852
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_service_row_4_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "b8d087e8-cf96-4cae-8b1c-2e475ab63147",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kkwcza0cp3woep3b",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 65.83170034620093,
+                "height": 65.5174820126822
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "hstack_service_row_4_texts",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "e79ce18c-d1c4-4fc3-bb8b-4cfca26fd383",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "엔터테인먼트",
+                  "areaSize": 7607.029629000001,
+                  "fontSize": 26.666,
+                  "position": {
+                    "x": 0,
+                    "y": 6.9233275903615095,
+                    "width": 203.8,
+                    "height": 37.325955
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                },
+                {
+                  "id": "c0782840-97ad-48ed-a814-42abb50fb620",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "아티스트 별 스타일과 팬층의 특성을 고려한 맞춤 번역",
+                  "areaSize": 15980.737500000001,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 233.5505392005325,
+                    "y": 0,
+                    "width": 267.6,
+                    "height": 59.71875
+                  },
+                  "fontFamily": "foum4y302ye0n3lx",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 13,
+                    "maxCharsPerLine": 13
+                  }
+                }
+              ],
+              "position": {
+                "x": 76.85962542148536,
+                "y": 2.6592320126823097,
+                "width": 501.15053920053265,
+                "height": 59.71875
+              },
+              "alignment": "center",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e79ce18c-d1c4-4fc3-bb8b-4cfca26fd383"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "c0782840-97ad-48ed-a814-42abb50fb620"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 101.425492058656,
+            "y": 20.002560368537047,
+            "width": 578.010164622018,
+            "height": 65.5174820126822
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b8d087e8-cf96-4cae-8b1c-2e475ab63147"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_service_row_4_texts"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 359.3176139828573,
+        "width": 786.460438237148,
+        "height": 102.04195976243852
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "5541631f-e697-4f22-892a-18660efe3120"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_service_row_4_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 193.74399789225276,
+    "y": 188.68499484057696,
+    "width": 788.460438237148,
+    "height": 461.35957374529585
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_service_row_1",
+          "group_service_row_2",
+          "group_service_row_3",
+          "group_service_row_4"
+        ]
+      ]
+    }
+  ]
+}

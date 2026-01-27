@@ -1,0 +1,747 @@
+{
+  "id": "hstack_main_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_left_chart_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_left_chart_body",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "a6bb6a87-14ea-4d37-8ac0-9f08cf4a923d",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 631.280701754386,
+                "height": 486
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f81098a3-1ea8-4628-ae24-d50cfd7d2e15",
+              "role": "Role.Element.Description",
+              "type": "Chart",
+              "position": {
+                "x": 20.64035087719327,
+                "y": 12.72234832628294,
+                "width": 589.9999999999993,
+                "height": 448.5553033474341
+              },
+              "rowCount": 7,
+              "chartType": "LINE_CHART",
+              "seriesAxis": "columns",
+              "columnCount": 2,
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 631.280701754386,
+            "height": 486
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a6bb6a87-14ea-4d37-8ac0-9f08cf4a923d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Chart",
+              "patterns": [
+                [
+                  "f81098a3-1ea8-4628-ae24-d50cfd7d2e15"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_left_chart_footer",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "8d5bfff5-1be0-4b51-8414-d18226fa5703",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 631.2807017543861,
+                "height": 91.52453096408169
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "57b98e5c-80e5-4515-8787-c9e008e70366",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "65세 이상 고령 인구 통계",
+              "areaSize": 20433.013974999998,
+              "fontSize": 34.666,
+              "position": {
+                "x": 106.80701754385962,
+                "y": 21.495027982040938,
+                "width": 421,
+                "height": 48.53447499999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 512.3268541666666,
+            "width": 631.2807017543861,
+            "height": 91.52453096408169
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "8d5bfff5-1be0-4b51-8414-d18226fa5703"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "57b98e5c-80e5-4515-8787-c9e008e70366"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 631.2807017543861,
+        "height": 603.8513851307483
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_left_chart_body"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_left_chart_footer"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_middle_chart_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_middle_chart_body",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "5b7d3d5e-d0c0-494b-9470-70a4095b846e",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 631.280701754386,
+                "height": 486
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "a33e1660-bbad-4280-8c1b-94c108ccb529",
+              "role": "Role.Element.Description",
+              "type": "Chart",
+              "position": {
+                "x": 20.640350877193214,
+                "y": 12.72234832628294,
+                "width": 589.9999999999993,
+                "height": 448.5553033474341
+              },
+              "rowCount": 7,
+              "chartType": "LINE_CHART",
+              "seriesAxis": "columns",
+              "columnCount": 4,
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 631.280701754386,
+            "height": 486
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "5b7d3d5e-d0c0-494b-9470-70a4095b846e"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Chart",
+              "patterns": [
+                [
+                  "a33e1660-bbad-4280-8c1b-94c108ccb529"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_middle_chart_footer",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "f637714d-1771-4282-baf0-09f5d0f0441f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 631.280701754386,
+                "height": 91.52453096408169
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "07b09c31-5009-4cea-8462-3fe2a7e3b4c8",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "평균 기대수명 추이",
+              "areaSize": 20433.013974999998,
+              "fontSize": 34.666,
+              "position": {
+                "x": 105.14013925438599,
+                "y": 21.495483750000176,
+                "width": 421,
+                "height": 48.53447499999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 14
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 512.3268541666666,
+            "width": 631.280701754386,
+            "height": 91.52453096408169
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f637714d-1771-4282-baf0-09f5d0f0441f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "07b09c31-5009-4cea-8462-3fe2a7e3b4c8"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 667.3552083333335,
+        "y": 0,
+        "width": 631.280701754386,
+        "height": 603.8513851307483
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_middle_chart_body"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_middle_chart_footer"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_right_insight_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e9049448-6672-4bf2-9572-1b8a01a39ace",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 386.94736842105226,
+            "height": 603.8513851307482
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_insight_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "vstack_insight_row_1",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "15f7ea72-1ed9-4710-be4d-b18f5cd1a94f",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "20XX년",
+                  "areaSize": 6077.93471,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 130.3,
+                    "height": 46.6457
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 4,
+                    "maxCharsPerLine": 4
+                  }
+                },
+                {
+                  "id": "12c0d23a-aac2-438b-b412-3bb23c8578c4",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 1.3418900254514483,
+                    "y": 58.92216729166665,
+                    "width": 322.551649773661,
+                    "height": 3.75
+                  },
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "dc97940a-7b84-417d-9170-8954fc98b1ba",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "65세 이상 고령 인구\nX%로 증가",
+                  "areaSize": 26706.55391,
+                  "fontSize": 30.666,
+                  "position": {
+                    "x": 1.3440307017554005,
+                    "y": 78.46089146538378,
+                    "width": 322.6,
+                    "height": 82.78535
+                  },
+                  "fontFamily": "ffi23l1xz5xc6rax",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 24,
+                    "maxCharsPerLine": 12
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 323.9440307017553,
+                "height": 161.24624146538383
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "15f7ea72-1ed9-4710-be4d-b18f5cd1a94f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "12c0d23a-aac2-438b-b412-3bb23c8578c4"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "dc97940a-7b84-417d-9170-8954fc98b1ba"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_insight_row_2",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "2482e275-b4ba-4170-94c3-d491782af0ef",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "20XX년",
+                  "areaSize": 6077.93471,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 130.3,
+                    "height": 46.6457
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 4,
+                    "maxCharsPerLine": 4
+                  }
+                },
+                {
+                  "id": "6c080f31-0a47-402e-88b5-dffd44336c3e",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 1.3418900254514483,
+                    "y": 58.92216729166671,
+                    "width": 322.551649773661,
+                    "height": 3.75
+                  },
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "4d9daca5-a06b-4416-a88b-7ddf325a47f6",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "초고령사회 진입에 따른\n실버타운 수요 증가",
+                  "areaSize": 26706.55391,
+                  "fontSize": 30.666,
+                  "position": {
+                    "x": 1.3440307017554005,
+                    "y": 78.46058646362121,
+                    "width": 322.6,
+                    "height": 82.78535
+                  },
+                  "fontFamily": "ffi23l1xz5xc6rax",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 24,
+                    "maxCharsPerLine": 12
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 199.17530500176247,
+                "width": 323.9440307017553,
+                "height": 161.2459364636212
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2482e275-b4ba-4170-94c3-d491782af0ef"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "6c080f31-0a47-402e-88b5-dffd44336c3e"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "4d9daca5-a06b-4416-a88b-7ddf325a47f6"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vstack_insight_row_3",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "834f0539-2468-47ef-adf6-2c27d9f1ead8",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "20XX년",
+                  "areaSize": 6077.93471,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 130.3,
+                    "height": 46.6457
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 4,
+                    "maxCharsPerLine": 4
+                  }
+                },
+                {
+                  "id": "09d8730a-eb3c-459b-b710-6b4ec2ae0a51",
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "svgData": "",
+                  "position": {
+                    "x": 1.3418900254514483,
+                    "y": 58.922167291666824,
+                    "width": 322.551649773661,
+                    "height": 3.75
+                  },
+                  "patternLabel": "B"
+                },
+                {
+                  "id": "d75e7f53-7a38-47bb-b8fe-55528f8a904c",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "정부의 실버타운 산업\n육성 정책 및 지원 확대",
+                  "areaSize": 26706.55391,
+                  "fontSize": 30.666,
+                  "position": {
+                    "x": 1.3440307017554005,
+                    "y": 78.46128146185879,
+                    "width": 322.6,
+                    "height": 82.78535
+                  },
+                  "fontFamily": "ffi23l1xz5xc6rax",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 24,
+                    "maxCharsPerLine": 12
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 398.35061000352505,
+                "width": 323.9440307017553,
+                "height": 161.24663146185878
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "834f0539-2468-47ef-adf6-2c27d9f1ead8"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Decoration",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "09d8730a-eb3c-459b-b710-6b4ec2ae0a51"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d75e7f53-7a38-47bb-b8fe-55528f8a904c"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 29.855969298244418,
+            "y": 22.940576451282936,
+            "width": 323.9440307017553,
+            "height": 559.5972414653838
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_insight_row_1",
+                  "vstack_insight_row_2",
+                  "vstack_insight_row_3"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1333.61403508772,
+        "y": 0,
+        "width": 386.94736842105226,
+        "height": 603.8513851307482
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e9049448-6672-4bf2-9572-1b8a01a39ace"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_insight_content"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 290.95363579358525,
+    "width": 1720.5614035087724,
+    "height": 603.8513851307483
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_chart_card",
+          "vstack_middle_chart_card"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_right_insight_card"
+        ]
+      ]
+    }
+  ]
+}

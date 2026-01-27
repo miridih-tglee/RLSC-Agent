@@ -1,0 +1,795 @@
+{
+  "id": "vstack_system_rows",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_system_top_row",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_system01_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "1944b8e5-4d9f-4e5c-b2a1-e359c8630555",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 534.4386760270477,
+                "height": 278.7528154209479
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_system01_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "8de71ac7-3a31-4695-b7c0-5eb8a0e16ea0",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "System 01",
+                  "areaSize": 11541.211048,
+                  "fontSize": 29.064,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 283.7,
+                    "height": 40.681039999999996
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "7d6114ac-1837-450f-bc69-2f5c851d485d",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "AI 기반 맞춤형 추천 시스템",
+                  "areaSize": 23656.552724999998,
+                  "fontSize": 36.701,
+                  "position": {
+                    "x": 0.0,
+                    "y": 43.91,
+                    "width": 460.5,
+                    "height": 51.371449999999996
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 14,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "44b4c045-b1f8-431b-abc6-278283b5dab7",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "고객은 번거로운 검색을 하지 않고 AI 알고리즘을 통해 빠르게 원하는 제품을 찾을 수 있습니다.",
+                  "areaSize": 36418.891325,
+                  "fontSize": 25.1,
+                  "position": {
+                    "x": 0.0,
+                    "y": 112.25,
+                    "width": 493.7,
+                    "height": 73.76724999999999
+                  },
+                  "fontFamily": "fo0esrbvuhd9z6d9",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 22.09,
+                "y": 46.5,
+                "width": 493.70000000000005,
+                "height": 186.01349842010933
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8de71ac7-3a31-4695-b7c0-5eb8a0e16ea0"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7d6114ac-1837-450f-bc69-2f5c851d485d"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "44b4c045-b1f8-431b-abc6-278283b5dab7"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 10.1
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 534.4386760270477,
+            "height": 278.7528154209479
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "1944b8e5-4d9f-4e5c-b2a1-e359c8630555"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_system01_text"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 46.5,
+            "bottom": 46.24,
+            "left": 22.09,
+            "right": 18.65
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_system02_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "4ceade44-0141-433c-89cf-f56ec2f2dd70",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 534.4386760270479,
+                "height": 278.75281542094797
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_system02_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "2d764ba1-7336-4355-a090-722ec9e371aa",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "System 02",
+                  "areaSize": 11541.211048,
+                  "fontSize": 29.064,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 283.7,
+                    "height": 40.681039999999996
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "a25e3d89-bd81-4c9b-bb9e-dcea93dbaee3",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "신속하고 정확한 배송 서비스",
+                  "areaSize": 23656.552724999998,
+                  "fontSize": 36.701,
+                  "position": {
+                    "x": 0.0,
+                    "y": 43.91,
+                    "width": 460.5,
+                    "height": 51.371449999999996
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 14,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "1c405a06-098d-4f7c-946d-18b4a799b88a",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "24시간 이내 배송 서비스와 실시간 배송 추적 시스템을 통해 빠르고 투명한 배송 경험을 제공합니다.",
+                  "areaSize": 36418.891325,
+                  "fontSize": 25.1,
+                  "position": {
+                    "x": 0.0,
+                    "y": 112.25,
+                    "width": 493.7,
+                    "height": 73.76724999999999
+                  },
+                  "fontFamily": "fo0esrbvuhd9z6d9",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 22.09,
+                "y": 46.5,
+                "width": 493.70000000000005,
+                "height": 186.01349842010927
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2d764ba1-7336-4355-a090-722ec9e371aa"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "a25e3d89-bd81-4c9b-bb9e-dcea93dbaee3"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "1c405a06-098d-4f7c-946d-18b4a799b88a"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 10.1
+            }
+          ],
+          "position": {
+            "x": 569.55,
+            "y": 0.0,
+            "width": 534.4386760270479,
+            "height": 278.75281542094797
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "4ceade44-0141-433c-89cf-f56ec2f2dd70"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_system02_text"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 46.5,
+            "bottom": 46.24,
+            "left": 22.09,
+            "right": 18.65
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1103.9892127961868,
+        "height": 278.752815420948
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_system01_card",
+              "group_system02_card"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 35.11
+    },
+    {
+      "id": "hstack_system_bottom_row",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_system03_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "f7049b12-b328-4dc7-aae1-1f25e67ce481",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 534.4386760270477,
+                "height": 278.75281542094797
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_system03_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f6a684d4-6f67-43e3-a92d-a4cc422ef974",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "System 03",
+                  "areaSize": 11541.211048,
+                  "fontSize": 29.064,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 283.7,
+                    "height": 40.681039999999996
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "b57c82b5-73ab-4c70-a544-3d6b74681ecc",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "다양한 결제 수단 및 간편 결제",
+                  "areaSize": 28588.211924999996,
+                  "fontSize": 36.701,
+                  "position": {
+                    "x": 0.0,
+                    "y": 43.91,
+                    "width": 556.5,
+                    "height": 51.371449999999996
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 17,
+                    "maxCharsPerLine": 17
+                  }
+                },
+                {
+                  "id": "6ae5eb19-0be1-4b2f-b39b-a75801044883",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "간편 결제 시스템을 통해 결제 시간 단축과 편리한 결제를 할 수 있습니다.",
+                  "areaSize": 36418.891325,
+                  "fontSize": 25.1,
+                  "position": {
+                    "x": 0.0,
+                    "y": 112.25,
+                    "width": 493.7,
+                    "height": 73.76724999999999
+                  },
+                  "fontFamily": "fo0esrbvuhd9z6d9",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 22.09,
+                "y": 46.5,
+                "width": 556.5,
+                "height": 186.01349842010939
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f6a684d4-6f67-43e3-a92d-a4cc422ef974"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b57c82b5-73ab-4c70-a544-3d6b74681ecc"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "6ae5eb19-0be1-4b2f-b39b-a75801044883"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 10.1
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 578.5942623274555,
+            "height": 278.75281542094797
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f7049b12-b328-4dc7-aae1-1f25e67ce481"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_system03_text"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 46.5,
+            "bottom": 46.24,
+            "left": 22.09,
+            "right": 0.0
+          },
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_system04_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "68af89a7-5068-4828-839b-09fa7f3aec16",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 534.4386760270479,
+                "height": 278.75281542094797
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_system04_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "68ce3651-0f71-4451-a6c3-0ba74239873d",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "System 04",
+                  "areaSize": 11541.211048,
+                  "fontSize": 29.064,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 283.7,
+                    "height": 40.681039999999996
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 11
+                  }
+                },
+                {
+                  "id": "4d56f927-c9de-49f3-8fc0-ad3612433d75",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "고객 지원 및 후기 시스템",
+                  "areaSize": 23656.552724999998,
+                  "fontSize": 36.701,
+                  "position": {
+                    "x": 0.0,
+                    "y": 43.91,
+                    "width": 460.5,
+                    "height": 51.371449999999996
+                  },
+                  "fontFamily": "fjurebdb5vk3fnnk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 14,
+                    "maxCharsPerLine": 14
+                  }
+                },
+                {
+                  "id": "7fda7789-9a96-4c4d-9aaf-53f46904cf62",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "신뢰성 있는 리뷰를 제공하며, 실시간 고객 지원으로 신속한 문제 해결이 가능합니다.",
+                  "areaSize": 36418.891325,
+                  "fontSize": 25.1,
+                  "position": {
+                    "x": 0.0,
+                    "y": 112.25,
+                    "width": 493.7,
+                    "height": 73.76724999999999
+                  },
+                  "fontFamily": "fo0esrbvuhd9z6d9",
+                  "fontWeight": "400",
+                  "patternLabel": "C",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 22.09,
+                "y": 46.5,
+                "width": 493.70000000000005,
+                "height": 186.01349842010939
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "68ce3651-0f71-4451-a6c3-0ba74239873d"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "4d56f927-c9de-49f3-8fc0-ad3612433d75"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7fda7789-9a96-4c4d-9aaf-53f46904cf62"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 10.1
+            }
+          ],
+          "position": {
+            "x": 569.55,
+            "y": 0.0,
+            "width": 534.4386760270479,
+            "height": 278.75281542094797
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "68af89a7-5068-4828-839b-09fa7f3aec16"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_system04_text"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 46.5,
+            "bottom": 46.24,
+            "left": 22.09,
+            "right": 18.65
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 327.63,
+        "width": 1103.9892127961868,
+        "height": 278.75281542094797
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_system03_card",
+              "group_system04_card"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      }
+    }
+  ],
+  "position": {
+    "x": 65.45,
+    "y": 273.92,
+    "width": 1103.9892127961868,
+    "height": 606.3832944639166
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_system_top_row",
+          "hstack_system_bottom_row"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 48.88
+}

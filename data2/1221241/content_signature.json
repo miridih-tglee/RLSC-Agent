@@ -1,0 +1,204 @@
+[
+  {
+    "role": "Description",
+    "type": "Group",
+    "children": [
+      {
+        "role": "Background",
+        "type": "SVG"
+      },
+      {
+        "role": "Description",
+        "type": "VStack",
+        "children": [
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Decoration",
+                        "type": "SVG"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Decoration",
+                        "type": "SVG"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Decoration",
+                        "type": "SVG"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "role": "Description",
+            "type": "HStack",
+            "children": [
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Decoration",
+                        "type": "SVG"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": null,
+                "type": "Spacer"
+              },
+              {
+                "role": "Description",
+                "type": "VStack",
+                "children": [
+                  {
+                    "role": "Marker",
+                    "type": "HStack",
+                    "children": [
+                      {
+                        "role": "Marker",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Decoration",
+                        "type": "SVG"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Description",
+                    "type": "VStack",
+                    "children": [
+                      {
+                        "role": "Title",
+                        "type": "Text"
+                      },
+                      {
+                        "role": "Description",
+                        "type": "Text"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

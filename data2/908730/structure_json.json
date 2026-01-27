@@ -1,0 +1,549 @@
+{
+  "id": "vstack_main",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "vstack_header",
+      "role": "Role.LayoutContainer.Title",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "c869bc20-3c28-4b9e-84a0-7da223a57b32",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "MIRI\nWATERPARK",
+          "areaSize": 41712.566575,
+          "fontSize": 33.333,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 544.3,
+            "height": 76.63525
+          },
+          "fontFamily": "fi68x424wev4nw9o",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 148,
+            "maxCharsPerLine": 74
+          }
+        },
+        {
+          "id": "group_header_button",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "69d4106e-51c1-46c5-afe1-dc722e0ac6ac",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "k695brtuby8ovec6",
+              "position": {
+                "x": 16.848420192710478,
+                "y": 0,
+                "width": 414.0023284457476,
+                "height": 98.11106396907599
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "aa35d660-1190-4fb1-aec9-32efae576633",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "시설안내",
+              "areaSize": 23979.248507499997,
+              "fontSize": 38.266,
+              "position": {
+                "x": 0,
+                "y": 25.081140708428137,
+                "width": 447.7,
+                "height": 53.56097499999999
+              },
+              "fontFamily": "flsdnrg8qzusvrdo",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 9,
+                "maxCharsPerLine": 9
+              }
+            }
+          ],
+          "position": {
+            "x": 48.21708481845735,
+            "y": 79.31277421092668,
+            "width": 447.70000000000005,
+            "height": 98.11106396907599
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "69d4106e-51c1-46c5-afe1-dc722e0ac6ac"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "aa35d660-1190-4fb1-aec9-32efae576633"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 568.0806988323501,
+        "y": 0,
+        "width": 544.3,
+        "height": 177.42383818000266
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c869bc20-3c28-4b9e-84a0-7da223a57b32"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_header_button"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_activity_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "6c8f4648-c2bd-4097-b61d-1d7890684e66",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 822.205950155944,
+                "height": 241.52752627616883
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_activity_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "e7051bef-8375-46a2-9d30-54f7908db35f",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "엑티비티 시설",
+                  "areaSize": 26270.3993,
+                  "fontSize": 46.665,
+                  "position": {
+                    "x": 320.5807229537176,
+                    "y": 0,
+                    "width": 402.1,
+                    "height": 65.333
+                  },
+                  "fontFamily": "flsdnrg8qzusvrdo",
+                  "fontWeight": "700",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 8,
+                    "maxCharsPerLine": 8
+                  }
+                },
+                {
+                  "id": "fa75c51f-227e-41a4-a4e8-e39bafb86bee",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "유수풀 / 파도풀\n엑티비티 슬라이딩 3개 / 스파 / 샤워실",
+                  "areaSize": 65057.77024,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 0,
+                    "y": 85.76162619090911,
+                    "width": 723.2,
+                    "height": 89.95819999999999
+                  },
+                  "fontFamily": "f8ad9qq0621n7p8q",
+                  "fontWeight": "700",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 44,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 49.46121316321532,
+                "y": 33.74226774565801,
+                "width": 723.2,
+                "height": 175.7198261909091
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "e7051bef-8375-46a2-9d30-54f7908db35f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "fa75c51f-227e-41a4-a4e8-e39bafb86bee"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 822.205950155944,
+            "height": 241.52752627616883
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "6c8f4648-c2bd-4097-b61d-1d7890684e66"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_activity_text"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "group_facility_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "809e51e8-7319-4442-820d-3e489f1cf0dd",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 822.205950155944,
+                "height": 241.52752627616883
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_facility_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "9df60175-ff64-4b1b-b2a7-05a279a91a37",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "부대 시설",
+                  "areaSize": 23343.4809,
+                  "fontSize": 46.665,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 357.3,
+                    "height": 65.333
+                  },
+                  "fontFamily": "flsdnrg8qzusvrdo",
+                  "fontWeight": "700",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 7,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "03f5bc1e-22f4-4538-b3b3-4e4de6da8087",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "야외 공연장/ 햄버거 프렌차이즈\n테이크아웃 카페",
+                  "areaSize": 65057.77024,
+                  "fontSize": 33.332,
+                  "position": {
+                    "x": 2.2737367544323206e-13,
+                    "y": 85.76162619090911,
+                    "width": 723.2,
+                    "height": 89.95819999999999
+                  },
+                  "fontFamily": "f8ad9qq0621n7p8q",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 44,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 49.53962686567138,
+                "y": 33.74226774565801,
+                "width": 723.2000000000003,
+                "height": 175.7198261909091
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "9df60175-ff64-4b1b-b2a7-05a279a91a37"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "03f5bc1e-22f4-4538-b3b3-4e4de6da8087"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 850.924606872362,
+            "y": 0,
+            "width": 822.205950155944,
+            "height": 241.52752627616883
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "809e51e8-7319-4442-820d-3e489f1cf0dd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_facility_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 5.373134328358219,
+        "y": 227.47036553923934,
+        "width": 1673.130557028306,
+        "height": 241.52752627616883
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_activity_card"
+            ],
+            [
+              "group_facility_card"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_videos",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "2781f25a-afec-4817-bcf2-3761349f0a15",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "05118792-0459-49f8-a082-1e0f694c9295",
+              "url": "c7442fb5-4116-4400-b09f-621af821de51",
+              "role": "Role.Element.Description",
+              "type": "Video",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 825.7880397081829,
+                "height": 458.88145830021097
+              },
+              "sourceType": "Video",
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 825.7880397081829,
+            "height": 458.88145830021097
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Video",
+              "patterns": [
+                [
+                  "05118792-0459-49f8-a082-1e0f694c9295"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fc0c164f-0e5f-42c2-b620-d675378fcc33",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "children": [
+            {
+              "id": "f3094947-e55a-448f-ad98-89b60cc008cb",
+              "url": "f3120a6d-0261-4bfa-997d-c006edce9398",
+              "role": "Role.Element.Description",
+              "type": "Video",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 825.7880397081829,
+                "height": 458.88145830021097
+              },
+              "sourceType": "Video",
+              "patternLabel": "A"
+            }
+          ],
+          "position": {
+            "x": 854.5066964246008,
+            "y": 0,
+            "width": 825.7880397081829,
+            "height": 458.88145830021097
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Video",
+              "patterns": [
+                [
+                  "f3094947-e55a-448f-ad98-89b60cc008cb"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 488.8136491213288,
+        "width": 1680.2947361327836,
+        "height": 458.88145830021097
+      },
+      "alignment": "center",
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Frame",
+          "patterns": [
+            [
+              "2781f25a-afec-4817-bcf2-3761349f0a15",
+              "fc0c164f-0e5f-42c2-b620-d675378fcc33"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 2.894435917653567,
+    "y": 0,
+    "width": 1680.2947361327836,
+    "height": 947.6951074215398
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Title",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_header"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_cards"
+        ],
+        [
+          "hstack_videos"
+        ]
+      ]
+    }
+  ]
+}

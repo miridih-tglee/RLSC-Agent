@@ -1,0 +1,507 @@
+{
+  "id": "hstack_values",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_value1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e4f7b332-3557-420a-94b6-cd0a91d35b6b",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 660.0000000000001,
+            "height": 460.98864746093705
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_value1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "4bc3a47d-829a-4fbd-bba4-22f89d9762e3",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "핵심가치 1",
+              "areaSize": 23054.540625,
+              "fontSize": 43.998953271028036,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 374.3,
+                "height": 61.59375
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 9
+              }
+            },
+            {
+              "id": "e368264d-0911-4cfb-85a0-0a99250f5f85",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "핵심 가치를 설명하는 제일 첫번째 문장을 적어주세요. ",
+              "areaSize": 53432.90625,
+              "fontSize": 34.6658,
+              "position": {
+                "x": 0.0,
+                "y": 81.61,
+                "width": 550.5,
+                "height": 97.0625
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "b937f885-31fd-40e8-8e7e-73b4c5b34f58",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "핵심 가치를 설명하는 문장을 적어주세요. 핵심 가치를 \n이루기 위해 기업에서 하는 노력도함께 적어주세요.",
+              "areaSize": 29541.154247999995,
+              "fontSize": 21.3328,
+              "position": {
+                "x": 0.0,
+                "y": 234.79,
+                "width": 461.7,
+                "height": 63.983439999999995
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 29,
+                "maxCharsPerLine": 29
+              }
+            }
+          ],
+          "position": {
+            "x": 64.76,
+            "y": 64.23,
+            "width": 550.5,
+            "height": 298.77641198976835
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4bc3a47d-829a-4fbd-bba4-22f89d9762e3"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e368264d-0911-4cfb-85a0-0a99250f5f85"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b937f885-31fd-40e8-8e7e-73b4c5b34f58"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 38.07
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 660.0000000000001,
+        "height": 460.98864746093705
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e4f7b332-3557-420a-94b6-cd0a91d35b6b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_value1"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 64.23,
+        "bottom": 97.98,
+        "left": 64.76,
+        "right": 44.74
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "vstack_value2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "9de56ada-5c9b-46a3-8a6e-a611407c64b5",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "핵심가치 2",
+          "areaSize": 19808.550000000003,
+          "fontSize": 43.998953271028036,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 321.6,
+            "height": 61.59375
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 8
+          }
+        },
+        {
+          "id": "7240d489-9a95-41f4-aec5-5f6b3b13fcb7",
+          "role": "Role.Element.Highlight",
+          "type": "Text",
+          "content": "핵심 가치를 설명하는 두번째 문장을 적어주세요. ",
+          "areaSize": 53432.90625,
+          "fontSize": 34.6658,
+          "position": {
+            "x": 0.0,
+            "y": 81.61,
+            "width": 550.5,
+            "height": 97.0625
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 18,
+            "maxCharsPerLine": 18
+          }
+        },
+        {
+          "id": "fd1e7531-e654-40ab-87ba-84dbc5826f3f",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "핵심 가치를 설명하는 문장을 적어주세요. 핵심 가치를 \n이루기 위해 기업에서 하는 노력도함께 적어주세요.",
+          "areaSize": 29541.154247999995,
+          "fontSize": 21.3328,
+          "position": {
+            "x": 0.0,
+            "y": 234.79,
+            "width": 461.7,
+            "height": 63.983439999999995
+          },
+          "fontFamily": "fo0esrbvuhd9z6d9",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 29,
+            "maxCharsPerLine": 29
+          }
+        }
+      ],
+      "position": {
+        "x": 704.76,
+        "y": 64.23,
+        "width": 550.5,
+        "height": 298.77641198976835
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "9de56ada-5c9b-46a3-8a6e-a611407c64b5"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Highlight",
+          "type": "Text",
+          "patterns": [
+            [
+              "7240d489-9a95-41f4-aec5-5f6b3b13fcb7"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "fd1e7531-e654-40ab-87ba-84dbc5826f3f"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 38.07
+    },
+    {
+      "id": "group_value3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "4a04a744-6ae6-4463-b92f-f5c91f8b8e88",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 668.4659352022045,
+            "height": 465.4746287693488
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_value3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "d24bb6d0-cadc-4635-a742-824be43099cd",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "핵심가치 3",
+              "areaSize": 22056.721875000003,
+              "fontSize": 43.998953271028036,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 358.1,
+                "height": 61.59375
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 9
+              }
+            },
+            {
+              "id": "d4dca785-5540-4d94-839b-4ed9785db956",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "핵심 가치를 설명하는 세번째 문장을 적어주세요. ",
+              "areaSize": 53432.90625,
+              "fontSize": 34.6658,
+              "position": {
+                "x": 0.0,
+                "y": 81.61,
+                "width": 550.5,
+                "height": 97.0625
+              },
+              "fontFamily": "ffi23l1xz5xc6rax",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 18,
+                "maxCharsPerLine": 18
+              }
+            },
+            {
+              "id": "b56447c3-10ec-43ef-9f8e-3a564f8620a2",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "핵심 가치를 설명하는 문장을 적어주세요. 핵심 가치를 \n이루기 위해 기업에서 하는 노력도함께 적어주세요.",
+              "areaSize": 29541.154247999995,
+              "fontSize": 21.3328,
+              "position": {
+                "x": 0.0,
+                "y": 234.79,
+                "width": 461.7,
+                "height": 63.983439999999995
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 29,
+                "maxCharsPerLine": 29
+              }
+            }
+          ],
+          "position": {
+            "x": 44.76,
+            "y": 64.23,
+            "width": 550.500971019776,
+            "height": 298.77641198976835
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d24bb6d0-cadc-4635-a742-824be43099cd"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d4dca785-5540-4d94-839b-4ed9785db956"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b56447c3-10ec-43ef-9f8e-3a564f8620a2"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 38.07
+        }
+      ],
+      "position": {
+        "x": 1300,
+        "y": 0,
+        "width": 668.4659352022045,
+        "height": 465.4746287693488
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "4a04a744-6ae6-4463-b92f-f5c91f8b8e88"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_value3"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 64.23,
+        "bottom": 102.47,
+        "left": 44.76,
+        "right": 73.2
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 650,
+    "width": 1968.4659352022045,
+    "height": 465.4746287693488
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_value1",
+          "group_value3"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_value2"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 44.75
+}

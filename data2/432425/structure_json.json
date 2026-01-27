@@ -1,0 +1,378 @@
+{
+  "id": "vstack_cardcontent_4",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_weeklabel_4",
+      "role": "Role.LayoutContainer.Title",
+      "type": "Group",
+      "children": [
+        {
+          "id": "910f57ed-ac9b-4b5a-b512-a416dcb49e25",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 161.51926968298403,
+            "height": 41.156084698607
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "bb57d1e5-a08f-4a77-801c-d481a1cd4d51",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "7 ~ 8주차",
+          "areaSize": 5039.675549999999,
+          "fontSize": 26.666,
+          "position": {
+            "x": 13.463905623911387,
+            "y": 5.386843613141991,
+            "width": 135,
+            "height": 37.330929999999995
+          },
+          "fontFamily": "fju3ot6wop8v1aww",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 6,
+            "maxCharsPerLine": 6
+          }
+        }
+      ],
+      "position": {
+        "x": 3.2324821844576945,
+        "y": 0,
+        "width": 161.51926968298403,
+        "height": 42.717773613142015
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "910f57ed-ac9b-4b5a-b512-a416dcb49e25"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "bb57d1e5-a08f-4a77-801c-d481a1cd4d51"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_theory_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_theory_header_4",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "dec78923-e2c9-446d-8cc1-145cfdb380ff",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.35264019462579,
+                "height": 32.91095736538051
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "945ecb9b-922d-47d7-b94e-bed119c1a013",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "이론",
+              "areaSize": 1779.0132139999996,
+              "fontSize": 21.333,
+              "position": {
+                "x": 14.036317597312745,
+                "y": 2.807376721691469,
+                "width": 59.6,
+                "height": 29.849214999999994
+              },
+              "fontFamily": "fju3ot6wop8v1aww",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 40.3157969286367,
+            "y": 0,
+            "width": 87.35264019462579,
+            "height": 32.91095736538051
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "dec78923-e2c9-446d-8cc1-145cfdb380ff"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "945ecb9b-922d-47d7-b94e-bed119c1a013"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f0481401-5039-4711-bb2c-3cb1d8a72be0",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "빛의 원리 \n알아보기",
+          "areaSize": 9079.349103,
+          "fontSize": 21.333,
+          "position": {
+            "x": 0,
+            "y": 43.221440965099816,
+            "width": 168.3,
+            "height": 53.94741
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 20,
+            "maxCharsPerLine": 10
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 72.53848769584476,
+        "width": 168.29999999999995,
+        "height": 97.16885096509981
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_theory_header_4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "f0481401-5039-4711-bb2c-3cb1d8a72be0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3bf2b4f9-691e-49fe-865f-5c153562a0e3",
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "svgData": "",
+      "position": {
+        "x": 1.0126565335572195,
+        "y": 190.15550180724932,
+        "width": 165.95892098478498,
+        "height": 2.25
+      },
+      "patternLabel": "C"
+    },
+    {
+      "id": "vstack_experiment_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_experiment_header_4",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "05cf2e8f-7d7e-4388-8136-ef1d48c359ff",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 87.35264019462579,
+                "height": 32.910957365380455
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "142ff9b9-f07b-4349-b832-33a3d1dd690f",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "실험",
+              "areaSize": 1880.5005449999996,
+              "fontSize": 21.333,
+              "position": {
+                "x": 12.3363175973127,
+                "y": 2.544071406588273,
+                "width": 63,
+                "height": 29.849214999999994
+              },
+              "fontFamily": "fju3ot6wop8v1aww",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 40.3157969286367,
+            "y": 0,
+            "width": 87.35264019462579,
+            "height": 32.910957365380455
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "05cf2e8f-7d7e-4388-8136-ef1d48c359ff"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "142ff9b9-f07b-4349-b832-33a3d1dd690f"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5815d4bf-50db-472d-bcba-d005b327d6fa",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "인공 무지개 \n만들기",
+          "areaSize": 9079.349103,
+          "fontSize": 21.333,
+          "position": {
+            "x": 0,
+            "y": 43.22102671484163,
+            "width": 168.3,
+            "height": 53.94741
+          },
+          "fontFamily": "ffi23l1xz5xc6rax",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 20,
+            "maxCharsPerLine": 10
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 217.47306315422458,
+        "width": 168.29999999999995,
+        "height": 97.16843671484162
+      },
+      "alignment": "center",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_experiment_header_4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "5815d4bf-50db-472d-bcba-d005b327d6fa"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 22.43695122828194,
+    "y": 0,
+    "width": 168.29999999999995,
+    "height": 314.6414998690662
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Title",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_weeklabel_4"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_theory_4",
+          "vstack_experiment_4"
+        ]
+      ]
+    },
+    {
+      "role": "Role.Element.Separator",
+      "type": "SVG",
+      "patterns": [
+        [
+          "3bf2b4f9-691e-49fe-865f-5c153562a0e3"
+        ]
+      ]
+    }
+  ]
+}

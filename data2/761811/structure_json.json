@@ -1,0 +1,406 @@
+{
+  "id": "grid_cards",
+  "gap": 16,
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "fbfa9784-fc5a-4495-aeef-dd7e958f6fa9",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560,
+            "height": 347.99999999999994
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "23829b37-0d56-4238-8070-ca8312a3ecf6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "단독 공인 협찬 3억원",
+              "areaSize": 14255.391819999999,
+              "fontSize": 31.999,
+              "position": {
+                "x": 91.81359509432647,
+                "y": 0,
+                "width": 318.2,
+                "height": 44.8001
+              },
+              "fontFamily": "f65i60mo9r1271pa",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 15
+              }
+            },
+            {
+              "id": "922dbcbc-7f66-4cfc-a95e-2df450de7c4d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "협찬사 단독 이벤트 행사(1회 전석 초대 티켓 제공) \n협찬사 제품 프로모션 행사\n공연 내용 중 상품에 대한 간접 광고 삽입\n폰트는 프리텐다드 Regular입니다.\n폰트 크기는 20포인트입니다.\n자간은 0, 행간은 1.55에 맞춰 주시기 바랍니다.",
+              "areaSize": 97813.76382,
+              "fontSize": 21.333,
+              "position": {
+                "x": 0,
+                "y": 77.35545200634175,
+                "width": 501.4,
+                "height": 195.0813
+              },
+              "fontFamily": "fwaepzjnvo2dqv12",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 5,
+                "totalMaxChars": 130,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 29.406394905673494,
+            "y": 32.198844890798796,
+            "width": 501.3999999999999,
+            "height": 272.4367520063418
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "23829b37-0d56-4238-8070-ca8312a3ecf6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "922dbcbc-7f66-4cfc-a95e-2df450de7c4d"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 560,
+        "height": 347.99999999999994
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "fbfa9784-fc5a-4495-aeef-dd7e958f6fa9"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_center",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ddb96ab6-aa48-4f55-920c-117003498e56",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560,
+            "height": 348.0943868971405
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_center_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "e0cd1a85-b363-4e24-8774-f4286653928b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "프로그램 협찬 3억원",
+              "areaSize": 14255.391819999999,
+              "fontSize": 31.999,
+              "position": {
+                "x": 91.81325936733845,
+                "y": 0,
+                "width": 318.2,
+                "height": 44.8001
+              },
+              "fontFamily": "f65i60mo9r1271pa",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 15
+              }
+            },
+            {
+              "id": "a34b98d9-ee27-4d76-82ed-3e9add8ffaf9",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "폰트는 프리텐다드 Regular입니다.\n폰트 크기는 20포인트입니다.\n자간은 0, 행간은 1.55에 맞춰 주시기 바랍니다.",
+              "areaSize": 48104.654445,
+              "fontSize": 21.333,
+              "position": {
+                "x": 0,
+                "y": 77.32707250000016,
+                "width": 501.4,
+                "height": 95.940675
+              },
+              "fontFamily": "fwaepzjnvo2dqv12",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 52,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 29.407115555970904,
+            "y": 32.19877689714042,
+            "width": 501.4000000000001,
+            "height": 173.2677475000001
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e0cd1a85-b363-4e24-8774-f4286653928b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "a34b98d9-ee27-4d76-82ed-3e9add8ffaf9"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 597.9932793497026,
+        "y": 0,
+        "width": 560,
+        "height": 348.0943868971405
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ddb96ab6-aa48-4f55-920c-117003498e56"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_center_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "de47a63b-e7c2-47f8-b212-bd5be5907bf9",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 560,
+            "height": 347.99999999999994
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_right_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b5d1d695-ee8f-4ee3-bd47-650fe36c69b9",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "경품 협찬 3억원",
+              "areaSize": 14255.391819999999,
+              "fontSize": 31.999,
+              "position": {
+                "x": 91.81625936733849,
+                "y": 0,
+                "width": 318.2,
+                "height": 44.8001
+              },
+              "fontFamily": "f65i60mo9r1271pa",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 15
+              }
+            },
+            {
+              "id": "838f4ec4-627e-4d8f-acb4-cc6ee48d9d64",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "폰트는 프리텐다드 Regular입니다.\n폰트 크기는 20포인트입니다.\n자간은 0, 행간은 1.55에 맞춰 주시기 바랍니다.",
+              "areaSize": 48104.654445,
+              "fontSize": 21.333,
+              "position": {
+                "x": 0,
+                "y": 77.32707250000016,
+                "width": 501.4,
+                "height": 95.940675
+              },
+              "fontFamily": "fwaepzjnvo2dqv12",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 52,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 29.403836206268124,
+            "y": 32.19877689714042,
+            "width": 501.39999999999986,
+            "height": 173.2677475000001
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b5d1d695-ee8f-4ee3-bd47-650fe36c69b9"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "838f4ec4-627e-4d8f-acb4-cc6ee48d9d64"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1195.9865586994054,
+        "y": 0,
+        "width": 560,
+        "height": 347.99999999999994
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "de47a63b-e7c2-47f8-b212-bd5be5907bf9"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_right_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 303.5764409962001,
+    "y": 1235.2830202275034,
+    "width": 1755.9865586994054,
+    "height": 348.0943868971405
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_left",
+          "group_card_center",
+          "group_card_right"
+        ]
+      ]
+    }
+  ]
+}

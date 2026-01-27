@@ -1,0 +1,639 @@
+{
+  "id": "vstack_market_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_tam_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "5e7dd9a9-0629-4adb-8db6-b46ab36e4d69",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 937.9228456872336,
+            "height": 167.75660413331843
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_tam_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "82215fa0-f5d2-45c3-8298-3a747302f2fe",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ks1wsvl1rppelt0m",
+              "position": {
+                "x": 0.0,
+                "y": 21.27,
+                "width": 81.90242108242217,
+                "height": 81.90242108242205
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_tam_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "8463c10b-5fe9-4916-be28-426ae5349aaf",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "전체 시장 : TAM (Total Addressable Market)",
+                  "areaSize": 31514.668287499997,
+                  "fontSize": 34.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 649.3,
+                    "height": 48.536375
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "48fd3dad-c8ed-4358-b218-bc15d84b6946",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "자사 제품이나 서비스가 이론적으로 도달할 수 있는 전체 시장 규모를 제시하세요.\nex) 글로벌 헬스케어 앱 시장 ",
+                  "areaSize": 48201.28084,
+                  "fontSize": 22.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 55.34,
+                    "width": 720.7,
+                    "height": 66.88119999999999
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 78,
+                    "maxCharsPerLine": 39
+                  }
+                }
+              ],
+              "position": {
+                "x": 115.32,
+                "y": 0.0,
+                "width": 720.7000000000002,
+                "height": 122.21874398718728
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8463c10b-5fe9-4916-be28-426ae5349aaf"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "48fd3dad-c8ed-4358-b218-bc15d84b6946"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 6.8
+            }
+          ],
+          "position": {
+            "x": 42.69,
+            "y": 21.66,
+            "width": 836.0198429942061,
+            "height": 122.21874398718728
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "82215fa0-f5d2-45c3-8298-3a747302f2fe"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_tam_text"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 33.42,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 937.9228456872336,
+        "height": 167.75660413331843
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "5e7dd9a9-0629-4adb-8db6-b46ab36e4d69"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_tam_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 21.66,
+        "bottom": 23.88,
+        "left": 42.69,
+        "right": 59.21
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_sam_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ae8c4914-1747-447d-9c5e-640c270988a1",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 937.9228456872336,
+            "height": 167.75660413331843
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_sam_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "35807502-8ee8-4255-969a-f40e88ca2537",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kkwi0m8ypizju3bg",
+              "position": {
+                "x": 0.0,
+                "y": 22.62,
+                "width": 80.90995336585831,
+                "height": 80.90995336585752
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_sam_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "54e13e00-992e-496a-adc4-79ba91e77121",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "유효 시장 : SAM (Serviceable Available Market)",
+                  "areaSize": 31514.668287499997,
+                  "fontSize": 34.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 649.3,
+                    "height": 48.536375
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "8d8c3b19-d4c9-4a51-a22e-8f06f3041449",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "TAM 중에서 자사 제품/서비스가 실제로 타겟할 수 있는 시장 규모를 보여주세요.\nex) 한국 내 건강관리 앱 시장",
+                  "areaSize": 48201.28084,
+                  "fontSize": 22.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 56.19,
+                    "width": 720.7,
+                    "height": 66.88119999999999
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 80,
+                    "maxCharsPerLine": 40
+                  }
+                }
+              ],
+              "position": {
+                "x": 114.82,
+                "y": 0.0,
+                "width": 720.7000000000002,
+                "height": 123.0738562692759
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "54e13e00-992e-496a-adc4-79ba91e77121"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8d8c3b19-d4c9-4a51-a22e-8f06f3041449"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0.0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 7.65
+            }
+          ],
+          "position": {
+            "x": 43.19,
+            "y": 20.8,
+            "width": 835.5236091359243,
+            "height": 123.0738562692759
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "35807502-8ee8-4255-969a-f40e88ca2537"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_sam_text"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 33.91,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 187.47,
+        "width": 937.9228456872336,
+        "height": 167.75660413331843
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ae8c4914-1747-447d-9c5e-640c270988a1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_sam_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 20.8,
+        "bottom": 23.88,
+        "left": 43.19,
+        "right": 59.21
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_som_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "434fcf87-1bb6-42eb-8879-eaa9c3a65fdd",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 937.9228456872336,
+            "height": 167.75660413331843
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_som_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "9567e1ff-89ee-4bf7-b6e1-3b2067d8d581",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kvd8mv5psjwu5ke9",
+              "position": {
+                "x": 0.0,
+                "y": 20.49,
+                "width": 81.15536014245833,
+                "height": 81.15536014245845
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_som_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "3cd9a4eb-01f5-4514-a8fa-d9934e70c656",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "초기 목표 시장 : SOM (Serviceable Obtainable Market)",
+                  "areaSize": 31514.668287499997,
+                  "fontSize": 34.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 649.3,
+                    "height": 48.536375
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 0,
+                    "totalMaxChars": 0,
+                    "maxCharsPerLine": 23
+                  }
+                },
+                {
+                  "id": "43894335-60d4-43fe-9f1e-7023dbfb3e52",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "SAM 중에서 향후 1~3년 내에 현실적으로 점유 가능한 시장 규모를 정의하세요.\nex) 초기 타깃(25-40세 직장인)",
+                  "areaSize": 49659.291,
+                  "fontSize": 22.667,
+                  "position": {
+                    "x": 0.0,
+                    "y": 56.19,
+                    "width": 742.5,
+                    "height": 66.88119999999999
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 84,
+                    "maxCharsPerLine": 42
+                  }
+                }
+              ],
+              "position": {
+                "x": 114.95,
+                "y": 0.0,
+                "width": 742.5,
+                "height": 123.06758886367857
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "3cd9a4eb-01f5-4514-a8fa-d9934e70c656"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "43894335-60d4-43fe-9f1e-7023dbfb3e52"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 7.65
+            }
+          ],
+          "position": {
+            "x": 43.06,
+            "y": 20.81,
+            "width": 857.4463125242241,
+            "height": 123.06758886367857
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9567e1ff-89ee-4bf7-b6e1-3b2067d8d581"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_som_text"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 33.79,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 383.27,
+        "width": 937.9228456872336,
+        "height": 167.75660413331843
+      },
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "434fcf87-1bb6-42eb-8879-eaa9c3a65fdd"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_som_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 20.81,
+        "bottom": 23.88,
+        "left": 43.06,
+        "right": 37.42
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0.0,
+    "y": 335.43,
+    "width": 937.9228456872336,
+    "height": 551.0280596313667
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_tam_card"
+        ],
+        [
+          "group_sam_card"
+        ],
+        [
+          "group_som_card"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 23.88
+}

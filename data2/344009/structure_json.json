@@ -1,0 +1,405 @@
+{
+  "id": "hstack_phase1_cards",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card_p1_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "3a40ee03-8887-4962-a4df-d4b2b1584a2f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 595.6886570390228,
+            "height": 164.44732973994178
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_p1_1_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2c8ffe90-608c-423c-8d3e-23402f4916db",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "제품 개발",
+              "areaSize": 12099.689437499997,
+              "fontSize": 28,
+              "position": {
+                "x": 69.35000000000005,
+                "y": 0,
+                "width": 308.7,
+                "height": 39.19562499999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 13,
+                "maxCharsPerLine": 13
+              }
+            },
+            {
+              "id": "334f7c8e-7863-4edd-81e7-6b403cd94839",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "차세대 핵심 기능 OOO 개발 완료 및 베타 테스트",
+              "areaSize": 15034.324499999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 54.93804819277074,
+                "width": 447.6,
+                "height": 33.58875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 74.28432851951135,
+            "y": 32.28561667720015,
+            "width": 447.59999999999997,
+            "height": 88.52679819277074
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2c8ffe90-608c-423c-8d3e-23402f4916db"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "334f7c8e-7863-4edd-81e7-6b403cd94839"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 595.6886570390228,
+        "height": 164.44732973994178
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "3a40ee03-8887-4962-a4df-d4b2b1584a2f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_p1_1_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_p1_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "0568b65f-f259-4e0a-a40f-0bf1d1170c91",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 595.6886570390227,
+            "height": 164.44732973994178
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_p1_2_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "e93b0e13-b4ec-4b80-807c-0a51dfad568a",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "사업 개발",
+              "areaSize": 12099.689437499997,
+              "fontSize": 28,
+              "position": {
+                "x": 82.19999999999982,
+                "y": 0,
+                "width": 308.7,
+                "height": 39.19562499999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 13,
+                "maxCharsPerLine": 13
+              }
+            },
+            {
+              "id": "f0fdb52c-3ef2-4a62-a572-7a4ae45a1c03",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "핵심 전략 파트너 O개사 추가 확보 및\n공동 사업 모델 구체화",
+              "areaSize": 31337.193,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 49.93804819277062,
+                "width": 473.3,
+                "height": 66.21
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 56,
+                "maxCharsPerLine": 28
+              }
+            }
+          ],
+          "position": {
+            "x": 61.434328519511496,
+            "y": 21.962373713344903,
+            "width": 473.30000000000007,
+            "height": 116.1480481927706
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "e93b0e13-b4ec-4b80-807c-0a51dfad568a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f0fdb52c-3ef2-4a62-a572-7a4ae45a1c03"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 610.2960223576805,
+        "y": 0,
+        "width": 595.6886570390227,
+        "height": 164.44732973994178
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "0568b65f-f259-4e0a-a40f-0bf1d1170c91"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_p1_2_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_card_p1_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "f56ed6ec-e023-4137-8d1b-6d2dd887212f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 595.6886570390227,
+            "height": 164.44732973994178
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card_p1_3_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "60535662-e331-4a26-a62a-7d6d261647e1",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "인재 영입",
+              "areaSize": 12099.689437499997,
+              "fontSize": 28,
+              "position": {
+                "x": 69.34999999999991,
+                "y": 0,
+                "width": 308.7,
+                "height": 39.19562499999999
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 13,
+                "maxCharsPerLine": 13
+              }
+            },
+            {
+              "id": "72ad6779-ebe1-4103-8a11-e10dc21d66d7",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "글로벌 수준의 O분야 핵심 인력 O명 충원",
+              "areaSize": 15034.324499999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 54.93804819277074,
+                "width": 447.6,
+                "height": 33.58875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 26
+              }
+            }
+          ],
+          "position": {
+            "x": 67.89224152978977,
+            "y": 32.28561667720015,
+            "width": 447.60000000000014,
+            "height": 88.52679819277074
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "60535662-e331-4a26-a62a-7d6d261647e1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "72ad6779-ebe1-4103-8a11-e10dc21d66d7"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 1220.5920447153608,
+        "y": 0,
+        "width": 595.6886570390227,
+        "height": 164.44732973994178
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "f56ed6ec-e023-4137-8d1b-6d2dd887212f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card_p1_3_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 1816.2807017543832,
+    "height": 164.44732973994178
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card_p1_1",
+          "group_card_p1_2",
+          "group_card_p1_3"
+        ]
+      ]
+    }
+  ]
+}

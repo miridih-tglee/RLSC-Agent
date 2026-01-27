@@ -1,0 +1,659 @@
+{
+  "id": "vstack_keywords",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_row_1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_1",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d843a6de-f6c9-413e-a03a-0041f537ce60",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kizbakzvt2xiayxo",
+              "position": {
+                "x": 0,
+                "y": 0.8890555555555579,
+                "width": 485.68963270208314,
+                "height": 109.49349025028573
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "8148257a-9aef-49e9-9039-4d37eacec2aa",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 1",
+              "areaSize": 39337.200000000004,
+              "fontSize": 60,
+              "position": {
+                "x": 8.84481635104163,
+                "y": 0,
+                "width": 468.3,
+                "height": 84
+              },
+              "fontFamily": "fji8gsqfz1iccjbr",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 485.68963270208314,
+            "height": 110.38254580584129
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d843a6de-f6c9-413e-a03a-0041f537ce60"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8148257a-9aef-49e9-9039-4d37eacec2aa"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a9fad07b-aaf6-4103-b367-5b82561ca7b9",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Keyword 1 Description",
+          "areaSize": 61635.529559999995,
+          "fontSize": 46.667,
+          "position": {
+            "x": 525.7789983109728,
+            "y": 13.71744580584135,
+            "width": 943.4,
+            "height": 65.3334
+          },
+          "fontFamily": "fji8gsqfz1iccjbr",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 47,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1469.178998310973,
+        "height": 110.38254580584129
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "a9fad07b-aaf6-4103-b367-5b82561ca7b9"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_2",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "de051a24-1192-467c-b7f6-41fca12fbe06",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kizbakzvt2xiayxo",
+              "position": {
+                "x": 0,
+                "y": 0.8890555555555011,
+                "width": 485.68963270208314,
+                "height": 109.49349025028573
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "fa038192-46ce-4f8e-b1ab-3981e25701ec",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 2",
+              "areaSize": 39337.200000000004,
+              "fontSize": 60,
+              "position": {
+                "x": 8.844816351041516,
+                "y": 0,
+                "width": 468.3,
+                "height": 84
+              },
+              "fontFamily": "fji8gsqfz1iccjbr",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 485.68963270208314,
+            "height": 110.38254580584123
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "de051a24-1192-467c-b7f6-41fca12fbe06"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "fa038192-46ce-4f8e-b1ab-3981e25701ec"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "59f13d32-54cd-46c7-9882-71d856e91cc0",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Keyword 2 Description",
+          "areaSize": 61635.529559999995,
+          "fontSize": 46.667,
+          "position": {
+            "x": 525.7789983109728,
+            "y": 13.717445805841294,
+            "width": 943.4,
+            "height": 65.3334
+          },
+          "fontFamily": "fji8gsqfz1iccjbr",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 47,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 146.0832733392831,
+        "width": 1469.178998310973,
+        "height": 110.38254580584123
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_2"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "59f13d32-54cd-46c7-9882-71d856e91cc0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_3",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "9b1ab42f-5233-4df6-8d90-3a887bb99148",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kizbakzvt2xiayxo",
+              "position": {
+                "x": 0,
+                "y": 0.8890555555556148,
+                "width": 485.68963270208314,
+                "height": 109.49349025028573
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "35dc3498-7d98-4c87-9974-3c8e04d55562",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 3",
+              "areaSize": 39337.200000000004,
+              "fontSize": 60,
+              "position": {
+                "x": 8.844816351041516,
+                "y": 0,
+                "width": 468.3,
+                "height": 84
+              },
+              "fontFamily": "fji8gsqfz1iccjbr",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 485.68963270208314,
+            "height": 110.38254580584135
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9b1ab42f-5233-4df6-8d90-3a887bb99148"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "35dc3498-7d98-4c87-9974-3c8e04d55562"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "53ad163a-525c-499e-b303-79b070cf0a63",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Keyword 3 Description",
+          "areaSize": 61635.529559999995,
+          "fontSize": 46.667,
+          "position": {
+            "x": 525.7789983109728,
+            "y": 13.717445805841407,
+            "width": 943.4,
+            "height": 65.3334
+          },
+          "fontFamily": "fji8gsqfz1iccjbr",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 47,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 292.1665466785663,
+        "width": 1469.178998310973,
+        "height": 110.38254580584135
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_3"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "53ad163a-525c-499e-b303-79b070cf0a63"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_4",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ac94be68-7358-4815-a6aa-e1b21c2d57e3",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kizbakzvt2xiayxo",
+              "position": {
+                "x": 0,
+                "y": 0.8890555555556148,
+                "width": 485.68963270208314,
+                "height": 109.49349025028573
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "8d8f0e24-b8cb-4503-9eda-ec815b64b45d",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 4",
+              "areaSize": 39337.200000000004,
+              "fontSize": 60,
+              "position": {
+                "x": 8.844816351041516,
+                "y": 0,
+                "width": 468.3,
+                "height": 84
+              },
+              "fontFamily": "fji8gsqfz1iccjbr",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 485.68963270208314,
+            "height": 110.38254580584135
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ac94be68-7358-4815-a6aa-e1b21c2d57e3"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8d8f0e24-b8cb-4503-9eda-ec815b64b45d"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c30e125e-9759-46b7-9f66-1441e4676062",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Keyword 4 Description",
+          "areaSize": 61635.529559999995,
+          "fontSize": 46.667,
+          "position": {
+            "x": 525.7789983109728,
+            "y": 13.717445805841294,
+            "width": 943.4,
+            "height": 65.3334
+          },
+          "fontFamily": "fji8gsqfz1iccjbr",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 47,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 438.2498200178494,
+        "width": 1469.178998310973,
+        "height": 110.38254580584135
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "c30e125e-9759-46b7-9f66-1441e4676062"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row_5",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_keyword_5",
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "children": [
+            {
+              "id": "6951cda5-22fc-4870-b064-ac53c714f45d",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kizbakzvt2xiayxo",
+              "position": {
+                "x": 0,
+                "y": 0.8890555555557285,
+                "width": 485.68963270208314,
+                "height": 109.49349025028573
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "d192236e-5453-4e72-8402-c3cee37d9c69",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Keyword 5",
+              "areaSize": 39337.200000000004,
+              "fontSize": 60,
+              "position": {
+                "x": 8.844816351041516,
+                "y": 0,
+                "width": 468.3,
+                "height": 84
+              },
+              "fontFamily": "fji8gsqfz1iccjbr",
+              "fontWeight": "700",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 17,
+                "maxCharsPerLine": 17
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 485.68963270208314,
+            "height": 110.38254580584146
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "6951cda5-22fc-4870-b064-ac53c714f45d"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d192236e-5453-4e72-8402-c3cee37d9c69"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "019ee01e-0243-4e8f-abf6-3b4c41fe0577",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Keyword 5 Description",
+          "areaSize": 61635.529559999995,
+          "fontSize": 46.667,
+          "position": {
+            "x": 525.7789983109728,
+            "y": 13.717445805841407,
+            "width": 943.4,
+            "height": 65.3334
+          },
+          "fontFamily": "fji8gsqfz1iccjbr",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 47,
+            "maxCharsPerLine": 47
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 584.3330933571327,
+        "width": 1469.178998310973,
+        "height": 110.38254580584146
+      },
+      "alignment": "center",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Title",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_keyword_5"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "019ee01e-0243-4e8f-abf6-3b4c41fe0577"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 225.44733417784667,
+    "y": 228.66687963261722,
+    "width": 1469.178998310973,
+    "height": 694.7156391629742
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_row_1",
+          "hstack_row_2",
+          "hstack_row_3",
+          "hstack_row_4",
+          "hstack_row_5"
+        ]
+      ]
+    }
+  ]
+}

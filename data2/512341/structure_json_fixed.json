@@ -1,0 +1,937 @@
+{
+  "id": "vstack_steps_all",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_steps_top",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_step_card_1",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_step_card_1_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "eaa12f35-ccc5-44d4-ae2c-13139de2150c",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "ea9bfbfd-6eae-43b1-9bfb-fd6eaea3b1f8",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 411.22982779107133,
+                    "height": 81.86929669316032
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "7595b7d9-a078-4a90-a391-f2db47a33e51",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단계의 명칭을 써주세요",
+                  "areaSize": 16777.672254,
+                  "fontSize": 32.679,
+                  "position": {
+                    "x": 21.53,
+                    "y": 19.44,
+                    "width": 366.8,
+                    "height": 45.740655
+                  },
+                  "fontFamily": "flsdnrg8qzusvrdo",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 15,
+                    "maxCharsPerLine": 15
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 411.22982779107133,
+                "height": 81.86929669316032
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "eaa12f35-ccc5-44d4-ae2c-13139de2150c"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "7595b7d9-a078-4a90-a391-f2db47a33e51"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 19.44,
+                "bottom": 16.69,
+                "left": 21.53,
+                "right": 22.9
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "4714438a-7eff-439f-b8f6-a445fbf1ac22",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "해당 단계에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+              "areaSize": 40951.0150335,
+              "fontSize": 23.999,
+              "position": {
+                "x": 11.0,
+                "y": 104.57,
+                "width": 386.1,
+                "height": 106.06323499999999
+              },
+              "fontFamily": "f19vnypd4d9cb4tz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 411.22982779107133,
+            "height": 210.6296678242444
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_step_card_1_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4714438a-7eff-439f-b8f6-a445fbf1ac22"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 22.7
+        },
+        {
+          "id": "vstack_step_card_2",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_step_card_2_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "294565c5-0d7d-4ed0-9ef2-33e1639aa81f",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "ea9bfbfd-6eae-43b1-9bfb-fd6eaea3b1f8",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 411.22982779107133,
+                    "height": 81.86929669316038
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "2b6a117e-8041-4551-8697-404b9cc41903",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단계의 명칭을 써주세요",
+                  "areaSize": 18044.6883975,
+                  "fontSize": 32.679,
+                  "position": {
+                    "x": 17.52,
+                    "y": 19.44,
+                    "width": 394.5,
+                    "height": 45.740655
+                  },
+                  "fontFamily": "flsdnrg8qzusvrdo",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 16,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 412.0207335727114,
+                "height": 81.86929669316038
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "294565c5-0d7d-4ed0-9ef2-33e1639aa81f"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "2b6a117e-8041-4551-8697-404b9cc41903"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 19.44,
+                "bottom": 16.69,
+                "left": 17.52,
+                "right": 0.0
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "bee35dd7-6813-4eef-93fc-0b437d693c8a",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "해당 단계에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+              "areaSize": 40951.0150335,
+              "fontSize": 23.999,
+              "position": {
+                "x": 11.0,
+                "y": 104.57,
+                "width": 386.1,
+                "height": 106.06323499999999
+              },
+              "fontFamily": "f19vnypd4d9cb4tz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 623.21,
+            "y": 0.0,
+            "width": 412.0207335727114,
+            "height": 210.6296678242444
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_step_card_2_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bee35dd7-6813-4eef-93fc-0b437d693c8a"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 22.7
+        },
+        {
+          "id": "vstack_step_card_3",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_step_card_3_header",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "765573ea-f984-442e-bacf-79be55bbf761",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "ea9bfbfd-6eae-43b1-9bfb-fd6eaea3b1f8",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 445.8964944577399,
+                    "height": 81.86929669316038
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "d69f034c-3940-4c2c-ba44-1f66535051f9",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "단계의 명칭을 써주세요",
+                  "areaSize": 18730.798222499998,
+                  "fontSize": 32.679,
+                  "position": {
+                    "x": 18.88,
+                    "y": 19.44,
+                    "width": 409.5,
+                    "height": 45.740655
+                  },
+                  "fontFamily": "flsdnrg8qzusvrdo",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 16,
+                    "maxCharsPerLine": 16
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 445.8964944577399,
+                "height": 81.86929669316038
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "765573ea-f984-442e-bacf-79be55bbf761"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d69f034c-3940-4c2c-ba44-1f66535051f9"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 19.44,
+                "bottom": 16.69,
+                "left": 18.88,
+                "right": 17.52
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "51251ac6-4c1b-4929-b898-a25b51439d22",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "해당 단계에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+              "areaSize": 40951.0150335,
+              "fontSize": 23.999,
+              "position": {
+                "x": 30.01,
+                "y": 104.57,
+                "width": 386.1,
+                "height": 106.06323499999999
+              },
+              "fontFamily": "f19vnypd4d9cb4tz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 44,
+                "maxCharsPerLine": 22
+              }
+            }
+          ],
+          "position": {
+            "x": 1212.32,
+            "y": 0.0,
+            "width": 445.8964944577399,
+            "height": 210.6296678242444
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_step_card_3_header"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "51251ac6-4c1b-4929-b898-a25b51439d22"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 22.7
+        }
+      ],
+      "position": {
+        "x": 40.33,
+        "y": 0.0,
+        "width": 1658.2204614514892,
+        "height": 210.6296678242444
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_step_card_1",
+              "vstack_step_card_2",
+              "vstack_step_card_3"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 194.53
+    },
+    {
+      "id": "hstack_bottom_row",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_page_note",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "9e3f428a-b164-41f4-928d-094af4f00d7b",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "e38e1c2d-4f1e-464c-8e1c-2d4f1ee64c53",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 560.4119759132349,
+                "height": 321.7992402556698
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "248a7594-325d-49f6-9a08-9beecd62f67f",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "해당 페이지에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. 해당 페이지에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+              "areaSize": 81269.791521,
+              "fontSize": 23.999,
+              "position": {
+                "x": 47.33,
+                "y": 77.83,
+                "width": 475.7,
+                "height": 170.84253
+              },
+              "fontFamily": "f19vnypd4d9cb4tz",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 4,
+                "totalMaxChars": 108,
+                "maxCharsPerLine": 27
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 560.4119759132349,
+            "height": 321.7992402556698
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "9e3f428a-b164-41f4-928d-094af4f00d7b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "248a7594-325d-49f6-9a08-9beecd62f67f"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 77.83,
+            "bottom": 73.13,
+            "left": 47.33,
+            "right": 37.38
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "hstack_steps_bottom_cards",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "vstack_step_card_4",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "group_step_card_4_header",
+                  "role": "Role.LayoutContainer.Title",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "32862134-2a4c-4358-b404-41d0febd3cba",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "ea9bfbfd-6eae-43b1-9bfb-fd6eaea3b1f8",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 500.1390570879453,
+                        "height": 81.86929669316032
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "165d240c-8bd9-4560-926c-887681a97401",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "단계의 명칭을 써주세요",
+                      "areaSize": 21091.0160205,
+                      "fontSize": 32.679,
+                      "position": {
+                        "x": 21.54,
+                        "y": 19.44,
+                        "width": 461.1,
+                        "height": 45.740655
+                      },
+                      "fontFamily": "flsdnrg8qzusvrdo",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 18,
+                        "maxCharsPerLine": 18
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 500.1390570879453,
+                    "height": 81.86929669316032
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "32862134-2a4c-4358-b404-41d0febd3cba"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "165d240c-8bd9-4560-926c-887681a97401"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 19.44,
+                    "bottom": 16.69,
+                    "left": 21.54,
+                    "right": 17.5
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                },
+                {
+                  "id": "d992c30f-6152-4386-9755-36a5242f4784",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "해당 단계에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+                  "areaSize": 40951.0150335,
+                  "fontSize": 23.999,
+                  "position": {
+                    "x": 64.61,
+                    "y": 107.23,
+                    "width": 386.1,
+                    "height": 106.06323499999999
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 44,
+                    "maxCharsPerLine": 22
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 500.1390570879453,
+                "height": 213.29550048919577
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Title",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_step_card_4_header"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "d992c30f-6152-4386-9755-36a5242f4784"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0.0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 25.36
+            },
+            {
+              "id": "vstack_step_card_5",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "group_step_card_5_header",
+                  "role": "Role.LayoutContainer.Title",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "f9863195-37ef-425b-b303-8bccecec108f",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "ea9bfbfd-6eae-43b1-9bfb-fd6eaea3b1f8",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 463.82960904347624,
+                        "height": 81.86929669316044
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "e60b0403-afb6-49bb-a2f0-7e9a87462fea",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "단계의 명칭을 써주세요",
+                      "areaSize": 20162.480723999997,
+                      "fontSize": 32.679,
+                      "position": {
+                        "x": 16.53,
+                        "y": 19.44,
+                        "width": 440.8,
+                        "height": 45.740655
+                      },
+                      "fontFamily": "flsdnrg8qzusvrdo",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 18,
+                        "maxCharsPerLine": 18
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 463.82960904347624,
+                    "height": 81.86929669316044
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "f9863195-37ef-425b-b303-8bccecec108f"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "e60b0403-afb6-49bb-a2f0-7e9a87462fea"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 19.44,
+                    "bottom": 16.69,
+                    "left": 16.53,
+                    "right": 6.5
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                },
+                {
+                  "id": "3bb5d873-91f8-44ab-ac11-0be5e8910392",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "해당 단계에 대한 내용을 작성해 주세요. 사용된 폰트는 Noto Sans CJK KR Regular입니다. 글자 크기는 18입니다. ",
+                  "areaSize": 41958.615766,
+                  "fontSize": 23.999,
+                  "position": {
+                    "x": 38.87,
+                    "y": 104.57,
+                    "width": 395.6,
+                    "height": 106.06323499999999
+                  },
+                  "fontFamily": "f19vnypd4d9cb4tz",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 46,
+                    "maxCharsPerLine": 23
+                  }
+                }
+              ],
+              "position": {
+                "x": 626.64,
+                "y": 0.0,
+                "width": 463.82960904347624,
+                "height": 210.62850048919574
+              },
+              "alignment": "leading",
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Title",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_step_card_5_header"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "3bb5d873-91f8-44ab-ac11-0be5e8910392"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 22.7
+            }
+          ],
+          "position": {
+            "x": 627.67,
+            "y": 79.03,
+            "width": 1090.4648069416257,
+            "height": 213.29550048919577
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_step_card_4",
+                  "vstack_step_card_5"
+                ]
+              ]
+            }
+          ],
+          "direction": "horizontal",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 126.5
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 304.76,
+        "width": 1718.1355279209888,
+        "height": 321.7992402556698
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_page_note"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_steps_bottom_cards"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 67.26
+    }
+  ],
+  "position": {
+    "x": 150.87,
+    "y": 97.35,
+    "width": 1718.1355279209888,
+    "height": 626.5610841560436
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_steps_top"
+        ],
+        [
+          "hstack_bottom_row"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 94.13
+}

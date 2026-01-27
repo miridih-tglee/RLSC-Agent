@@ -1,0 +1,423 @@
+{
+  "id": "vstack_left_column",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "vstack_main_text",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "611cf4fe-e74e-4b0b-8d60-f56621e010ea",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Our Strategic Planning",
+          "areaSize": 163502.823488,
+          "fontSize": 86.667,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 751.6,
+            "height": 217.53967999999998
+          },
+          "fontFamily": "f6tjz77i9jjriebo",
+          "fontWeight": "400",
+          "patternLabel": "A",
+          "textCapacity": {
+            "maxLines": 2,
+            "totalMaxChars": 18,
+            "maxCharsPerLine": 9
+          }
+        },
+        {
+          "id": "745b0218-ac4a-4846-80a2-ce8b0a07a574",
+          "role": "Role.Element.Subtitle",
+          "type": "Text",
+          "content": "Write a subtitle for the page here.",
+          "areaSize": 31537,
+          "fontSize": 32,
+          "position": {
+            "x": 0,
+            "y": 259.7983278723401,
+            "width": 704,
+            "height": 44.796875
+          },
+          "fontFamily": "f6tjz77i9jjriebo",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 23
+          }
+        },
+        {
+          "id": "ddc10bf0-a37c-4485-ab11-1ecf8a6b57ad",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, ",
+          "areaSize": 105392.87999999999,
+          "fontSize": 24,
+          "position": {
+            "x": 1.702127659574444,
+            "y": 345.0814151063826,
+            "width": 744.3,
+            "height": 141.6
+          },
+          "fontFamily": "f5jwtn8lisu801jj",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 3,
+            "totalMaxChars": 96,
+            "maxCharsPerLine": 32
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 751.6,
+        "height": 486.6814151063826
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "611cf4fe-e74e-4b0b-8d60-f56621e010ea"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Subtitle",
+          "type": "Text",
+          "patterns": [
+            [
+              "745b0218-ac4a-4846-80a2-ce8b0a07a574"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "ddc10bf0-a37c-4485-ab11-1ecf8a6b57ad"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_plans",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "zstack_plan01_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "ZStack",
+          "children": [
+            {
+              "id": "359cae7f-8638-4cc7-8ef4-f240dfbb7635",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 445.7659574468082,
+                "height": 242.29787234042533
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_plan01_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "f05b5d98-54e2-4c07-b9be-e94ef5a7ccd1",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Plan 01",
+                  "areaSize": 7960.250625,
+                  "fontSize": 28,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 203.1,
+                    "height": 39.19375
+                  },
+                  "fontFamily": "f6tjz77i9jjriebo",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 7,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "91c49cab-f05d-42b3-af27-d8a45718ae7a",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt justo et varius convallis.",
+                  "areaSize": 40128,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 52.09190975633851,
+                    "width": 380,
+                    "height": 105.6
+                  },
+                  "fontFamily": "f3s60hesmz9j6e4o",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 34,
+                    "maxCharsPerLine": 17
+                  }
+                }
+              ],
+              "position": {
+                "x": 32.621276595745144,
+                "y": 37.941281733022606,
+                "width": 380,
+                "height": 157.69190975633853
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "f05b5d98-54e2-4c07-b9be-e94ef5a7ccd1"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "91c49cab-f05d-42b3-af27-d8a45718ae7a"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 445.7659574468082,
+            "height": 242.29787234042533
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "359cae7f-8638-4cc7-8ef4-f240dfbb7635"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_plan01_text"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zstack_plan02_card",
+          "role": "Role.LayoutContainer.Description",
+          "type": "ZStack",
+          "children": [
+            {
+              "id": "0ffd6dee-b84a-46c6-8aba-0c8c91863f48",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 425.5319148936177,
+                "height": 242.29787234042533
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_plan02_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "eb7c74d3-209b-4551-b5e3-f381d08e49c3",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "Plan 02",
+                  "areaSize": 7960.250625,
+                  "fontSize": 28,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 203.1,
+                    "height": 39.19375
+                  },
+                  "fontFamily": "f6tjz77i9jjriebo",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 7,
+                    "maxCharsPerLine": 7
+                  }
+                },
+                {
+                  "id": "15573ded-bf9c-48ab-8d05-d9ecde369bff",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt justo et varius convallis.",
+                  "areaSize": 40128,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 1.1368683772161603e-13,
+                    "y": 52.09190975633851,
+                    "width": 380,
+                    "height": 105.6
+                  },
+                  "fontFamily": "f3s60hesmz9j6e4o",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 2,
+                    "totalMaxChars": 34,
+                    "maxCharsPerLine": 17
+                  }
+                }
+              ],
+              "position": {
+                "x": 22.80361702127675,
+                "y": 37.941281733022606,
+                "width": 380.0000000000001,
+                "height": 157.69190975633853
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "eb7c74d3-209b-4551-b5e3-f381d08e49c3"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "15573ded-bf9c-48ab-8d05-d9ecde369bff"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 474.6808510638293,
+            "y": 0,
+            "width": 425.5319148936177,
+            "height": 242.29787234042533
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0ffd6dee-b84a-46c6-8aba-0c8c91863f48"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_plan02_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 3.234042553191216,
+        "y": 552.5248193617023,
+        "width": 900.212765957447,
+        "height": 242.29787234042533
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "ZStack",
+          "patterns": [
+            [
+              "zstack_plan01_card",
+              "zstack_plan02_card"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 903.4468085106382,
+    "height": 794.8226917021276
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_main_text"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_plans"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "group_left_panel",
+  "role": "Role.LayoutContainer.Description",
+  "type": "Group",
+  "children": [
+    {
+      "id": "1d709bcb-d0d0-41dc-936c-e1825a203121",
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "svgData": "kvbhgboinsbc889w",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 786.7431498925855,
+        "height": 1134.75
+      },
+      "patternLabel": "A"
+    },
+    {
+      "id": "vstack_left_text_blocks",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_tom_block",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "2864c368-7d70-490a-ab6f-6b66691b100b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "TOM",
+              "areaSize": 12751.7492665,
+              "fontSize": 47.921,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 190.1,
+                "height": 67.079165
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "6835e88f-7544-4335-8838-c6198127ace4",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사가 속한 가장 큰 시장의 규모를 제시하세요.\n(예: 글로벌 인테리어 시장)",
+              "areaSize": 36140.15625,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 89.04,
+                "width": 537.9,
+                "height": 67.1875
+              },
+              "fontFamily": "fgvdme3g6xj57o6n",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 25,
+                "maxCharsPerLine": 25
+              }
+            },
+            {
+              "id": "a9328483-32a2-4fef-b30d-912694127966",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 213.02,
+                "width": 471.732143497643,
+                "height": 1.5
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 537.8999999999999,
+            "height": 214.51576066807036
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "2864c368-7d70-490a-ab6f-6b66691b100b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "6835e88f-7544-4335-8838-c6198127ace4"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "a9328483-32a2-4fef-b30d-912694127966"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 39.38,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "bottom"
+        },
+        {
+          "id": "vstack_sam_block",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "3248d409-1d34-4f28-a9b0-ab5b68b2fcd6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "SAM",
+              "areaSize": 12751.7492665,
+              "fontSize": 47.921,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 190.1,
+                "height": 67.079165
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "224a899b-a2da-4c1d-bf3b-75fe64743068",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "그중 회사의 제품/서비스가 공략 가능한 시장의\n규모를 보여주세요.\n(예: 국내 온라인 인테리어 플랫폼 시장)",
+              "areaSize": 54210.234375,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 89.04,
+                "width": 537.9,
+                "height": 100.78125
+              },
+              "fontFamily": "fgvdme3g6xj57o6n",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 50,
+                "maxCharsPerLine": 25
+              }
+            },
+            {
+              "id": "0efaa94f-faf1-451f-b637-9f85460f0339",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 249.38,
+                "width": 471.732143497643,
+                "height": 1.5
+              },
+              "patternLabel": "C"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 248.48,
+            "width": 537.8999999999999,
+            "height": 250.88400414697935
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3248d409-1d34-4f28-a9b0-ab5b68b2fcd6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "224a899b-a2da-4c1d-bf3b-75fe64743068"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0efaa94f-faf1-451f-b637-9f85460f0339"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 40.76,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "bottom"
+        },
+        {
+          "id": "vstack_som_block",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "77e7310e-fdbe-49f2-97f8-5fe32672f465",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "SOM",
+              "areaSize": 12751.7492665,
+              "fontSize": 47.921,
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 190.1,
+                "height": 67.079165
+              },
+              "fontFamily": "fo0esrbvuhd9z6d9",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "0cc4b976-771c-4559-8379-5e5b08b93944",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "향후 1~3년 내에 현실적으로 점유할 수 있는\n시장의 규모를 정의하세요.\n(예: 수도권 아파트 전문 디자인 서비스 시장)",
+              "areaSize": 53998.59374999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0.0,
+                "y": 89.04,
+                "width": 535.8,
+                "height": 100.78125
+              },
+              "fontFamily": "fgvdme3g6xj57o6n",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 50,
+                "maxCharsPerLine": 25
+              }
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 535.19,
+            "width": 535.8,
+            "height": 189.816919862708
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "77e7310e-fdbe-49f2-97f8-5fe32672f465"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0cc4b976-771c-4559-8379-5e5b08b93944"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 21.96
+        }
+      ],
+      "position": {
+        "x": 183.91,
+        "y": 226.45,
+        "width": 537.8999999999999,
+        "height": 725.0059627745898
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_tom_block",
+              "vstack_sam_block"
+            ],
+            [
+              "vstack_som_block"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 34.9
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 786.7431498925855,
+    "height": 1134.75
+  },
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Background",
+      "type": "SVG",
+      "patterns": [
+        [
+          "1d709bcb-d0d0-41dc-936c-e1825a203121"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_text_blocks"
+        ]
+      ]
+    }
+  ],
+  "padding": {
+    "top": 226.45,
+    "bottom": 183.29,
+    "left": 183.91,
+    "right": 64.93
+  },
+  "horizontalAlignment": "center",
+  "verticalAlignment": "center"
+}

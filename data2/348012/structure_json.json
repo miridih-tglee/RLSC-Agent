@@ -1,0 +1,342 @@
+{
+  "id": "vstack_cert_block",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_header_cert",
+      "role": "Role.LayoutContainer.Title",
+      "type": "Group",
+      "children": [
+        {
+          "id": "3d769536-2e63-4fac-b378-d318346a9544",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 555.9536836320586,
+            "height": 40.59573469694908
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "dcb5cbaf-efbb-4ecc-9e8e-383d803a088e",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "자격사항",
+          "areaSize": 3569.0874999999996,
+          "fontSize": 22.947,
+          "position": {
+            "x": 222.42684181602908,
+            "y": 4.791811356496396,
+            "width": 111.1,
+            "height": 32.125
+          },
+          "fontFamily": "fe66s70dv8vhmnow",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 0,
+            "totalMaxChars": 0,
+            "maxCharsPerLine": 5
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 555.9536836320586,
+        "height": 40.59573469694908
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "3d769536-2e63-4fac-b378-d318346a9544"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "dcb5cbaf-efbb-4ecc-9e8e-383d803a088e"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_cert_body",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "vstack_cert_dates",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "21c3126b-6bea-4675-a1b2-1f66fa0c63a8",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "20XX.10",
+              "areaSize": 5115.599999999999,
+              "fontSize": 20.397,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 179.2,
+                "height": 28.546875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "6d8e8e35-e3ec-4229-b18d-f29f7b21289d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "20XX.05",
+              "areaSize": 5115.599999999999,
+              "fontSize": 20.397,
+              "position": {
+                "x": 0,
+                "y": 45.354557917379,
+                "width": 179.2,
+                "height": 28.546875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            },
+            {
+              "id": "78f8f3f4-5a7f-448f-b0f9-80ff3b68ab19",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "20XX.06",
+              "areaSize": 5115.599999999999,
+              "fontSize": 20.397,
+              "position": {
+                "x": 0,
+                "y": 90.70903111839675,
+                "width": 179.2,
+                "height": 28.546875
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 9.31078446668289,
+            "width": 179.19999999999993,
+            "height": 119.25590611839675
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "21c3126b-6bea-4675-a1b2-1f66fa0c63a8",
+                  "6d8e8e35-e3ec-4229-b18d-f29f7b21289d",
+                  "78f8f3f4-5a7f-448f-b0f9-80ff3b68ab19"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "975df123-7949-4868-9cbe-d2562b062dd5",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 197.5803638901192,
+            "y": 0,
+            "width": 1.3792663346516747,
+            "height": 137.48563961438686
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "vstack_cert_desc",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "f123f975-ad07-435a-a4f7-76d528842434",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "자격사항을 입력해주세요.",
+              "areaSize": 8673.84375,
+              "fontSize": 21.671,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 286,
+                "height": 30.328125
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 15
+              }
+            },
+            {
+              "id": "4231a6bc-7a42-4afe-b0db-a8a00101ee12",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "자격사항을 입력해주세요.",
+              "areaSize": 8795.15625,
+              "fontSize": 21.671,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 45.36698749097104,
+                "width": 290,
+                "height": 30.328125
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 15
+              }
+            },
+            {
+              "id": "40feb6e5-9a67-4838-afda-2e7e4b694c19",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "공인 외국어 인증 (900점)",
+              "areaSize": 9656.474999999999,
+              "fontSize": 21.671,
+              "position": {
+                "x": 2.2737367544323206e-13,
+                "y": 90.73301886089644,
+                "width": 318.4,
+                "height": 30.328125
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 16
+              }
+            }
+          ],
+          "position": {
+            "x": 225.3082635491927,
+            "y": 8.340460801778818,
+            "width": 318.4000000000001,
+            "height": 121.06114386089644
+          },
+          "alignment": "leading",
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f123f975-ad07-435a-a4f7-76d528842434",
+                  "4231a6bc-7a42-4afe-b0db-a8a00101ee12",
+                  "40feb6e5-9a67-4838-afda-2e7e4b694c19"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 5.541409697462996,
+        "y": 66.45272205805588,
+        "width": 543.7082635491928,
+        "height": 137.48563961438686
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_cert_dates"
+            ],
+            [
+              "vstack_cert_desc"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "975df123-7949-4868-9cbe-d2562b062dd5"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 555.9536836320586,
+    "height": 203.93836167244274
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Title",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_header_cert"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_cert_body"
+        ]
+      ]
+    }
+  ]
+}

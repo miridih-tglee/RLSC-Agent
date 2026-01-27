@@ -1,0 +1,544 @@
+{
+  "id": "hstack_main_columns",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_left_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_left_card_common",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e004abe1-114d-44a0-9371-ec569ef0fce8",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 623.9999999999999,
+                "height": 195.00000000000017
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "4db02387-824c-4e06-827a-fadd67cc4ce9",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "COMMON NOUN",
+              "areaSize": 60866.82819991258,
+              "fontSize": 77.54097902097902,
+              "position": {
+                "x": 31.73,
+                "y": 46.51,
+                "width": 560.7,
+                "height": 108.5550708041958
+              },
+              "fontFamily": "fvb1qmfo32pm4e7a",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 623.9999999999999,
+            "height": 195.00000000000017
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e004abe1-114d-44a0-9371-ec569ef0fce8"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4db02387-824c-4e06-827a-fadd67cc4ce9"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 46.51,
+            "bottom": 39.93,
+            "left": 31.73,
+            "right": 31.57
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_left_card_noun",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "e9be2406-cb4e-498f-b126-4b2b1d63d2da",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 623.9999999999999,
+                "height": 195.00000000000023
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "ea28ba41-2269-4e0d-ac37-3c328a165f5e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "NOUN",
+              "areaSize": 39488.83997800471,
+              "fontSize": 86.5757267189182,
+              "position": {
+                "x": 149.32,
+                "y": 41.93,
+                "width": 325.8,
+                "height": 121.20577034378364
+              },
+              "fontFamily": "fvb1qmfo32pm4e7a",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 230.85,
+            "width": 623.9999999999999,
+            "height": 195.00000000000023
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "e9be2406-cb4e-498f-b126-4b2b1d63d2da"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "ea28ba41-2269-4e0d-ac37-3c328a165f5e"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 41.93,
+            "bottom": 31.86,
+            "left": 149.32,
+            "right": 148.88
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_left_card_proper",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "57fb047a-f8c4-47b6-8c16-bd47f5a88fb0",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 623.9999999999999,
+                "height": 195.0000000000001
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "c504f055-4d40-4410-b6d2-c5ce49218de1",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "PROPER NOUN",
+              "areaSize": 58998.0312,
+              "fontSize": 75.465,
+              "position": {
+                "x": 32.87,
+                "y": 45.77,
+                "width": 558.4,
+                "height": 105.6555
+              },
+              "fontFamily": "fvb1qmfo32pm4e7a",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 461.69,
+            "width": 623.9999999999999,
+            "height": 195.0000000000001
+          },
+          "patternLabel": "C",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "57fb047a-f8c4-47b6-8c16-bd47f5a88fb0"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c504f055-4d40-4410-b6d2-c5ce49218de1"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 45.77,
+            "bottom": 43.57,
+            "left": 32.87,
+            "right": 32.73
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 623.9999999999999,
+        "height": 656.6946194221453
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_left_card_common"
+            ],
+            [
+              "group_left_card_noun"
+            ],
+            [
+              "group_left_card_proper"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 35.84
+    },
+    {
+      "id": "vstack_right_cards",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "group_right_card_common",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "90f62b9b-ee93-41e7-b847-705cdecb8cd5",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 624,
+                "height": 195.00000000000017
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "aa6f7bde-bbd0-4c9f-a216-ca5dee15cd34",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Names any one of a class of people, places, things,\n or animals",
+              "areaSize": 76604.01103800001,
+              "fontSize": 38.667,
+              "position": {
+                "x": 60.7,
+                "y": 25.49,
+                "width": 502.8,
+                "height": 152.354835
+              },
+              "fontFamily": "fmbjpnn3p8g4qqut",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 624,
+            "height": 195.00000000000017
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "90f62b9b-ee93-41e7-b847-705cdecb8cd5"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "aa6f7bde-bbd0-4c9f-a216-ca5dee15cd34"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 25.49,
+            "bottom": 17.16,
+            "left": 60.7,
+            "right": 60.5
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_right_card_proper",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "0cc3caf5-d9be-4fa8-a99c-7bb482519219",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 624,
+                "height": 195.00000000000023
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0502b3b3-ed0e-40f3-9b0c-5698a079d536",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Names a specific person, place, thing, or animal and is always capitalized",
+              "areaSize": 77326.22133,
+              "fontSize": 38.667,
+              "position": {
+                "x": 49.0,
+                "y": 26.81,
+                "width": 526.2,
+                "height": 146.95215
+              },
+              "fontFamily": "fmbjpnn3p8g4qqut",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 231.35,
+            "width": 624,
+            "height": 195.00000000000023
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0cc3caf5-d9be-4fa8-a99c-7bb482519219"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0502b3b3-ed0e-40f3-9b0c-5698a079d536"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 26.81,
+            "bottom": 21.24,
+            "left": 49.0,
+            "right": 48.8
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_right_card_noun",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "cea48c62-e60c-467b-86c4-4e1f2bf6485a",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "khrvnw7ve83j2axt",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 624,
+                "height": 195.0000000000001
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0c0b4625-1ec9-48c5-bfdd-b31dba54e564",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "A word that names a person, place, thing, or animal.",
+              "areaSize": 61896.245579999995,
+              "fontSize": 38.667,
+              "position": {
+                "x": 101.5,
+                "y": 27.71,
+                "width": 421.2,
+                "height": 146.95215
+              },
+              "fontFamily": "fmbjpnn3p8g4qqut",
+              "fontWeight": "400",
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 462.69,
+            "width": 624,
+            "height": 195.0000000000001
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "cea48c62-e60c-467b-86c4-4e1f2bf6485a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0c0b4625-1ec9-48c5-bfdd-b31dba54e564"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 27.71,
+            "bottom": 20.34,
+            "left": 101.5,
+            "right": 101.3
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 1139.0,
+        "y": 0.0,
+        "width": 624,
+        "height": 657.694619422145
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_right_card_common",
+              "group_right_card_proper",
+              "group_right_card_noun"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0.0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 36.34
+    }
+  ],
+  "position": {
+    "x": 75.47,
+    "y": 339.59,
+    "width": 1763.0000000000005,
+    "height": 657.694619422145
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_left_cards"
+        ],
+        [
+          "vstack_right_cards"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 515.0
+}

@@ -1,0 +1,376 @@
+{
+  "id": "vstack_vision_mission_block",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_vision",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_vision_icon",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "d06a5503-8625-4812-aba3-a127b6b697b6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kw13c3i3iiwabm8r",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 63.063782345129084,
+                "height": 63.063782345128914
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f30124a8-f883-4041-be9b-5285c1903a8c",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ki4s2fud3xjlw5ld",
+              "position": {
+                "x": 3.9851465707522493,
+                "y": 3.0044817976897775,
+                "width": 57.0548187497493,
+                "height": 57.05481874974936
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 63.063782345129084,
+            "height": 63.063782345128914
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d06a5503-8625-4812-aba3-a127b6b697b6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "f30124a8-f883-4041-be9b-5285c1903a8c"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_vision_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "c6b1e3d4-30fd-4a76-9eed-4e8e1bf155ae",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "our Vision",
+              "areaSize": 32229.119999999995,
+              "fontSize": 32,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 719.4,
+                "height": 44.8
+              },
+              "fontFamily": "fbnein7yibsdcapi",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 26,
+                "maxCharsPerLine": 26
+              }
+            },
+            {
+              "id": "eb223d93-a504-4f10-91aa-07793518a437",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "회사의 존재 이유와 장기적인 목표를 1~2 문장으로 명확하게 서술하세요. 이 슬라이드는 회사의 '왜(Why)'를 전달하며 투자자와의 감성적 연결고리를 만드는 공간입니다.",
+              "areaSize": 75659.92031249999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 78.25247809106236,
+                "width": 685.5,
+                "height": 110.37187499999999
+              },
+              "fontFamily": "ft2guoj5awopmq58",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 80,
+                "maxCharsPerLine": 40
+              }
+            }
+          ],
+          "position": {
+            "x": 85.21762849897505,
+            "y": 9.131891172564565,
+            "width": 719.4000000000001,
+            "height": 188.62435309106235
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "c6b1e3d4-30fd-4a76-9eed-4e8e1bf155ae"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "eb223d93-a504-4f10-91aa-07793518a437"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 3.410605131648481e-13,
+        "y": 0,
+        "width": 804.6176284989751,
+        "height": 197.7562442636269
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_vision_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_vision_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_mission",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_mission_icon",
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "children": [
+            {
+              "id": "3839c542-5d67-4d45-b55d-8b47d0849ca6",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kw13c3i3iiwabm8r",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 63.0637823451292,
+                "height": 63.06378234512897
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "fa0a0cc5-b947-4063-b81a-d4a330406f02",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ki4s2fud3xjlw5ld",
+              "position": {
+                "x": 3.985146570752704,
+                "y": 3.004481797689891,
+                "width": 57.05481874974919,
+                "height": 57.05481874974919
+              },
+              "patternLabel": "B"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 63.0637823451292,
+            "height": 63.06378234512897
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "3839c542-5d67-4d45-b55d-8b47d0849ca6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "fa0a0cc5-b947-4063-b81a-d4a330406f02"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vstack_mission_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "302a5990-8ad5-43a2-8475-c143ee1bce21",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "our Mission",
+              "areaSize": 32229.119999999995,
+              "fontSize": 32,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 719.4,
+                "height": 44.8
+              },
+              "fontFamily": "fbnein7yibsdcapi",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 26,
+                "maxCharsPerLine": 26
+              }
+            },
+            {
+              "id": "8846c1f8-5493-4bf9-a84c-e71eaeac9478",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "단순한 목표 문구를 넘어, 우리가 세상을 바라보는 관점과 고객·사회·산업에 기여하고자 하는 구체적인 의지를 함축적으로 표현해야 합니다. 이를 통해 투자자와 이해관계자들이 ‘이 회사는 무엇을 위해 존재하는지 직관적으로 이해하고 공감할 수 있어야 합니다.",
+              "areaSize": 101218.00499999999,
+              "fontSize": 24,
+              "position": {
+                "x": 0,
+                "y": 78.25247809106247,
+                "width": 680.4,
+                "height": 148.7625
+              },
+              "fontFamily": "ft2guoj5awopmq58",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 3,
+                "totalMaxChars": 117,
+                "maxCharsPerLine": 39
+              }
+            }
+          ],
+          "position": {
+            "x": 85.21762849897539,
+            "y": 9.131891172564565,
+            "width": 719.4000000000001,
+            "height": 227.01497809106252
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "302a5990-8ad5-43a2-8475-c143ee1bce21"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8846c1f8-5493-4bf9-a84c-e71eaeac9478"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 295.2567230440653,
+        "width": 804.6176284989755,
+        "height": 236.14686926362708
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Decoration",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_mission_icon"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_mission_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 1011.0915750915739,
+    "y": 0,
+    "width": 804.6176284989755,
+    "height": 531.4035923076924
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_vision"
+        ],
+        [
+          "hstack_mission"
+        ]
+      ]
+    }
+  ]
+}

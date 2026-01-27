@@ -1,0 +1,595 @@
+{
+  "id": "vstack_main_content",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "hstack_top_panels",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_left_panel",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "dc8dcf40-17ef-4034-9931-ea2d0f73f3f7",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 808.0386237545288,
+                "height": 447.4768889280024
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_left_panel_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "vstack_subtopic_1",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "children": [
+                    {
+                      "id": "4d5afa0d-292a-4be9-8296-3edc53348188",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "\nSub Topic 1",
+                      "areaSize": 57099.07763000001,
+                      "fontSize": 29.333,
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 721.1,
+                        "height": 79.1833
+                      },
+                      "fontFamily": "f2r8qn68yqgr3583",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 50,
+                        "maxCharsPerLine": 25
+                      }
+                    },
+                    {
+                      "id": "03aea1b0-3f29-4a27-be54-0284b1566176",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "Sub Topic 1 Description",
+                      "areaSize": 57535.442684999995,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 1.0,
+                        "y": 96.87,
+                        "width": 719.1,
+                        "height": 80.01034999999999
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 35,
+                        "maxCharsPerLine": 35
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 721.0999999999999,
+                    "height": 176.87892595634236
+                  },
+                  "alignment": "leading",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "4d5afa0d-292a-4be9-8296-3edc53348188"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "03aea1b0-3f29-4a27-be54-0284b1566176"
+                        ]
+                      ]
+                    }
+                  ],
+                  "direction": "vertical",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  },
+                  "gap": 17.69
+                },
+                {
+                  "id": "vstack_subtopic_2",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "children": [
+                    {
+                      "id": "9e3795d1-cfce-4388-ac56-3d2078297170",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "\nSub Topic 2",
+                      "areaSize": 57099.07763000001,
+                      "fontSize": 29.333,
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 721.1,
+                        "height": 79.1833
+                      },
+                      "fontFamily": "f2r8qn68yqgr3583",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 50,
+                        "maxCharsPerLine": 25
+                      }
+                    },
+                    {
+                      "id": "32bafe41-93fd-46e5-8034-ecca92d9d6e2",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "Sub Topic 2 Description",
+                      "areaSize": 57535.442684999995,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 1.0,
+                        "y": 96.87,
+                        "width": 719.1,
+                        "height": 80.01034999999999
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 35,
+                        "maxCharsPerLine": 35
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 201.24,
+                    "width": 721.0999999999999,
+                    "height": 176.87892595634173
+                  },
+                  "alignment": "leading",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "9e3795d1-cfce-4388-ac56-3d2078297170"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "32bafe41-93fd-46e5-8034-ecca92d9d6e2"
+                        ]
+                      ]
+                    }
+                  ],
+                  "direction": "vertical",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                  },
+                  "gap": 17.69
+                }
+              ],
+              "position": {
+                "x": 43.49,
+                "y": 34.73,
+                "width": 721.0999999999999,
+                "height": 378.1164972422444
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "patterns": [
+                    [
+                      "vstack_subtopic_1",
+                      "vstack_subtopic_2"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 24.36
+            }
+          ],
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 808.0386237545288,
+            "height": 447.4768889280024
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "dc8dcf40-17ef-4034-9931-ea2d0f73f3f7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_left_panel_content"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 34.73,
+            "bottom": 34.63,
+            "left": 43.49,
+            "right": 43.45
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        },
+        {
+          "id": "group_right_panel",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "429a682c-3499-4665-98b0-0d6600177eec",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 808.0386237545288,
+                "height": 447.4768889280024
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_right_panel_content",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "vstack_subtopic_3",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "children": [
+                    {
+                      "id": "c4ec0314-62d7-42a8-a84f-0449a652d474",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "\nSub Topic 3",
+                      "areaSize": 57099.07763000001,
+                      "fontSize": 29.333,
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 721.1,
+                        "height": 79.1833
+                      },
+                      "fontFamily": "f2r8qn68yqgr3583",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 50,
+                        "maxCharsPerLine": 25
+                      }
+                    },
+                    {
+                      "id": "b7ae272c-0050-461f-b71c-e807bbfafd93",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "Sub Topic 3 Description",
+                      "areaSize": 57535.442684999995,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 1.0,
+                        "y": 96.87,
+                        "width": 719.1,
+                        "height": 80.01034999999999
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 35,
+                        "maxCharsPerLine": 35
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 721.1000000000001,
+                    "height": 176.8789259563423
+                  },
+                  "alignment": "leading",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "c4ec0314-62d7-42a8-a84f-0449a652d474"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "b7ae272c-0050-461f-b71c-e807bbfafd93"
+                        ]
+                      ]
+                    }
+                  ],
+                  "direction": "vertical",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0.0
+                  },
+                  "gap": 17.69
+                },
+                {
+                  "id": "vstack_subtopic_4",
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "children": [
+                    {
+                      "id": "ba32761e-d35f-484d-8a1a-dfec5507d1fd",
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "content": "\nSub Topic 4",
+                      "areaSize": 57099.07763000001,
+                      "fontSize": 29.333,
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 721.1,
+                        "height": 79.1833
+                      },
+                      "fontFamily": "f2r8qn68yqgr3583",
+                      "fontWeight": "400",
+                      "patternLabel": "A",
+                      "textCapacity": {
+                        "maxLines": 2,
+                        "totalMaxChars": 50,
+                        "maxCharsPerLine": 25
+                      }
+                    },
+                    {
+                      "id": "c464c157-6dc2-4f46-8b0a-5c781cf950a9",
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "content": "Sub Topic 4 Description",
+                      "areaSize": 57535.442684999995,
+                      "fontSize": 26.667,
+                      "position": {
+                        "x": 1.0,
+                        "y": 96.87,
+                        "width": 719.1,
+                        "height": 80.01034999999999
+                      },
+                      "fontFamily": "fd9spew91ifdfz4a",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 1,
+                        "totalMaxChars": 35,
+                        "maxCharsPerLine": 35
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 201.24,
+                    "width": 721.1000000000001,
+                    "height": 176.8789259563419
+                  },
+                  "alignment": "leading",
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Title",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "ba32761e-d35f-484d-8a1a-dfec5507d1fd"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Description",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "c464c157-6dc2-4f46-8b0a-5c781cf950a9"
+                        ]
+                      ]
+                    }
+                  ],
+                  "direction": "vertical",
+                  "padding": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0.0
+                  },
+                  "gap": 17.69
+                }
+              ],
+              "position": {
+                "x": 43.49,
+                "y": 34.73,
+                "width": 721.1000000000001,
+                "height": 378.11649724224435
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Description",
+                  "type": "VStack",
+                  "patterns": [
+                    [
+                      "vstack_subtopic_3",
+                      "vstack_subtopic_4"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "vertical",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "gap": 24.36
+            }
+          ],
+          "position": {
+            "x": 834.96,
+            "y": 0.0,
+            "width": 808.0386237545288,
+            "height": 447.4768889280024
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "429a682c-3499-4665-98b0-0d6600177eec"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_right_panel_content"
+                ]
+              ]
+            }
+          ],
+          "padding": {
+            "top": 34.73,
+            "bottom": 34.63,
+            "left": 43.49,
+            "right": 43.45
+          },
+          "horizontalAlignment": "center",
+          "verticalAlignment": "center"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 1643.0000000000002,
+        "height": 447.4768889280024
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_left_panel",
+              "group_right_panel"
+            ]
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0.0
+      },
+      "gap": 26.92
+    }
+  ],
+  "position": {
+    "x": 138.5,
+    "y": 216.65,
+    "width": 1643.0000000000002,
+    "height": 447.4768889280024
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_top_panels"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  }
+}

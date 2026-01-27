@@ -1,0 +1,356 @@
+{
+  "id": "vstack_company_block",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_company_capsule",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "b10bf2d9-c250-4d15-82aa-0741f1584cbb",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 62.700000000000045,
+            "y": 0,
+            "width": 400,
+            "height": 80
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "8dd96673-dbb1-4523-97b9-cd19511f15fc",
+          "role": "Role.Element.Highlight",
+          "type": "Text",
+          "content": "MIRI COMPANY",
+          "areaSize": 17650.15625,
+          "fontSize": 23.999399999999998,
+          "position": {
+            "x": 0,
+            "y": 23.50041250000004,
+            "width": 525.4,
+            "height": 33.59375
+          },
+          "fontFamily": "fwav18ym87i5zr4t",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 21,
+            "maxCharsPerLine": 21
+          }
+        }
+      ],
+      "position": {
+        "x": 87.29999999999995,
+        "y": 0,
+        "width": 525.3999999999999,
+        "height": 80
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "b10bf2d9-c250-4d15-82aa-0741f1584cbb"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Highlight",
+          "type": "Text",
+          "patterns": [
+            [
+              "8dd96673-dbb1-4523-97b9-cd19511f15fc"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_vision",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "84c48ce7-da29-4418-b7d5-d8f7b71e8151",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 700,
+            "height": 80
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_vision_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "1f980169-17be-45f9-8a68-6b6c1656ef3c",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "VISION",
+              "areaSize": 3944.4603769999994,
+              "fontSize": 22.6661,
+              "position": {
+                "x": 0,
+                "y": 3.7332400000000803,
+                "width": 124.3,
+                "height": 31.733389999999996
+              },
+              "fontFamily": "fwav18ym87i5zr4t",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 5
+              }
+            },
+            {
+              "id": "954c6f9a-d948-4846-8515-492a97568bcc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "미리컴퍼니의 비전을 입력해 주세요.",
+              "areaSize": 16393.09594,
+              "fontSize": 26.665999999999997,
+              "position": {
+                "x": 149.6751697967336,
+                "y": 0,
+                "width": 439.1,
+                "height": 37.3334
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 49.32422241329914,
+            "y": 21.333799999999997,
+            "width": 588.7751697967337,
+            "height": 37.33339999999998
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1f980169-17be-45f9-8a68-6b6c1656ef3c"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "954c6f9a-d948-4846-8515-492a97568bcc"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 96,
+        "width": 700,
+        "height": 80
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "84c48ce7-da29-4418-b7d5-d8f7b71e8151"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_vision_text"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group_mission",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "d80004d4-0ed7-4306-8139-28ad42aa6fa0",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 700,
+            "height": 80
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "hstack_mission_text",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "66b56bde-45da-4b34-8cbe-42071871c986",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "MISSION",
+              "areaSize": 3944.4603769999994,
+              "fontSize": 22.6661,
+              "position": {
+                "x": 0,
+                "y": 3.7332400000000234,
+                "width": 124.3,
+                "height": 31.733389999999996
+              },
+              "fontFamily": "fwav18ym87i5zr4t",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 5
+              }
+            },
+            {
+              "id": "18e6f06f-6ec4-430b-a5c8-9b0064d75eeb",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "미리컴퍼니의 미션을 입력해 주세요.",
+              "areaSize": 16393.09594,
+              "fontSize": 26.665999999999997,
+              "position": {
+                "x": 151.67520487444415,
+                "y": 0,
+                "width": 439.1,
+                "height": 37.3334
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 0,
+                "totalMaxChars": 0,
+                "maxCharsPerLine": 19
+              }
+            }
+          ],
+          "position": {
+            "x": 47.32418733558859,
+            "y": 21.333799999999997,
+            "width": 590.7752048744443,
+            "height": 37.33339999999998
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "66b56bde-45da-4b34-8cbe-42071871c986"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "18e6f06f-6ec4-430b-a5c8-9b0064d75eeb"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 192,
+        "width": 700,
+        "height": 80
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "d80004d4-0ed7-4306-8139-28ad42aa6fa0"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_mission_text"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 132.48839756277778,
+    "y": 0,
+    "width": 700,
+    "height": 272
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_company_capsule"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_vision",
+          "group_mission"
+        ]
+      ]
+    }
+  ]
+}

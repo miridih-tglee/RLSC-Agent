@@ -1,0 +1,407 @@
+{
+  "id": "vstack_card_1_content",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "8c781a28-2def-41d5-9eac-54fb589adec1",
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "content": "초기 시장 진입 및 검증",
+      "areaSize": 18133.775,
+      "fontSize": 32,
+      "position": {
+        "x": 0.74,
+        "y": 0.0,
+        "width": 404.8,
+        "height": 44.796875
+      },
+      "fontFamily": "ffi23l1xz5xc6rax",
+      "fontWeight": "400",
+      "patternLabel": "A",
+      "textCapacity": {
+        "maxLines": 0,
+        "totalMaxChars": 0,
+        "maxCharsPerLine": 14
+      }
+    },
+    {
+      "id": "vstack_card_1_body",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "vstack_goal_section_1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_goal_chip_1",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "18c7b3a9-825b-4353-b207-0a33ba4debc0",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 119.99999999999997,
+                    "height": 40
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "3c476ed4-de46-482f-925d-ec642561b01d",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "목표",
+                  "areaSize": 3546.42354,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 0.6,
+                    "y": 4.93,
+                    "width": 118.8,
+                    "height": 29.85205
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 6,
+                    "maxCharsPerLine": 6
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 119.99999999999997,
+                "height": 40
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "18c7b3a9-825b-4353-b207-0a33ba4debc0"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "3c476ed4-de46-482f-925d-ec642561b01d"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 4.93,
+                "bottom": 5.22,
+                "left": 0.6,
+                "right": 0.6
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "d3ec78c8-31c5-48a9-b61d-4bea9441d409",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "이 단계의 구체적인 목표를 작성하세요. (예: 핵심 고객 1,000명 확보, PMF 검증)",
+              "areaSize": 20108.782049999998,
+              "fontSize": 18.667,
+              "position": {
+                "x": 0.48,
+                "y": 55.18,
+                "width": 399,
+                "height": 50.397949999999994
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 24
+              }
+            }
+          ],
+          "position": {
+            "x": 3.17,
+            "y": 0.0,
+            "width": 399.4799937146968,
+            "height": 105.57425868832365
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_goal_chip_1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d3ec78c8-31c5-48a9-b61d-4bea9441d409"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 15.18
+        },
+        {
+          "id": "62ba26ac-33ff-463a-abf6-dd5f25b20405",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0.0,
+            "y": 126.84,
+            "width": 406.2813749705517,
+            "height": 1.5
+          },
+          "patternLabel": "B"
+        },
+        {
+          "id": "vstack_strategy_section_1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "group_strategy_chip_1",
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "625729e0-a1c0-496d-a0f9-b81b8b1f1d28",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 119.99999999999997,
+                    "height": 40
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b94bbe3b-e5ac-4d17-aaaa-eccdb1cb75a6",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "전략",
+                  "areaSize": 3546.42354,
+                  "fontSize": 21.333,
+                  "position": {
+                    "x": 0.6,
+                    "y": 4.93,
+                    "width": 118.8,
+                    "height": 29.85205
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 6,
+                    "maxCharsPerLine": 6
+                  }
+                }
+              ],
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 119.99999999999997,
+                "height": 40
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "625729e0-a1c0-496d-a0f9-b81b8b1f1d28"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b94bbe3b-e5ac-4d17-aaaa-eccdb1cb75a6"
+                    ]
+                  ]
+                }
+              ],
+              "padding": {
+                "top": 4.93,
+                "bottom": 5.22,
+                "left": 0.6,
+                "right": 0.6
+              },
+              "horizontalAlignment": "center",
+              "verticalAlignment": "center"
+            },
+            {
+              "id": "3a084b8b-398f-48d1-bc08-4450ce45a3cc",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "목표 달성을 위한 구체적인 액션 플랜을 제시하세요. (예: 커뮤니티 타겟 마케팅, 파일럿 프로젝트 진행)",
+              "areaSize": 20108.782049999998,
+              "fontSize": 18.667,
+              "position": {
+                "x": 0.48,
+                "y": 55.18,
+                "width": 399,
+                "height": 50.397949999999994
+              },
+              "fontFamily": "fd9spew91ifdfz4a",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 48,
+                "maxCharsPerLine": 24
+              }
+            }
+          ],
+          "position": {
+            "x": 3.17,
+            "y": 147.08,
+            "width": 399.47999371469655,
+            "height": 105.57425868832331
+          },
+          "alignment": "leading",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Title",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_strategy_chip_1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3a084b8b-398f-48d1-bc08-4450ce45a3cc"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 15.18
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 102.42,
+        "width": 406.2813749705517,
+        "height": 252.64935815906063
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_goal_section_1_content",
+              "vstack_strategy_section_1_content"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "62ba26ac-33ff-463a-abf6-dd5f25b20405"
+            ]
+          ]
+        }
+      ],
+      "direction": "vertical",
+      "padding": {
+        "top": 0,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "gap": 20.0,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 36.86,
+    "y": 55.65,
+    "width": 406.2813749705517,
+    "height": 355.0715359892846
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.Element.Title",
+      "type": "Text",
+      "patterns": [
+        [
+          "8c781a28-2def-41d5-9eac-54fb589adec1"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_card_1_body"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0.0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 57.62
+}

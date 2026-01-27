@@ -1,0 +1,812 @@
+{
+  "id": "vstack_all_rows",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "vstack_row1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "hstack_row1_main",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_badge_row1",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "6c85f398-fed9-4cef-8120-3e940e020e18",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 201.8510114984931,
+                    "height": 88.12932977287232
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "ec1fd7b1-d7ea-4fe0-b1cc-58b3ddfc390e",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "ONE",
+                  "areaSize": 6092.037319499999,
+                  "fontSize": 30.667,
+                  "position": {
+                    "x": 29.97550574924655,
+                    "y": 23.744666386436165,
+                    "width": 141.9,
+                    "height": 42.93190499999999
+                  },
+                  "fontFamily": "ft8080w1k59v5oyk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 201.8510114984931,
+                "height": 88.12932977287232
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "6c85f398-fed9-4cef-8120-3e940e020e18"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "ec1fd7b1-d7ea-4fe0-b1cc-58b3ddfc390e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "5083252c-f1e8-4191-8648-675dbb73692b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Paid",
+              "areaSize": 13937.517197999998,
+              "fontSize": 53.333,
+              "position": {
+                "x": 268.6562749800155,
+                "y": 5.098069886436178,
+                "width": 186.7,
+                "height": 74.65194
+              },
+              "fontFamily": "feueyqyj2uzgf53v",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            },
+            {
+              "id": "b78dad29-c761-420f-ae9f-6a21430c585e",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Establish a leading presence across targeted sectors to foster growth and engagement.",
+              "areaSize": 75980.68127999999,
+              "fontSize": 26.667,
+              "position": {
+                "x": 574.6957417261957,
+                "y": 1.3980648864362024,
+                "width": 890.4,
+                "height": 85.33319999999999
+              },
+              "fontFamily": "fl5egsc3curvuzsa",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 36,
+                "maxCharsPerLine": 36
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1465.0957417261957,
+            "height": 88.12932977287232
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_badge_row1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "5083252c-f1e8-4191-8648-675dbb73692b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b78dad29-c761-420f-ae9f-6a21430c585e"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "96bc5925-8a39-4ac3-94a2-3c168c87aaf4",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0.7883931147816838,
+            "y": 138.63937280377286,
+            "width": 1687.9259146693012,
+            "height": 2.25
+          },
+          "patternLabel": "B"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1688.7143077840828,
+        "height": 140.88937280377286
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row1_main"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "96bc5925-8a39-4ac3-94a2-3c168c87aaf4"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_row2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "hstack_row2_main",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_badge_row2",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "da801898-8c65-4417-ad4d-17bb86b74d20",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 201.8510114984931,
+                    "height": 88.12932977287232
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "b1071b09-28e3-438f-9fa8-3772feb819e0",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "TWO",
+                  "areaSize": 6092.037319499999,
+                  "fontSize": 30.667,
+                  "position": {
+                    "x": 29.97550574924655,
+                    "y": 23.744679886436188,
+                    "width": 141.9,
+                    "height": 42.93190499999999
+                  },
+                  "fontFamily": "ft8080w1k59v5oyk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 201.8510114984931,
+                "height": 88.12932977287232
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "da801898-8c65-4417-ad4d-17bb86b74d20"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "b1071b09-28e3-438f-9fa8-3772feb819e0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "b3685cb6-85fe-41a8-b266-ac6c3d5f2d50",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Socials",
+              "areaSize": 15131.948237999999,
+              "fontSize": 53.333,
+              "position": {
+                "x": 268.6562749800155,
+                "y": 4.098069886436065,
+                "width": 202.7,
+                "height": 74.65194
+              },
+              "fontFamily": "feueyqyj2uzgf53v",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 7,
+                "maxCharsPerLine": 7
+              }
+            },
+            {
+              "id": "0227cbce-0450-4a2c-99a7-79810a291e73",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Establish a leading presence across targeted sectors to foster growth and engagement.",
+              "areaSize": 86928.93084,
+              "fontSize": 26.667,
+              "position": {
+                "x": 574.6957417261958,
+                "y": 1.3980648864361456,
+                "width": 1018.7,
+                "height": 85.33319999999999
+              },
+              "fontFamily": "fl5egsc3curvuzsa",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 41,
+                "maxCharsPerLine": 41
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1593.3957417261959,
+            "height": 88.12932977287232
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_badge_row2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b3685cb6-85fe-41a8-b266-ac6c3d5f2d50"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0227cbce-0450-4a2c-99a7-79810a291e73"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a51ed86-e021-4ea4-a54d-c7041fe7209e",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0.7883931147816838,
+            "y": 138.1853488451045,
+            "width": 1687.9259146693012,
+            "height": 2.25
+          },
+          "patternLabel": "B"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 192.88937280377291,
+        "width": 1688.7143077840828,
+        "height": 140.4353488451045
+      },
+      "alignment": "leading",
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row2_main"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "6a51ed86-e021-4ea4-a54d-c7041fe7209e"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_row3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "hstack_row3_main",
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "children": [
+            {
+              "id": "group_badge_row3",
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "children": [
+                {
+                  "id": "c943a4e1-2ac3-4ae7-bfe3-74cec2be7205",
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "svgData": "kvbhgboinsbc889w",
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 201.8510114984931,
+                    "height": 88.12932977287232
+                  },
+                  "patternLabel": "A"
+                },
+                {
+                  "id": "bcfe8f65-c169-4d67-9295-9212a28a462b",
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "content": "THREE",
+                  "areaSize": 6092.037319499999,
+                  "fontSize": 30.667,
+                  "position": {
+                    "x": 29.97550574924655,
+                    "y": 23.744679886436188,
+                    "width": 141.9,
+                    "height": 42.93190499999999
+                  },
+                  "fontFamily": "ft8080w1k59v5oyk",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 10,
+                    "maxCharsPerLine": 10
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 201.8510114984931,
+                "height": 88.12932977287232
+              },
+              "patternLabel": "A",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Background",
+                  "type": "SVG",
+                  "patterns": [
+                    [
+                      "c943a4e1-2ac3-4ae7-bfe3-74cec2be7205"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Marker",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "bcfe8f65-c169-4d67-9295-9212a28a462b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "78243261-ab6d-4011-b6f3-52e1d5fb5334",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "Organic",
+              "areaSize": 16027.771517999998,
+              "fontSize": 53.333,
+              "position": {
+                "x": 268.6562749800155,
+                "y": 6.098069886436065,
+                "width": 214.7,
+                "height": 74.65194
+              },
+              "fontFamily": "feueyqyj2uzgf53v",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 8,
+                "maxCharsPerLine": 8
+              }
+            },
+            {
+              "id": "b6f0fd0f-d5b7-4840-b3a1-b7f66945c4ab",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "Establish a leading presence across targeted sectors to foster growth and engagement.",
+              "areaSize": 75980.68127999999,
+              "fontSize": 26.667,
+              "position": {
+                "x": 574.6957417261957,
+                "y": 1.3980648864361456,
+                "width": 890.4,
+                "height": 85.33319999999999
+              },
+              "fontFamily": "fl5egsc3curvuzsa",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 36,
+                "maxCharsPerLine": 36
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1465.0957417261957,
+            "height": 88.12932977287232
+          },
+          "alignment": "center",
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.LayoutContainer.Marker",
+              "type": "Group",
+              "patterns": [
+                [
+                  "group_badge_row3"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "78243261-ab6d-4011-b6f3-52e1d5fb5334"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "b6f0fd0f-d5b7-4840-b3a1-b7f66945c4ab"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6526e512-cd45-4590-90b2-b39bee8e0b7c",
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "svgData": "",
+          "position": {
+            "x": 0.7883931147815701,
+            "y": 138.73132488643614,
+            "width": 1687.9259146693012,
+            "height": 2.25
+          },
+          "patternLabel": "B"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 384.7787456075458,
+        "width": 1688.7143077840828,
+        "height": 140.98132488643614
+      },
+      "alignment": "leading",
+      "patternLabel": "C",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "HStack",
+          "patterns": [
+            [
+              "hstack_row3_main"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Separator",
+          "type": "SVG",
+          "patterns": [
+            [
+              "6526e512-cd45-4590-90b2-b39bee8e0b7c"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hstack_row4_main",
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "children": [
+        {
+          "id": "group_badge_row4",
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "children": [
+            {
+              "id": "0bb2ff64-6cdf-4f59-9e3b-7af29e3f6ec0",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 201.8510114984931,
+                "height": 88.12932977287232
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "4c46856e-6e33-490c-a966-323e7ccbaa05",
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "content": "FOUR",
+              "areaSize": 6092.037319499999,
+              "fontSize": 30.667,
+              "position": {
+                "x": 29.97550574924655,
+                "y": 23.744679886436302,
+                "width": 141.9,
+                "height": 42.93190499999999
+              },
+              "fontFamily": "ft8080w1k59v5oyk",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 10,
+                "maxCharsPerLine": 10
+              }
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 201.8510114984931,
+            "height": 88.12932977287232
+          },
+          "patternLabel": "A",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "0bb2ff64-6cdf-4f59-9e3b-7af29e3f6ec0"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Marker",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4c46856e-6e33-490c-a966-323e7ccbaa05"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "481747ff-02da-47df-b33e-f3f968830201",
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "content": "Referral ",
+          "areaSize": 17222.202557999997,
+          "fontSize": 53.333,
+          "position": {
+            "x": 268.6562749800155,
+            "y": 2.0980698864361784,
+            "width": 230.7,
+            "height": 74.65194
+          },
+          "fontFamily": "feueyqyj2uzgf53v",
+          "fontWeight": "400",
+          "patternLabel": "B",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 8,
+            "maxCharsPerLine": 8
+          }
+        },
+        {
+          "id": "02e39d20-82aa-4b67-90f7-f0a369741a41",
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "content": "Establish a leading presence across targeted sectors to foster growth and engagement.",
+          "areaSize": 86928.93084,
+          "fontSize": 26.667,
+          "position": {
+            "x": 574.6957417261958,
+            "y": 1.3980648864361456,
+            "width": 1018.7,
+            "height": 85.33319999999999
+          },
+          "fontFamily": "fl5egsc3curvuzsa",
+          "fontWeight": "400",
+          "patternLabel": "C",
+          "textCapacity": {
+            "maxLines": 1,
+            "totalMaxChars": 41,
+            "maxCharsPerLine": 41
+          }
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 584.6681184113186,
+        "width": 1593.3957417261959,
+        "height": 88.12932977287232
+      },
+      "alignment": "center",
+      "patternLabel": "D",
+      "patternDimensions": [
+        {
+          "role": "Role.LayoutContainer.Marker",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_badge_row4"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Title",
+          "type": "Text",
+          "patterns": [
+            [
+              "481747ff-02da-47df-b33e-f3f968830201"
+            ]
+          ]
+        },
+        {
+          "role": "Role.Element.Description",
+          "type": "Text",
+          "patterns": [
+            [
+              "02e39d20-82aa-4b67-90f7-f0a369741a41"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 67.80984906116521,
+    "y": 286.7356034646852,
+    "width": 1688.7143077840828,
+    "height": 672.7974481841909
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_row1"
+        ],
+        [
+          "vstack_row2"
+        ],
+        [
+          "vstack_row3"
+        ]
+      ]
+    },
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "HStack",
+      "patterns": [
+        [
+          "hstack_row4_main"
+        ]
+      ]
+    }
+  ]
+}

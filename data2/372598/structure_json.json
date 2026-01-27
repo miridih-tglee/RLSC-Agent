@@ -1,0 +1,380 @@
+{
+  "id": "hstack_comparison",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "vstack_block_left",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "1f038590-0b13-418d-91b1-779e0e74414b",
+          "role": "Role.Element.Description",
+          "type": "Chart",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 678.7828138770876,
+            "height": 308.00000000000034
+          },
+          "rowCount": 3,
+          "chartType": "BAR_CHART_HOR",
+          "seriesAxis": "rows",
+          "columnCount": 3,
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_card_left",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "66755eb3-3015-4daa-8a66-7ba339e9870a",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 670.985019759441,
+                "height": 177.35924158759883
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card_left_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "09707c1a-5fba-41b6-855f-f38129064b57",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "이곳에 내용을 입력해주세요",
+                  "areaSize": 32032.771715,
+                  "fontSize": 34.667,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 660.1,
+                    "height": 48.52715
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                },
+                {
+                  "id": "0fbe040d-282b-419a-8d32-c6abb65fb4a5",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "메시지는 짧고 간결할수록 효과적으로 전달돼요.\n2-3줄로 작성하면 더 쉽게 읽을 수 있어요.",
+                  "areaSize": 45942.96,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 56.931956342648164,
+                    "width": 660.1,
+                    "height": 69.6
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 31,
+                    "maxCharsPerLine": 31
+                  }
+                }
+              ],
+              "position": {
+                "x": 5.44250987972049,
+                "y": 28.34697012247534,
+                "width": 660.1000000000001,
+                "height": 126.53195634264819
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "09707c1a-5fba-41b6-855f-f38129064b57"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "0fbe040d-282b-419a-8d32-c6abb65fb4a5"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 7.797794117646731,
+            "y": 324.7510668043228,
+            "width": 670.985019759441,
+            "height": 177.35924158759883
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "66755eb3-3015-4daa-8a66-7ba339e9870a"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card_left_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 678.7828138770877,
+        "height": 502.11030839192165
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Description",
+          "type": "Chart",
+          "patterns": [
+            [
+              "1f038590-0b13-418d-91b1-779e0e74414b"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_left"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vstack_block_right",
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "children": [
+        {
+          "id": "f4834bc5-32e3-4b48-b6f3-eae42f36395c",
+          "role": "Role.Element.Description",
+          "type": "Chart",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 679.3889102317842,
+            "height": 308.00000000000034
+          },
+          "rowCount": 3,
+          "chartType": "BAR_CHART_HOR",
+          "seriesAxis": "rows",
+          "columnCount": 3,
+          "patternLabel": "A"
+        },
+        {
+          "id": "group_card_right",
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "children": [
+            {
+              "id": "ca3fbb41-baf4-472f-a5d4-38431eea1f1f",
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "svgData": "kvbhgboinsbc889w",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 670.985019759441,
+                "height": 177.35924158759883
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "vstack_card_right_text",
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "children": [
+                {
+                  "id": "17d3c414-152b-418e-bfab-4f81550ef54a",
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "content": "이곳에 내용을 입력해주세요",
+                  "areaSize": 32032.771715,
+                  "fontSize": 34.667,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 660.1,
+                    "height": 48.52715
+                  },
+                  "fontFamily": "fe66s70dv8vhmnow",
+                  "fontWeight": "400",
+                  "patternLabel": "A",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 22,
+                    "maxCharsPerLine": 22
+                  }
+                },
+                {
+                  "id": "8d948552-2a17-4e61-bb88-9f0634e4f8af",
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "content": "메시지는 짧고 간결할수록 효과적으로 전달돼요.\n2-3줄로 작성하면 더 쉽게 읽을 수 있어요.",
+                  "areaSize": 45942.96,
+                  "fontSize": 24,
+                  "position": {
+                    "x": 0,
+                    "y": 56.931956342648164,
+                    "width": 660.1,
+                    "height": 69.6
+                  },
+                  "fontFamily": "fd9spew91ifdfz4a",
+                  "fontWeight": "400",
+                  "patternLabel": "B",
+                  "textCapacity": {
+                    "maxLines": 1,
+                    "totalMaxChars": 31,
+                    "maxCharsPerLine": 31
+                  }
+                }
+              ],
+              "position": {
+                "x": 5.442509879720319,
+                "y": 28.34697012247534,
+                "width": 660.1000000000001,
+                "height": 126.53195634264819
+              },
+              "alignment": "leading",
+              "patternLabel": "B",
+              "patternDimensions": [
+                {
+                  "role": "Role.Element.Title",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "17d3c414-152b-418e-bfab-4f81550ef54a"
+                    ]
+                  ]
+                },
+                {
+                  "role": "Role.Element.Description",
+                  "type": "Text",
+                  "patterns": [
+                    [
+                      "8d948552-2a17-4e61-bb88-9f0634e4f8af"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "position": {
+            "x": 8.403890472343164,
+            "y": 324.7510668043228,
+            "width": 670.985019759441,
+            "height": 177.35924158759883
+          },
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Background",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "ca3fbb41-baf4-472f-a5d4-38431eea1f1f"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "VStack",
+              "patterns": [
+                [
+                  "vstack_card_right_text"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "position": {
+        "x": 820,
+        "y": 0,
+        "width": 679.3889102317842,
+        "height": 502.11030839192165
+      },
+      "alignment": "leading",
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Description",
+          "type": "Chart",
+          "patterns": [
+            [
+              "f4834bc5-32e3-4b48-b6f3-eae42f36395c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "Group",
+          "patterns": [
+            [
+              "group_card_right"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "position": {
+    "x": 4.366666666666788,
+    "y": 170.6793875648725,
+    "width": 1499.3889102317842,
+    "height": 502.11030839192165
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "VStack",
+      "patterns": [
+        [
+          "vstack_block_left",
+          "vstack_block_right"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "id": "hstack_cards_row",
+  "role": "Role.LayoutContainer.Description",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_card1",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "ceb4ac20-8b95-469f-a9ca-7cbcb64f4bc1",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 313.96625711347275,
+            "height": 360.98820965314906
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card1_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "02bd097e-513c-42a3-9631-55e61f939ff2",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k2vpdcbp2j3x6q4i",
+              "position": {
+                "x": 50.8,
+                "y": 0.0,
+                "width": 167.87582611607422,
+                "height": 167.87582611607468
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "9d89fdaf-70b0-4bc5-a080-d697f6409558",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "친환경\n캠페인 활동",
+              "areaSize": 25037.44,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 187.41,
+                "width": 269.8,
+                "height": 92.8
+              },
+              "fontFamily": "f512tq1t3gig0nw2",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 9,
+                "maxCharsPerLine": 9
+              }
+            }
+          ],
+          "position": {
+            "x": 22.24,
+            "y": 43.07,
+            "width": 269.8,
+            "height": 280.212436837416
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "02bd097e-513c-42a3-9631-55e61f939ff2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9d89fdaf-70b0-4bc5-a080-d697f6409558"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 19.53,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 313.9662571134727,
+        "height": 360.98820965314906
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "ceb4ac20-8b95-469f-a9ca-7cbcb64f4bc1"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card1_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 43.07,
+        "bottom": 37.71,
+        "left": 22.24,
+        "right": 21.93
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card2",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "1a8c9761-0759-4137-b51c-baed4d264b2e",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 313.9662571134727,
+            "height": 360.98820965314906
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card2_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "eda24633-22b1-49e9-9426-59c08a3254c1",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kfqvjjk3j1oa21fb",
+              "position": {
+                "x": 28.21,
+                "y": 0.0,
+                "width": 180.66662247083798,
+                "height": 180.66662247083912
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "cfdcd698-e910-46cb-837a-d7456c6bb12b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "친환경\n캠페인 활동",
+              "areaSize": 25037.44,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 201.32,
+                "width": 269.8,
+                "height": 92.8
+              },
+              "fontFamily": "f512tq1t3gig0nw2",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 9,
+                "maxCharsPerLine": 9
+              }
+            }
+          ],
+          "position": {
+            "x": 22.24,
+            "y": 29.16,
+            "width": 269.79999999999995,
+            "height": 294.116404780445
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "eda24633-22b1-49e9-9426-59c08a3254c1"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "cfdcd698-e910-46cb-837a-d7456c6bb12b"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 20.65,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 369.88,
+        "y": 0.0,
+        "width": 313.9662571134727,
+        "height": 360.98820965314906
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1a8c9761-0759-4137-b51c-baed4d264b2e"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card2_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 29.16,
+        "bottom": 37.71,
+        "left": 22.24,
+        "right": 21.93
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card3",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "fcb20b30-94fc-4119-bef6-4b8783893269",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 313.9662571134727,
+            "height": 360.98820965314906
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card3_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "df7dc269-d8d4-41c9-9a04-56dd69159559",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k0i7f3l3fbt0o8zf",
+              "position": {
+                "x": 39.56,
+                "y": 0.0,
+                "width": 192.43844791963693,
+                "height": 192.43844791963772
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "0ce2878a-999a-4527-ac0e-331309586c5e",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "친환경\n캠페인 활동",
+              "areaSize": 25037.44,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 207.2,
+                "width": 269.8,
+                "height": 92.8
+              },
+              "fontFamily": "f512tq1t3gig0nw2",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 9,
+                "maxCharsPerLine": 9
+              }
+            }
+          ],
+          "position": {
+            "x": 22.24,
+            "y": 23.28,
+            "width": 269.79999999999995,
+            "height": 300.002317504844
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "df7dc269-d8d4-41c9-9a04-56dd69159559"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "0ce2878a-999a-4527-ac0e-331309586c5e"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 14.76,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 739.77,
+        "y": 0.0,
+        "width": 313.9662571134727,
+        "height": 360.98820965314906
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "fcb20b30-94fc-4119-bef6-4b8783893269"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card3_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 23.28,
+        "bottom": 37.71,
+        "left": 22.24,
+        "right": 21.93
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_card4",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "2da96a1f-5c04-49a1-87ba-1ce92d7d670f",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kvbhgboinsbc889w",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 313.9662571134727,
+            "height": 360.98820965314906
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_card4_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "69bcd9cb-5934-4032-9b8d-9eeb0045f016",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "ksggff0lzqoeja0m",
+              "position": {
+                "x": 27.87,
+                "y": 0.0,
+                "width": 184.7234262833215,
+                "height": 184.72342628332262
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "37e6aca9-061f-4bb1-89a4-4310863f597b",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "친환경\n캠페인 활동",
+              "areaSize": 25037.44,
+              "fontSize": 32,
+              "position": {
+                "x": 0.0,
+                "y": 203.34,
+                "width": 269.8,
+                "height": 92.8
+              },
+              "fontFamily": "f512tq1t3gig0nw2",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 9,
+                "maxCharsPerLine": 9
+              }
+            }
+          ],
+          "position": {
+            "x": 22.24,
+            "y": 27.13,
+            "width": 269.79999999999995,
+            "height": 296.14480668668625
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "69bcd9cb-5934-4032-9b8d-9eeb0045f016"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "37e6aca9-061f-4bb1-89a4-4310863f597b"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 18.62,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 1109.65,
+        "y": 0.0,
+        "width": 313.9662571134727,
+        "height": 360.98820965314906
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "2da96a1f-5c04-49a1-87ba-1ce92d7d670f"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_card4_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 27.13,
+        "bottom": 37.71,
+        "left": 22.24,
+        "right": 21.93
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 33.84,
+    "y": 371.79,
+    "width": 1423.6184939481886,
+    "height": 360.98820965314906
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_card1",
+          "group_card2",
+          "group_card3",
+          "group_card4"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0.0
+  },
+  "gap": 55.92
+}

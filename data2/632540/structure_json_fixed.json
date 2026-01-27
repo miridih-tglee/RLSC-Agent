@@ -1,0 +1,697 @@
+{
+  "id": "vstack_left_column",
+  "role": "Role.LayoutContainer.Description",
+  "type": "VStack",
+  "children": [
+    {
+      "id": "group_left_top_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "e769a23d-f50b-4341-a33e-40bfea04fb1c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kay5d41b146hfhv9",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 795.5472591292538,
+            "height": 298.53658536585357
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_top_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "8f0eea1f-db8a-402f-bb7e-8854994406a7",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "학과의 특징 및 강점 소개",
+              "areaSize": 19957.417494817073,
+              "fontSize": 26.666048780487806,
+              "position": {
+                "x": 32.84,
+                "y": 0.0,
+                "width": 534.5,
+                "height": 37.33847987804878
+              },
+              "fontFamily": "fla9y41ay0tqgarz",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            },
+            {
+              "id": "98ebdafd-0996-4e14-9630-832ce0646e2b",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 53.64,
+                "width": 790.8273856943192,
+                "height": 2.25
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "91874798-bbd2-49fe-9174-cba4f3788b3d",
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "content": "우수한 교수진과 교육 프로그램 소개\n산업체와의 협력 프로젝트나 산학연계 교육 프로그램 안내\n졸업 후 전문가로서의 경력 쌓기 위한 지원 프로그램 설명",
+              "areaSize": 79815.7057425,
+              "fontSize": 23.99941463414634,
+              "position": {
+                "x": 47.98,
+                "y": 91.28,
+                "width": 692.9,
+                "height": 115.1908006097561
+              },
+              "fontFamily": "fycdahy6xwo3jgq9",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 2,
+                "totalMaxChars": 64,
+                "maxCharsPerLine": 32
+              }
+            }
+          ],
+          "position": {
+            "x": 1.66,
+            "y": 36.27,
+            "width": 790.8273856943192,
+            "height": 206.46980060975613
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "8f0eea1f-db8a-402f-bb7e-8854994406a7"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "98ebdafd-0996-4e14-9630-832ce0646e2b"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Description",
+              "type": "Text",
+              "patterns": [
+                [
+                  "91874798-bbd2-49fe-9174-cba4f3788b3d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 25.85,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 795.5472591292538,
+        "height": 298.53658536585357
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "e769a23d-f50b-4341-a33e-40bfea04fb1c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_top_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 36.27,
+        "bottom": 55.8,
+        "left": 1.66,
+        "right": 3.06
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_left_bottom_card",
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "children": [
+        {
+          "id": "75352b00-2414-4a62-aae0-67446ac3da1c",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kay5d41b146hfhv9",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 795.5472591292539,
+            "height": 298.5365853658536
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_left_bottom_content",
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "9935bd7a-5513-4893-bca5-74fd7a1cd9e6",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "전공과 과목 소개",
+              "areaSize": 19957.417494817073,
+              "fontSize": 26.666048780487806,
+              "position": {
+                "x": 33.31,
+                "y": 0.0,
+                "width": 534.5,
+                "height": 37.33847987804878
+              },
+              "fontFamily": "fla9y41ay0tqgarz",
+              "fontWeight": "400",
+              "patternLabel": "A",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 20,
+                "maxCharsPerLine": 20
+              }
+            },
+            {
+              "id": "cc093faa-3739-4670-be73-40b12409fcc2",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "",
+              "position": {
+                "x": 0.0,
+                "y": 53.63,
+                "width": 790.8273856943192,
+                "height": 2.25
+              },
+              "patternLabel": "B"
+            },
+            {
+              "id": "hstack_major_cards",
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "children": [
+                {
+                  "id": "group_major_card_1",
+                  "role": "Role.LayoutContainer.Highlight",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "8e034a00-c669-431d-b320-37dfaee19e37",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 154.58250540847058,
+                        "height": 133.73382636138433
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "6fda0f52-e911-4995-89ca-dab87323943f",
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "content": "전공과목 1",
+                      "areaSize": 4330.659823597561,
+                      "fontSize": 23.99941463414634,
+                      "position": {
+                        "x": 12.84,
+                        "y": 49.98,
+                        "width": 128.9,
+                        "height": 33.597050609756096
+                      },
+                      "fontFamily": "fvzcam75w25lgl11",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 6
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "width": 154.58250540847058,
+                    "height": 133.73382636138433
+                  },
+                  "patternLabel": "A",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "8e034a00-c669-431d-b320-37dfaee19e37"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "6fda0f52-e911-4995-89ca-dab87323943f"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 49.98,
+                    "bottom": 50.16,
+                    "left": 12.84,
+                    "right": 12.84
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                },
+                {
+                  "id": "group_major_card_2",
+                  "role": "Role.LayoutContainer.Highlight",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "1673e397-9c3c-4b1b-92f4-ec33b2186aa4",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 154.58250540847064,
+                        "height": 133.73382636138433
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "504d5c7d-035a-442c-aba7-15aadf98f165",
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "content": "전공과목 2",
+                      "areaSize": 4330.659823597561,
+                      "fontSize": 23.99941463414634,
+                      "position": {
+                        "x": 12.84,
+                        "y": 49.98,
+                        "width": 128.9,
+                        "height": 33.597050609756096
+                      },
+                      "fontFamily": "fvzcam75w25lgl11",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 6
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 185.56,
+                    "y": 0.0,
+                    "width": 154.58250540847064,
+                    "height": 133.73382636138433
+                  },
+                  "patternLabel": "B",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "1673e397-9c3c-4b1b-92f4-ec33b2186aa4"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "504d5c7d-035a-442c-aba7-15aadf98f165"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 49.98,
+                    "bottom": 50.16,
+                    "left": 12.84,
+                    "right": 12.84
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                },
+                {
+                  "id": "group_major_card_3",
+                  "role": "Role.LayoutContainer.Highlight",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "464d5bbb-9d29-40f7-83d3-8f94dca7c319",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 154.58250540847064,
+                        "height": 133.73382636138433
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "f13f3eab-f607-495f-a6df-017d31cd66dd",
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "content": "전공과목 3",
+                      "areaSize": 4330.659823597561,
+                      "fontSize": 23.99941463414634,
+                      "position": {
+                        "x": 12.84,
+                        "y": 49.98,
+                        "width": 128.9,
+                        "height": 33.597050609756096
+                      },
+                      "fontFamily": "fvzcam75w25lgl11",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 6
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 371.13,
+                    "y": 0.0,
+                    "width": 154.58250540847064,
+                    "height": 133.73382636138433
+                  },
+                  "patternLabel": "C",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "464d5bbb-9d29-40f7-83d3-8f94dca7c319"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "f13f3eab-f607-495f-a6df-017d31cd66dd"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 49.98,
+                    "bottom": 50.16,
+                    "left": 12.84,
+                    "right": 12.84
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                },
+                {
+                  "id": "group_major_card_4",
+                  "role": "Role.LayoutContainer.Highlight",
+                  "type": "Group",
+                  "children": [
+                    {
+                      "id": "b1f82ccc-a7ea-4040-93b7-6b4064f945d4",
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "svgData": "kvbhgboinsbc889w",
+                      "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 154.58250540847064,
+                        "height": 133.73382636138433
+                      },
+                      "patternLabel": "A"
+                    },
+                    {
+                      "id": "891dc7b7-ef08-44bb-bccb-c206d0db705f",
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "content": "전공과목 4",
+                      "areaSize": 4330.659823597561,
+                      "fontSize": 23.99941463414634,
+                      "position": {
+                        "x": 12.84,
+                        "y": 49.98,
+                        "width": 128.9,
+                        "height": 33.597050609756096
+                      },
+                      "fontFamily": "fvzcam75w25lgl11",
+                      "fontWeight": "400",
+                      "patternLabel": "B",
+                      "textCapacity": {
+                        "maxLines": 0,
+                        "totalMaxChars": 0,
+                        "maxCharsPerLine": 6
+                      }
+                    }
+                  ],
+                  "position": {
+                    "x": 556.69,
+                    "y": 0.0,
+                    "width": 154.58250540847064,
+                    "height": 133.73382636138433
+                  },
+                  "patternLabel": "D",
+                  "patternDimensions": [
+                    {
+                      "role": "Role.Element.Background",
+                      "type": "SVG",
+                      "patterns": [
+                        [
+                          "b1f82ccc-a7ea-4040-93b7-6b4064f945d4"
+                        ]
+                      ]
+                    },
+                    {
+                      "role": "Role.Element.Highlight",
+                      "type": "Text",
+                      "patterns": [
+                        [
+                          "891dc7b7-ef08-44bb-bccb-c206d0db705f"
+                        ]
+                      ]
+                    }
+                  ],
+                  "padding": {
+                    "top": 49.98,
+                    "bottom": 50.16,
+                    "left": 12.84,
+                    "right": 12.84
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "center"
+                }
+              ],
+              "position": {
+                "x": 35.31,
+                "y": 86.83,
+                "width": 711.2737085929664,
+                "height": 133.73382636138433
+              },
+              "alignment": "center",
+              "patternLabel": "C",
+              "patternDimensions": [
+                {
+                  "role": "Role.LayoutContainer.Highlight",
+                  "type": "Group",
+                  "patterns": [
+                    [
+                      "group_major_card_1"
+                    ],
+                    [
+                      "group_major_card_2"
+                    ],
+                    [
+                      "group_major_card_3"
+                    ],
+                    [
+                      "group_major_card_4"
+                    ]
+                  ]
+                }
+              ],
+              "direction": "horizontal",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.0
+              },
+              "gap": 30.98
+            }
+          ],
+          "position": {
+            "x": 1.2,
+            "y": 36.27,
+            "width": 790.8273856943192,
+            "height": 220.5614146341469
+          },
+          "alignment": "leading",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "9935bd7a-5513-4893-bca5-74fd7a1cd9e6"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "cc093faa-3739-4670-be73-40b12409fcc2"
+                ]
+              ]
+            },
+            {
+              "role": "Role.LayoutContainer.Description",
+              "type": "HStack",
+              "patterns": [
+                [
+                  "hstack_major_cards"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 23.62,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 340.56,
+        "width": 795.5472591292539,
+        "height": 298.5365853658536
+      },
+      "patternLabel": "B",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "75352b00-2414-4a62-aae0-67446ac3da1c"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Description",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_left_bottom_content"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 36.27,
+        "bottom": 41.71,
+        "left": 1.2,
+        "right": 3.52
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 795.5472591292539,
+    "height": 639.0926829268294
+  },
+  "alignment": "leading",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Description",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_left_top_card"
+        ],
+        [
+          "group_left_bottom_card"
+        ]
+      ]
+    }
+  ],
+  "direction": "vertical",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+  "gap": 42.02
+}

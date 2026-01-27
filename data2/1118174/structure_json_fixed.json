@@ -1,0 +1,699 @@
+{
+  "id": "hstack_skills_row",
+  "role": "Role.LayoutContainer.Highlight",
+  "type": "HStack",
+  "children": [
+    {
+      "id": "group_skill_card_1",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "1297c919-d347-49ec-a3b9-8597ce5d9608",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 375,
+            "height": 375.00000000000125
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_skill_content_1",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "b3452e75-c191-4003-ba53-fd22c5de3868",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kssnbaqdi6fxj04v",
+              "position": {
+                "x": 102.6,
+                "y": 0.0,
+                "width": 96.50239017882399,
+                "height": 96.50239017882313
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "3798ab84-dfc0-498d-b9b2-95fc7d8cd3ad",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "분석력",
+              "areaSize": 3918.5,
+              "fontSize": 25.734,
+              "position": {
+                "x": 96.45,
+                "y": 102.55,
+                "width": 108.8,
+                "height": 36.015625
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "301fdd1b-4036-4644-9400-47bbf14bcd3d",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "00%",
+              "areaSize": 38037.7703125,
+              "fontSize": 90.069,
+              "position": {
+                "x": 0.0,
+                "y": 156.8,
+                "width": 301.7,
+                "height": 126.078125
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 36.65,
+            "y": 47.67,
+            "width": 301.70000000000005,
+            "height": 282.8774864632974
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "b3452e75-c191-4003-ba53-fd22c5de3868"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "3798ab84-dfc0-498d-b9b2-95fc7d8cd3ad"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "301fdd1b-4036-4644-9400-47bbf14bcd3d"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 12.14,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 375,
+        "height": 375.00000000000125
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "1297c919-d347-49ec-a3b9-8597ce5d9608"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_skill_content_1"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 47.67,
+        "bottom": 44.45,
+        "left": 36.65,
+        "right": 36.65
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_skill_card_2",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "4b29ee66-d24c-483e-ae53-a26edcd7ef16",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 375,
+            "height": 375.00000000000136
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_skill_content_2",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "7740d45f-4255-431a-8b8b-42faf2dc2b37",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "k8xhk6a56xjit5zo",
+              "position": {
+                "x": 102.6,
+                "y": 0.0,
+                "width": 96.50239017882404,
+                "height": 96.5023901788237
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "1fe4949d-5a0b-412a-bb50-c8b3f66a2415",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "기획력",
+              "areaSize": 3918.5,
+              "fontSize": 25.734,
+              "position": {
+                "x": 96.45,
+                "y": 102.55,
+                "width": 108.8,
+                "height": 36.015625
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "d79d25de-2ccf-44bd-a715-8de13f326a90",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "00%",
+              "areaSize": 38037.7703125,
+              "fontSize": 90.069,
+              "position": {
+                "x": 0.0,
+                "y": 156.8,
+                "width": 301.7,
+                "height": 126.078125
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 36.65,
+            "y": 47.67,
+            "width": 301.69999999999993,
+            "height": 282.8774864632977
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "7740d45f-4255-431a-8b8b-42faf2dc2b37"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "1fe4949d-5a0b-412a-bb50-c8b3f66a2415"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "d79d25de-2ccf-44bd-a715-8de13f326a90"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 12.14,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 344.58,
+        "y": 0.0,
+        "width": 375,
+        "height": 375.00000000000136
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "4b29ee66-d24c-483e-ae53-a26edcd7ef16"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_skill_content_2"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 47.67,
+        "bottom": 44.45,
+        "left": 36.65,
+        "right": 36.65
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_skill_card_3",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "31a2818b-2646-4b60-8fdb-7e0a1fa93991",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 375,
+            "height": 370.1079954399491
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_skill_content_3",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "d85291ce-240b-4198-a8e8-fbbeb15bfc93",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "897e389f-85be-4301-be38-9f85bea30161",
+              "position": {
+                "x": 121.9,
+                "y": 0.0,
+                "width": 57.901434107294335,
+                "height": 57.90143410729627
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "bc2cee38-2949-4e09-8d5a-1ce35ac63813",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "설득력",
+              "areaSize": 3918.5,
+              "fontSize": 25.734,
+              "position": {
+                "x": 96.45,
+                "y": 83.25,
+                "width": 108.8,
+                "height": 36.015625
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "4f76e2d4-8510-4ec0-938c-9c5764127029",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "00%",
+              "areaSize": 38037.7703125,
+              "fontSize": 90.069,
+              "position": {
+                "x": 0.0,
+                "y": 137.5,
+                "width": 301.7,
+                "height": 126.078125
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 36.65,
+            "y": 64.53,
+            "width": 301.69999999999993,
+            "height": 263.5770084275342
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "d85291ce-240b-4198-a8e8-fbbeb15bfc93"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bc2cee38-2949-4e09-8d5a-1ce35ac63813"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "4f76e2d4-8510-4ec0-938c-9c5764127029"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "gap": 21.79,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 691.73,
+        "y": 2.45,
+        "width": 375,
+        "height": 370.1079954399491
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "31a2818b-2646-4b60-8fdb-7e0a1fa93991"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_skill_content_3"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 64.53,
+        "bottom": 42.0,
+        "left": 36.65,
+        "right": 36.65
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    },
+    {
+      "id": "group_skill_card_4",
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "children": [
+        {
+          "id": "c72b7576-01e7-43f3-a3c4-bdc6be8a26d7",
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "svgData": "kw13c3i3iiwabm8r",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 375,
+            "height": 375.00000000000136
+          },
+          "patternLabel": "A"
+        },
+        {
+          "id": "vstack_skill_content_4",
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "children": [
+            {
+              "id": "cedd21ff-527d-4a22-b080-9801007c6442",
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "svgData": "kpasmzyfufugxaht",
+              "position": {
+                "x": 103.1,
+                "y": 0.0,
+                "width": 95.50900506759422,
+                "height": 95.5090050675933
+              },
+              "patternLabel": "A"
+            },
+            {
+              "id": "f593e66c-d9e9-45c3-bf09-449224885672",
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "content": "포용력",
+              "areaSize": 3918.5,
+              "fontSize": 25.734,
+              "position": {
+                "x": 96.45,
+                "y": 102.05,
+                "width": 108.8,
+                "height": 36.015625
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "B",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 4,
+                "maxCharsPerLine": 4
+              }
+            },
+            {
+              "id": "bed209e7-40e4-489e-ae4f-6f45a5221678",
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "content": "00%",
+              "areaSize": 38037.7703125,
+              "fontSize": 90.069,
+              "position": {
+                "x": 0.0,
+                "y": 156.3,
+                "width": 301.7,
+                "height": 126.078125
+              },
+              "fontFamily": "fe66s70dv8vhmnow",
+              "fontWeight": "400",
+              "patternLabel": "C",
+              "textCapacity": {
+                "maxLines": 1,
+                "totalMaxChars": 3,
+                "maxCharsPerLine": 3
+              }
+            }
+          ],
+          "position": {
+            "x": 36.65,
+            "y": 48.17,
+            "width": 301.70000000000005,
+            "height": 282.3807939076829
+          },
+          "alignment": "center",
+          "patternLabel": "B",
+          "patternDimensions": [
+            {
+              "role": "Role.Element.Decoration",
+              "type": "SVG",
+              "patterns": [
+                [
+                  "cedd21ff-527d-4a22-b080-9801007c6442"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Title",
+              "type": "Text",
+              "patterns": [
+                [
+                  "f593e66c-d9e9-45c3-bf09-449224885672"
+                ]
+              ]
+            },
+            {
+              "role": "Role.Element.Highlight",
+              "type": "Text",
+              "patterns": [
+                [
+                  "bed209e7-40e4-489e-ae4f-6f45a5221678"
+                ]
+              ]
+            }
+          ],
+          "direction": "vertical",
+          "padding": {
+            "top": 0,
+            "bottom": 0.0,
+            "left": 0,
+            "right": 0.0
+          },
+          "gap": 12.39,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
+        }
+      ],
+      "position": {
+        "x": 1038.88,
+        "y": 0.0,
+        "width": 375,
+        "height": 375.00000000000136
+      },
+      "patternLabel": "A",
+      "patternDimensions": [
+        {
+          "role": "Role.Element.Background",
+          "type": "SVG",
+          "patterns": [
+            [
+              "c72b7576-01e7-43f3-a3c4-bdc6be8a26d7"
+            ]
+          ]
+        },
+        {
+          "role": "Role.LayoutContainer.Highlight",
+          "type": "VStack",
+          "patterns": [
+            [
+              "vstack_skill_content_4"
+            ]
+          ]
+        }
+      ],
+      "padding": {
+        "top": 48.17,
+        "bottom": 44.45,
+        "left": 36.65,
+        "right": 36.65
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "center"
+    }
+  ],
+  "position": {
+    "x": 253.06,
+    "y": 367.83,
+    "width": 1413.876815344649,
+    "height": 375.00000000000136
+  },
+  "alignment": "center",
+  "patternDimensions": [
+    {
+      "role": "Role.LayoutContainer.Highlight",
+      "type": "Group",
+      "patterns": [
+        [
+          "group_skill_card_1",
+          "group_skill_card_2",
+          "group_skill_card_3",
+          "group_skill_card_4"
+        ]
+      ]
+    }
+  ],
+  "direction": "horizontal",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  }
+}
