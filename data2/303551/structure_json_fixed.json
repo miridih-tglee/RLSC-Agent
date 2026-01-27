@@ -111,7 +111,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 16.02
+              "gap": 16.02,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -253,7 +255,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 19.02
+              "gap": 19.02,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -320,7 +324,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 22.87
+      "gap": 22.87,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "group_card_bottom",
@@ -425,7 +431,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 17.18
+          "gap": 17.18,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -499,5 +507,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 26.64
+  "gap": 26.64,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

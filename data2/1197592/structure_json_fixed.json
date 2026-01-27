@@ -192,7 +192,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 26.33
+      "gap": 26.33,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_middle_chart_card",
@@ -383,7 +385,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 26.33
+      "gap": 26.33,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "group_right_insight_card",
@@ -770,7 +774,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 37.93
+          "gap": 37.93,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -845,5 +851,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 35.52
+  "gap": 35.52,
+  "horizontalAlignment": "right",
+  "verticalAlignment": "center"
 }

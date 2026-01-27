@@ -1568,5 +1568,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 28.52
+  "gap": 28.52,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

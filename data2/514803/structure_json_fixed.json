@@ -190,7 +190,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 36.43
+      "gap": 36.43,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_answers_row2",
@@ -379,7 +381,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 36.43
+      "gap": 36.43,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -408,5 +412,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 24.23
+  "gap": 24.23,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

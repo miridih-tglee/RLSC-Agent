@@ -208,7 +208,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 30.35
+          "gap": 30.35,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "vstack_process_rows",
@@ -323,7 +325,9 @@
                         "left": 0,
                         "right": 0.0
                       },
-                      "gap": 3.34
+                      "gap": 3.34,
+                      "horizontalAlignment": "center",
+                      "verticalAlignment": "top"
                     }
                   ],
                   "position": {
@@ -608,7 +612,9 @@
                         "left": 0,
                         "right": 0.0
                       },
-                      "gap": 3.34
+                      "gap": 3.34,
+                      "horizontalAlignment": "center",
+                      "verticalAlignment": "top"
                     }
                   ],
                   "position": {
@@ -893,7 +899,9 @@
                         "left": 0,
                         "right": 0.0
                       },
-                      "gap": 3.34
+                      "gap": 3.34,
+                      "horizontalAlignment": "center",
+                      "verticalAlignment": "top"
                     }
                   ],
                   "position": {
@@ -1099,7 +1107,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 29.56
+          "gap": 29.56,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -1137,7 +1147,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 26.88
+      "gap": 26.88,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {

@@ -161,7 +161,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 33.45
+          "gap": 33.45,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -199,7 +201,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 22.16
+      "gap": 22.16,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "top"
     },
     {
       "id": "hstack_mission",
@@ -359,7 +363,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 33.45
+          "gap": 33.45,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -397,7 +403,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 22.16
+      "gap": 22.16,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -428,5 +436,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 97.5
+  "gap": 97.5,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

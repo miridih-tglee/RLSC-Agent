@@ -531,7 +531,7 @@
             "right": 0
           },
           "gap": 21.03,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "top"
         }
       ],
@@ -600,5 +600,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 58.93
+  "gap": 58.93,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

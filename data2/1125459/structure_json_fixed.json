@@ -408,7 +408,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 70.67
+          "gap": 70.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "vstack_main_topic_section",
@@ -535,7 +537,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 45.01
+      "gap": 45.01,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {

@@ -165,7 +165,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 1.12
+      "gap": 1.12,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_p1_completed",
@@ -307,7 +309,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 1.12
+      "gap": 1.12,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_p1_status2",
@@ -449,7 +453,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 1.12
+      "gap": 1.12,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "f35bd7d5-2b35-4838-b85a-55e5b64bc7dd",
@@ -523,5 +529,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 24.63
+  "gap": 24.63,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
 }

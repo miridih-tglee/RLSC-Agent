@@ -169,7 +169,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -369,7 +371,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -569,7 +573,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -637,7 +643,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 41.49
+      "gap": 41.49,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "756e21f8-1a9a-4376-878f-a0e7464600d9",
@@ -818,7 +826,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -1018,7 +1028,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -1218,7 +1230,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 17.21
+              "gap": 17.21,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -1286,7 +1300,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 41.49
+      "gap": 41.49,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -1325,6 +1341,6 @@
     "right": 0.0
   },
   "gap": 60.93,
-  "horizontalAlignment": "center",
+  "horizontalAlignment": "left",
   "verticalAlignment": "center"
 }

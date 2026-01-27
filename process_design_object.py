@@ -654,7 +654,7 @@ def calculate_alignment(child_pos: Dict, parent_width: float, parent_height: flo
 
 def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
     """
-    SVG/Image 자식의 위치를 기반으로 부모 컨테이너에 alignment 추가
+    모든 자식(SVG, Image, Text, 컨테이너)의 위치를 기반으로 부모 컨테이너에 alignment 추가
     """
     result = deepcopy(node)
     node_type = get_type(result)
@@ -662,13 +662,15 @@ def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
     position = result.get('position', {})
 
     container_types = ['VStack', 'HStack', 'ZStack', 'Group', 'Grid']
+    # alignment 계산 대상: 리프 노드 + 컨테이너
+    alignable_types = ['SVG', 'Image', 'Text', 'VStack', 'HStack', 'ZStack', 'Group', 'Grid']
 
     if node_type in container_types and children:
         parent_width = position.get('width', 0)
         parent_height = position.get('height', 0)
 
         if parent_width > 0 and parent_height > 0:
-            # SVG/Image 자식들의 alignment 투표
+            # 모든 자식의 alignment 투표
             h_votes = {}
             v_votes = {}
 
@@ -676,7 +678,8 @@ def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
                 child_type = get_type(child)
                 child_pos = child.get('position', {})
 
-                if child_type in ['SVG', 'Image'] and child_pos:
+                # position이 있는 모든 alignable 타입 대상
+                if child_type in alignable_types and child_pos:
                     h, v = calculate_alignment(child_pos, parent_width, parent_height)
                     h_votes[h] = h_votes.get(h, 0) + 1
                     v_votes[v] = v_votes.get(v, 0) + 1

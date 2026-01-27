@@ -143,7 +143,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 16.41
+      "gap": 16.41,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_right_keyword_row2",
@@ -285,7 +287,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 16.41
+      "gap": 16.41,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -314,5 +318,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 17.31
+  "gap": 17.31,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

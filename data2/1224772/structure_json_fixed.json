@@ -263,7 +263,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 20.0
+      "gap": 20.0,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_cards",
@@ -778,7 +780,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 20.0
+      "gap": 20.0,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -815,5 +819,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 10.67
+  "gap": 10.67,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

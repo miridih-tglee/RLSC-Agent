@@ -157,7 +157,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 27.56
+              "gap": 27.56,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             },
             {
               "id": "hstack_attendee_card",
@@ -290,7 +292,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 27.56
+              "gap": 27.56,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -320,7 +324,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 38.57
+          "gap": 38.57,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -465,5 +471,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 22.35
+  "gap": 22.35,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

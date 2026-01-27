@@ -298,7 +298,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 17.59
+      "gap": 17.59,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
     },
     {
       "id": "vstack_NtoM_right_block",
@@ -573,7 +575,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 19.59
+      "gap": 19.59,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "bottom"
     }
   ],
   "position": {
@@ -611,5 +615,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 190.66
+  "gap": 190.66,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

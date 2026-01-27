@@ -206,7 +206,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 9.89
+              "gap": 9.89,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "vstack_card_2",
@@ -379,7 +381,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 9.89
+              "gap": 9.89,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "vstack_card_3",
@@ -552,7 +556,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 9.89
+              "gap": 9.89,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -583,7 +589,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 74.44
+          "gap": 74.44,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "hstack_subtopics_bottom",
@@ -761,7 +769,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 9.89
+              "gap": 9.89,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "vstack_card_5",
@@ -934,7 +944,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 9.89
+              "gap": 9.89,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -964,7 +976,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 180.55
+          "gap": 180.55,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         }
       ],
       "position": {
@@ -996,7 +1010,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 26.28
+      "gap": 26.28,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -1033,5 +1049,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 15.15
+  "gap": 15.15,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

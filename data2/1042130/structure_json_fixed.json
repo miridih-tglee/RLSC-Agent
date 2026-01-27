@@ -408,7 +408,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 26.35
+          "gap": 26.35,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "group_main_topic_bar",
@@ -532,7 +534,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 33.45
+      "gap": 33.45,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {

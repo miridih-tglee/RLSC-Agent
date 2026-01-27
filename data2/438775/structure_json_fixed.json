@@ -100,7 +100,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 20.62
+          "gap": 20.62,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         },
         {
           "id": "group_kpi_card",
@@ -268,7 +270,9 @@
                     "left": 0,
                     "right": 0
                   },
-                  "gap": 9.64
+                  "gap": 9.64,
+                  "horizontalAlignment": "left",
+                  "verticalAlignment": "top"
                 },
                 {
                   "id": "vstack_kpi_item_2",
@@ -413,7 +417,9 @@
                     "left": 0,
                     "right": 0
                   },
-                  "gap": 10.2
+                  "gap": 10.2,
+                  "horizontalAlignment": "left",
+                  "verticalAlignment": "top"
                 },
                 {
                   "id": "vstack_kpi_item_3",
@@ -558,7 +564,9 @@
                     "left": 0,
                     "right": 0
                   },
-                  "gap": 10.2
+                  "gap": 10.2,
+                  "horizontalAlignment": "left",
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -593,7 +601,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 38.36
+              "gap": 38.36,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -668,7 +678,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 73.15
+      "gap": 73.15,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {

@@ -346,7 +346,9 @@
         "bottom": 0.0,
         "left": 0,
         "right": 0
-      }
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_right_program_block_refined",
@@ -691,7 +693,9 @@
         "bottom": 0.0,
         "left": 0,
         "right": 0
-      }
+      },
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -722,5 +726,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 76.49
+  "gap": 76.49,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

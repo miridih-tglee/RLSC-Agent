@@ -895,7 +895,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 44.32
+      "gap": 44.32,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -932,5 +934,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 22.06
+  "gap": 22.06,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
 }

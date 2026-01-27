@@ -198,7 +198,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 12.09
+      "gap": 12.09,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_corevalue_row2",
@@ -395,7 +397,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 12.09
+      "gap": 12.09,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_corevalue_row3",
@@ -592,7 +596,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 12.09
+      "gap": 12.09,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -622,5 +628,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 12.56
+  "gap": 12.56,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

@@ -143,7 +143,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 9.88
+      "gap": 9.88,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "hstack_photo_cards",
@@ -281,7 +283,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 21.09
+          "gap": 21.09,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
         },
         {
           "id": "vstack_photo_card_2",
@@ -414,7 +418,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 21.09
+          "gap": 21.09,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
         },
         {
           "id": "vstack_photo_card_3",
@@ -547,7 +553,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 21.09
+          "gap": 21.09,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "bottom"
         }
       ],
       "position": {
@@ -578,7 +586,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 39.33
+      "gap": 39.33,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "vstack_bottom_description",
@@ -712,5 +722,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 40.17
+  "gap": 40.17,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

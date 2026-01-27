@@ -151,7 +151,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 38.0
+          "gap": 38.0,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         },
         {
           "id": "3f92a05f-a6df-4f20-bbbd-41c02de06d1e",
@@ -296,7 +298,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 38.0
+          "gap": 38.0,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -337,7 +341,7 @@
       },
       "gap": 44.11,
       "horizontalAlignment": "center",
-      "verticalAlignment": "center"
+      "verticalAlignment": "top"
     }
   ],
   "position": {

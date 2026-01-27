@@ -143,7 +143,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 29.3
+      "gap": 29.3,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_section_03",
@@ -285,7 +287,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 29.3
+      "gap": 29.3,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -314,5 +318,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 100.82
+  "gap": 100.82,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

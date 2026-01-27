@@ -368,7 +368,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 35.0
+      "gap": 35.0,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_right_column",
@@ -735,7 +737,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 35.0
+      "gap": 35.0,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -764,5 +768,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 44.76
+  "gap": 44.76,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

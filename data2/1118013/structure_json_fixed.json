@@ -116,7 +116,9 @@
                     "left": 0,
                     "right": 0
                   },
-                  "gap": 17.69
+                  "gap": 17.69,
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
                 },
                 {
                   "id": "vstack_subtopic_2",
@@ -203,7 +205,9 @@
                     "left": 0,
                     "right": 0
                   },
-                  "gap": 17.69
+                  "gap": 17.69,
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -233,7 +237,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 24.36
+              "gap": 24.36,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -380,7 +386,9 @@
                     "left": 0,
                     "right": 0.0
                   },
-                  "gap": 17.69
+                  "gap": 17.69,
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
                 },
                 {
                   "id": "vstack_subtopic_4",
@@ -467,7 +475,9 @@
                     "left": 0,
                     "right": 0.0
                   },
-                  "gap": 17.69
+                  "gap": 17.69,
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -497,7 +507,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 24.36
+              "gap": 24.36,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -564,7 +576,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 26.92
+      "gap": 26.92,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -591,5 +605,7 @@
     "bottom": 0,
     "left": 0,
     "right": 0
-  }
+  },
+  "horizontalAlignment": "center",
+  "verticalAlignment": "center"
 }

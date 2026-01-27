@@ -111,7 +111,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 21.5
+              "gap": 21.5,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -253,7 +255,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 21.5
+              "gap": 21.5,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -320,7 +324,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 47.58
+      "gap": 47.58,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_row2_cards",
@@ -430,7 +436,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 21.5
+              "gap": 21.5,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -572,7 +580,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 21.5
+              "gap": 21.5,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -639,7 +649,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 47.58
+      "gap": 47.58,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -668,5 +680,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 30.66
+  "gap": 30.66,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

@@ -436,5 +436,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 21.0
+  "gap": 21.0,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

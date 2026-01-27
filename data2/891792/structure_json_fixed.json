@@ -143,7 +143,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 20.33
+      "gap": 20.33,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_contact_email",
@@ -285,7 +287,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 21.05
+      "gap": 21.05,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -314,5 +318,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 75.98
+  "gap": 75.98,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

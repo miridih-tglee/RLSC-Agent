@@ -153,7 +153,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "ae4c72c7-3a17-4bcd-b002-2c010217e629",
@@ -278,7 +280,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "2012454c-411c-4ab0-a9f1-ebee83819a8c",
@@ -403,7 +407,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "76861db1-2393-4045-8821-cd198dce2390",
@@ -528,7 +534,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "a413a3d0-08dd-40f4-8fa3-b3b3f17bf1d3",
@@ -653,7 +661,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         },
         {
           "id": "7ee39e3c-bfbb-45e8-a838-6715de9d85b0",
@@ -778,7 +788,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 52.67
+          "gap": 52.67,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         }
       ],
       "position": {

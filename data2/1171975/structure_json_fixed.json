@@ -143,7 +143,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 21.59
+      "gap": 21.59,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_kpi2",
@@ -285,7 +287,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 21.59
+      "gap": 21.59,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_kpi3",
@@ -427,7 +431,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 21.59
+      "gap": 21.59,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_kpi4",
@@ -569,7 +575,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 21.59
+      "gap": 21.59,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -600,5 +608,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 36.88
+  "gap": 36.88,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

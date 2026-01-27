@@ -106,7 +106,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 16.95
+              "gap": 16.95,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -243,7 +245,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 16.95
+              "gap": 16.95,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -380,7 +384,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 16.95
+              "gap": 16.95,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -450,7 +456,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 40.91
+      "gap": 40.91,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_bottomRow",
@@ -555,7 +563,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 16.95
+              "gap": 16.95,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -692,7 +702,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 16.95
+              "gap": 16.95,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -761,7 +773,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 40.91
+      "gap": 40.91,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -792,5 +806,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 33.28
+  "gap": 33.28,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

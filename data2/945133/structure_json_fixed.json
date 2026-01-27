@@ -219,7 +219,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 20.77
+              "gap": 20.77,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "38758d99-9c67-414e-8f51-b9c5a054bff1",
@@ -350,7 +352,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 20.77
+              "gap": 20.77,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "70d9fd47-cf33-41f7-a02d-1db25b20c6a1",
@@ -481,7 +485,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 20.77
+              "gap": 20.77,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -524,7 +530,7 @@
           },
           "gap": 78.92,
           "horizontalAlignment": "left",
-          "verticalAlignment": "center"
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -597,5 +603,7 @@
     "bottom": 0,
     "left": 0,
     "right": 0
-  }
+  },
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

@@ -93,7 +93,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 25.81
+          "gap": 25.81,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
         },
         {
           "id": "chart_progress",
@@ -284,7 +286,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 58.23
+      "gap": 58.23,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "group_bottom_box",
@@ -502,7 +506,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 23.68
+              "gap": 23.68,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "vstack_bullet_right",
@@ -697,7 +703,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 23.68
+              "gap": 23.68,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -727,7 +735,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 39.75
+          "gap": 39.75,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "center"
         }
       ],
       "position": {
@@ -801,5 +811,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 61.88
+  "gap": 61.88,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

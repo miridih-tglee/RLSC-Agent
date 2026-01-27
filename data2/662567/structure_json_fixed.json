@@ -119,7 +119,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 30.94
+      "gap": 30.94,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "top"
     },
     {
       "id": "group_agenda_card",
@@ -306,7 +308,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 28.89
+              "gap": 28.89,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             },
             {
               "id": "55311a3d-a111-4be0-8530-b62da3b8ebfa",
@@ -461,7 +465,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 28.89
+              "gap": 28.89,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             },
             {
               "id": "06313490-ce55-43de-805b-775ebf416961",
@@ -616,7 +622,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 28.89
+              "gap": 28.89,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             },
             {
               "id": "9cc92b97-72ba-460f-a772-6a6e620cbc96",
@@ -771,7 +779,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 28.89
+              "gap": 28.89,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -825,7 +835,7 @@
           },
           "gap": 36.81,
           "horizontalAlignment": "center",
-          "verticalAlignment": "bottom"
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -898,5 +908,7 @@
     "bottom": 0.0,
     "left": 0,
     "right": 0.0
-  }
+  },
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
 }

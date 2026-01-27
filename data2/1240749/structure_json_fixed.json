@@ -100,7 +100,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 26.69
+          "gap": 26.69,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -138,7 +140,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 56.64
+      "gap": 56.64,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_recommendation_block",
@@ -433,7 +437,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 22.54
+              "gap": 22.54,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             },
             {
               "id": "hstack_mid_term_row",
@@ -701,7 +707,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 22.54
+              "gap": 22.54,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             },
             {
               "id": "hstack_long_term_row",
@@ -969,7 +977,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 22.54
+              "gap": 22.54,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -1000,7 +1010,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 27.84
+          "gap": 27.84,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -1038,7 +1050,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 26.69
+      "gap": 26.69,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -1069,5 +1083,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 71.98
+  "gap": 71.98,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

@@ -257,7 +257,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 35.84
+      "gap": 35.84,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     },
     {
       "id": "vstack_right_cards",
@@ -509,7 +511,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 36.34
+      "gap": 36.34,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -540,5 +544,7 @@
     "left": 0,
     "right": 0.0
   },
-  "gap": 515.0
+  "gap": 515.0,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }

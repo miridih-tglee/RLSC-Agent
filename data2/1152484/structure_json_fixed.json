@@ -156,7 +156,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 30.43
+      "gap": 30.43,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "f1802c61-f8ac-4a30-bce1-f5543ec4ba36",
@@ -311,7 +313,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 28.23
+      "gap": 28.23,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {

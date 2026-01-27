@@ -495,7 +495,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 82.74
+      "gap": 82.74,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {

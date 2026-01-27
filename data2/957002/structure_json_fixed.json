@@ -273,7 +273,7 @@
                   },
                   "gap": 7.64,
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "center"
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -311,7 +311,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 8.64
+              "gap": 8.64,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -499,7 +501,7 @@
                   },
                   "gap": 7.64,
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "center"
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -537,7 +539,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 8.64
+              "gap": 8.64,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -725,7 +729,7 @@
                   },
                   "gap": 7.64,
                   "horizontalAlignment": "center",
-                  "verticalAlignment": "center"
+                  "verticalAlignment": "top"
                 }
               ],
               "position": {
@@ -763,7 +767,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 8.64
+              "gap": 8.64,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "center"
             }
           ],
           "position": {
@@ -831,7 +837,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 24.5
+      "gap": 24.5,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -886,5 +894,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 33.51
+  "gap": 33.51,
+  "horizontalAlignment": "left",
+  "verticalAlignment": "top"
 }

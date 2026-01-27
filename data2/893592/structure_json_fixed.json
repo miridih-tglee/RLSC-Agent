@@ -190,7 +190,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 46.04
+      "gap": 46.04,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_toc_row_2",
@@ -379,7 +381,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 46.04
+      "gap": 46.04,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_toc_row_3",
@@ -568,7 +572,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 46.04
+      "gap": 46.04,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -598,5 +604,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 73.62
+  "gap": 73.62,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

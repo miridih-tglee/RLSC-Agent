@@ -185,7 +185,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 16.81
+          "gap": 16.81,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         },
         {
           "id": "975df123-7949-4868-9cbe-d2562b062dd5",
@@ -300,7 +302,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 15.04
+          "gap": 15.04,
+          "horizontalAlignment": "left",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -380,5 +384,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 25.85
+  "gap": 25.85,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

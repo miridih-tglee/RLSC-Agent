@@ -142,7 +142,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 10.1
+              "gap": 10.1,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -315,7 +317,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 10.1
+              "gap": 10.1,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -382,7 +386,9 @@
         "left": 0,
         "right": 0.0
       },
-      "gap": 35.11
+      "gap": 35.11,
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     },
     {
       "id": "hstack_system_bottom_row",
@@ -523,7 +529,9 @@
                 "left": 0,
                 "right": 0
               },
-              "gap": 10.1
+              "gap": 10.1,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -696,7 +704,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 10.1
+              "gap": 10.1,
+              "horizontalAlignment": "left",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -762,7 +772,9 @@
         "bottom": 0,
         "left": 0,
         "right": 0.0
-      }
+      },
+      "horizontalAlignment": "left",
+      "verticalAlignment": "center"
     }
   ],
   "position": {
@@ -791,5 +803,7 @@
     "left": 0,
     "right": 0
   },
-  "gap": 48.88
+  "gap": 48.88,
+  "horizontalAlignment": "center",
+  "verticalAlignment": "top"
 }

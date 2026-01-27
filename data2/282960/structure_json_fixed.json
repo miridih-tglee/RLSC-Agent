@@ -142,7 +142,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 22.9
+              "gap": 22.9,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             },
             {
               "id": "vstack_item_04_refined",
@@ -260,7 +262,9 @@
                 "left": 0,
                 "right": 0.0
               },
-              "gap": 22.9
+              "gap": 22.9,
+              "horizontalAlignment": "center",
+              "verticalAlignment": "top"
             }
           ],
           "position": {
@@ -290,7 +294,9 @@
             "left": 0,
             "right": 0
           },
-          "gap": 73.99
+          "gap": 73.99,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -450,7 +456,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 22.9
+          "gap": 22.9,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         },
         {
           "id": "vstack_item_06_refined",
@@ -568,7 +576,9 @@
             "left": 0,
             "right": 0.0
           },
-          "gap": 22.9
+          "gap": 22.9,
+          "horizontalAlignment": "center",
+          "verticalAlignment": "top"
         }
       ],
       "position": {
@@ -598,7 +608,9 @@
         "left": 0,
         "right": 0
       },
-      "gap": 73.99
+      "gap": 73.99,
+      "horizontalAlignment": "center",
+      "verticalAlignment": "top"
     }
   ],
   "position": {
@@ -634,5 +646,7 @@
     "bottom": 169.73,
     "left": 490.98,
     "right": 0.0
-  }
+  },
+  "horizontalAlignment": "left",
+  "verticalAlignment": "center"
 }
