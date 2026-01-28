@@ -144,7 +144,7 @@
         "right": 0.0
       },
       "gap": 20.33,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -288,7 +288,7 @@
         "right": 0.0
       },
       "gap": 21.05,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -319,6 +319,6 @@
     "right": 0
   },
   "gap": 75.98,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

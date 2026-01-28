@@ -156,8 +156,8 @@
                 "right": 0.0
               },
               "gap": 20.72,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "bottom"
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -322,8 +322,8 @@
                 "right": 0.0
               },
               "gap": 19.95,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "center"
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -488,8 +488,8 @@
                 "right": 0
               },
               "gap": 20.72,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "bottom"
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -654,8 +654,8 @@
                 "right": 0
               },
               "gap": 22.27,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "center"
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -820,8 +820,8 @@
                 "right": 0
               },
               "gap": 23.45,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "bottom"
+              "verticalAlignment": "bottom",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -896,7 +896,7 @@
         "right": 0.0
       },
       "gap": 44.32,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -935,6 +935,6 @@
     "right": 0
   },
   "gap": 22.06,
-  "horizontalAlignment": "left",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "left"
 }

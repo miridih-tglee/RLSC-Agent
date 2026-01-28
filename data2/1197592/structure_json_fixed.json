@@ -193,8 +193,8 @@
         "right": 0
       },
       "gap": 26.33,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_middle_chart_card",
@@ -386,8 +386,8 @@
         "right": 0
       },
       "gap": 26.33,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "group_right_insight_card",
@@ -520,8 +520,8 @@
                 "right": 0.0
               },
               "gap": 14.03,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "vstack_insight_row_2",
@@ -631,8 +631,8 @@
                 "right": 0.0
               },
               "gap": 14.03,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "vstack_insight_row_3",
@@ -742,8 +742,8 @@
                 "right": 0.0
               },
               "gap": 14.03,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -775,8 +775,8 @@
             "right": 0
           },
           "gap": 37.93,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -852,6 +852,6 @@
     "right": 0.0
   },
   "gap": 35.52,
-  "horizontalAlignment": "right",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

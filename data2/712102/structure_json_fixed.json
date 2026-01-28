@@ -180,7 +180,7 @@
             "right": 0
           },
           "gap": 93.07,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -233,8 +233,8 @@
         "right": 0
       },
       "gap": 50.51,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "vstack_row2",
@@ -413,7 +413,7 @@
             "right": 0
           },
           "gap": 85.07,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -466,8 +466,8 @@
         "right": 0
       },
       "gap": 50.06,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "vstack_row3",
@@ -646,7 +646,7 @@
             "right": 0
           },
           "gap": 79.07,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -699,8 +699,8 @@
         "right": 0
       },
       "gap": 50.6,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "hstack_row4_main",
@@ -874,7 +874,7 @@
         "right": 0
       },
       "gap": 71.07,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -919,6 +919,6 @@
     "right": 0
   },
   "gap": 54.12,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

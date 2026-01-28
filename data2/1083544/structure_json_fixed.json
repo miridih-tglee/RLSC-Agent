@@ -98,8 +98,8 @@
             "right": 0
           },
           "gap": 5.05,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -269,8 +269,8 @@
                 "right": 0.0
               },
               "gap": 18.42,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "vstack_subtopic2",
@@ -380,8 +380,8 @@
                 "right": 0.0
               },
               "gap": 18.42,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -412,8 +412,8 @@
             "right": 0
           },
           "gap": 35.62,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -482,6 +482,6 @@
     "right": 0
   },
   "gap": 29.85,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

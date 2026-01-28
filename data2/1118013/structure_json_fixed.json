@@ -117,8 +117,8 @@
                     "right": 0
                   },
                   "gap": 17.69,
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
+                  "verticalAlignment": "center",
+                  "horizontalAlignment": "center"
                 },
                 {
                   "id": "vstack_subtopic_2",
@@ -206,8 +206,8 @@
                     "right": 0
                   },
                   "gap": 17.69,
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
+                  "verticalAlignment": "center",
+                  "horizontalAlignment": "center"
                 }
               ],
               "position": {
@@ -238,8 +238,8 @@
                 "right": 0
               },
               "gap": 24.36,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -387,8 +387,8 @@
                     "right": 0.0
                   },
                   "gap": 17.69,
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
+                  "verticalAlignment": "center",
+                  "horizontalAlignment": "center"
                 },
                 {
                   "id": "vstack_subtopic_4",
@@ -476,8 +476,8 @@
                     "right": 0.0
                   },
                   "gap": 17.69,
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
+                  "verticalAlignment": "center",
+                  "horizontalAlignment": "center"
                 }
               ],
               "position": {
@@ -508,8 +508,8 @@
                 "right": 0
               },
               "gap": 24.36,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -577,7 +577,7 @@
         "right": 0.0
       },
       "gap": 26.92,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -606,6 +606,6 @@
     "left": 0,
     "right": 0
   },
-  "horizontalAlignment": "center",
-  "verticalAlignment": "center"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

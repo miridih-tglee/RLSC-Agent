@@ -119,7 +119,7 @@
             "right": 0.0
           },
           "gap": 13.64,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -275,7 +275,7 @@
             "right": 0.0
           },
           "gap": 13.64,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -431,7 +431,7 @@
             "right": 0.0
           },
           "gap": 13.64,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -500,6 +500,6 @@
     "right": 0
   },
   "gap": 28.68,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

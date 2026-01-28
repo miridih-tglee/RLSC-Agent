@@ -112,7 +112,7 @@
                 "right": 0.0
               },
               "gap": 71.88,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -174,7 +174,7 @@
             "right": 0
           },
           "gap": 48.63,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -323,7 +323,7 @@
                 "right": 0
               },
               "gap": 72.88,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -385,7 +385,7 @@
             "right": 0
           },
           "gap": 48.63,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -534,7 +534,7 @@
                 "right": 0
               },
               "gap": 72.88,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -596,7 +596,7 @@
             "right": 0
           },
           "gap": 48.63,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -745,7 +745,7 @@
                 "right": 0
               },
               "gap": 72.88,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -807,7 +807,7 @@
             "right": 0
           },
           "gap": 48.63,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -879,6 +879,6 @@
     "right": 0
   },
   "gap": 40.02,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

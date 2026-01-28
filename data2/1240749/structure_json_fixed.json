@@ -101,8 +101,8 @@
             "right": 0
           },
           "gap": 26.69,
-          "horizontalAlignment": "left",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "left"
         }
       ],
       "position": {
@@ -141,8 +141,8 @@
         "right": 0.0
       },
       "gap": 56.64,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "vstack_recommendation_block",
@@ -438,7 +438,7 @@
                 "right": 0.0
               },
               "gap": 22.54,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -708,7 +708,7 @@
                 "right": 0.0
               },
               "gap": 22.54,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -978,7 +978,7 @@
                 "right": 0.0
               },
               "gap": 22.54,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             }
           ],
@@ -1011,8 +1011,8 @@
             "right": 0.0
           },
           "gap": 27.84,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -1051,8 +1051,8 @@
         "right": 0
       },
       "gap": 26.69,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     }
   ],
   "position": {
@@ -1084,6 +1084,6 @@
     "right": 0.0
   },
   "gap": 71.98,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

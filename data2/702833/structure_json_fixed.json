@@ -149,7 +149,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -293,7 +293,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -437,7 +437,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -581,7 +581,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -615,8 +615,8 @@
         "right": 0
       },
       "gap": 25.06,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_toc_right",
@@ -764,7 +764,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -908,7 +908,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -1052,7 +1052,7 @@
             "right": 0.0
           },
           "gap": 27.1,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -1085,8 +1085,8 @@
         "right": 0
       },
       "gap": 25.06,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -1118,6 +1118,6 @@
     "right": 0
   },
   "gap": 113.67,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

@@ -221,8 +221,8 @@
         "right": 0
       },
       "gap": 32.75,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_kpi_right_col",
@@ -442,8 +442,8 @@
         "right": 0
       },
       "gap": 31.06,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -473,6 +473,6 @@
     "right": 0
   },
   "gap": 89.55,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

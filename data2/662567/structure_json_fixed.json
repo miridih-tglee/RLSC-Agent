@@ -120,8 +120,8 @@
         "right": 0
       },
       "gap": 30.94,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "group_agenda_card",
@@ -309,7 +309,7 @@
                 "right": 0
               },
               "gap": 28.89,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -466,7 +466,7 @@
                 "right": 0
               },
               "gap": 28.89,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "top"
             },
             {
@@ -623,7 +623,7 @@
                 "right": 0
               },
               "gap": 28.89,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "top"
             },
             {
@@ -780,7 +780,7 @@
                 "right": 0
               },
               "gap": 28.89,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             }
           ],
@@ -834,8 +834,8 @@
             "right": 0
           },
           "gap": 36.81,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -909,6 +909,6 @@
     "left": 0,
     "right": 0.0
   },
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "top"
 }

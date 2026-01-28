@@ -342,8 +342,8 @@
         "right": 0
       },
       "gap": 33.33,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "vstack_right_block",
@@ -684,8 +684,8 @@
         "right": 0
       },
       "gap": 33.33,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     }
   ],
   "position": {
@@ -717,6 +717,6 @@
     "right": 0.0
   },
   "gap": 39.83,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

@@ -89,8 +89,8 @@
         "right": 0
       },
       "gap": 4.24,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_table",
@@ -293,7 +293,7 @@
             "right": 0
           },
           "gap": 22.67,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -492,7 +492,7 @@
             "right": 0
           },
           "gap": 22.67,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -691,7 +691,7 @@
             "right": 0
           },
           "gap": 22.67,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -890,7 +890,7 @@
             "right": 0
           },
           "gap": 22.67,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         },
         {
@@ -1089,7 +1089,7 @@
             "right": 0
           },
           "gap": 22.67,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -1124,8 +1124,8 @@
         "right": 0
       },
       "gap": 20.18,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -1163,6 +1163,6 @@
     "right": 0
   },
   "gap": 43.83,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

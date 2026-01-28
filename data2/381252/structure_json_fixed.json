@@ -167,8 +167,8 @@
         "right": 0.0
       },
       "gap": 28.58,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_card_2",
@@ -333,8 +333,8 @@
         "right": 0.0
       },
       "gap": 30.53,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_card_3",
@@ -499,8 +499,8 @@
         "right": 0
       },
       "gap": 30.53,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -530,6 +530,6 @@
     "left": 0,
     "right": 0.0
   },
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

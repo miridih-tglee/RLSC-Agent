@@ -116,7 +116,7 @@
                 "left": 0,
                 "right": 17.17
               },
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -178,8 +178,8 @@
             "right": 0
           },
           "gap": 29.33,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -314,7 +314,7 @@
             "right": 0.0
           },
           "gap": 4.93,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "top"
         },
         {
@@ -375,8 +375,8 @@
         "left": 0,
         "right": 0
       },
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_keyword2",
@@ -474,7 +474,7 @@
             "right": 0.0
           },
           "gap": 4.93,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "top"
         },
         {
@@ -535,8 +535,8 @@
         "left": 0,
         "right": 0
       },
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_keyword3",
@@ -634,7 +634,7 @@
             "right": 0.0
           },
           "gap": 4.93,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "top"
         },
         {
@@ -695,8 +695,8 @@
         "left": 0,
         "right": 0
       },
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -736,6 +736,6 @@
     "right": 0
   },
   "gap": 47.6,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "bottom"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

@@ -191,8 +191,8 @@
         "right": 0
       },
       "gap": 42.74,
-      "horizontalAlignment": "left",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "left"
     },
     {
       "id": "vstack_rightCard",
@@ -382,8 +382,8 @@
         "right": 0
       },
       "gap": 42.74,
-      "horizontalAlignment": "right",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "right"
     }
   ],
   "position": {
@@ -413,6 +413,6 @@
     "right": 0
   },
   "gap": 660.13,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

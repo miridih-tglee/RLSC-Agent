@@ -166,8 +166,8 @@
         "right": 0
       },
       "gap": 50.15,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_testimonial_center",
@@ -332,8 +332,8 @@
         "right": 0.0
       },
       "gap": 44.15,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_testimonial_right",
@@ -498,8 +498,8 @@
         "right": 0
       },
       "gap": 34.89,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "bottom"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -534,6 +534,6 @@
     "right": 0
   },
   "gap": 152.83,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

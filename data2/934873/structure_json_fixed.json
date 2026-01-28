@@ -199,8 +199,8 @@
         "right": 0
       },
       "gap": 20.33,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_step2",
@@ -398,8 +398,8 @@
         "right": 0
       },
       "gap": 20.33,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_step3",
@@ -597,8 +597,8 @@
         "right": 0
       },
       "gap": 22.55,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_step4",
@@ -796,8 +796,8 @@
         "right": 0.0
       },
       "gap": 22.55,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "vstack_step5",
@@ -995,8 +995,8 @@
         "right": 0
       },
       "gap": 24.78,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     }
   ],
   "position": {
@@ -1031,6 +1031,6 @@
     "right": 0.0
   },
   "gap": 26.08,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

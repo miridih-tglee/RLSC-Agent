@@ -80,7 +80,7 @@
         "right": 0.0
       },
       "gap": 19.96,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -183,7 +183,7 @@
                 "right": 0
               },
               "gap": 14.35,
-              "horizontalAlignment": "left",
+              "horizontalAlignment": "center",
               "verticalAlignment": "center"
             },
             {
@@ -267,7 +267,7 @@
             "right": 0.0
           },
           "gap": 60.44,
-          "horizontalAlignment": "left",
+          "horizontalAlignment": "center",
           "verticalAlignment": "center"
         }
       ],
@@ -438,8 +438,8 @@
                 "right": 0
               },
               "gap": 23.58,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -604,8 +604,8 @@
                 "right": 0
               },
               "gap": 23.58,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             }
           ],
           "position": {
@@ -672,7 +672,7 @@
         "left": 631.3,
         "right": 0
       },
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -720,6 +720,6 @@
     "right": 0
   },
   "gap": 77.9,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

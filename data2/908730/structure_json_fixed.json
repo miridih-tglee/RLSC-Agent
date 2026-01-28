@@ -144,8 +144,8 @@
         "right": 0
       },
       "gap": 2.67,
-      "horizontalAlignment": "center",
-      "verticalAlignment": "top"
+      "verticalAlignment": "center",
+      "horizontalAlignment": "center"
     },
     {
       "id": "hstack_cards",
@@ -256,8 +256,8 @@
                 "right": 0
               },
               "gap": 20.43,
-              "horizontalAlignment": "right",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "right"
             }
           ],
           "position": {
@@ -400,8 +400,8 @@
                 "right": 0.0
               },
               "gap": 20.43,
-              "horizontalAlignment": "left",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "left"
             }
           ],
           "position": {
@@ -471,7 +471,7 @@
         "right": 0.0
       },
       "gap": 28.71,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -638,6 +638,6 @@
     "right": 0
   },
   "gap": 34.93,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

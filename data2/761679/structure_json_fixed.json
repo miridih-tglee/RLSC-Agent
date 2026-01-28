@@ -193,7 +193,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -386,7 +386,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -579,7 +579,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -772,7 +772,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -965,7 +965,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     },
     {
@@ -1158,7 +1158,7 @@
         "right": 0
       },
       "gap": 11.68,
-      "horizontalAlignment": "left",
+      "horizontalAlignment": "center",
       "verticalAlignment": "center"
     }
   ],
@@ -1193,6 +1193,6 @@
     "right": 0
   },
   "gap": 25.2,
-  "horizontalAlignment": "center",
-  "verticalAlignment": "top"
+  "verticalAlignment": "center",
+  "horizontalAlignment": "center"
 }

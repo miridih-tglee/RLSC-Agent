@@ -99,8 +99,8 @@
             "right": 0.0
           },
           "gap": 36.86,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -235,8 +235,8 @@
             "right": 0
           },
           "gap": 36.86,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -303,6 +303,6 @@
     "right": 0.0
   },
   "gap": 45.0,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }

@@ -1,0 +1,157 @@
+[
+  {
+    "role": "Description",
+    "type": "VStack",
+    "children": [
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 20,
+                  "maxCharsPerLine": 20
+                }
+              },
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 2,
+                  "totalMaxChars": 64,
+                  "maxCharsPerLine": 32
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "role": "Description",
+        "type": "Group",
+        "children": [
+          {
+            "role": "Background",
+            "type": "SVG"
+          },
+          {
+            "role": "Description",
+            "type": "VStack",
+            "children": [
+              {
+                "role": "Title",
+                "type": "Text",
+                "textCapacity": {
+                  "maxLines": 1,
+                  "totalMaxChars": 20,
+                  "maxCharsPerLine": 20
+                }
+              },
+              {
+                "role": "Decoration",
+                "type": "SVG"
+              },
+              {
+                "role": "Description",
+                "type": "HStack",
+                "children": [
+                  {
+                    "role": "Highlight",
+                    "type": "Group",
+                    "children": [
+                      {
+                        "role": "Background",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Highlight",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 6
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Group",
+                    "children": [
+                      {
+                        "role": "Background",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Highlight",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 6
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Group",
+                    "children": [
+                      {
+                        "role": "Background",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Highlight",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 6
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "role": "Highlight",
+                    "type": "Group",
+                    "children": [
+                      {
+                        "role": "Background",
+                        "type": "SVG"
+                      },
+                      {
+                        "role": "Highlight",
+                        "type": "Text",
+                        "textCapacity": {
+                          "maxLines": 0,
+                          "totalMaxChars": 0,
+                          "maxCharsPerLine": 6
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

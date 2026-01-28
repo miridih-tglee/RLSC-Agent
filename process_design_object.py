@@ -655,6 +655,10 @@ def calculate_alignment(child_pos: Dict, parent_width: float, parent_height: flo
 def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
     """
     모든 자식(SVG, Image, Text, 컨테이너)의 위치를 기반으로 부모 컨테이너에 alignment 추가
+
+    - HStack: horizontal은 첫/마지막 자식으로, vertical은 투표로
+    - VStack: vertical은 첫/마지막 자식으로, horizontal은 투표로
+    - Group/ZStack/Grid: 둘 다 투표로
     """
     result = deepcopy(node)
     node_type = get_type(result)
@@ -670,29 +674,81 @@ def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
         parent_height = position.get('height', 0)
 
         if parent_width > 0 and parent_height > 0:
-            # 모든 자식의 alignment 투표
-            h_votes = {}
-            v_votes = {}
+            # position이 있는 alignable 자식만 필터링
+            alignable_children = [
+                c for c in children
+                if get_type(c) in alignable_types and c.get('position', {})
+            ]
 
-            for child in children:
-                child_type = get_type(child)
-                child_pos = child.get('position', {})
+            if alignable_children:
+                h_thresh = max(parent_width * 0.05, 10)
+                v_thresh = max(parent_height * 0.05, 10)
 
-                # position이 있는 모든 alignable 타입 대상
-                if child_type in alignable_types and child_pos:
-                    h, v = calculate_alignment(child_pos, parent_width, parent_height)
-                    h_votes[h] = h_votes.get(h, 0) + 1
-                    v_votes[v] = v_votes.get(v, 0) + 1
+                if node_type == 'HStack':
+                    # HStack: horizontal은 첫/마지막 자식, vertical은 투표
+                    first_pos = alignable_children[0].get('position', {})
+                    last_pos = alignable_children[-1].get('position', {})
 
-            # 투표 결과로 부모에 alignment 추가
-            if h_votes:
-                result['horizontalAlignment'] = max(h_votes, key=h_votes.get)
-            if v_votes:
-                result['verticalAlignment'] = max(v_votes, key=v_votes.get)
+                    left_margin = first_pos.get('x', 0)
+                    right_margin = parent_width - (last_pos.get('x', 0) + last_pos.get('width', 0))
 
-            if verbose and (h_votes or v_votes):
-                print(f"    [{node_type}] {result.get('id', '')[:15]} -> "
-                      f"h={result.get('horizontalAlignment')}, v={result.get('verticalAlignment')}")
+                    if abs(left_margin - right_margin) <= h_thresh:
+                        result['horizontalAlignment'] = "center"
+                    elif left_margin < right_margin - h_thresh:
+                        result['horizontalAlignment'] = "left"
+                    else:
+                        result['horizontalAlignment'] = "right"
+
+                    # vertical은 투표
+                    v_votes = {}
+                    for child in alignable_children:
+                        child_pos = child.get('position', {})
+                        _, v = calculate_alignment(child_pos, parent_width, parent_height)
+                        v_votes[v] = v_votes.get(v, 0) + 1
+                    if v_votes:
+                        result['verticalAlignment'] = max(v_votes, key=v_votes.get)
+
+                elif node_type == 'VStack':
+                    # VStack: vertical은 첫/마지막 자식, horizontal은 투표
+                    first_pos = alignable_children[0].get('position', {})
+                    last_pos = alignable_children[-1].get('position', {})
+
+                    top_margin = first_pos.get('y', 0)
+                    bottom_margin = parent_height - (last_pos.get('y', 0) + last_pos.get('height', 0))
+
+                    if abs(top_margin - bottom_margin) <= v_thresh:
+                        result['verticalAlignment'] = "center"
+                    elif top_margin < bottom_margin - v_thresh:
+                        result['verticalAlignment'] = "top"
+                    else:
+                        result['verticalAlignment'] = "bottom"
+
+                    # horizontal은 투표
+                    h_votes = {}
+                    for child in alignable_children:
+                        child_pos = child.get('position', {})
+                        h, _ = calculate_alignment(child_pos, parent_width, parent_height)
+                        h_votes[h] = h_votes.get(h, 0) + 1
+                    if h_votes:
+                        result['horizontalAlignment'] = max(h_votes, key=h_votes.get)
+
+                else:
+                    # Group, ZStack, Grid: 둘 다 투표
+                    h_votes = {}
+                    v_votes = {}
+                    for child in alignable_children:
+                        child_pos = child.get('position', {})
+                        h, v = calculate_alignment(child_pos, parent_width, parent_height)
+                        h_votes[h] = h_votes.get(h, 0) + 1
+                        v_votes[v] = v_votes.get(v, 0) + 1
+                    if h_votes:
+                        result['horizontalAlignment'] = max(h_votes, key=h_votes.get)
+                    if v_votes:
+                        result['verticalAlignment'] = max(v_votes, key=v_votes.get)
+
+                if verbose:
+                    print(f"    [{node_type}] {result.get('id', '')[:15]} -> "
+                          f"h={result.get('horizontalAlignment')}, v={result.get('verticalAlignment')}")
 
     # 자식 재귀 처리
     if children:

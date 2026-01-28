@@ -133,8 +133,8 @@
                 "right": 0
               },
               "gap": 16.78,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "ed75f835-7153-4275-9b03-3cf49a2c7231",
@@ -213,8 +213,8 @@
             "right": 0
           },
           "gap": 28.25,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -383,8 +383,8 @@
                 "right": 0.0
               },
               "gap": 16.38,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "ce4ba264-d7e6-4706-aab0-dc8fb31095d0",
@@ -463,8 +463,8 @@
             "right": 0
           },
           "gap": 25.16,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -633,8 +633,8 @@
                 "right": 0
               },
               "gap": 16.78,
-              "horizontalAlignment": "center",
-              "verticalAlignment": "top"
+              "verticalAlignment": "center",
+              "horizontalAlignment": "center"
             },
             {
               "id": "b997cef7-0fef-4d33-a0d3-d40f2981e4d8",
@@ -713,8 +713,8 @@
             "right": 0
           },
           "gap": 26.89,
-          "horizontalAlignment": "center",
-          "verticalAlignment": "top"
+          "verticalAlignment": "center",
+          "horizontalAlignment": "center"
         }
       ],
       "position": {
@@ -782,6 +782,6 @@
     "right": 0
   },
   "gap": 139.71,
-  "horizontalAlignment": "left",
+  "horizontalAlignment": "center",
   "verticalAlignment": "center"
 }
