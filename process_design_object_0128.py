@@ -706,10 +706,7 @@ def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
                         _, v = calculate_alignment(child_pos, parent_width, parent_height)
                         v_votes[v] = v_votes.get(v, 0) + 1
                     if v_votes:
-                        v_align = max(v_votes, key=v_votes.get)
-                        result['verticalAlignment'] = v_align
-                        # HStack의 alignment는 vertical 정렬을 의미
-                        result['alignment'] = v_align
+                        result['verticalAlignment'] = max(v_votes, key=v_votes.get)
 
                 elif node_type == 'VStack':
                     # VStack: vertical은 첫/마지막 자식, horizontal은 투표
@@ -733,11 +730,7 @@ def add_alignment_to_containers(node: Dict, verbose: bool = False) -> Dict:
                         h, _ = calculate_alignment(child_pos, parent_width, parent_height)
                         h_votes[h] = h_votes.get(h, 0) + 1
                     if h_votes:
-                        h_align = max(h_votes, key=h_votes.get)
-                        result['horizontalAlignment'] = h_align
-                        # VStack의 alignment는 horizontal 정렬을 의미
-                        alignment_map = {'left': 'leading', 'center': 'center', 'right': 'trailing'}
-                        result['alignment'] = alignment_map.get(h_align, 'leading')
+                        result['horizontalAlignment'] = max(h_votes, key=h_votes.get)
 
                 else:
                     # Group, ZStack, Grid: 둘 다 투표
