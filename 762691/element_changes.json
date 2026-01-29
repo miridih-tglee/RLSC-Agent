@@ -1,0 +1,479 @@
+{
+  "page": {
+    "width": 1920,
+    "height": 1080
+  },
+  "count": {
+    "before": 16,
+    "after": 16,
+    "matched": 16,
+    "removed": 0,
+    "added": 0
+  },
+  "elements": [
+    {
+      "id": "af329908-73ce-4927-88aa-4e371f283db3",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 1570.6,
+        "top": 251.6,
+        "width": 136.8,
+        "height": 89.6
+      },
+      "after": {
+        "left": 1578.8,
+        "top": 0.0,
+        "width": 1.4,
+        "height": 89.6
+      },
+      "delta": {
+        "left": 8.2,
+        "top": -251.6,
+        "width": -135.4,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 0.01,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "9d855865-50c5-4976-ada0-f42be199daa0",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 174.5,
+        "top": 264.5,
+        "width": 556.6,
+        "height": 293.1
+      },
+      "after": {
+        "left": 0.0,
+        "top": 0.0,
+        "width": 601.5,
+        "height": 293.1
+      },
+      "delta": {
+        "left": -174.5,
+        "top": -264.5,
+        "width": 44.9,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.081,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "051d6cbd-55c8-4841-bb66-49846063f9fd",
+      "type": "ChartItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 834.2,
+        "top": 301.8,
+        "width": 914.9,
+        "height": 360.8
+      },
+      "after": {
+        "left": 659.7,
+        "top": 0.0,
+        "width": 914.9,
+        "height": 360.8
+      },
+      "delta": {
+        "left": -174.5,
+        "top": -301.8,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "4338ca69-c544-41fa-8f2a-e503dc25f0e2",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 1374.3,
+        "top": 376.6,
+        "width": 99.4,
+        "height": 65.1
+      },
+      "after": {
+        "left": 1577.4,
+        "top": 0.0,
+        "width": 1.4,
+        "height": 65.1
+      },
+      "delta": {
+        "left": 203.1,
+        "top": -376.6,
+        "width": -98.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 0.014,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "ddba8735-ad29-45a4-b745-efc2ab451a2b",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 1167.0,
+        "top": 444.4,
+        "width": 99.4,
+        "height": 65.1
+      },
+      "after": {
+        "left": 1576.0,
+        "top": 0.0,
+        "width": 1.4,
+        "height": 65.1
+      },
+      "delta": {
+        "left": 409.0,
+        "top": -444.4,
+        "width": -98.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 0.014,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "cc07dee5-6fd6-4dc7-badd-b9980833375b",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 960.0,
+        "top": 507.3,
+        "width": 99.4,
+        "height": 65.1
+      },
+      "after": {
+        "left": 1574.6,
+        "top": 0.0,
+        "width": 1.4,
+        "height": 65.1
+      },
+      "delta": {
+        "left": 614.7,
+        "top": -507.3,
+        "width": -98.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 0.014,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "27f46bef-e526-41f3-8de1-bdac6b003c72",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 179.5,
+        "top": 583.4,
+        "width": 596.5,
+        "height": 48.5
+      },
+      "after": {
+        "left": 0.0,
+        "top": 318.9,
+        "width": 601.5,
+        "height": 48.5
+      },
+      "delta": {
+        "left": -179.5,
+        "top": -264.5,
+        "width": 5.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.008,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "3909e8ee-1e7f-4694-9c42-21a5d6f3430a",
+      "type": "VectorGraphicItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 168.9,
+        "top": 724.5,
+        "width": 1580.2,
+        "height": 196.7
+      },
+      "after": {
+        "left": 0.0,
+        "top": 429.3,
+        "width": 1580.2,
+        "height": 240.3
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -295.2,
+        "width": -0.0,
+        "height": 43.6
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.222
+      }
+    },
+    {
+      "id": "0acbe05e-94e0-444b-83e6-b70fe82129c3",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 321.6,
+        "top": 765.9,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "after": {
+        "left": 152.7,
+        "top": 481.6,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -284.3,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "f3efb404-5a73-4ff4-a216-248bf8c79e8f",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 1048.7,
+        "top": 765.9,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "after": {
+        "left": 879.8,
+        "top": 481.6,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -284.3,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "6731ae7a-cfec-4e35-a5ef-81d94ba3b812",
+      "type": "ShapeItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 264.7,
+        "top": 770.5,
+        "width": 33.7,
+        "height": 34
+      },
+      "after": {
+        "left": 95.8,
+        "top": 487.1,
+        "width": 33.7,
+        "height": 34
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -283.4,
+        "width": 0.0,
+        "height": 0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "6ecbb9ad-0cf4-4476-9e60-f308df0b3c81",
+      "type": "ShapeItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 991.8,
+        "top": 770.5,
+        "width": 33.7,
+        "height": 34
+      },
+      "after": {
+        "left": 822.9,
+        "top": 487.1,
+        "width": 33.7,
+        "height": 34
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -283.4,
+        "width": 0.0,
+        "height": 0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "987addaa-33e5-43ec-873f-d9859d8c0431",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 321.6,
+        "top": 834.4,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "after": {
+        "left": 152.7,
+        "top": 571.9,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -262.5,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "0d24fedc-ef37-4509-91bf-3018672e1922",
+      "type": "TextItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 1048.7,
+        "top": 834.4,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "after": {
+        "left": 879.8,
+        "top": 571.9,
+        "width": 630.4,
+        "height": 44.8
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -262.5,
+        "width": 0.0,
+        "height": 0.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "21c1300a-d8ae-4070-b0cf-a29dd6564753",
+      "type": "ShapeItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 264.7,
+        "top": 839.4,
+        "width": 33.7,
+        "height": 34
+      },
+      "after": {
+        "left": 95.8,
+        "top": 577.3,
+        "width": 33.7,
+        "height": 34
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -262.1,
+        "width": 0.0,
+        "height": 0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    },
+    {
+      "id": "2e084980-d7eb-4cef-ac23-6f24b02a99ac",
+      "type": "ShapeItem",
+      "status": "matched",
+      "matching_method": "same_uuid",
+      "coord_method": "group_offset(169,252)",
+      "before": {
+        "left": 991.8,
+        "top": 839.4,
+        "width": 33.7,
+        "height": 34
+      },
+      "after": {
+        "left": 822.9,
+        "top": 577.3,
+        "width": 33.7,
+        "height": 34
+      },
+      "delta": {
+        "left": -168.9,
+        "top": -262.1,
+        "width": 0.0,
+        "height": 0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0
+      }
+    }
+  ]
+}
